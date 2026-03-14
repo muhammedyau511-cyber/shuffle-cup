@@ -1,0 +1,652 @@
+[
+  {
+    "video": "cup_001.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "C",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 216 519;0.5 1 204 307;1.0 1 204 307;1.5 1 207 415;2.0 1 229 491;2.5 1 351 343;3.0 1 543 296;3.5 1 708 385;4.0 1 771 498;4.5 1 707 396;5.0 1 608 372;5.5 1 526 430;6.0 1 500 556;6.5 1 436 670;7.0 1 326 707;7.5 1 235 630;8.0 1 220 528;8.5 1 220 528;9.0 1 220 528;9.5 1 220 528;10.0 1 231 485;10.5 1 351 343;11.0 1 543 296;11.5 1 708 385;12.0 1 771 517\">the cup that contains the ball</tracks> Answer: right.<|im_end|>"
+  },
+  {
+    "video": "cup_002.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "B",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 216 517;0.5 1 203 308;1.0 1 203 308;1.5 1 206 411;2.0 1 217 556;2.5 1 264 678;3.0 1 367 711;3.5 1 472 631;4.0 1 498 533;4.5 1 500 533;5.0 1 502 533;5.5 1 502 533;6.0 1 502 533;6.5 1 502 533;7.0 1 502 533;7.5 1 502 533;8.0 1 498 500;8.5 1 445 400;9.0 1 348 381;9.5 1 259 433;10.0 1 216 547;10.5 1 261 675;11.0 1 367 711;11.5 1 475 631;12.0 1 500 531\">the cup that contains the ball</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "cup_003.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "A",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 774 525;0.5 1 800 308;1.0 1 800 308;1.5 1 792 408;2.0 1 774 525;2.5 1 774 525;3.0 1 774 525;3.5 1 774 525;4.0 1 774 525;4.5 1 774 525;5.0 1 774 525;5.5 1 774 525;6.0 1 774 525;6.5 1 774 525;7.0 1 774 525;7.5 1 774 525;8.0 1 774 525;8.5 1 774 525;9.0 1 774 525;9.5 1 774 525;10.0 1 778 567;10.5 1 680 769;11.0 1 444 822;11.5 1 256 681;12.0 1 219 525\">the cup that contains the ball</tracks> Answer: left.<|im_end|>"
+  },
+  {
+    "video": "cup_004.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "B",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 774 525;0.5 1 800 308;1.0 1 800 308;1.5 1 792 402;2.0 1 775 552;2.5 1 738 671;3.0 1 631 706;3.5 1 527 629;4.0 1 503 535;4.5 1 503 535;5.0 1 503 535;5.5 1 503 535;6.0 1 503 502;6.5 1 553 400;7.0 1 648 377;7.5 1 742 425;8.0 1 772 502;8.5 1 709 400;9.0 1 609 373;9.5 1 527 429;10.0 1 503 535;10.5 1 503 535;11.0 1 503 535;11.5 1 503 535;12.0 1 503 535\">the cup that contains the ball</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "cup_005.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "B",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 774 525;0.5 1 800 308;1.0 1 800 308;1.5 1 792 402;2.0 1 774 525;2.5 1 774 525;3.0 1 774 525;3.5 1 774 525;4.0 1 774 567;4.5 1 681 769;5.0 1 446 822;5.5 1 256 683;6.0 1 219 569;6.5 1 317 767;7.0 1 547 822;7.5 1 747 683;8.0 1 774 525;8.5 1 774 525;9.0 1 774 525;9.5 1 774 525;10.0 1 774 492;10.5 1 707 394;11.0 1 607 375;11.5 1 526 425;12.0 1 503 525\">the cup that contains the ball</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "cup_006.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "A",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 774 525;0.5 1 800 308;1.0 1 800 308;1.5 1 792 402;2.0 1 774 552;2.5 1 738 671;3.0 1 630 706;3.5 1 527 629;4.0 1 505 560;4.5 1 560 675;5.0 1 675 710;5.5 1 767 625;6.0 1 774 529;6.5 1 774 529;7.0 1 774 529;7.5 1 774 529;8.0 1 774 567;8.5 1 680 769;9.0 1 445 821;9.5 1 255 683;10.0 1 216 525;10.5 1 216 525;11.0 1 216 525;11.5 1 216 525;12.0 1 216 525\">the cup that contains the ball</tracks> Answer: left.<|im_end|>"
+  },
+  {
+    "video": "cup_007.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "A",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 216 519;0.5 1 204 307;1.0 1 204 307;1.5 1 207 415;2.0 1 216 522;2.5 1 216 522;3.0 1 216 522;3.5 1 216 522;4.0 1 216 572;4.5 1 321 767;5.0 1 547 822;5.5 1 747 685;6.0 1 765 493;6.5 1 649 346;7.0 1 457 296;7.5 1 290 385;8.0 1 221 511;8.5 1 293 396;9.0 1 392 370;9.5 1 474 433;10.0 1 497 500;10.5 1 443 398;11.0 1 348 374;11.5 1 260 431;12.0 1 216 519\">the cup that contains the ball</tracks> Answer: left.<|im_end|>"
+  },
+  {
+    "video": "cup_008.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "A",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 774 517;0.5 1 800 308;1.0 1 800 308;1.5 1 792 402;2.0 1 765 483;2.5 1 649 342;3.0 1 457 296;3.5 1 292 381;4.0 1 766 483;4.5 1 649 342;5.0 1 457 296;5.5 1 292 381;6.0 1 232 490;6.5 1 349 342;7.0 1 540 296;7.5 1 707 381;8.0 1 774 498;8.5 1 707 385;9.0 1 607 369;9.5 1 526 425;10.0 1 503 498;10.5 1 550 390;11.0 1 649 369;11.5 1 742 425;12.0 1 774 517\">the cup that contains the ball</tracks> Answer: right.<|im_end|>"
+  },
+  {
+    "video": "cup_009.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "B",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 216 519;0.5 1 204 307;1.0 1 204 307;1.5 1 207 415;2.0 1 216 522;2.5 1 216 522;3.0 1 216 522;3.5 1 216 522;4.0 1 216 522;4.5 1 216 522;5.0 1 216 522;5.5 1 216 522;6.0 1 216 572;6.5 1 321 767;7.0 1 547 822;7.5 1 746 685;8.0 1 771 530;8.5 1 771 530;9.0 1 771 530;9.5 1 771 530;10.0 1 771 500;10.5 1 707 402;11.0 1 607 374;11.5 1 528 426;12.0 1 500 530\">the cup that contains the ball</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "cup_010.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "A",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 216 519;0.5 1 204 307;1.0 1 204 307;1.5 1 207 415;2.0 1 219 567;2.5 1 321 763;3.0 1 547 822;3.5 1 746 687;4.0 1 775 563;4.5 1 682 767;5.0 1 444 820;5.5 1 256 681;6.0 1 224 502;6.5 1 293 396;7.0 1 390 374;7.5 1 474 431;8.0 1 500 528;8.5 1 500 531;9.0 1 503 526;9.5 1 502 528;10.0 1 498 552;10.5 1 435 670;11.0 1 324 706;11.5 1 232 624;12.0 1 217 520\">the cup that contains the ball</tracks> Answer: left.<|im_end|>"
+  },
+  {
+    "video": "cup_011.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "B",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 500 531;0.5 1 500 306;1.0 1 500 306;1.5 1 500 397;2.0 1 500 531;2.5 1 500 531;3.0 1 500 531;3.5 1 500 531;4.0 1 500 558;4.5 1 436 672;5.0 1 325 706;5.5 1 236 631;6.0 1 220 567;6.5 1 320 769;7.0 1 547 817;7.5 1 747 686;8.0 1 766 492;8.5 1 647 347;9.0 1 456 300;9.5 1 291 386;10.0 1 222 500;10.5 1 294 397;11.0 1 392 372;11.5 1 475 433;12.0 1 500 531\">the cup that contains the ball</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "cup_012.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "B",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 774 525;0.5 1 800 308;1.0 1 800 308;1.5 1 792 402;2.0 1 775 569;2.5 1 682 767;3.0 1 446 822;3.5 1 256 683;4.0 1 219 572;4.5 1 321 769;5.0 1 547 822;5.5 1 747 686;6.0 1 772 530;6.5 1 772 530;7.0 1 772 530;7.5 1 772 530;8.0 1 772 530;8.5 1 772 530;9.0 1 772 530;9.5 1 772 530;10.0 1 774 546;10.5 1 735 670;11.0 1 628 711;11.5 1 526 628;12.0 1 502 530\">the cup that contains the ball</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "cup_013.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "B",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 216 517;0.5 1 204 308;1.0 1 204 308;1.5 1 207 411;2.0 1 229 489;2.5 1 351 344;3.0 1 543 297;3.5 1 708 386;4.0 1 775 528;4.5 1 775 528;5.0 1 775 528;5.5 1 775 528;6.0 1 775 528;6.5 1 775 528;7.0 1 775 528;7.5 1 775 528;8.0 1 771 497;8.5 1 706 397;9.0 1 607 375;9.5 1 526 431;10.0 1 504 531;10.5 1 504 531;11.0 1 504 531;11.5 1 504 531;12.0 1 504 531\">the cup that contains the ball</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "cup_014.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "A",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 500 529;0.5 1 500 308;1.0 1 500 308;1.5 1 500 401;2.0 1 502 500;2.5 1 551 401;3.0 1 646 382;3.5 1 739 428;4.0 1 765 486;4.5 1 648 342;5.0 1 457 299;5.5 1 290 386;6.0 1 226 500;6.5 1 293 399;7.0 1 390 374;7.5 1 475 432;8.0 1 502 500;8.5 1 551 399;9.0 1 646 374;9.5 1 740 428;10.0 1 765 486;10.5 1 646 342;11.0 1 457 299;11.5 1 293 399;12.0 1 226 500\">the cup that contains the ball</tracks> Answer: left.<|im_end|>"
+  },
+  {
+    "video": "cup_015.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "B",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 774 525;0.5 1 800 308;1.0 1 800 308;1.5 1 792 396;2.0 1 775 569;2.5 1 682 767;3.0 1 446 822;3.5 1 256 683;4.0 1 775 567;4.5 1 682 765;5.0 1 446 822;5.5 1 256 683;6.0 1 219 558;6.5 1 261 678;7.0 1 369 711;7.5 1 474 631;8.0 1 505 558;8.5 1 562 672;9.0 1 679 711;9.5 1 769 625;10.0 1 775 558;10.5 1 682 767;11.0 1 446 822;11.5 1 256 683;12.0 1 775 531\">the cup that contains the ball</tracks> Answer: right.<|im_end|>"
+  },
+  {
+    "video": "cup_016.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "C",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 500 531;0.5 1 500 306;1.0 1 500 306;1.5 1 500 397;2.0 1 499 561;2.5 1 438 678;3.0 1 327 709;3.5 1 236 631;4.0 1 219 533;4.5 1 219 533;5.0 1 219 533;5.5 1 219 533;6.0 1 219 556;6.5 1 264 678;7.0 1 367 711;7.5 1 472 631;8.0 1 503 533;8.5 1 503 533;9.0 1 503 533;9.5 1 503 533;10.0 1 503 500;10.5 1 553 403;11.0 1 648 378;11.5 1 741 428;12.0 1 775 528\">the cup that contains the ball</tracks> Answer: right.<|im_end|>"
+  },
+  {
+    "video": "cup_017.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "B",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 774 522;0.5 1 800 307;1.0 1 800 307;1.5 1 792 401;2.0 1 765 483;2.5 1 649 340;3.0 1 458 292;3.5 1 292 380;4.0 1 226 500;4.5 1 292 401;5.0 1 390 372;5.5 1 475 433;6.0 1 503 528;6.5 1 503 531;7.0 1 505 531;7.5 1 503 531;8.0 1 499 500;8.5 1 446 396;9.0 1 351 376;9.5 1 260 433;10.0 1 223 504;10.5 1 292 401;11.0 1 393 372;11.5 1 475 433;12.0 1 503 531\">the cup that contains the ball</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "cup_018.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "C",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 216 517;0.5 1 203 308;1.0 1 203 308;1.5 1 206 417;2.0 1 216 519;2.5 1 216 519;3.0 1 216 519;3.5 1 216 519;4.0 1 228 483;4.5 1 350 342;5.0 1 542 294;5.5 1 708 383;6.0 1 775 528;6.5 1 775 528;7.0 1 775 528;7.5 1 775 528;8.0 1 775 528;8.5 1 775 528;9.0 1 775 528;9.5 1 775 528;10.0 1 775 528;10.5 1 775 528;11.0 1 775 528;11.5 1 775 528;12.0 1 775 528\">the cup that contains the ball</tracks> Answer: right.<|im_end|>"
+  },
+  {
+    "video": "cup_019.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "A",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 774 525;0.5 1 800 308;1.0 1 800 308;1.5 1 792 402;2.0 1 774 525;2.5 1 774 525;3.0 1 774 525;3.5 1 774 525;4.0 1 775 567;4.5 1 681 769;5.0 1 446 822;5.5 1 256 683;6.0 1 229 502;6.5 1 351 342;7.0 1 543 296;7.5 1 710 381;8.0 1 774 550;8.5 1 738 672;9.0 1 628 706;9.5 1 526 628;10.0 1 497 558;10.5 1 433 670;11.0 1 322 706;11.5 1 235 631;12.0 1 217 525\">the cup that contains the ball</tracks> Answer: left.<|im_end|>"
+  },
+  {
+    "video": "cup_020.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "B",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 500 531;0.5 1 500 306;1.0 1 500 306;1.5 1 500 397;2.0 1 500 531;2.5 1 500 531;3.0 1 500 531;3.5 1 500 531;4.0 1 500 531;4.5 1 500 531;5.0 1 500 531;5.5 1 500 531;6.0 1 500 497;6.5 1 550 397;7.0 1 645 375;7.5 1 738 425;8.0 1 773 542;8.5 1 738 669;9.0 1 630 706;9.5 1 525 628;10.0 1 500 528;10.5 1 500 528;11.0 1 500 528;11.5 1 500 528;12.0 1 500 528\">the cup that contains the ball</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "cup_021.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "B",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 774 525;0.5 1 800 308;1.0 1 800 308;1.5 1 792 408;2.0 1 774 525;2.5 1 774 525;3.0 1 774 525;3.5 1 774 525;4.0 1 774 525;4.5 1 774 525;5.0 1 774 525;5.5 1 774 525;6.0 1 774 546;6.5 1 738 669;7.0 1 630 706;7.5 1 526 628;8.0 1 504 556;8.5 1 561 672;9.0 1 676 711;9.5 1 767 625;10.0 1 774 506;10.5 1 707 403;11.0 1 607 378;11.5 1 526 428;12.0 1 504 531\">the cup that contains the ball</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "cup_022.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "C",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 774 525;0.5 1 800 308;1.0 1 800 308;1.5 1 792 396;2.0 1 775 569;2.5 1 682 767;3.0 1 446 822;3.5 1 256 683;4.0 1 220 565;4.5 1 261 678;5.0 1 367 715;5.5 1 472 631;6.0 1 504 502;6.5 1 553 398;7.0 1 648 374;7.5 1 741 426;8.0 1 777 561;8.5 1 682 769;9.0 1 444 822;9.5 1 254 685;10.0 1 226 506;10.5 1 351 344;11.0 1 540 296;11.5 1 710 383;12.0 1 775 525\">the cup that contains the ball</tracks> Answer: right.<|im_end|>"
+  },
+  {
+    "video": "cup_023.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "A",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 500 528;0.5 1 500 307;1.0 1 500 307;1.5 1 500 398;2.0 1 500 502;2.5 1 445 398;3.0 1 348 376;3.5 1 261 430;4.0 1 219 517;4.5 1 219 517;5.0 1 219 517;5.5 1 219 517;6.0 1 232 481;6.5 1 350 337;7.0 1 542 296;7.5 1 708 376;8.0 1 778 552;8.5 1 682 767;9.0 1 444 820;9.5 1 256 681;10.0 1 219 517;10.5 1 219 517;11.0 1 219 517;11.5 1 219 517;12.0 1 219 517\">the cup that contains the ball</tracks> Answer: left.<|im_end|>"
+  },
+  {
+    "video": "cup_024.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "C",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 216 522;0.5 1 204 307;1.0 1 204 307;1.5 1 207 418;2.0 1 216 522;2.5 1 216 522;3.0 1 216 522;3.5 1 216 522;4.0 1 216 522;4.5 1 216 522;5.0 1 216 522;5.5 1 216 522;6.0 1 216 557;6.5 1 261 672;7.0 1 365 715;7.5 1 471 633;8.0 1 500 506;8.5 1 551 401;9.0 1 647 372;9.5 1 740 426;10.0 1 775 522;10.5 1 775 522;11.0 1 775 522;11.5 1 775 522;12.0 1 775 522\">the cup that contains the ball</tracks> Answer: right.<|im_end|>"
+  },
+  {
+    "video": "cup_025.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "B",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 774 525;0.5 1 800 308;1.0 1 800 308;1.5 1 793 396;2.0 1 774 552;2.5 1 738 671;3.0 1 630 706;3.5 1 526 629;4.0 1 504 502;4.5 1 553 402;5.0 1 646 377;5.5 1 742 427;6.0 1 774 525;6.5 1 774 525;7.0 1 774 525;7.5 1 774 525;8.0 1 774 525;8.5 1 774 525;9.0 1 774 525;9.5 1 774 525;10.0 1 774 546;10.5 1 738 671;11.0 1 630 706;11.5 1 526 629;12.0 1 504 525\">the cup that contains the ball</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "cup_026.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "C",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 216 517;0.5 1 204 308;1.0 1 204 308;1.5 1 207 417;2.0 1 216 519;2.5 1 216 519;3.0 1 216 519;3.5 1 216 519;4.0 1 216 519;4.5 1 216 519;5.0 1 216 519;5.5 1 216 519;6.0 1 216 519;6.5 1 216 519;7.0 1 216 519;7.5 1 216 519;8.0 1 216 553;8.5 1 261 672;9.0 1 365 715;9.5 1 471 630;10.0 1 501 556;10.5 1 562 672;11.0 1 679 711;11.5 1 767 628;12.0 1 771 522\">the cup that contains the ball</tracks> Answer: right.<|im_end|>"
+  },
+  {
+    "video": "cup_027.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "A",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 216 522;0.5 1 204 307;1.0 1 204 307;1.5 1 207 415;2.0 1 219 558;2.5 1 265 676;3.0 1 368 715;3.5 1 471 635;4.0 1 499 535;4.5 1 500 535;5.0 1 503 535;5.5 1 503 535;6.0 1 500 500;6.5 1 443 404;7.0 1 349 383;7.5 1 260 433;8.0 1 219 522;8.5 1 219 522;9.0 1 219 522;9.5 1 219 522;10.0 1 219 522;10.5 1 219 522;11.0 1 219 522;11.5 1 219 522;12.0 1 219 522\">the cup that contains the ball</tracks> Answer: left.<|im_end|>"
+  },
+  {
+    "video": "cup_028.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "A",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 774 517;0.5 1 800 308;1.0 1 800 308;1.5 1 793 397;2.0 1 771 500;2.5 1 706 397;3.0 1 607 372;3.5 1 528 430;4.0 1 506 500;4.5 1 554 397;5.0 1 649 372;5.5 1 742 425;6.0 1 767 489;6.5 1 649 339;7.0 1 457 294;7.5 1 293 383;8.0 1 232 492;8.5 1 351 344;9.0 1 542 294;9.5 1 710 383;10.0 1 781 550;10.5 1 682 769;11.0 1 444 822;11.5 1 256 681;12.0 1 221 517\">the cup that contains the ball</tracks> Answer: left.<|im_end|>"
+  },
+  {
+    "video": "cup_029.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "B",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 216 517;0.5 1 203 308;1.0 1 203 308;1.5 1 206 411;2.0 1 217 556;2.5 1 264 678;3.0 1 367 717;3.5 1 470 633;4.0 1 498 502;4.5 1 442 402;5.0 1 348 383;5.5 1 259 433;6.0 1 227 492;6.5 1 348 339;7.0 1 542 294;7.5 1 708 378;8.0 1 775 567;8.5 1 681 769;9.0 1 441 822;9.5 1 255 681;10.0 1 222 506;10.5 1 292 397;11.0 1 391 372;11.5 1 473 431;12.0 1 500 528\">the cup that contains the ball</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "cup_030.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "A",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 500 528;0.5 1 500 307;1.0 1 500 307;1.5 1 500 398;2.0 1 500 502;2.5 1 444 402;3.0 1 349 380;3.5 1 261 430;4.0 1 499 500;4.5 1 443 398;5.0 1 347 378;5.5 1 262 430;6.0 1 215 526;6.5 1 215 526;7.0 1 215 526;7.5 1 215 526;8.0 1 229 494;8.5 1 351 341;9.0 1 542 296;9.5 1 708 383;10.0 1 772 498;10.5 1 706 393;11.0 1 607 372;11.5 1 526 428;12.0 1 500 528\">the cup that contains the ball</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "cup_031.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "A",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 216 522;0.5 1 204 307;1.0 1 204 307;1.5 1 207 415;2.0 1 219 567;2.5 1 321 765;3.0 1 547 822;3.5 1 746 683;4.0 1 771 502;4.5 1 707 396;5.0 1 608 378;5.5 1 526 431;6.0 1 504 500;6.5 1 550 398;7.0 1 647 374;7.5 1 740 426;8.0 1 775 541;8.5 1 740 667;9.0 1 630 706;9.5 1 528 628;10.0 1 499 500;10.5 1 443 398;11.0 1 349 376;11.5 1 261 433;12.0 1 216 522\">the cup that contains the ball</tracks> Answer: left.<|im_end|>"
+  },
+  {
+    "video": "cup_032.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "B",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 500 529;0.5 1 500 308;1.0 1 500 308;1.5 1 500 401;2.0 1 500 531;2.5 1 500 531;3.0 1 500 531;3.5 1 500 531;4.0 1 500 500;4.5 1 552 401;5.0 1 645 376;5.5 1 738 428;6.0 1 772 529;6.5 1 772 529;7.0 1 772 529;7.5 1 772 529;8.0 1 769 500;8.5 1 703 399;9.0 1 605 376;9.5 1 525 433;10.0 1 500 531;10.5 1 500 531;11.0 1 500 531;11.5 1 500 531;12.0 1 500 531\">the cup that contains the ball</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "cup_033.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "C",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 216 522;0.5 1 204 307;1.0 1 204 307;1.5 1 207 415;2.0 1 219 558;2.5 1 265 676;3.0 1 368 713;3.5 1 471 635;4.0 1 499 533;4.5 1 500 533;5.0 1 503 533;5.5 1 503 533;6.0 1 503 533;6.5 1 503 533;7.0 1 503 533;7.5 1 503 533;8.0 1 503 558;8.5 1 560 676;9.0 1 678 715;9.5 1 765 631;10.0 1 771 530;10.5 1 771 530;11.0 1 771 530;11.5 1 771 530;12.0 1 771 530\">the cup that contains the ball</tracks> Answer: right.<|im_end|>"
+  },
+  {
+    "video": "cup_034.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "B",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 216 519;0.5 1 204 307;1.0 1 204 307;1.5 1 207 415;2.0 1 217 567;2.5 1 321 767;3.0 1 547 822;3.5 1 746 683;4.0 1 775 563;4.5 1 682 767;5.0 1 444 820;5.5 1 256 681;6.0 1 224 502;6.5 1 293 396;7.0 1 390 374;7.5 1 474 431;8.0 1 503 556;8.5 1 561 670;9.0 1 678 711;9.5 1 767 626;10.0 1 771 502;10.5 1 703 398;11.0 1 607 376;11.5 1 526 424;12.0 1 500 528\">the cup that contains the ball</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "cup_035.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "C",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 216 517;0.5 1 204 308;1.0 1 204 308;1.5 1 207 411;2.0 1 229 489;2.5 1 351 344;3.0 1 542 297;3.5 1 708 386;4.0 1 778 561;4.5 1 682 769;5.0 1 446 822;5.5 1 255 686;6.0 1 216 525;6.5 1 216 525;7.0 1 216 525;7.5 1 216 525;8.0 1 216 525;8.5 1 216 525;9.0 1 216 525;9.5 1 216 525;10.0 1 229 483;10.5 1 351 344;11.0 1 542 297;11.5 1 708 386;12.0 1 778 531\">the cup that contains the ball</tracks> Answer: right.<|im_end|>"
+  },
+  {
+    "video": "cup_036.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "A",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 500 531;0.5 1 500 309;1.0 1 500 309;1.5 1 500 406;2.0 1 502 533;2.5 1 502 533;3.0 1 502 533;3.5 1 502 533;4.0 1 502 533;4.5 1 502 533;5.0 1 502 533;5.5 1 502 533;6.0 1 500 552;6.5 1 438 670;7.0 1 325 707;7.5 1 234 631;8.0 1 219 559;8.5 1 261 672;9.0 1 366 711;9.5 1 472 628;10.0 1 498 502;10.5 1 445 406;11.0 1 347 385;11.5 1 258 430;12.0 1 216 520\">the cup that contains the ball</tracks> Answer: left.<|im_end|>"
+  },
+  {
+    "video": "cup_037.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "C",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 774 517;0.5 1 800 308;1.0 1 800 308;1.5 1 792 402;2.0 1 765 483;2.5 1 647 342;3.0 1 457 296;3.5 1 292 381;4.0 1 766 483;4.5 1 648 342;5.0 1 457 296;5.5 1 292 383;6.0 1 766 483;6.5 1 648 342;7.0 1 457 296;7.5 1 292 383;8.0 1 770 517;8.5 1 770 517;9.0 1 770 517;9.5 1 770 517;10.0 1 773 542;10.5 1 735 669;11.0 1 627 708;11.5 1 525 625;12.0 1 503 529\">the cup that contains the ball</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "cup_038.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "C",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 774 525;0.5 1 800 308;1.0 1 800 308;1.5 1 792 408;2.0 1 774 525;2.5 1 774 525;3.0 1 774 525;3.5 1 774 525;4.0 1 774 525;4.5 1 774 525;5.0 1 774 525;5.5 1 774 525;6.0 1 774 569;6.5 1 681 769;7.0 1 443 822;7.5 1 256 683;8.0 1 228 502;8.5 1 350 342;9.0 1 543 292;9.5 1 707 383;10.0 1 774 525;10.5 1 774 525;11.0 1 774 525;11.5 1 774 525;12.0 1 774 525\">the cup that contains the ball</tracks> Answer: right.<|im_end|>"
+  },
+  {
+    "video": "cup_039.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "B",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 216 519;0.5 1 204 307;1.0 1 204 307;1.5 1 207 415;2.0 1 217 567;2.5 1 321 763;3.0 1 547 822;3.5 1 746 687;4.0 1 775 563;4.5 1 682 767;5.0 1 444 820;5.5 1 256 683;6.0 1 219 556;6.5 1 262 678;7.0 1 367 715;7.5 1 471 630;8.0 1 499 556;8.5 1 435 674;9.0 1 326 706;9.5 1 235 630;10.0 1 224 507;10.5 1 293 402;11.0 1 385 376;11.5 1 474 431;12.0 1 500 531\">the cup that contains the ball</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "cup_040.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "B",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 216 519;0.5 1 204 307;1.0 1 204 307;1.5 1 207 415;2.0 1 216 522;2.5 1 216 522;3.0 1 216 522;3.5 1 216 522;4.0 1 216 572;4.5 1 321 770;5.0 1 547 822;5.5 1 747 689;6.0 1 771 557;6.5 1 738 670;7.0 1 629 706;7.5 1 525 631;8.0 1 503 533;8.5 1 503 533;9.0 1 503 533;9.5 1 503 533;10.0 1 503 533;10.5 1 503 533;11.0 1 503 533;11.5 1 503 533;12.0 1 503 533\">the cup that contains the ball</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "cup_041.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "B",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 774 517;0.5 1 800 308;1.0 1 800 308;1.5 1 793 396;2.0 1 771 502;2.5 1 706 398;3.0 1 607 375;3.5 1 526 431;4.0 1 507 556;4.5 1 565 667;5.0 1 678 711;5.5 1 767 628;6.0 1 774 528;6.5 1 774 528;7.0 1 774 528;7.5 1 774 528;8.0 1 767 489;8.5 1 649 344;9.0 1 457 296;9.5 1 290 389;10.0 1 218 550;10.5 1 262 678;11.0 1 367 715;11.5 1 472 631;12.0 1 502 528\">the cup that contains the ball</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "cup_042.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "A",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 216 522;0.5 1 204 307;1.0 1 204 307;1.5 1 207 415;2.0 1 216 522;2.5 1 216 522;3.0 1 216 522;3.5 1 216 522;4.0 1 216 557;4.5 1 265 674;5.0 1 365 715;5.5 1 471 635;6.0 1 500 502;6.5 1 551 402;7.0 1 647 378;7.5 1 738 426;8.0 1 768 502;8.5 1 707 402;9.0 1 607 374;9.5 1 526 430;10.0 1 497 502;10.5 1 443 402;11.0 1 347 378;11.5 1 260 433;12.0 1 216 522\">the cup that contains the ball</tracks> Answer: left.<|im_end|>"
+  },
+  {
+    "video": "cup_043.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "C",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 216 519;0.5 1 204 307;1.0 1 204 307;1.5 1 207 415;2.0 1 219 567;2.5 1 321 767;3.0 1 547 822;3.5 1 743 685;4.0 1 772 530;4.5 1 772 530;5.0 1 772 530;5.5 1 772 530;6.0 1 772 530;6.5 1 772 530;7.0 1 772 530;7.5 1 772 530;8.0 1 772 530;8.5 1 772 530;9.0 1 772 530;9.5 1 772 530;10.0 1 772 530;10.5 1 772 530;11.0 1 772 530;11.5 1 772 530;12.0 1 772 530\">the cup that contains the ball</tracks> Answer: right.<|im_end|>"
+  },
+  {
+    "video": "cup_044.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "C",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 774 525;0.5 1 800 308;1.0 1 800 308;1.5 1 792 402;2.0 1 774 525;2.5 1 774 525;3.0 1 774 525;3.5 1 774 525;4.0 1 775 567;4.5 1 681 769;5.0 1 446 817;5.5 1 256 683;6.0 1 217 529;6.5 1 217 529;7.0 1 217 529;7.5 1 217 529;8.0 1 217 556;8.5 1 261 677;9.0 1 367 715;9.5 1 472 631;10.0 1 500 502;10.5 1 550 400;11.0 1 648 371;11.5 1 741 425;12.0 1 774 525\">the cup that contains the ball</tracks> Answer: right.<|im_end|>"
+  },
+  {
+    "video": "cup_045.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "C",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 500 528;0.5 1 500 307;1.0 1 500 307;1.5 1 500 398;2.0 1 500 502;2.5 1 445 400;3.0 1 348 378;3.5 1 261 430;4.0 1 216 522;4.5 1 216 522;5.0 1 216 522;5.5 1 216 522;6.0 1 216 574;6.5 1 320 765;7.0 1 548 820;7.5 1 745 687;8.0 1 769 502;8.5 1 705 398;9.0 1 606 376;9.5 1 525 430;10.0 1 500 502;10.5 1 550 400;11.0 1 645 376;11.5 1 739 424;12.0 1 775 522\">the cup that contains the ball</tracks> Answer: right.<|im_end|>"
+  },
+  {
+    "video": "cup_046.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "A",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 774 525;0.5 1 800 308;1.0 1 800 308;1.5 1 792 408;2.0 1 774 525;2.5 1 774 525;3.0 1 774 525;3.5 1 774 525;4.0 1 774 525;4.5 1 774 525;5.0 1 774 525;5.5 1 774 525;6.0 1 774 525;6.5 1 774 525;7.0 1 774 525;7.5 1 774 525;8.0 1 774 500;8.5 1 707 396;9.0 1 608 377;9.5 1 528 431;10.0 1 500 500;10.5 1 446 396;11.0 1 349 377;11.5 1 265 431;12.0 1 219 525\">the cup that contains the ball</tracks> Answer: left.<|im_end|>"
+  },
+  {
+    "video": "cup_047.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "A",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 216 522;0.5 1 204 307;1.0 1 204 307;1.5 1 207 415;2.0 1 219 558;2.5 1 265 676;3.0 1 368 715;3.5 1 471 635;4.0 1 499 507;4.5 1 443 407;5.0 1 349 385;5.5 1 258 433;6.0 1 216 522;6.5 1 216 522;7.0 1 216 522;7.5 1 216 522;8.0 1 216 572;8.5 1 321 770;9.0 1 547 826;9.5 1 746 687;10.0 1 767 493;10.5 1 647 348;11.0 1 457 304;11.5 1 289 385;12.0 1 216 522\">the cup that contains the ball</tracks> Answer: left.<|im_end|>"
+  },
+  {
+    "video": "cup_048.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "A",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 500 531;0.5 1 500 307;1.0 1 500 307;1.5 1 500 398;2.0 1 499 563;2.5 1 438 678;3.0 1 326 709;3.5 1 235 630;4.0 1 231 500;4.5 1 350 346;5.0 1 542 300;5.5 1 707 385;6.0 1 775 552;6.5 1 738 670;7.0 1 629 707;7.5 1 525 628;8.0 1 499 500;8.5 1 443 402;9.0 1 350 376;9.5 1 260 431;10.0 1 217 519;10.5 1 217 519;11.0 1 217 519;11.5 1 217 519;12.0 1 217 519\">the cup that contains the ball</tracks> Answer: left.<|im_end|>"
+  },
+  {
+    "video": "cup_049.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "B",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 500 531;0.5 1 500 307;1.0 1 500 307;1.5 1 500 398;2.0 1 499 563;2.5 1 438 678;3.0 1 326 709;3.5 1 235 630;4.0 1 226 511;4.5 1 293 398;5.0 1 389 378;5.5 1 476 431;6.0 1 502 559;6.5 1 561 670;7.0 1 679 709;7.5 1 767 626;8.0 1 775 570;8.5 1 682 767;9.0 1 443 815;9.5 1 256 681;10.0 1 222 509;10.5 1 293 396;11.0 1 393 374;11.5 1 476 431;12.0 1 500 531\">the cup that contains the ball</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "cup_050.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the cup that contains the ball and answer which cup contains the ball at the end of the video.",
+    "answer": "B",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 216 517;0.5 1 202 308;1.0 1 202 308;1.5 1 207 417;2.0 1 216 519;2.5 1 216 519;3.0 1 216 519;3.5 1 216 519;4.0 1 219 503;4.5 1 293 397;5.0 1 389 375;5.5 1 474 433;6.0 1 496 550;6.5 1 435 669;7.0 1 326 706;7.5 1 231 631;8.0 1 221 508;8.5 1 293 397;9.0 1 385 375;9.5 1 474 433;10.0 1 500 531;10.5 1 500 531;11.0 1 502 528;11.5 1 502 528;12.0 1 502 528\">the cup that contains the ball</tracks> Answer: middle.<|im_end|>"
+  }
+]

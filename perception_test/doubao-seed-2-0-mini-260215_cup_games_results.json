@@ -1,0 +1,2001 @@
+{
+  "model": "doubao-seed-2-0-mini-260215",
+  "total": 107,
+  "correct": 50,
+  "accuracy": 46.73,
+  "accuracy_by_num_of_swaps": {
+    "0": {
+      "correct": 17,
+      "total": 27,
+      "accuracy": 62.96
+    },
+    "1": {
+      "correct": 3,
+      "total": 4,
+      "accuracy": 75.0
+    },
+    "2": {
+      "correct": 5,
+      "total": 21,
+      "accuracy": 23.81
+    },
+    "3": {
+      "correct": 10,
+      "total": 20,
+      "accuracy": 50.0
+    },
+    "4": {
+      "correct": 8,
+      "total": 20,
+      "accuracy": 40.0
+    },
+    "5": {
+      "correct": 4,
+      "total": 6,
+      "accuracy": 66.67
+    },
+    "6": {
+      "correct": 0,
+      "total": 2,
+      "accuracy": 0.0
+    },
+    "7": {
+      "correct": 0,
+      "total": 2,
+      "accuracy": 0.0
+    },
+    "8": {
+      "correct": 0,
+      "total": 1,
+      "accuracy": 0.0
+    },
+    "9": {
+      "correct": 0,
+      "total": 1,
+      "accuracy": 0.0
+    },
+    "12": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 100.0
+    },
+    "14": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 100.0
+    },
+    "16": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 100.0
+    }
+  },
+  "results": [
+    {
+      "video_id": "video_66",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this, we analyze the perspective and cup positions:\n1.  The person stands on the left side of the camera view, so their left corresponds to the table's right (our right side of the screen).\n2.  From the person's point of view, the order of cups left-to-right is: rightmost (our right) → middle (our center) → leftmost (our left).\n3.  The hidden small block is ultimately under the middle cup, which is the **second cup from the person's left**.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_147",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  Observe the video: the person lifts the leftmost wooden cup (first from the person's left perspective), revealing the hidden small object underneath it.\n2.  Confirm the hidden object remains under the first left object by tracking the cup movements and placement through the end of the game.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_496",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this, we first clarify the perspective difference:\n1.  From the viewer's (our) point of view, the cups are ordered left-to-right as Cup 1, Cup 2, Cup 3.\n2.  From the person's point of view (facing the table), their left corresponds to our right, their middle corresponds to our middle, and their right corresponds to our left. So their first left cup is our rightmost Cup 3, their second left cup is our middle Cup 2, their third left cup is our leftmost Cup 1.\n\nIn the video, the hidden lime is first revealed under the rightmost (our view) cup, then the person shuffles the cups. At the end of the game, the lime ends up under the cup that is the **second from the person's left** (which matches our middle Cup 2).\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 5,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_749",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 4,
+      "num_of_cups": 4
+    },
+    {
+      "video_id": "video_781",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this, observe the cup movements: when the person lifts the first (leftmost) cup, the hidden key is revealed underneath it, then the cup is placed back. At the end of the game, the hidden object remains under the first object from the left.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_789",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  First, identify there are 2 cups total. From the person’s viewpoint (facing the cups), their left corresponds to the camera’s right side of the frame, and their right corresponds to the camera’s left side.\n2.  Counting *from the person’s left*, the first cup is the camera’s right cup, the second cup is the camera’s left cup.\n3.  Tracking the hidden blue cap: it is first revealed under the camera’s right cup (person’s first left cup), then moved via shuffling to end up under the camera’s left cup, which is the **second object from the person’s left**.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_811",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 5,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_922",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this, track the hidden object through the cup-shuffling sequence:\n1.  Observe the movement of each cup, and follow the small hidden item as the cups are rearranged multiple times.\n2.  At the end of the game, the hidden object ends up under the second cup from the leftmost position.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 4,
+      "num_of_cups": 4
+    },
+    {
+      "video_id": "video_1034",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this, track the cup movements and the final position of the hidden object from the person's perspective:\n1.  Identify the left-to-right order of the cups on the table.\n2.  Follow the shuffling actions, and observe that the hidden object ends up under the second cup from the left.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_1137",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  First, the person lifts the **middle (second from left)** cup and reveals the hidden object (egg) underneath, then places the cup back over the egg.\n2.  All subsequent shuffling only swaps the leftmost and rightmost cups; the middle cup remains in place the entire time.\n3.  At the end of the game, the hidden object is still under the middle (second from left) cup from the person's point of view.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_1196",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this, we track the hidden object through the cup-shuffling game:\n1.  Observe the revealed hidden item during the sequence, then follow its position through all the cup movements.\n2.  From the person's point of view, counting left-to-right, the hidden object ends up under the second cup from the left.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_1281",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  Identify the three cups left-to-right as first, second (middle), third from the person's view.\n2.  Observe the segment where the person lifts the middle (second from left) cup and reveals the hidden red ball underneath it, then places the cup back over the ball.\n3.  All subsequent cup movements do not shift the hidden ball's final resting position under the second cup from the left by the end of the video.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_1395",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this, we first clarify the perspective: from the person sitting at the table, their left corresponds to the viewer's right side of the frame. \n\n1.  Identify the cup order from the person's point of view:\n    - 1st (person's left) = viewer's rightmost cup\n    - 2nd (person's middle-left) = viewer's middle cup\n    - 3rd (person's right) = viewer's leftmost cup\n2.  Track the hidden gray mouse toy: it is initially under the viewer's middle cup, and remains under this cup (the 2nd object from the person's left) at the end of the game.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_1438",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  First, recognize the perspective flip: from the person's point of view, their left corresponds to the right side of the video frame, and their right corresponds to the left side of the frame.\n2.  Track the hidden object: the green ball is revealed under the middle cup (the center of the video frame, which is the *second cup from the person's left*).\n3.  After shuffling the cups, the hidden object remains under the cup that originally covered it, which is still the second cup from the person's left.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_1503",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this, we track the hidden object through the game:\n1.  First, the rightmost cup (third from left) is lifted to reveal a hidden object, then placed back.\n2.  The person shuffles all three cups left-to-right, then adjusts their positions.\n3.  At the end of the sequence, the hidden object is positioned under the **middle (second from left)** cup.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_1668",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  Track the hidden object as the person rearranges the mugs through the sequence.\n2.  Observe the final positions of the mugs relative to the hidden item from the person's viewpoint. The hidden object ends up under the second mug from the left.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_1727",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this, we first clarify the perspective: **from the person’s point of view**, their left corresponds to the right side of the video screen, and their right corresponds to the left side of the video screen.  \n\n1.  Identify the two orange cups:\n    - The cup on the *right side of the video screen* is the person’s left (1st object from their left).\n    - The cup on the *left side of the video screen* is the person’s right (2nd object from their left).\n2.  In the video, the blue die is revealed under the left orange cup (our left side of the screen, which is the person’s right-side cup, the 2nd object from their left).\n3.  After shuffling, the hidden object remains under this 2nd object from the person’s left.\n\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 4,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_1998",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  **Perspective clarification**: From the person's point of view at the table, their left corresponds to the viewer's right. Their \"first left\" is the viewer's rightmost cup, \"second left\" is the viewer's middle cup, and \"third left\" is the viewer's leftmost cup.\n2.  Track the hidden object: The small basketball is first revealed under the viewer's right (person's first left) cup. After shuffling all cups, the hidden object ends up under the cup that is the *second object from the person's left* (the viewer's middle cup).\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_2046",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_2098",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  First, the pink hidden ball is revealed under the **middle (second from left)** cup initially.\n2.  The person shuffles the three cups, and the final arrangement returns the cups to their original left-middle-right positions, with the ball remaining under the middle (second from left) cup from the person's viewpoint.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_2117",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  Track the occlusion game: the hidden small object is revealed under one wooden cup during the sequence.\n2.  From the person's point of view (their left/right aligns with their own hands, opposite the viewer's perspective), the hidden object ends up under the second cup counted from their left.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_2264",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  **Perspective clarification**: From the person's view sitting across the table, their left corresponds to the viewer's right, and their right corresponds to the viewer's left.\n2.  **Initial hidden object position**: The green ball is revealed under the leftmost cup from the *viewer's* perspective (this is the rightmost cup from the person's view, 3rd from their left).\n3.  **Cup shuffling**: The person rearranges the cups. Through the movement, the cup holding the ball shifts to the *second position from the person's left* (matching the viewer's middle cup).\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 5,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_2453",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  First, the hidden object (lime) is revealed under the **leftmost (first from the person's left view)** cup when the person lifts it initially, then the cup is placed back over the lime.\n2.  Throughout the shuffle, the person moves the cups but the hidden object remains under the original starting cup by the end of the game's sequence.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_2567",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  Track the hidden key during the shell game: it is first revealed under the right-hand cup, then the cups are shuffled repeatedly.\n2.  At the end of the video, the final arrangement of the cups has the hidden object under the second cup from the left from the person's viewpoint.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 3,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_2863",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this, track the hidden blue cap and perspective:\n1.  The cap is first revealed under the cup on the *viewer's right* (which is the **person's left-side cup** when facing the chair).\n2.  After shuffling the cups, from the person's point of view, the cap ends up under the *second object from their left* (their left-side cup is first, their right-side cup is second, aligning with the cap's final position).\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_3363",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this, we first clarify the perspective: from the person sitting across the table, their left corresponds to the viewer's right side of the screen.  \n\n1.  The hidden egg is first revealed under the middle cup (from the viewer's perspective, this is the second cup when counting left-to-right from the viewer).  \n2.  From the person's point of view, this middle cup is the **second object from their left** (since their left aligns with the viewer's right).  \n\nAfter tracking the shuffling and final arrangement, the hidden object remains under the second object from the person's left.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 5,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_3479",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this, we first clarify the person's perspective: since they face the camera, their left corresponds to the right side of the screen, and their right corresponds to the left side of the screen.  \n\n1.  Initially, the hidden object is revealed under the leftmost cup (screen left, which is the person's rightmost cup).\n2.  After shuffling the cups, tracking the movement shows the object ends up under the cup that is the *second from the person's left* (which is the middle cup on the screen, aligning with option A).\n\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_3485",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  First, the hidden pink ball is initially under the rightmost (third from left) cup when lifted.\n2.  As the person shuffles all three cups multiple times, tracking the final position shows the ball ends up under the second cup from the left.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_3637",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  Track the hidden object: it is first revealed under the middle (second from left) mug initially.\n2.  Follow the mug movements through the game, and at the end of the sequence, the hidden object remains under the second object from the left from the person's viewpoint.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 1,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_3704",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the fourth object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  First, identify the cup positions from the person's (player's) viewpoint: their leftmost cup is the rightmost cup in the camera frame, their middle cup matches the camera's middle cup, and their rightmost cup is the leftmost camera frame cup.\n2.  The hidden ball was initially under the middle cup (camera frame middle, which is the *second object from the person's left*). Even after shuffling, the ball remains under this middle cup as the final hidden position.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_3772",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this, we analyze the perspective and positions:\n1.  From the person's point of view (facing the table), their left corresponds to the viewer's right.\n2.  Counting left-to-right from their perspective: the first object is the viewer's rightmost mug, the second is the viewer's middle mug, and the third is the viewer's leftmost mug.\n3.  Tracking the hidden object's final position in the occlusion game, it lies under the third object from the person's left.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_3995",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 7,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_4230",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the closest object to the person.",
+        "Under the middle object.",
+        "Under the farthest object from the person."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  Track the hidden object (the plug) throughout the video. It is first revealed under one cup when the person lifts it initially.\n2.  Analyze the final arrangement of cups from the person's point of view: the \"farthest object from the person\" corresponds to the cup at the top of the table in the final footage, where the hidden plug remains after the shuffling sequence.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_4263",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  Track the hidden object (the ring) which is first revealed under the leftmost mug from the viewer's perspective (the person's right-side mug from their own view).\n2.  Observe the repeated shuffling of the two mugs. From the person's point of view, counting left-to-right as they face the table, the hidden object ends up under the *second* mug from their left (which aligns with the leftmost mug from the viewer's perspective).\n3.  Eliminate option B (there are only 2 mugs, so a third object is impossible). Between A and C, the hidden object is under the second mug from the person's left.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 4,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_4282",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this, we first clarify the perspective shift:\n1.  From the **person's point of view** (sitting at the table), their left corresponds to the viewer's right, and their right corresponds to the viewer's left.\n2.  For the three cups arranged left-to-right in the camera's view:\n    -   The viewer's leftmost cup = the person's rightmost (3rd from their left).\n    -   The viewer's middle cup = the person's middle (2nd from their left).\n    -   The viewer's rightmost cup = the person's leftmost (1st from their left).\n3.  At the end of the game, the hidden object rests under the viewer's leftmost cup, which is the **3rd object from the person's left**.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_4289",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  Observe the video: the person lifts the rightmost cup (third from the left) to reveal the hidden orange cat toy underneath it, then places the cup back.\n2.  After shuffling the cups, the final positioning of the hidden object aligns with its original revealed spot under the third cup from the left.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_4295",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_4320",
+      "question_id": 7,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this, we analyze the perspective and final arrangement:\n1.  From the person’s point of view (sitting at the desk), their left corresponds to the viewer’s right.\n2.  The \"second object from the left\" (person’s perspective) is the middle mug when viewing the scene from the camera angle, which aligns with the hidden object’s final position.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 1,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_4388",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this, we first clarify the perspective: the person’s left corresponds to the viewer’s right, and their right corresponds to the viewer’s left.  \n\n1.  Initially, the hidden object is under the cup on the **viewer’s left** (which is the person’s right side of the table).  \n2.  Counting from the person’s point of view: their first left is the viewer’s right (near the banana), and their *second left* is the viewer’s left (near the apple, where the hidden object was first placed).  \n\nAfter the shuffling sequence, the hidden object remains under the cup that is the second item from the person’s left.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 12,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_4438",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 14,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_4560",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To determine the hidden object's final position:\n1.  Track the blue cap (hidden object) through the video. The blue cap is revealed and re-hidden under the middle cup during the sequence of cup movements.\n2.  From the person's viewpoint, the middle cup is the **second object from the left.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_4625",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To determine the hidden object's position:\n1.  Observe the sequence where the person lifts the leftmost mug (first from the left) around the 6-8 second mark, revealing the crumpled paper hidden underneath it.\n2.  This confirms the hidden object is under the first object from the left from the person's viewpoint.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_4649",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  Understand perspective: From the person's point of view, their left corresponds to the viewer's right, and their right corresponds to the viewer's left.\n2.  Track the hidden key: The key was revealed under the cup on the viewer's left (the person's rightmost cup).\n3.  Count from the person's left: Their first left cup = viewer's right, second = viewer's middle, third = viewer's left (the cup covering the key).\n\nThus the hidden object is under the third object from the person's left.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_4790",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_5049",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this, we analyze the video and perspective:\n1.  The hidden object is first revealed under the **rightmost (third from the viewer's left)** cup.\n2.  Even with subsequent shuffling, the question asks for the object's position from the person's point of view (consistent with the viewer's framing here, as the standard cup-game resolution aligns with this).\n3.  The third object from the left (viewer's perspective, matching the person's relative left-to-right reversed view correctly here) is where the hidden object resides at the end.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_5222",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  Observe the initial action: the person lifts the **first (leftmost) cup** from the table, revealing the hidden green object underneath it.\n2.  Track the cup-shuffling sequence: despite moving the other cups, the hidden object remains associated with the original leftmost cup's position by the end of the game.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 4,
+      "num_of_cups": 4
+    },
+    {
+      "video_id": "video_5362",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the fourth object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this, we analyze the perspective and hidden object's position:\n\n1.  **Perspective Clarification**: From the person's point of view (sitting at the table), their left corresponds to the right side of the camera view.\n2.  Track the hidden object: The person first lifts the rightmost mug (from the camera's view, which is the person's leftmost mug) and reveals the hidden black object under it.\n3.  After replacing the mug, the hidden object remains under this leftmost mug from the person's view, which is the *first object from the person's left*.\n\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_5431",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this, we analyze the perspective and bowl positions:\n1.  From the person's point of view (facing the camera), their left corresponds to the viewer's right, and their right corresponds to the viewer's left.\n2.  Tracking the hidden object through the shuffling, the final position of the hidden object aligns with the **third object from the person's left** (matching the viewer's far-left bowl arrangement from their viewpoint).\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_5502",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this, we need to align the perspective correctly:\n1.  From the person's point of view (sitting across the table), their left corresponds to the viewer's right side of the screen, and their right corresponds to the viewer's left.\n2.  The hidden pink ball was first revealed under the viewer's leftmost cup, which is the person's rightmost cup (their *third* cup from their own left).\n3.  After shuffling, the cups return to their original positions, so the ball remains under the viewer's leftmost cup — which is the person's third object from their left.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_5540",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  **Perspective clarification**: From the person's point of view (facing the table), their left corresponds to the viewer's right. The three cups are ordered left-to-right as *cup 1 (viewer's right)*, *cup 2 (viewer's middle)*, *cup 3 (viewer's left)* from their viewpoint.\n2.  Track the hidden object: The red ball is first revealed under the middle cup (the person's 2nd left cup, viewer's middle). After shuffling, the final position of the hidden object remains under the 2nd cup from the person's left.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 1,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_5848",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  Track the hidden blue die: It is first revealed under the **second mug from the left** when the middle cup is lifted.\n2.  Follow the subsequent shuffling of the mugs. At the end of the game, the hidden die remains under the second mug from the person's left-side perspective.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_6159",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  First, identify the hidden object: when the person lifts the **second cup from the left** (around the 3-second mark), a lime is revealed as the hidden item under it.\n2.  Track the cup shuffling: the person rearranges all three cups, and the hidden lime remains under what ends up as the second cup from the left at the end of the video.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_6204",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this, we first clarify the perspective: the video is shot from behind the person sitting at the table, so their left hand appears on the viewer’s right side, and their right hand on the viewer’s left. From the person’s point of view, their left-to-right order of the cups is reversed from the viewer’s left-to-right:\n1.  Their leftmost cup = viewer’s rightmost cup (where the hidden object was initially revealed)\n2.  Their middle cup = viewer’s middle cup\n3.  Their rightmost cup = viewer’s leftmost cup\n\nThe person only lifts each cup once and does not shuffle the hidden object, so it remains under their leftmost cup (the first object from their left).\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_6269",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this, track the hidden object through the cup-shuffling sequence:\n1.  The hidden small dark object is first revealed under the middle (second from left) cup during the initial lifts.\n2.  As the cups are repeatedly shuffled, the object remains positioned under what becomes the second cup from the left by the end of the sequence.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 5,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_6443",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this, we first clarify the perspective: from the person’s point of view (facing the camera), their left corresponds to the right side of the camera frame.  \n\n1.  The three white cups on the table, from the person’s left-to-right, are:\n    - 1st: The rightmost cup (camera’s right side)\n    - 2nd: The middle cup (camera’s middle)\n    - 3rd: The leftmost cup (camera’s left side)\n2.  During the game, the hidden red ball is revealed under the middle cup (camera’s middle), which is the **second object from the person’s left**. After the shuffling sequence, the ball remains under this cup as the final position of the hidden object.\n\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_6534",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  First, identify the person's perspective: their left corresponds to the viewer's right, and their right corresponds to the viewer's left.\n2.  The hidden pink ball was initially revealed under the leftmost cup from the *viewer's* perspective (which is the rightmost cup from the *person's* perspective).\n3.  After shuffling, the ball returns to this original position. From the person's point of view, this cup is the **third object from their left** (since their leftmost cup is the viewer's rightmost, counting left-to-right from their view).\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_6686",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  Track the hidden lime: it is first revealed under the **middle (second from left)** cup during the video.\n2.  Observe the final cup rearrangement: the hidden object remains under the second cup from the left at the end of the sequence.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_6704",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the fourth object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  Identify the layout: From the person's (viewer's) perspective, left-to-right order is **1. Apple**, **2. First cup**, **3. Second cup**, **4. Third (rightmost) cup**.\n2.  Track the cup shuffle: The hidden apple ends up under the fourth object from the left (the rightmost cup) by the end of the game.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_6789",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  Track the cup movements and the moment the hidden object is revealed: the person lifts the **second cup from the left (middle cup in the vertical line)** and exposes the hidden item under it.\n2.  After the final rearrangements of the cups, the hidden object remains under the second cup from the person's viewpoint.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_6855",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this, we first clarify the perspective: from the person’s point of view (facing the table), their left corresponds to the **right side of the video frame**, and their right corresponds to the left side of the video frame.\n\n1.  Initial cup positions (viewer's left to right): bottom-left cup, middle-bottom cup, top-right cup.\n2.  The hidden ball was first under the bottom-left (viewer's left) cup.\n3.  Counting from the person’s left:\n    1.  First object: viewer's top-right cup\n    2.  Second object: viewer's middle-bottom cup\n    3.  Third object: viewer's bottom-left cup (the cup originally hiding the ball)\n\nThus, the hidden object is under the third object from the person’s left.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_6902",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this, track the hidden object through the cup-shuffling sequence:\n1.  Observe when the rightmost cup (third from the left, from the person's viewpoint) is lifted to reveal the hidden small object, then placed back.\n2.  After the final shuffling moves, the hidden object remains under the third cup from the left (the rightmost cup in the initial adjusted setup, from the person's perspective).\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_7095",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  First, the crumpled hidden object is revealed under the **middle (second from left)** cup early in the video.\n2.  As the hand shuffles the cups throughout the sequence, the final arrangement of cups returns to three aligned cups on the table.\n3.  Tracking the hidden object through the shell game motions confirms it ends up under the second cup from the left (the middle position in the final lineup).\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_7331",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_7395",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  First, clarify perspective: From the person’s point of view at the table, their left corresponds to the right side of the video frame, and their right corresponds to the left side of the frame.\n2.  Track the hidden orange ball: It is revealed under the middle cup early in the video, then the person rearranges the cups. At the end of the game, the ball rests under the cup that is **second from the person’s own left** (which matches the middle cup from the viewer’s perspective, aligning with option A).\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_7471",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this, we analyze the shell game sequence:\n1.  The camera view matches the person’s front-facing perspective, so left/right on the screen aligns with the person’s left/right.\n2.  Tracking the cup movements, the hidden object ends up under the second cup from the left (from the person’s/viewer’s perspective).\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 6,
+      "num_of_cups": 4
+    },
+    {
+      "video_id": "video_7553",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To determine the hidden object's final position:\n1.  Track the green hidden object through the cup-shuffling sequence. It is initially revealed under the leftmost cup, then the cups are rearranged.\n2.  At the end of the video, the hidden object remains under the first (leftmost) cup from the person's point of view.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_7632",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  Track the hidden lime: It is first revealed under the middle (second from the left) cup during the initial demonstration.\n2.  Follow the final sequence: The person concludes the game by lifting the middle cup again, showing the lime remains under it.\n\nFrom the person's point of view, the hidden object is under the second object from the left.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_7669",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  Observe the sequence: When the person lifts the middle cup (second from the left) between timestamps ~2.0–3.5 seconds, the red striped hidden object is revealed underneath it.\n2.  This cup remains the second object from the left for the rest of the video.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_7812",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_7966",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 16,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_8255",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the fourth object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_8402",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  Observe the sequence: When the person lifts the leftmost mug first, the crumpled hidden object is revealed under it, then they place the mug back.\n2.  Track the final setup: After all the mug shuffling, the hidden object remains under the leftmost (first from the person's left) mug.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_8517",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  First, the person lifts the middle (second from left) cup to reveal the pink hidden ball underneath it.\n2.  The person then shuffles all three cups around the table.\n3.  At the end of the shuffling sequence, the hidden ball remains positioned under the cup that is now the second from the left from the person's viewpoint.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_8661",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the closest object to the person.",
+        "Under the farthest object from the person.",
+        "Under the middle object."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 5,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_8830",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this, we track the hidden object's position:\n\n1.  First, identify when the hidden object (the small item under the middle cup (second from left) is revealed when the cup is lifted.\n2.  After shuffling the cups, the final arrangement retains the hidden object remains under the second cup from the left from the person's viewpoint.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_8963",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To determine the hidden object's position:\n1.  Track the hidden crumpled paper object through the mug-shuffling sequence.\n2.  Observe the final placement: the hidden object ends up under the first mug from the left at the end of the game.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_9146",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this, we analyze the perspective and cup positions:\n1.  From the person's point of view (facing the camera), their left corresponds to the viewer's right.\n2.  The hidden crumpled object is revealed under the rightmost cup (viewer's right, the person's leftmost cup) early in the video, and this cup is not moved during the subsequent shuffling of the other two cups.\n3.  This rightmost cup (viewer's right) is the **first object from the person's left**.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_9245",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  Observe the video: When the person lifts the middle cup (second from the left), the hidden orange toy is revealed. They then place the middle cup back over the toy, securing the toy under that cup.\n2.  Even as the cups are shuffled, the hidden object remains under the originally targeted middle cup, which is the **second object from the left** from the person's viewpoint.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_9265",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the fourth object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  Observe the sequence: When the person lifts the second cup from the left (the middle cup among the three), the hidden green object is revealed underneath it.\n2.  No subsequent cup movements shift the hidden object from this position by the end of the game.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_9298",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this, track the hidden ball's position:\n1.  The person lifts the middle cup (second from the left) and reveals the orange ball underneath, then places the cup back over it.\n2.  All subsequent movements of cups and the book do not move the ball from under the middle (second from left) cup by the end of the sequence.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_9426",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_9643",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this, we analyze the perspective and track the hidden object:\n\n1.  **Perspective clarification**: From the person's point of view (facing the camera), their left aligns with the camera's right, their middle aligns with the camera's middle, and their right aligns with the camera's left. The left-to-right order for the person is: camera-right mug → camera-middle mug → camera-left mug.\n2.  **Tracking the hidden object**: The small hidden item is initially under the camera-middle mug (the person's middle mug, which is the *second object from the person's left*). After shuffling the mugs, the hidden item remains under this middle-positioned mug from the person's viewpoint.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_9735",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  First, the hidden lime is revealed under the **leftmost (first from the person's view)** cup when it is lifted.\n2.  After shuffling the cups through multiple movements, the hidden object remains under the first cup from the person's left at the end of the game.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_9753",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  Observe the three cups arranged left-to-right on the counter.\n2.  When the person lifts the **second cup from the left** (the middle cup), the hidden green object is revealed underneath it.\n3.  The cup is then placed back over the object, so the hidden item remains under the second cup from the left at the end of the game.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_9855",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  First, identify the cup with the hidden key: the person lifts the rightmost (viewer's right, third from the viewer's left) cup to reveal the key, then replaces it.\n2.  From the **person's point of view** (sitting across the table, their left matches the viewer's right), their left-to-right order of cups is reversed from the viewer's. After shuffling, the key ends up under the third cup from the person's left.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_9896",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the fourth object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this, we first clarify the perspective: from the person’s point of view (facing the table), their left corresponds to the viewer’s right, and their right corresponds to the viewer’s left.  \n\n1.  Track the hidden crumpled paper: It starts at the viewer’s right (the person’s leftmost cup position initially).\n2.  Analyze the cup positions: For the person, their left-to-right cup order is *viewer’s right → viewer’s middle → viewer’s left*.\n3.  After shuffling, the hidden object ends up under the second cup from the person’s left, which matches the middle cup from the viewer’s perspective, corresponding to option C.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_9922",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To determine the hidden object's position, track the cup movements throughout the occlusion game. After all the shuffling and rearranging of the cups, the hidden object ends up under the second cup from the left from the person's point of view.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_9946",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the fourth object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  First, identify the hidden object (the key) was initially revealed under the rightmost cup (from the viewer's perspective, which is the leftmost cup from the person's point of view as they sit at the table).\n2.  Track the shuffling of the cups: after moving the cups, the hidden object ends up under the second cup counted from the person's left side (equivalent to the second cup from the viewer's right, aligning with option A).\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 3,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_10121",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  Understand the perspective: From the person's point of view (sitting across the table), their left corresponds to the viewer's right, and their right corresponds to the viewer's left.\n2.  Track the hidden object: The orange cube is first revealed under the middle cup (from the viewer's perspective, which is the *second* cup from the person's left).\n3.  Confirm the final position: After shuffling, the cube remains under the cup that is the second object from the person's left.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 7,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_10172",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To determine the hidden object's position, observe the cup-shuffling sequence: through all the movements, the hidden object ends up beneath the third cup from the left when viewed from the person's perspective.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_10363",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  Track the hidden object during the cup-shuffling occlusion game. The red-and-white hidden item is revealed under the middle (second from the left) cup when lifted.\n2.  From the person's point of view, this corresponds to the second object from the left.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_10698",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the fourth object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  First, identify there are 3 cups total, so option B (fourth object) is invalid.\n2.  Track the hidden pink ball: it is first revealed under the **second cup from the left** (the middle cup) when the performer lifts it.\n3.  After shuffling the cups, the hidden object remains positioned under the second cup from the left by the end of the game.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_10755",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  First, identify the hidden object: it is revealed under the **middle (second from left)** cup when lifted.\n2.  Observe the final cup movements: the person swaps the leftmost and rightmost cups, leaving the middle cup in its original position where the hidden object rests.\n\nThus, the hidden object is under the second object from the left.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 1,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_10863",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  Track the hidden crumpled paper ball through the cup-shuffling occlusion game.\n2.  At the end of the video, observe the final positions of the cups from the person's perspective (left-to-right order). The hidden object ends up under the second cup from the left.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_11046",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  First identify the initial hidden object: it was under the rightmost (third from left) brown mug when first lifted.\n2.  Track the occlusion game: the person rearranges the mugs, and the hidden object remains under the originally targeted rightmost (third from left) mug by the end of the game from their point of view.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_11071",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this, we first clarify the perspective shift:\n1.  From the viewer's screen view, the cups are ordered left → middle → right.\n2.  From the person's point of view (sitting across the table), their left aligns with the viewer's right, so the cup order from their left is: viewer's right (1st), viewer's middle (2nd), viewer's left (3rd).\n3.  The hidden crumpled paper is first revealed under the viewer's leftmost cup, which corresponds to the **third object from the person's left** after perspective adjustment. After shuffling, the cups return to their original arrangement, so the paper remains under this position.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 6,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_11090",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this, we analyze the perspective and cup positions:\n\n1.  **Perspective Clarification**: From the person's point of view (facing the camera), their left side corresponds to the right side of the screen (our view), and their right side corresponds to the left side of the screen (our view).\n2.  **Initial Hidden Object**: The person first lifts the right cup (our right side of the screen, which is the person's left side) and reveals the key under it.\n3.  **Final Position**: The key stays under this original cup during the shuffling, as no permanent swap occurs. From the person's view, this cup is the *first object from their left*.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 4,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_11143",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_11151",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 9,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_11166",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this, we first clarify the perspective: from the person’s point of view (sitting across the table), their left corresponds to the viewer’s right, and their right corresponds to the viewer’s left.  \n\n1.  Track the hidden object’s final position: after all the bowl-shuffling, the hidden item rests under the middle bowl from the viewer’s perspective.\n2.  Map this to the person’s view: the viewer’s middle bowl is the **second object from the person’s left** (their leftmost = viewer’s right, second left = viewer’s middle, third left = viewer’s left).\n\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_11174",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the fourth object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 8,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_11250",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  Track the cup-shuffling occlusion game in the video.\n2.  Observe the final arrangement of the cups from the person's (first-person) view. The hidden object ends up under the second cup when counting left-to-right.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_11264",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this, track the hidden object (blue cap):\n1.  The hand lifts the **second cup from the left** (middle cup) and reveals the blue cap underneath it.\n2.  The hand then places the cup back over the blue cap, leaving the hidden object under the second cup from left for the remainder of the sequence.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_11301",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  First, the hidden orange ball is revealed under the **middle cup** (second from the left) when the person lifts that cup.\n2.  After shuffling the cups, the final arrangement leaves the ball under the second cup from the left (the original middle position, now the second in the row of three cups).\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_11343",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this, we analyze the shell game sequence: tracking the hidden die through the mug movements, and identifying its final position from the person’s perspective. From their viewpoint, the hidden object ends up under the third mug counted from their left.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_11435",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  Analyze the cup (occlusion) game sequence: the person repeatedly shifts the two mugs, hiding a small object under one of them during the movements.\n2.  From the person's point of view, tracking the final positions of the mugs, the hidden object ends up under the second mug from the left.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 3,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_11499",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "doubao-seed-2-0-mini-260215",
+      "response": "To solve this:\n1.  Observe the video: The person first lifts the **second cup from the left (middle cup)** and reveals the hidden grape underneath it, then places the cup back over the grape.\n2.  After shuffling the cups, the hidden object remains under the originally revealed middle cup, which is the second object from the left from the person's point of view.\n\nAnswer: \\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    }
+  ]
+}

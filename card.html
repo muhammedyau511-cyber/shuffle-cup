@@ -1,0 +1,1914 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Swap Game - Find the Queen</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(180deg, #fafaf9 0%, #f5f5f4 100%);
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            padding: 24px;
+        }
+
+        #game-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 24px;
+            flex: 1;
+            max-width: 960px;
+        }
+
+        #game-title {
+            font-family: 'DM Serif Display', Georgia, serif;
+            font-size: 2.2em;
+            font-weight: 400;
+            color: #1c1917;
+            letter-spacing: -0.5px;
+            text-align: center;
+            position: relative;
+            padding-bottom: 14px;
+        }
+
+        #game-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 48px;
+            height: 3px;
+            background: #1c1917;
+            border-radius: 2px;
+        }
+
+        #canvas-container {
+            width: 640px;
+            height: 480px;
+            border: 1px solid #d6d3d1;
+            border-radius: 16px;
+            box-shadow:
+                0 1px 2px rgba(0, 0, 0, 0.03),
+                0 4px 8px rgba(0, 0, 0, 0.04),
+                0 16px 32px rgba(0, 0, 0, 0.06);
+            overflow: hidden;
+            position: relative;
+            background: 
+                radial-gradient(ellipse at center, rgba(34, 85, 51, 0.95) 0%, rgba(20, 60, 35, 0.98) 100%),
+                repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(0, 0, 0, 0.03) 10px, rgba(0, 0, 0, 0.03) 20px);
+        }
+
+        #canvas-container::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+            opacity: 0.08;
+            pointer-events: none;
+        }
+
+        /* Cards Container */
+        #cards-container {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        /* Card Styles */
+        .card {
+            width: 140px;
+            height: 196px;
+            position: absolute;
+            cursor: pointer;
+            perspective: 1000px;
+            filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.5));
+            transition: width 0.3s, height 0.3s;
+        }
+
+        .card:hover {
+            filter: drop-shadow(0 12px 24px rgba(0, 0, 0, 0.35));
+        }
+
+        .card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            transform-style: preserve-3d;
+            transition: transform 0.6s cubic-bezier(0.4, 0.0, 0.2, 1);
+        }
+
+        .card.flipped .card-inner {
+            transform: rotateY(180deg);
+        }
+
+        .card-face {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Card Front (Face) */
+        .card-front {
+            background: linear-gradient(145deg, #fffef8 0%, #f5f0e0 50%, #ebe5d5 100%);
+            border: 2px solid #8b7355;
+            box-shadow: 
+                inset 0 0 20px rgba(139, 115, 85, 0.1),
+                inset 0 0 3px rgba(0, 0, 0, 0.1);
+            transform: rotateY(180deg);
+            flex-direction: column;
+            padding: 8px;
+            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+        }
+
+        .card-front .corner {
+            position: absolute;
+            font-family: 'Times New Roman', serif;
+            font-weight: bold;
+            line-height: 1;
+            text-align: center;
+        }
+
+        .card-front .corner-top {
+            top: 6px;
+            left: 8px;
+        }
+
+        .card-front .corner-bottom {
+            bottom: 6px;
+            right: 8px;
+            transform: rotate(180deg);
+        }
+
+        .card-front .rank {
+            font-size: 28px;
+        }
+
+        .card-front .suit-small {
+            font-size: 22px;
+        }
+
+        .card-front .center-suit {
+            font-size: 72px;
+            line-height: 1;
+        }
+
+        .card-front.red {
+            color: #c41e3a;
+        }
+
+        .card-front.black {
+            color: #1a1a1a;
+        }
+
+        /* Card Back - Classic Bicycle Style */
+        .card-back {
+            background: #b22234;
+            border: 3px solid #fff;
+            transform: rotateY(0deg);
+            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+        }
+
+        .card-back::before {
+            content: '';
+            position: absolute;
+            inset: 5px;
+            border: 2px solid #fff;
+            border-radius: 4px;
+            background: 
+                /* Diagonal lines one way */
+                repeating-linear-gradient(
+                    55deg,
+                    transparent,
+                    transparent 4px,
+                    rgba(255,255,255,0.35) 4px,
+                    rgba(255,255,255,0.35) 5px
+                ),
+                /* Diagonal lines other way */
+                repeating-linear-gradient(
+                    -55deg,
+                    transparent,
+                    transparent 4px,
+                    rgba(255,255,255,0.35) 4px,
+                    rgba(255,255,255,0.35) 5px
+                ),
+                /* Base color */
+                #9a1c2e;
+        }
+
+        .card-back::after {
+            content: '';
+            position: absolute;
+            inset: 12px;
+            border: 1px solid rgba(255,255,255,0.5);
+            border-radius: 2px;
+        }
+
+        #ui-container {
+            width: 640px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+            padding: 24px 32px;
+            background: #ffffff;
+            border-radius: 16px;
+            box-shadow:
+                0 1px 2px rgba(0, 0, 0, 0.03),
+                0 4px 8px rgba(0, 0, 0, 0.04);
+            border: 1px solid #e7e5e4;
+        }
+
+        #message-box {
+            padding: 10px 24px;
+            background: #fafaf9;
+            color: #1c1917;
+            border-radius: 8px;
+            font-family: 'DM Serif Display', Georgia, serif;
+            font-size: 1.15em;
+            font-weight: 400;
+            text-align: center;
+            display: none;
+            border: 1px solid #e7e5e4;
+            letter-spacing: 0.1px;
+        }
+
+        #start-button {
+            padding: 12px 40px;
+            font-size: 0.9em;
+            font-weight: 600;
+            color: #ffffff;
+            background: #1c1917;
+            border: none;
+            border-radius: 999px;
+            cursor: pointer;
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+            letter-spacing: 0.3px;
+        }
+
+        #start-button:hover:not(:disabled) {
+            background: #292524;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+        }
+
+        #start-button:active:not(:disabled) {
+            transform: translateY(0);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        #start-button:disabled {
+            background: #d6d3d1;
+            color: #a8a29e;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        #instructions {
+            color: #78716c;
+            font-size: 0.88em;
+            text-align: center;
+            line-height: 1.7;
+            max-width: 480px;
+        }
+
+        #control-panel {
+            width: 260px;
+            max-height: calc(100vh - 48px);
+            overflow-y: auto;
+            background: #ffffff;
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow:
+                0 1px 2px rgba(0, 0, 0, 0.03),
+                0 4px 8px rgba(0, 0, 0, 0.04);
+            font-size: 13px;
+            color: #44403c;
+            border: 1px solid #e7e5e4;
+        }
+
+        #control-panel h3 {
+            margin: 0 0 12px 0;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #e7e5e4;
+            color: #1c1917;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 0.6px;
+            text-transform: uppercase;
+        }
+
+        #control-panel h3:not(:first-child) {
+            margin-top: 18px;
+        }
+
+        .control-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 8px;
+        }
+
+        .control-row label {
+            flex: 1;
+            color: #57534e;
+            font-size: 13px;
+        }
+
+        .control-row input[type="range"] {
+            width: 90px;
+            cursor: pointer;
+            accent-color: #1c1917;
+        }
+
+        .control-row input[type="color"] {
+            width: 45px;
+            height: 28px;
+            border: 1px solid #d6d3d1;
+            border-radius: 6px;
+            cursor: pointer;
+            padding: 2px;
+            background: #ffffff;
+        }
+
+        .control-row .value {
+            width: 38px;
+            text-align: right;
+            font-size: 11px;
+            color: #a8a29e;
+        }
+
+        .panel-button {
+            width: 100%;
+            padding: 10px 16px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 999px;
+            font-size: 13px;
+            font-weight: 600;
+            background: #1c1917;
+            color: #fff;
+            cursor: pointer;
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .panel-button:hover:not(:disabled) {
+            background: #292524;
+            transform: translateY(-1px);
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+        }
+
+        .panel-button:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="game-wrapper">
+        <h1 id="game-title">Cards Game</h1>
+        
+        <div id="canvas-container">
+            <div id="cards-container"></div>
+        </div>
+
+        <div id="ui-container">
+            <div id="message-box">Watch the Queen!</div>
+            <p id="instructions">Click <strong>Start Game</strong> to begin. Watch carefully as the Queen is revealed, then track it as the cards shuffle. Click the card you believe is the Queen!</p>
+            <button id="start-button">Start Game</button>
+        </div>
+    </div>
+
+    <div id="control-panel">
+        <h3>🎴 Game Setup</h3>
+        <div class="control-row">
+            <label>Number of Cards</label>
+            <input type="range" id="num-cards" min="3" max="7" value="3">
+            <span class="value" id="num-cards-val">3</span>
+        </div>
+        <div class="control-row">
+            <label>Multi-Object Tracking</label>
+            <input type="checkbox" id="multi-object" style="width:18px;height:18px;accent-color:#1c1917;">
+        </div>
+
+        <h3>🔀 Animation</h3>
+        <div class="control-row">
+            <label>Swap Count</label>
+            <input type="range" id="anim-swaps" min="0" max="20" step="1" value="5">
+            <span class="value" id="anim-swaps-val">5</span>
+        </div>
+        <div class="control-row">
+            <label>Time per swap (ms)</label>
+            <input type="range" id="anim-duration" min="500" max="2000" step="50" value="2000">
+            <span class="value" id="anim-duration-val">2000</span>
+        </div>
+        <div class="control-row">
+            <label>Arc Height</label>
+            <input type="range" id="anim-arc" min="20" max="120" step="5" value="90">
+            <span class="value" id="anim-arc-val">90</span>
+        </div>
+
+        <h3>🎨 Appearance</h3>
+        <div class="control-row">
+            <label>Table Color</label>
+            <input type="color" id="table-color" value="#225533">
+        </div>
+        <div class="control-row">
+            <label>Card Back Color</label>
+            <input type="color" id="card-back-color" value="#b22234">
+        </div>
+        <div class="control-row">
+            <label>Accent Color</label>
+            <input type="color" id="accent-color" value="#ffd700">
+        </div>
+
+        <h3>📥 Batch Export</h3>
+        <div class="control-row">
+            <label>Count</label>
+            <input type="number" id="export-count" min="1" max="500" value="10" style="width:55px; background:#fff; color:#44403c; border:1px solid #d6d3d1; border-radius:6px; padding:4px;">
+        </div>
+        <div class="control-row">
+            <label>Resolution</label>
+            <select id="export-resolution" style="width:95px; background:#fff; color:#44403c; border:1px solid #d6d3d1; border-radius:6px; padding:4px;">
+                <option value="640x480" selected>640×480</option>
+                <option value="1280x720">1280×720</option>
+                <option value="1920x1080">1920×1080</option>
+            </select>
+        </div>
+        <div class="control-row">
+            <label>FPS</label>
+            <select id="export-fps" style="width:95px; background:#fff; color:#44403c; border:1px solid #d6d3d1; border-radius:6px; padding:4px;">
+                <option value="24">24</option>
+                <option value="30" selected>30</option>
+                <option value="60">60</option>
+            </select>
+        </div>
+        <div class="control-row">
+            <label>Randomize</label>
+            <input type="checkbox" id="export-randomize" style="width:18px;height:18px;accent-color:#1c1917;">
+        </div>
+        <button id="export-button" class="panel-button">Export Batch (.zip)</button>
+        <div id="export-progress" style="margin-top:10px;font-size:12px;color:#78716c;display:none;">
+            <span id="export-status">Generating...</span>
+            <div style="background:#e7e5e4;border-radius:6px;height:6px;margin-top:5px;">
+                <div id="export-bar" style="background:linear-gradient(90deg,#1c1917,#44403c);height:100%;border-radius:6px;width:0%;transition:width 0.2s;"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="https://unpkg.com/@tweenjs/tween.js@23.1.2/dist/tween.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mp4-muxer@5.1.0/build/mp4-muxer.min.js"></script>
+    <script>
+        // --- DOM Elements ---
+        const startButton = document.getElementById('start-button');
+        const messageBox = document.getElementById('message-box');
+        const cardsContainer = document.getElementById('cards-container');
+        const canvasContainer = document.getElementById('canvas-container');
+        const exportButton = document.getElementById('export-button');
+
+        // --- Game State ---
+        let gameState = 'STOPPED'; // STOPPED, RUNNING, SHUFFLING, AWAITING_GUESS
+        let cards = [];
+        let queenIndex = 1; // The Queen starts in the middle
+        let numCards = 3;
+        let multiObjectMode = false; // Multi-object tracking mode
+        let targetCardIndex = 0; // Which card to find in MOT mode
+        let cardIndices = []; // Tracks positions of all cards in MOT mode
+        
+        // Generate random distinct cards for MOT mode
+        function generateMOTCards(count) {
+            const allCards = [];
+            for (const suit of SUITS) {
+                for (const rank of RANKS) {
+                    const isRed = suit === '♥' || suit === '♦';
+                    allCards.push({
+                        rank,
+                        suit,
+                        name: `${rank}${suit}`,
+                        color: isRed ? '#c41e3a' : '#1a1a1a'
+                    });
+                }
+            }
+            // Shuffle and pick 'count' cards
+            for (let i = allCards.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [allCards[i], allCards[j]] = [allCards[j], allCards[i]];
+            }
+            return allCards.slice(0, count);
+        }
+        // Canvas fixed dimensions
+        const CANVAS_WIDTH = 640;
+        const CANVAS_HEIGHT = 480;
+        
+        // Base card dimensions (will scale based on number of cards)
+        const BASE_CARD_WIDTH = 120;
+        const BASE_CARD_HEIGHT = 168;
+        const CARD_ASPECT_RATIO = BASE_CARD_HEIGHT / BASE_CARD_WIDTH;
+        
+        // Dynamic card dimensions
+        let CARD_WIDTH = BASE_CARD_WIDTH;
+        let CARD_HEIGHT = BASE_CARD_HEIGHT;
+        let CARD_SPACING = 25;
+
+        // --- Animation Settings (will be synced from UI on init) ---
+        let animSettings = {
+            swapCount: 5,
+            duration: 1000,
+            arcHeight: 90
+        };
+
+        // Visual state tracking for export rendering
+        let currentTableColor = '#225533';
+        let currentCardBackColor = '#b22234';
+
+        // Card definitions
+        const SUITS = ['♥', '♦', '♠', '♣'];
+        const RANKS = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K'];
+
+        // Generate a deck of cards (excluding Queens for non-queen cards)
+        function getRandomCard(excludeQueens = true) {
+            const ranks = excludeQueens ? RANKS.filter(r => r !== 'Q') : RANKS;
+            const rank = ranks[Math.floor(Math.random() * ranks.length)];
+            const suit = SUITS[Math.floor(Math.random() * SUITS.length)];
+            return { rank, suit };
+        }
+
+        // Get Queen of Hearts
+        function getQueen() {
+            return { rank: 'Q', suit: '♥' };
+        }
+
+        // Create card DOM element
+        function createCardElement(cardData, index) {
+            const card = document.createElement('div');
+            card.className = 'card';
+            card.dataset.index = index;
+
+            // Inner container for flip animation
+            const inner = document.createElement('div');
+            inner.className = 'card-inner';
+
+            const isRed = cardData.suit === '♥' || cardData.suit === '♦';
+
+            // Card front
+            const front = document.createElement('div');
+            front.className = `card-face card-front ${isRed ? 'red' : 'black'}`;
+            front.innerHTML = `
+                <div class="corner corner-top">
+                    <div class="rank">${cardData.rank}</div>
+                    <div class="suit-small">${cardData.suit}</div>
+                </div>
+                <div class="center-suit">${cardData.suit}</div>
+                <div class="corner corner-bottom">
+                    <div class="rank">${cardData.rank}</div>
+                    <div class="suit-small">${cardData.suit}</div>
+                </div>
+            `;
+
+            // Card back
+            const back = document.createElement('div');
+            back.className = 'card-face card-back';
+
+            inner.appendChild(back);
+            inner.appendChild(front);
+            card.appendChild(inner);
+
+            // Click handler
+            card.addEventListener('click', () => onCardClick(index));
+
+            return card;
+        }
+
+        // Calculate card dimensions based on number of cards
+        function calculateCardDimensions(n) {
+            const padding = 40; // Padding on each side
+            const availableWidth = CANVAS_WIDTH - padding * 2;
+            const availableHeight = CANVAS_HEIGHT - padding * 2;
+            
+            // Calculate max card width that fits all cards with spacing
+            const minSpacing = 15;
+            const maxCardWidth = (availableWidth - (n - 1) * minSpacing) / n;
+            
+            // Calculate max card height that fits vertically
+            const maxCardHeight = availableHeight * 0.85;
+            
+            // Determine card size maintaining aspect ratio
+            let cardWidth = Math.min(maxCardWidth, BASE_CARD_WIDTH);
+            let cardHeight = cardWidth * CARD_ASPECT_RATIO;
+            
+            // If height exceeds max, scale down
+            if (cardHeight > maxCardHeight) {
+                cardHeight = maxCardHeight;
+                cardWidth = cardHeight / CARD_ASPECT_RATIO;
+            }
+            
+            // Calculate spacing
+            const totalCardsWidth = n * cardWidth;
+            const spacing = (availableWidth - totalCardsWidth) / (n - 1 || 1);
+            
+            return {
+                width: cardWidth,
+                height: cardHeight,
+                spacing: Math.max(minSpacing, Math.min(spacing, 40))
+            };
+        }
+
+        // Get card positions
+        function getCardPositions(n) {
+            const dims = calculateCardDimensions(n);
+            CARD_WIDTH = dims.width;
+            CARD_HEIGHT = dims.height;
+            CARD_SPACING = dims.spacing;
+            
+            const positions = [];
+            const totalWidth = (n - 1) * (CARD_WIDTH + CARD_SPACING) + CARD_WIDTH;
+            const startX = (CANVAS_WIDTH - totalWidth) / 2 + CARD_WIDTH / 2;
+            const centerY = CANVAS_HEIGHT / 2;
+
+            for (let i = 0; i < n; i++) {
+                positions.push({
+                    x: startX + i * (CARD_WIDTH + CARD_SPACING),
+                    y: centerY
+                });
+            }
+            return positions;
+        }
+
+        // Setup cards
+        function setupCards(count) {
+            // Clear existing cards
+            cardsContainer.innerHTML = '';
+            cards = [];
+            numCards = count;
+
+            const positions = getCardPositions(count);
+            queenIndex = Math.floor(Math.random() * count);
+            
+            // Calculate font sizes based on card dimensions
+            const scaleFactor = CARD_WIDTH / BASE_CARD_WIDTH;
+            const rankSize = Math.round(28 * scaleFactor);
+            const suitSmallSize = Math.round(22 * scaleFactor);
+            const centerSuitSize = Math.round(72 * scaleFactor);
+
+            for (let i = 0; i < count; i++) {
+                const cardData = i === queenIndex ? getQueen() : getRandomCard();
+                const cardEl = createCardElement(cardData, i);
+                
+                // Apply dynamic card size
+                cardEl.style.width = `${CARD_WIDTH}px`;
+                cardEl.style.height = `${CARD_HEIGHT}px`;
+                
+                // Apply dynamic font sizes
+                const front = cardEl.querySelector('.card-front');
+                front.querySelectorAll('.rank').forEach(el => el.style.fontSize = `${rankSize}px`);
+                front.querySelectorAll('.suit-small').forEach(el => el.style.fontSize = `${suitSmallSize}px`);
+                front.querySelector('.center-suit').style.fontSize = `${centerSuitSize}px`;
+                
+                // Position card
+                cardEl.style.left = `${positions[i].x - CARD_WIDTH / 2}px`;
+                cardEl.style.top = `${positions[i].y - CARD_HEIGHT / 2}px`;
+                
+                cards.push({
+                    element: cardEl,
+                    data: cardData,
+                    x: positions[i].x,
+                    y: positions[i].y,
+                    isFlipped: false
+                });
+
+                cardsContainer.appendChild(cardEl);
+            }
+        }
+
+        // Update card position (cards stay upright, no rotation during swap)
+        function updateCardPosition(card, x, y, scale = 1) {
+            card.x = x;
+            card.y = y;
+            card.element.style.left = `${x - CARD_WIDTH / 2}px`;
+            card.element.style.top = `${y - CARD_HEIGHT / 2}px`;
+            card.element.style.transform = `scale(${scale})`;
+        }
+
+        // Flip card
+        function flipCard(card, flipped) {
+            card.isFlipped = flipped;
+            if (flipped) {
+                card.element.classList.add('flipped');
+            } else {
+                card.element.classList.remove('flipped');
+            }
+        }
+
+        // Initialize
+        setupCards(numCards);
+
+        // --- Show Message ---
+        function showMessage(text) {
+            messageBox.textContent = text;
+            messageBox.style.display = 'block';
+        }
+
+        // --- Card Click Handler ---
+        function onCardClick(clickedIndex) {
+            if (gameState !== 'AWAITING_GUESS') return;
+            handleGuess(clickedIndex);
+        }
+
+        // --- Start Game ---
+        startButton.addEventListener('click', startGame);
+
+        function startGame() {
+            gameState = 'RUNNING';
+            startButton.disabled = true;
+            startButton.textContent = 'Shuffling...';
+            
+            // Check multi-object mode
+            multiObjectMode = document.getElementById('multi-object').checked;
+
+            // Reset positions and flip all cards face-up
+            const positions = getCardPositions(numCards);
+            
+            // Calculate font sizes based on card dimensions
+            const scaleFactor = CARD_WIDTH / BASE_CARD_WIDTH;
+            const rankSize = Math.round(28 * scaleFactor);
+            const suitSmallSize = Math.round(22 * scaleFactor);
+            const centerSuitSize = Math.round(72 * scaleFactor);
+            
+            if (multiObjectMode) {
+                // MOT: All cards are unique identifiable cards
+                showMessage('Watch all the cards!');
+                cardIndices = [];
+                targetCardIndex = Math.floor(Math.random() * numCards);
+                
+                // Generate random distinct cards for this game
+                const motCards = generateMOTCards(numCards);
+                
+                cards.forEach((card, i) => {
+                    const cardData = motCards[i];
+                    card.data = cardData;
+                    card.motIndex = i; // Original index for tracking
+                    cardIndices.push(i); // Each card starts at its own position
+                    
+                    // Update card front content
+                    const front = card.element.querySelector('.card-inner .card-front');
+                    const isRed = cardData.suit === '♥' || cardData.suit === '♦';
+                    front.className = `card-face card-front ${isRed ? 'red' : 'black'}`;
+                    front.innerHTML = `
+                        <div class="corner corner-top">
+                            <div class="rank" style="font-size:${rankSize}px">${cardData.rank}</div>
+                            <div class="suit-small" style="font-size:${suitSmallSize}px">${cardData.suit}</div>
+                        </div>
+                        <div class="center-suit" style="font-size:${centerSuitSize}px">${cardData.suit}</div>
+                        <div class="corner corner-bottom">
+                            <div class="rank" style="font-size:${rankSize}px">${cardData.rank}</div>
+                            <div class="suit-small" style="font-size:${suitSmallSize}px">${cardData.suit}</div>
+                        </div>
+                    `;
+
+                    updateCardPosition(card, positions[i].x, positions[i].y, 1);
+                    flipCard(card, true);
+                });
+            } else {
+                // SOT: Single queen mode (original behavior)
+                showMessage('Watch the Queen!');
+                queenIndex = Math.floor(Math.random() * numCards);
+            
+            // Regenerate cards with new random non-queen cards
+            cards.forEach((card, i) => {
+                const cardData = i === queenIndex ? getQueen() : getRandomCard();
+                card.data = cardData;
+                
+                // Update card front content (inside card-inner)
+                const front = card.element.querySelector('.card-inner .card-front');
+                const isRed = cardData.suit === '♥' || cardData.suit === '♦';
+                front.className = `card-face card-front ${isRed ? 'red' : 'black'}`;
+                front.innerHTML = `
+                    <div class="corner corner-top">
+                        <div class="rank" style="font-size:${rankSize}px">${cardData.rank}</div>
+                        <div class="suit-small" style="font-size:${suitSmallSize}px">${cardData.suit}</div>
+                    </div>
+                    <div class="center-suit" style="font-size:${centerSuitSize}px">${cardData.suit}</div>
+                    <div class="corner corner-bottom">
+                        <div class="rank" style="font-size:${rankSize}px">${cardData.rank}</div>
+                        <div class="suit-small" style="font-size:${suitSmallSize}px">${cardData.suit}</div>
+                    </div>
+                `;
+
+                updateCardPosition(card, positions[i].x, positions[i].y, 1);
+                // SOT: Only show the Queen face-up, keep others face-down
+                flipCard(card, i === queenIndex);
+            });
+            }
+
+            // After showing, flip cards face-down and start shuffling
+            setTimeout(() => {
+                // Flip all cards face-down with stagger
+                cards.forEach((card, i) => {
+                    setTimeout(() => {
+                        flipCard(card, false);
+                    }, i * 100);
+                });
+
+                // Start shuffling after flip animation
+                setTimeout(() => {
+                    startShuffle();
+                }, numCards * 100 + 400);
+            }, 1500);
+        }
+
+        // --- Shuffle ---
+        async function startShuffle() {
+            gameState = 'SHUFFLING';
+            const shuffleCount = animSettings.swapCount;
+
+            for (let i = 0; i < shuffleCount; i++) {
+                // Pick two different random cards to swap
+                let i1 = Math.floor(Math.random() * numCards);
+                let i2 = Math.floor(Math.random() * numCards);
+                while (i1 === i2) {
+                    i2 = Math.floor(Math.random() * numCards);
+                }
+
+                // Wait for the swap animation to complete
+                await swapCards(i1, i2);
+            }
+
+            gameState = 'AWAITING_GUESS';
+            startButton.disabled = true;
+            startButton.textContent = 'Make your guess!';
+            
+            if (multiObjectMode) {
+                const targetCard = cards[targetCardIndex].data;
+                showMessage(`Where is the ${targetCard.rank}${targetCard.suit}?`);
+            } else {
+                showMessage('Where is the Queen?');
+            }
+        }
+
+        // Swap two cards with animation (cards stay upright)
+        function swapCards(indexA, indexB) {
+            return new Promise((resolve) => {
+                const cardA = cards[indexA];
+                const cardB = cards[indexB];
+
+                const startAX = cardA.x;
+                const startAY = cardA.y;
+                const startBX = cardB.x;
+                const startBY = cardB.y;
+
+                const duration = animSettings.duration;
+                // Limit arc height to prevent cards going out of bounds
+                const maxArc = (CANVAS_HEIGHT - CARD_HEIGHT) / 2 - 20;
+                
+                // Detect side-to-side swaps by checking actual X positions
+                // Get all card positions to find min/max X
+                const allXPositions = cards.map(c => c.x);
+                const minX = Math.min(...allXPositions);
+                const maxX = Math.max(...allXPositions);
+                const xRange = maxX - minX;
+                
+                // Check if these two cards are on opposite sides (far left vs far right)
+                const cardAX = cardA.x;
+                const cardBX = cardB.x;
+                const xDistance = Math.abs(cardAX - cardBX);
+                // Consider it a side swap if cards are more than 70% of the total range apart
+                const isSideSwap = xDistance > xRange * 0.7;
+                
+                // Increase arc for side-to-side swaps
+                const arcMultiplier = isSideSwap ? 2.4 : 1.0;
+                const arcHeight = Math.min(animSettings.arcHeight * arcMultiplier, maxArc);
+
+                // Animation objects
+                const animA = { t: 0 };
+                const animB = { t: 0 };
+
+                // Card A moves in arc (goes up/back)
+                new TWEEN.Tween(animA)
+                    .to({ t: 1 }, duration)
+                    .easing(TWEEN.Easing.Sinusoidal.InOut)
+                    .onUpdate(() => {
+                        const t = animA.t;
+                        const x = startAX + (startBX - startAX) * t;
+                        const y = startAY - arcHeight * Math.sin(t * Math.PI);
+                        const scale = 1;
+                        updateCardPosition(cardA, x, y, scale);
+                        cardA.element.style.zIndex = 10;
+                    })
+                    .start();
+
+                // Card B moves in arc (goes down/front)
+                new TWEEN.Tween(animB)
+                    .to({ t: 1 }, duration)
+                    .easing(TWEEN.Easing.Sinusoidal.InOut)
+                    .onUpdate(() => {
+                        const t = animB.t;
+                        const x = startBX + (startAX - startBX) * t;
+                        const y = startBY + arcHeight * Math.sin(t * Math.PI);
+                        const scale = 1;
+                        updateCardPosition(cardB, x, y, scale);
+                        cardB.element.style.zIndex = 5;
+                    })
+                    .onComplete(() => {
+                        // Reset z-index
+                        cardA.element.style.zIndex = '';
+                        cardB.element.style.zIndex = '';
+                        updateCardPosition(cardA, startBX, startAY, 1);
+                        updateCardPosition(cardB, startAX, startBY, 1);
+
+                        // Swap in the array
+                        [cards[indexA], cards[indexB]] = [cards[indexB], cards[indexA]];
+
+                        // Update queen index (SOT mode)
+                        if (queenIndex === indexA) {
+                            queenIndex = indexB;
+                        } else if (queenIndex === indexB) {
+                            queenIndex = indexA;
+                        }
+                        
+                        // Update all card indices (MOT mode)
+                        if (multiObjectMode) {
+                            for (let i = 0; i < cardIndices.length; i++) {
+                                if (cardIndices[i] === indexA) {
+                                    cardIndices[i] = indexB;
+                                } else if (cardIndices[i] === indexB) {
+                                    cardIndices[i] = indexA;
+                                }
+                            }
+                        }
+
+                        resolve();
+                    })
+                    .start();
+            });
+        }
+
+        // --- Handle Guess ---
+        function handleGuess(clickedIndex) {
+            gameState = 'STOPPED';
+
+            let isCorrect;
+            let targetIndex;
+            
+            if (multiObjectMode) {
+                // MOT mode: find which position the target card is in
+                targetIndex = cardIndices[targetCardIndex];
+                isCorrect = (clickedIndex === targetIndex);
+            } else {
+                // SOT mode: find the queen
+                isCorrect = (clickedIndex === queenIndex);
+                targetIndex = queenIndex;
+            }
+
+            // Flip cards face-up with stagger
+            if (multiObjectMode) {
+                // MOT: flip all cards
+                cards.forEach((card, i) => {
+                    setTimeout(() => {
+                        flipCard(card, true);
+                    }, i * 100);
+                });
+            } else {
+                // SOT: only flip the Queen (tracked card)
+                setTimeout(() => {
+                    flipCard(cards[targetIndex], true);
+                }, 100);
+            }
+
+            // Show result
+            setTimeout(() => {
+                if (multiObjectMode) {
+                    const targetCard = cards[targetIndex].data;
+                    if (isCorrect) {
+                        showMessage(`🎉 You found the ${targetCard.rank}${targetCard.suit}!`);
+                    } else {
+                        showMessage(`❌ That's not the ${targetCard.rank}${targetCard.suit}!`);
+                    }
+                } else {
+                if (isCorrect) {
+                    showMessage('🎉 You found the Queen!');
+                } else {
+                    showMessage('❌ Wrong card! Try again.');
+                    }
+                }
+                startButton.disabled = false;
+                startButton.textContent = 'Play Again';
+            }, numCards * 100 + 300);
+        }
+
+        // --- Animation Loop ---
+        function animate() {
+            requestAnimationFrame(animate);
+            TWEEN.update();
+        }
+        animate();
+
+        // Canvas is now fixed size, no resize handling needed
+
+        // --- Control Panel ---
+        function setupControls() {
+            const updateVal = (id, val) => {
+                const el = document.getElementById(id + '-val');
+                if (el) el.textContent = val;
+            };
+
+            // Sync initial values from sliders to JS state
+            const initNumCards = parseInt(document.getElementById('num-cards').value);
+            animSettings.swapCount = parseInt(document.getElementById('anim-swaps').value);
+            animSettings.duration = parseInt(document.getElementById('anim-duration').value);
+            animSettings.arcHeight = parseInt(document.getElementById('anim-arc').value);
+
+            // Also sync display values from actual slider values
+            updateVal('num-cards', initNumCards);
+            updateVal('anim-swaps', animSettings.swapCount);
+            updateVal('anim-duration', animSettings.duration);
+            updateVal('anim-arc', animSettings.arcHeight);
+
+            // Re-setup cards if slider default differs from initial numCards
+            if (initNumCards !== numCards) {
+                setupCards(initNumCards);
+            }
+
+            // Number of cards
+            document.getElementById('num-cards').addEventListener('input', (e) => {
+                const newCount = parseInt(e.target.value);
+                if (gameState === 'STOPPED') {
+                    setupCards(newCount);
+                }
+                updateVal('num-cards', e.target.value);
+            });
+
+            // Animation controls
+            document.getElementById('anim-swaps').addEventListener('input', (e) => {
+                animSettings.swapCount = parseInt(e.target.value);
+                updateVal('anim-swaps', e.target.value);
+            });
+
+            document.getElementById('anim-duration').addEventListener('input', (e) => {
+                animSettings.duration = parseInt(e.target.value);
+                updateVal('anim-duration', e.target.value);
+            });
+
+            document.getElementById('anim-arc').addEventListener('input', (e) => {
+                animSettings.arcHeight = parseInt(e.target.value);
+                updateVal('anim-arc', e.target.value);
+            });
+
+            // Appearance controls
+            document.getElementById('table-color').addEventListener('input', (e) => {
+                currentTableColor = e.target.value;
+                canvasContainer.style.background = `radial-gradient(ellipse at center, ${e.target.value}ee 0%, ${e.target.value}aa 100%)`;
+            });
+
+            document.getElementById('card-back-color').addEventListener('input', (e) => {
+                const color = e.target.value;
+                currentCardBackColor = color;
+                const darkColor = darkenColor(color, 15);
+                document.querySelectorAll('.card-inner .card-back').forEach(back => {
+                    back.style.background = color;
+                });
+                // Update pattern via style tag
+                let styleEl = document.getElementById('card-back-dynamic');
+                if (!styleEl) {
+                    styleEl = document.createElement('style');
+                    styleEl.id = 'card-back-dynamic';
+                    document.head.appendChild(styleEl);
+                }
+                styleEl.textContent = `.card-back::before { background: repeating-linear-gradient(55deg, transparent, transparent 4px, rgba(255,255,255,0.35) 4px, rgba(255,255,255,0.35) 5px), repeating-linear-gradient(-55deg, transparent, transparent 4px, rgba(255,255,255,0.35) 4px, rgba(255,255,255,0.35) 5px), ${darkColor} !important; }`;
+            });
+
+            document.getElementById('accent-color').addEventListener('input', (e) => {
+                const color = e.target.value;
+                document.querySelectorAll('.card-inner .card-back').forEach(back => {
+                    back.style.borderColor = color;
+                    back.style.setProperty('--accent-color', color);
+                });
+            });
+        }
+
+        function darkenColor(color, percent) {
+            const num = parseInt(color.replace('#', ''), 16);
+            const amt = Math.round(2.55 * percent);
+            const R = Math.max(0, (num >> 16) - amt);
+            const G = Math.max(0, ((num >> 8) & 0x00FF) - amt);
+            const B = Math.max(0, (num & 0x0000FF) - amt);
+            return '#' + (0x1000000 + R * 0x10000 + G * 0x100 + B).toString(16).slice(1);
+        }
+
+        setupControls();
+
+        // =====================================================
+        // BATCH EXPORT - renders frames and encodes to MP4 using VideoEncoder + mp4-muxer
+        // =====================================================
+        
+        let isExporting = false;
+        const exportProgress = document.getElementById('export-progress');
+        const exportStatus = document.getElementById('export-status');
+        const exportBar = document.getElementById('export-bar');
+
+        // Export settings
+        let exportSettings = {
+            fps: 30,
+            width: 1280,
+            height: 720
+        };
+
+        // Create an offscreen canvas for video encoding
+        const offscreenCanvas = document.createElement('canvas');
+        const offscreenCtx = offscreenCanvas.getContext('2d');
+        
+        // Function to update export settings from UI
+        function updateExportSettings() {
+            const resSelect = document.getElementById('export-resolution');
+            const fpsSelect = document.getElementById('export-fps');
+            
+            const [w, h] = resSelect.value.split('x').map(Number);
+            exportSettings.width = w;
+            exportSettings.height = h;
+            exportSettings.fps = parseInt(fpsSelect.value);
+            
+            offscreenCanvas.width = w;
+            offscreenCanvas.height = h;
+        }
+
+        // Helper functions for randomization
+        function randRange(min, max) {
+            return min + Math.random() * (max - min);
+        }
+        
+        function randInt(min, max) {
+            return Math.floor(randRange(min, max + 1));
+        }
+        
+        function randColor() {
+            const hue = Math.random() * 360;
+            const sat = randRange(40, 100);
+            const light = randRange(30, 70);
+            return `hsl(${hue}, ${sat}%, ${light}%)`;
+        }
+        
+        function randTableColor() {
+            // Green felt variations (return hex for consistent canvas rendering)
+            const r = randInt(20, 50);
+            const g = randInt(55, 100);
+            const b = randInt(25, 55);
+            return '#' + r.toString(16).padStart(2, '0') + g.toString(16).padStart(2, '0') + b.toString(16).padStart(2, '0');
+        }
+        
+        function randCardBackColor() {
+            // Classic card back colors: red, blue, green, purple
+            const colors = ['#b22234', '#1a3a6e', '#2d5016', '#4a2d6e', '#8b4513', '#1a1a1a'];
+            return colors[Math.floor(Math.random() * colors.length)];
+        }
+
+        exportButton.addEventListener('click', () => {
+            if (isExporting) return;
+            const count = Math.max(1, Math.min(500, parseInt(document.getElementById('export-count').value) || 10));
+            runBatchExport(count);
+        });
+            
+        async function runBatchExport(count) {
+            isExporting = true;
+            exportButton.disabled = true;
+            exportButton.textContent = 'Exporting...';
+            exportProgress.style.display = 'block';
+            exportBar.style.width = '0%';
+            
+            updateExportSettings();
+            const shouldRandomize = document.getElementById('export-randomize').checked;
+            
+            // Save original state
+            const originalNumCards = numCards;
+            const originalAnimSettings = { ...animSettings };
+            const originalTableColor = canvasContainer.style.background;
+
+            try {
+                const zip = new JSZip();
+                const annotations = [];
+
+                for (let i = 0; i < count; i++) {
+                    exportStatus.textContent = `Rendering & Encoding ${i + 1} / ${count}...`;
+                    exportBar.style.width = `${((i + 0.5) / count) * 100}%`;
+
+                    // Randomize parameters if enabled
+                    if (shouldRandomize) {
+                        randomizeSceneParameters();
+                    }
+
+                    // Generate and encode video
+                    const result = await renderAndEncodeVideo();
+                    
+                    const idx = String(i + 1).padStart(3, '0');
+                    const filename = `card_${idx}.mp4`;
+                    zip.file(filename, result.videoBlob);
+                    
+                    // Build video annotation entry
+                    const videoEntry = {
+                        video: filename,
+                        fps: exportSettings.fps,
+                        total_frames: result.totalFrames,
+                        resolution: {
+                            width: exportSettings.width,
+                            height: exportSettings.height
+                        },
+                        task: "card",
+                        game_settings: {
+                            num_cards: result.numCards,
+                            swap_count: result.swapCount,
+                            swap_duration_ms: result.swapDuration
+                        },
+                        initial: result.cardNames.map((name, idx) => ({
+                            card: name,
+                            position: idx + 1
+                        })),
+                        intermediate: result.intermediate,
+                        ground_truth: result.isMOT
+                            ? result.cardNames.map((name, idx) => ({
+                                card: name,
+                                position: result.allCardPositions[idx]
+                            }))
+                            : result.cardNames.map((name, idx) => ({
+                                card: name,
+                                position: result.allCardPositions[idx]
+                            }))
+                    };
+                    
+                    annotations.push(videoEntry);
+
+                    exportBar.style.width = `${((i + 1) / count) * 100}%`;
+                    await new Promise(r => setTimeout(r, 0));
+                }
+
+                // Add JSON annotations file
+                zip.file('card.json', JSON.stringify(annotations, null, 2));
+
+                exportStatus.textContent = 'Creating zip...';
+                const zipBlob = await zip.generateAsync({ type: 'blob' });
+
+                // Download zip
+                const url = URL.createObjectURL(zipBlob);
+                const link = document.createElement('a');
+                link.href = url;
+                link.download = `card-game-batch-${Date.now()}.zip`;
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+                URL.revokeObjectURL(url);
+
+            } catch (err) {
+                console.error('Export failed:', err);
+                exportStatus.textContent = `Error: ${err.message}`;
+                await new Promise(r => setTimeout(r, 5000));
+            }
+
+            // Restore original state
+            setupCards(originalNumCards);
+            animSettings.swapCount = originalAnimSettings.swapCount;
+            animSettings.duration = originalAnimSettings.duration;
+            animSettings.arcHeight = originalAnimSettings.arcHeight;
+            if (originalTableColor) {
+                canvasContainer.style.background = originalTableColor;
+            }
+
+            exportProgress.style.display = 'none';
+            exportButton.disabled = false;
+            exportButton.textContent = 'Export Batch (.zip)';
+            isExporting = false;
+        }
+
+        function randomizeSceneParameters() {
+            // Number of cards (3-7)
+            const newCardCount = randInt(3, 7);
+            setupCards(newCardCount);
+            
+            // Animation settings
+            animSettings.swapCount = randInt(5, 20);
+            animSettings.duration = randInt(200, 600);
+            animSettings.arcHeight = randInt(30, 80);
+            
+            // Visual appearance
+            const tableColor = randTableColor();
+            currentTableColor = tableColor;
+            canvasContainer.style.background = `radial-gradient(ellipse at center, ${tableColor}ee 0%, ${tableColor}aa 100%)`;
+            
+            const backColor = randCardBackColor();
+            currentCardBackColor = backColor;
+            const darkColor = darkenColor(backColor, 15);
+            document.querySelectorAll('.card-inner .card-back').forEach(back => {
+                back.style.background = backColor;
+            });
+            let styleEl = document.getElementById('card-back-dynamic');
+            if (!styleEl) {
+                styleEl = document.createElement('style');
+                styleEl.id = 'card-back-dynamic';
+                document.head.appendChild(styleEl);
+            }
+            styleEl.textContent = `.card-back::before { background: repeating-linear-gradient(55deg, transparent, transparent 4px, rgba(255,255,255,0.35) 4px, rgba(255,255,255,0.35) 5px), repeating-linear-gradient(-55deg, transparent, transparent 4px, rgba(255,255,255,0.35) 4px, rgba(255,255,255,0.35) 5px), ${darkColor} !important; }`;
+        }
+
+        // Render animation and encode directly to MP4 using VideoEncoder + mp4-muxer
+        async function renderAndEncodeVideo() {
+            const cardCount = numCards;
+            const isExportMOT = multiObjectMode;
+            const positions = getCardPositions(cardCount);
+            const swapCount = animSettings.swapCount;
+            const swapDuration = animSettings.duration;
+            const arcHeight = Math.min(animSettings.arcHeight * 1.2, (CANVAS_HEIGHT - CARD_HEIGHT) / 2 - 20);
+            
+            // Scale factor for export resolution
+            const scaleX = exportSettings.width / CANVAS_WIDTH;
+            const scaleY = exportSettings.height / CANVAS_HEIGHT;
+            
+            // Flip animation duration in ms
+            const flipDuration = 300;
+            
+            // Each card starts at its position
+            let localCardPositions = Array.from({ length: cardCount }, (_, i) => i);
+            
+            // Prepare card data
+            const cardDataArray = [];
+            let exportQueenIndex = 0; // Only used in SOT mode
+            if (isExportMOT) {
+                // MOT: generate random distinct cards
+                const randomCards = generateMOTCards(cardCount);
+                for (let i = 0; i < cardCount; i++) {
+                    cardDataArray.push(randomCards[i]);
+                }
+            } else {
+                // SOT: one Queen, rest are random non-queen cards
+                exportQueenIndex = Math.floor(Math.random() * cardCount);
+                for (let i = 0; i < cardCount; i++) {
+                    if (i === exportQueenIndex) {
+                        const q = getQueen();
+                        cardDataArray.push({ rank: q.rank, suit: q.suit, name: `${q.rank}${q.suit}`, color: '#c41e3a' });
+                    } else {
+                        const c = getRandomCard();
+                        const isRed = c.suit === '♥' || c.suit === '♦';
+                        cardDataArray.push({ rank: c.rank, suit: c.suit, name: `${c.rank}${c.suit}`, color: isRed ? '#c41e3a' : '#1a1a1a' });
+                    }
+                }
+            }
+
+            // Generate swap sequence and calculate final positions
+            const swaps = [];
+            for (let i = 0; i < swapCount; i++) {
+                let i1 = Math.floor(Math.random() * cardCount);
+                let i2 = Math.floor(Math.random() * cardCount);
+                while (i1 === i2) {
+                    i2 = Math.floor(Math.random() * cardCount);
+                }
+                swaps.push([i1, i2]);
+            }
+            
+            // Calculate final positions for all cards
+            const finalCardPositions = localCardPositions.map((_, idx) => calculateFinalPosition(idx, swaps));
+
+            // Build intermediate states: after each swap, card index -> position (1-based)
+            const cardNamesForExport = cardDataArray.map(cd => `${cd.rank}${cd.suit}`);
+            const intermediateStates = [];
+            for (let k = 1; k <= swaps.length; k++) {
+                const state = getPositionsAfterSwaps(cardCount, swaps, k);
+                intermediateStates.push(
+                    cardNamesForExport.map((name, idx) => ({
+                        card: name,
+                        position: state[idx]
+                    }))
+                );
+            }
+
+            // Timeline phases (in ms)
+            const showCardsStart = 0;
+            const showCardsEnd = 800;
+            const flipDownStart = showCardsEnd;
+            // MOT: Each card flips with 100ms stagger + flipDuration + buffer
+            // SOT: Only one card (the Queen) flips, no stagger needed
+            const flipDownEnd = isExportMOT
+                ? flipDownStart + (cardCount - 1) * 100 + flipDuration + 200
+                : flipDownStart + flipDuration + 200;
+            const shuffleStart = flipDownEnd;
+            const shuffleEnd = shuffleStart + swapCount * (swapDuration + 50); // 50ms gap between swaps
+            const totalDuration = shuffleEnd + 500;
+            const totalFrames = Math.ceil((totalDuration / 1000) * exportSettings.fps);
+
+            // Setup mp4-muxer
+            const muxer = new Mp4Muxer.Muxer({
+                target: new Mp4Muxer.ArrayBufferTarget(),
+                video: {
+                    codec: 'avc',
+                    width: exportSettings.width,
+                    height: exportSettings.height,
+                },
+                fastStart: 'in-memory',
+            });
+
+            let encoderError = null;
+            const videoEncoder = new VideoEncoder({
+                output: (chunk, meta) => muxer.addVideoChunk(chunk, meta),
+                error: (e) => {
+                    console.error("VideoEncoder error:", e);
+                    encoderError = e;
+                },
+            });
+
+            // Configure encoder
+            const pixelCount = exportSettings.width * exportSettings.height;
+            const bitrate = Math.max(2_000_000, Math.min(20_000_000, pixelCount * 8));
+            
+            videoEncoder.configure({
+                codec: 'avc1.4d002a',
+                width: exportSettings.width,
+                height: exportSettings.height,
+                bitrate: bitrate,
+                framerate: exportSettings.fps,
+            });
+
+            // Track card positions during animation
+            const cardPos = positions.map((p, i) => ({
+                x: p.x,
+                y: p.y,
+                scale: 1,
+                // SOT: only the Queen starts face-up; MOT: all start face-up
+                flipped: isExportMOT ? true : (i === exportQueenIndex),
+                flipProgress: isExportMOT ? 1 : (i === exportQueenIndex ? 1 : 0),
+                zIndex: 0
+            }));
+
+            const batchSize = 5;
+
+            for (let frameIdx = 0; frameIdx < totalFrames; frameIdx++) {
+                if (encoderError) throw encoderError;
+                if (videoEncoder.state === 'closed') throw new Error("VideoEncoder closed unexpectedly");
+
+                const t = (frameIdx / exportSettings.fps) * 1000;
+
+                // Reset positions to base
+                for (let c = 0; c < cardCount; c++) {
+                    cardPos[c].x = positions[c].x;
+                    cardPos[c].y = positions[c].y;
+                    cardPos[c].scale = 1;
+                    cardPos[c].zIndex = 0;
+                }
+
+                // Determine card states based on time
+                if (t < showCardsEnd) {
+                    // Phase 1: Show cards face-up
+                    for (let c = 0; c < cardCount; c++) {
+                        if (isExportMOT) {
+                            // MOT: all cards face-up
+                            cardPos[c].flipped = true;
+                            cardPos[c].flipProgress = 1;
+                        } else {
+                            // SOT: only the Queen face-up, others face-down
+                            cardPos[c].flipped = (c === exportQueenIndex);
+                            cardPos[c].flipProgress = (c === exportQueenIndex) ? 1 : 0;
+                        }
+                    }
+                } else if (t < flipDownEnd) {
+                    // Phase 2: Flip cards face-down with stagger and animation
+                    const flipTime = t - flipDownStart;
+                    for (let c = 0; c < cardCount; c++) {
+                        if (!isExportMOT && c !== exportQueenIndex) {
+                            // SOT: non-queen cards stay face-down throughout
+                            cardPos[c].flipped = false;
+                            cardPos[c].flipProgress = 0;
+                            continue;
+                        }
+                        const cardFlipStart = isExportMOT ? c * 100 : 0; // SOT: queen flips immediately (no stagger needed)
+                        const cardFlipEnd = cardFlipStart + flipDuration;
+                        
+                        if (flipTime < cardFlipStart) {
+                            // Not started flipping yet
+                            cardPos[c].flipped = true;
+                            cardPos[c].flipProgress = 1;
+                        } else if (flipTime < cardFlipEnd) {
+                            // Currently flipping
+                            const progress = (flipTime - cardFlipStart) / flipDuration;
+                            cardPos[c].flipProgress = 1 - progress; // 1 -> 0 (face-up to face-down)
+                            cardPos[c].flipped = progress < 0.5; // Show front until halfway
+                        } else {
+                            // Finished flipping
+                            cardPos[c].flipped = false;
+                            cardPos[c].flipProgress = 0;
+                        }
+                    }
+                } else if (t < shuffleEnd) {
+                    // Phase 3: Shuffle
+                    for (let c = 0; c < cardCount; c++) {
+                        cardPos[c].flipped = false;
+                        cardPos[c].flipProgress = 0;
+                    }
+                    
+                    const shuffleTime = t - shuffleStart;
+                    const swapCycle = swapDuration + 50;
+                    const currentSwapIndex = Math.floor(shuffleTime / swapCycle);
+                    const timeInCycle = shuffleTime % swapCycle;
+                    const inSwapPhase = timeInCycle < swapDuration;
+                    const swapProgress = inSwapPhase ? (timeInCycle / swapDuration) : 1;
+
+                    // Apply completed swaps to position map
+                    const positionMap = Array.from({ length: cardCount }, (_, i) => i);
+                    for (let s = 0; s < Math.min(currentSwapIndex, swaps.length); s++) {
+                        const [a, b] = swaps[s];
+                        [positionMap[a], positionMap[b]] = [positionMap[b], positionMap[a]];
+                    }
+
+                    // Update base positions based on completed swaps
+                    for (let c = 0; c < cardCount; c++) {
+                        const pos = positionMap.indexOf(c);
+                        cardPos[c].x = positions[pos].x;
+                        cardPos[c].y = positions[pos].y;
+                    }
+
+                    // Animate current swap
+                    if (currentSwapIndex < swaps.length && inSwapPhase) {
+                        const [idxA, idxB] = swaps[currentSwapIndex];
+                        const cardAIdx = positionMap[idxA];
+                        const cardBIdx = positionMap[idxB];
+                        const posA = positions[idxA];
+                        const posB = positions[idxB];
+
+                        const eased = 0.5 - 0.5 * Math.cos(swapProgress * Math.PI);
+                        
+                        // Detect side-to-side swaps by checking actual X positions
+                        // Get all position X values to find min/max
+                        const allXPositions = positions.map(p => p.x);
+                        const minX = Math.min(...allXPositions);
+                        const maxX = Math.max(...allXPositions);
+                        const xRange = maxX - minX;
+                        
+                        // Check if these two cards are on opposite sides (far left vs far right)
+                        const xDistance = Math.abs(posA.x - posB.x);
+                        // Consider it a side swap if cards are more than 70% of the total range apart
+                        const isSideSwap = xDistance > xRange * 0.7;
+                        
+                        // Increase arc for side-to-side swaps
+                        const arcMultiplier = isSideSwap ? 2.4 : 1.0;
+                        const currentArcHeight = Math.min(arcHeight * arcMultiplier, (CANVAS_HEIGHT - CARD_HEIGHT) / 2 - 20);
+
+                        // Card A goes up
+                        cardPos[cardAIdx].x = posA.x + (posB.x - posA.x) * eased;
+                        cardPos[cardAIdx].y = posA.y - currentArcHeight * Math.sin(swapProgress * Math.PI);
+                        cardPos[cardAIdx].scale = 1;
+                        cardPos[cardAIdx].zIndex = 10;
+
+                        // Card B goes down
+                        cardPos[cardBIdx].x = posB.x + (posA.x - posB.x) * eased;
+                        cardPos[cardBIdx].y = posB.y + currentArcHeight * Math.sin(swapProgress * Math.PI);
+                        cardPos[cardBIdx].scale = 1;
+                        cardPos[cardBIdx].zIndex = 5;
+                    }
+                } else {
+                    // Phase 4: Final state (all cards face-down)
+                    // Apply all swaps
+                    const positionMap = Array.from({ length: cardCount }, (_, i) => i);
+                    for (const [a, b] of swaps) {
+                        [positionMap[a], positionMap[b]] = [positionMap[b], positionMap[a]];
+                    }
+                    for (let c = 0; c < cardCount; c++) {
+                        const pos = positionMap.indexOf(c);
+                        cardPos[c].x = positions[pos].x;
+                        cardPos[c].y = positions[pos].y;
+                        cardPos[c].flipped = false;
+                        cardPos[c].flipProgress = 0;
+                    }
+                }
+
+                // Render frame to offscreen canvas
+                await renderFrame(cardPos, cardDataArray, scaleX, scaleY);
+
+                // Create VideoFrame
+                const timestamp = (frameIdx / exportSettings.fps) * 1_000_000;
+                const frame = new VideoFrame(offscreenCanvas, { timestamp });
+
+                try {
+                    if (videoEncoder.state === 'configured') {
+                        videoEncoder.encode(frame, { keyFrame: frameIdx % (exportSettings.fps * 2) === 0 });
+                    }
+                } finally {
+                    frame.close();
+                }
+
+                // Yield periodically
+                if (frameIdx % batchSize === 0) {
+                    await new Promise(r => setTimeout(r, 0));
+                }
+            }
+
+            // Flush and finalize
+            await videoEncoder.flush();
+            muxer.finalize();
+
+            const { buffer } = muxer.target;
+            const videoBlob = new Blob([buffer], { type: 'video/mp4' });
+
+            const cardNames = cardDataArray.map(cd => `${cd.rank}${cd.suit}`);
+            return {
+                videoBlob,
+                totalFrames,
+                numCards: cardCount,
+                swapCount,
+                swapDuration,
+                cardNames,
+                allCardPositions: finalCardPositions.map(p => p + 1),
+                intermediate: intermediateStates,
+                isMOT: isExportMOT,
+                queenIndex: isExportMOT ? undefined : exportQueenIndex
+            };
+        }
+
+        function calculateFinalPosition(startPos, swaps) {
+            let pos = startPos;
+            for (const [a, b] of swaps) {
+                if (pos === a) pos = b;
+                else if (pos === b) pos = a;
+            }
+            return pos;
+        }
+
+        // Get 1-based position of each card (by index) after applying the first k swaps
+        function getPositionsAfterSwaps(cardCount, swaps, k) {
+            const positionMap = Array.from({ length: cardCount }, (_, i) => i);
+            for (let s = 0; s < Math.min(k, swaps.length); s++) {
+                const [a, b] = swaps[s];
+                [positionMap[a], positionMap[b]] = [positionMap[b], positionMap[a]];
+            }
+            const cardToPosition = [];
+            for (let c = 0; c < cardCount; c++) {
+                const pos = positionMap.indexOf(c);
+                cardToPosition.push(pos + 1);
+            }
+            return cardToPosition;
+        }
+
+        async function renderFrame(cardPos, cardDataArray, scaleX, scaleY) {
+            const ctx = offscreenCtx;
+            const w = exportSettings.width;
+            const h = exportSettings.height;
+            
+            // Draw background matching CSS felt table
+            ctx.fillStyle = darkenColor(currentTableColor, 15);
+            ctx.fillRect(0, 0, w, h);
+            
+            // Radial gradient overlay (matching CSS: radial-gradient(ellipse at center, ...))
+            const gradient = ctx.createRadialGradient(w/2, h/2, 0, w/2, h/2, Math.max(w, h) * 0.55);
+            gradient.addColorStop(0, currentTableColor);
+            gradient.addColorStop(1, darkenColor(currentTableColor, 12));
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, w, h);
+            
+            // Subtle diagonal texture lines (matching CSS repeating-linear-gradient)
+            ctx.save();
+            ctx.strokeStyle = 'rgba(0, 0, 0, 0.03)';
+            ctx.lineWidth = Math.max(1, w / 640);
+            const texStep = 20 * (w / CANVAS_WIDTH);
+            for (let i = -h; i < w + h; i += texStep) {
+                ctx.beginPath();
+                ctx.moveTo(i, 0);
+                ctx.lineTo(i + h, h);
+                ctx.stroke();
+            }
+            ctx.restore();
+
+            // Sort cards by z-index for proper layering
+            const sortedCards = cardPos.map((pos, i) => ({ ...pos, index: i }))
+                .sort((a, b) => a.zIndex - b.zIndex);
+
+            for (const card of sortedCards) {
+                const cardData = cardDataArray[card.index];
+                const x = card.x * scaleX;
+                const y = card.y * scaleY;
+                const cardW = CARD_WIDTH * scaleX * card.scale;
+                const cardH = CARD_HEIGHT * scaleY * card.scale;
+                const cardScale = cardW / 120;
+                const borderR = 10 * cardScale;
+
+                ctx.save();
+                ctx.translate(x, y);
+
+                // Calculate flip animation
+                const flipProgress = card.flipProgress !== undefined ? card.flipProgress : (card.flipped ? 1 : 0);
+                const isFlipping = flipProgress > 0 && flipProgress < 1;
+                
+                if (isFlipping) {
+                    const flipScaleX = Math.abs(Math.cos(flipProgress * Math.PI));
+                    ctx.scale(flipScaleX, 1);
+                }
+
+                // Draw card drop shadow (matching CSS: filter: drop-shadow(0 8px 16px rgba(0,0,0,0.5)))
+                ctx.save();
+                ctx.shadowColor = 'rgba(0, 0, 0, 0.5)';
+                ctx.shadowBlur = 16 * cardScale;
+                ctx.shadowOffsetX = 0;
+                ctx.shadowOffsetY = 8 * cardScale;
+                ctx.fillStyle = '#888';
+                roundRect(ctx, -cardW/2, -cardH/2, cardW, cardH, borderR);
+                ctx.fill();
+                ctx.restore();
+
+                // Draw card face
+                if (isFlipping) {
+                    if (flipProgress > 0.5) {
+                        drawCardFront(ctx, cardData, -cardW/2, -cardH/2, cardW, cardH);
+                    } else {
+                        drawCardBack(ctx, -cardW/2, -cardH/2, cardW, cardH);
+                    }
+                } else {
+                    if (card.flipped) {
+                        drawCardFront(ctx, cardData, -cardW/2, -cardH/2, cardW, cardH);
+                    } else {
+                        drawCardBack(ctx, -cardW/2, -cardH/2, cardW, cardH);
+                    }
+                }
+
+                ctx.restore();
+            }
+        }
+
+        function drawCardFront(ctx, cardData, x, y, w, h) {
+            const isRed = cardData.suit === '♥' || cardData.suit === '♦';
+            const scale = w / 120;
+            const r = 10 * scale;
+            
+            // Card background with gradient (matching CSS: linear-gradient(145deg, #fffef8, #f5f0e0, #ebe5d5))
+            const bgGrad = ctx.createLinearGradient(x + w * 0.1, y, x + w * 0.9, y + h);
+            bgGrad.addColorStop(0, '#fffef8');
+            bgGrad.addColorStop(0.5, '#f5f0e0');
+            bgGrad.addColorStop(1, '#ebe5d5');
+            ctx.fillStyle = bgGrad;
+            roundRect(ctx, x, y, w, h, r);
+            ctx.fill();
+            
+            // Border (matching CSS: 2px solid #8b7355)
+            ctx.strokeStyle = '#8b7355';
+            ctx.lineWidth = 2 * scale;
+            roundRect(ctx, x, y, w, h, r);
+            ctx.stroke();
+            
+            // Inner shadow effect (matching CSS: box-shadow: inset 0 0 20px rgba(139,115,85,0.1))
+            const innerShadow = ctx.createRadialGradient(
+                x + w/2, y + h/2, Math.min(w, h) * 0.2,
+                x + w/2, y + h/2, Math.max(w, h) * 0.7
+            );
+            innerShadow.addColorStop(0, 'rgba(139, 115, 85, 0)');
+            innerShadow.addColorStop(1, 'rgba(139, 115, 85, 0.08)');
+            ctx.fillStyle = innerShadow;
+            roundRect(ctx, x, y, w, h, r);
+            ctx.fill();
+
+            // Text color
+            ctx.fillStyle = isRed ? '#c41e3a' : '#1a1a1a';
+
+            // Font sizes scaled from base (matching CSS: rank 28px, suit-small 22px, center 72px)
+            const rankSize = Math.round(28 * scale);
+            const suitSmallSize = Math.round(22 * scale);
+            const centerSuitSize = Math.round(72 * scale);
+            
+            // Padding scaled from base (matching CSS: top 6px, left 8px)
+            const padLeft = Math.round(8 * scale);
+            const padTop = Math.round(6 * scale);
+
+            // Corner rank and suit (top-left) - centered text alignment
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'top';
+            const cornerCenterX = x + padLeft + rankSize * 0.5;
+            
+            ctx.font = `bold ${rankSize}px "Times New Roman", serif`;
+            ctx.fillText(cardData.rank, cornerCenterX, y + padTop);
+            ctx.font = `${suitSmallSize}px serif`;
+            ctx.fillText(cardData.suit, cornerCenterX, y + padTop + rankSize);
+
+            // Corner rank and suit (bottom-right, rotated 180deg)
+            ctx.save();
+            const bottomCornerX = x + w - padLeft - rankSize * 0.5;
+            const bottomCornerY = y + h - padTop;
+            ctx.translate(bottomCornerX, bottomCornerY);
+            ctx.rotate(Math.PI);
+            ctx.textBaseline = 'top';
+            ctx.font = `bold ${rankSize}px "Times New Roman", serif`;
+            ctx.fillText(cardData.rank, 0, 0);
+            ctx.font = `${suitSmallSize}px serif`;
+            ctx.fillText(cardData.suit, 0, rankSize);
+            ctx.restore();
+
+            // Center suit
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.font = `${centerSuitSize}px serif`;
+            ctx.fillText(cardData.suit, x + w/2, y + h/2);
+        }
+
+        function drawCardBack(ctx, x, y, w, h) {
+            const scale = w / 120;
+            const r = 10 * scale;
+            
+            // Main background (matching CSS: background: #b22234; border: 3px solid #fff)
+            ctx.fillStyle = currentCardBackColor;
+            ctx.strokeStyle = '#ffffff';
+            ctx.lineWidth = 3 * scale;
+            roundRect(ctx, x, y, w, h, r);
+            ctx.fill();
+            ctx.stroke();
+
+            // Inner panel at inset 5px (matching CSS ::before)
+            const inset1 = 5 * scale;
+            const innerR1 = 4 * scale;
+            
+            // Fill inner area with darker base color (matching CSS ::before background: #9a1c2e)
+            ctx.fillStyle = darkenColor(currentCardBackColor, 10);
+            roundRect(ctx, x + inset1, y + inset1, w - inset1*2, h - inset1*2, innerR1);
+            ctx.fill();
+            
+            // Inner panel border (matching CSS ::before border: 2px solid #fff)
+            ctx.strokeStyle = '#ffffff';
+            ctx.lineWidth = 2 * scale;
+            roundRect(ctx, x + inset1, y + inset1, w - inset1*2, h - inset1*2, innerR1);
+            ctx.stroke();
+
+            // Cross-hatch diamond pattern (matching CSS repeating-linear-gradient at 55deg/-55deg)
+            // CSS: 4px transparent + 1px white line = 5px cycle at 0.35 opacity
+            ctx.save();
+            ctx.beginPath();
+            roundRect(ctx, x + inset1, y + inset1, w - inset1*2, h - inset1*2, innerR1);
+            ctx.clip();
+            
+            ctx.strokeStyle = 'rgba(255, 255, 255, 0.35)';
+            ctx.lineWidth = 1 * scale;
+            
+            const spacing = 5 * scale;
+            const ix = x + inset1;
+            const iy = y + inset1;
+            const iw = w - inset1*2;
+            const ih = h - inset1*2;
+            
+            // Diagonal lines at ~55deg (matching CSS repeating-linear-gradient(55deg, ...))
+            // tan(35°) ≈ 0.7 gives the horizontal displacement per unit height
+            for (let i = -ih; i < iw + ih; i += spacing) {
+                ctx.beginPath();
+                ctx.moveTo(ix + i, iy);
+                ctx.lineTo(ix + i + ih * 0.7, iy + ih);
+                ctx.stroke();
+            }
+            
+            // Diagonal lines the other way (matching CSS repeating-linear-gradient(-55deg, ...))
+            for (let i = -ih; i < iw + ih; i += spacing) {
+                ctx.beginPath();
+                ctx.moveTo(ix + i + ih * 0.7, iy);
+                ctx.lineTo(ix + i, iy + ih);
+                ctx.stroke();
+            }
+            
+            ctx.restore();
+
+            // Inner rectangle at inset 12px (matching CSS ::after border: 1px solid rgba(255,255,255,0.5))
+            const inset2 = 12 * scale;
+            const innerR2 = 2 * scale;
+            ctx.strokeStyle = 'rgba(255, 255, 255, 0.5)';
+            ctx.lineWidth = 1 * scale;
+            roundRect(ctx, x + inset2, y + inset2, w - inset2*2, h - inset2*2, innerR2);
+            ctx.stroke();
+        }
+
+        function roundRect(ctx, x, y, w, h, r) {
+            ctx.beginPath();
+            ctx.moveTo(x + r, y);
+            ctx.lineTo(x + w - r, y);
+            ctx.quadraticCurveTo(x + w, y, x + w, y + r);
+            ctx.lineTo(x + w, y + h - r);
+            ctx.quadraticCurveTo(x + w, y + h, x + w - r, y + h);
+            ctx.lineTo(x + r, y + h);
+            ctx.quadraticCurveTo(x, y + h, x, y + h - r);
+            ctx.lineTo(x, y + r);
+            ctx.quadraticCurveTo(x, y, x + r, y);
+            ctx.closePath();
+        }
+    </script>
+</body>
+</html>
+

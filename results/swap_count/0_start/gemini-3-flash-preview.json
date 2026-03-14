@@ -1,0 +1,353 @@
+[
+  {
+    "video": "cup_001.mp4",
+    "fps": 30,
+    "total_frames": 72,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the beginning of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-3-flash-preview",
+    "response": "At the beginning of the video (00:00), the left cup is lifted, revealing a red ball underneath it.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_002.mp4",
+    "fps": 30,
+    "total_frames": 72,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the beginning of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-3-flash-preview",
+    "response": "Based on the initial frame of the video at 00:00, the leftmost cup is lifted to reveal a red ball underneath it, while the other two cups remain on the surface. Therefore, the ball is located under the left cup at the beginning.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_003.mp4",
+    "fps": 30,
+    "total_frames": 72,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the beginning of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-3-flash-preview",
+    "response": "Based on the video at the beginning (00:00), there is a red ball positioned directly under the leftmost cup, which is slightly elevated. The middle and right cups are placed firmly on the surface and do not have the ball under them at the start.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_004.mp4",
+    "fps": 30,
+    "total_frames": 72,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the beginning of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-3-flash-preview",
+    "response": "At the beginning of the video, the red ball is positioned under the cup on the far left.\n\nThe correct option is **(A)**.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_005.mp4",
+    "fps": 30,
+    "total_frames": 72,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the beginning of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "gemini-3-flash-preview",
+    "response": "Based on the visual information at the beginning of the video, there are three cups. The rightmost cup is shown being lowered over a red ball. Therefore, the ball is contained under the right cup at the start.\n\n(A) Left\n(B) Middle\n(C) Right\n\nThe correct option is (C).\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_006.mp4",
+    "fps": 30,
+    "total_frames": 72,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the beginning of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "gemini-3-flash-preview",
+    "response": "At the beginning of the video (00:00), the rightmost cup is being lowered over a red ball. This confirms that the ball starts in the position corresponding to the right cup.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_007.mp4",
+    "fps": 30,
+    "total_frames": 72,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the beginning of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "gemini-3-flash-preview",
+    "response": "At the beginning of the video, the rightmost cup is lifted to reveal the red ball underneath it.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_008.mp4",
+    "fps": 30,
+    "total_frames": 72,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the beginning of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-3-flash-preview",
+    "response": "Based on the video, at the very beginning (00:00), the leftmost cup is raised to reveal a red ball underneath it. The other two cups (middle and right) are stationary on the ground.\n\nTherefore, the ball is located under the left cup.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_009.mp4",
+    "fps": 30,
+    "total_frames": 72,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the beginning of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "gemini-3-flash-preview",
+    "response": "At the beginning of the video, a red ball is visible on the surface. The cup on the right is lifted and then lowered to cover this ball. Therefore, the ball is located at the position of the right cup.\n\nThe correct option is **(C)**.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_010.mp4",
+    "fps": 30,
+    "total_frames": 72,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the beginning of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-3-flash-preview",
+    "response": "The ball is located in the middle at the beginning of the video before the cups are lowered to cover it and the shuffling begins.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_011.mp4",
+    "fps": 30,
+    "total_frames": 72,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the beginning of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-3-flash-preview",
+    "response": "The ball is initially visible in the center of the table. At the very beginning of the video, the **middle** cup is moved to cover it.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_012.mp4",
+    "fps": 30,
+    "total_frames": 72,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the beginning of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-3-flash-preview",
+    "response": "To determine which cup contains the ball at the beginning of the video, we observe the initial state of the objects:\n\n1.  **Initial Frame (00:00):** There are three cups (left, middle, right) and a red ball. The red ball is positioned directly in front of the middle cup.\n2.  **Next Frame (00:01):** The middle cup is lowered over the ball, effectively \"containing\" it for the start of the shell game.\n\nSince the ball is placed under the cup in the center position, the middle cup is the one that contains the ball at the beginning of the sequence.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_013.mp4",
+    "fps": 30,
+    "total_frames": 72,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the beginning of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-3-flash-preview",
+    "response": "Based on the first frame of the video, the red ball is positioned directly underneath the leftmost cup, which is lifted to show it.\n\nTherefore, the cup that contains the ball at the beginning is the left one.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_014.mp4",
+    "fps": 30,
+    "total_frames": 72,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the beginning of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "gemini-3-flash-preview",
+    "response": "At the beginning of the video (00:00), the right cup is lifted, revealing the red ball underneath it before it is lowered back down to start the game.\n\nThe correct option is **(C)**.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_015.mp4",
+    "fps": 30,
+    "total_frames": 72,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the beginning of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "gemini-3-flash-preview",
+    "response": "At the beginning of the video, the red ball is located under the cup on the right, as it is lifted to reveal the ball's starting position.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_016.mp4",
+    "fps": 30,
+    "total_frames": 72,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the beginning of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "gemini-3-flash-preview",
+    "response": "At the beginning of the video, the red ball is positioned under the cup on the right.\n\nFinal Answer: $\\boxed{C}$"
+  },
+  {
+    "video": "cup_017.mp4",
+    "fps": 30,
+    "total_frames": 72,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the beginning of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-3-flash-preview",
+    "response": "Based on the video, at the beginning (00:00), there are three cups and a red ball. The red ball is positioned directly in front of the middle cup. As the cups descend to start the game, the middle cup covers the ball. Therefore, the ball starts in the middle position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_018.mp4",
+    "fps": 30,
+    "total_frames": 72,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the beginning of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-3-flash-preview",
+    "response": "Based on the initial frame of the video, the red ball is positioned directly underneath the **leftmost** cup, which is then lowered over it.\n\nTherefore, the cup that contains the ball at the beginning is the left one.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_019.mp4",
+    "fps": 30,
+    "total_frames": 72,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the beginning of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-3-flash-preview",
+    "response": "Based on the initial frame of the video (00:00), the leftmost cup is lifted, revealing a red ball underneath it. The middle and right cups are resting on the surface and do not have the ball under them at the start.\n\nTherefore, the ball is under the left cup.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_020.mp4",
+    "fps": 30,
+    "total_frames": 72,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the beginning of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-3-flash-preview",
+    "response": "Based on the initial frame of the video (00:00), the ball is positioned directly in front of the middle cup. At 00:01, the middle cup is lowered to cover the ball. Therefore, at the start of the sequence before any shuffling occurs, the ball is associated with and covered by the middle cup.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_021.mp4",
+    "fps": 30,
+    "total_frames": 72,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the beginning of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-3-flash-preview",
+    "response": "At the beginning of the video, a red ball is visible on the surface. It is positioned directly in front of the middle cup. As the video starts, the middle cup moves forward and descends to cover the ball. Therefore, the ball is initially associated with the middle cup.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_022.mp4",
+    "fps": 30,
+    "total_frames": 72,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the beginning of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-3-flash-preview",
+    "response": "At the beginning of the video (00:00), the ball is positioned directly underneath the leftmost cup, which then lowers to cover it.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_023.mp4",
+    "fps": 30,
+    "total_frames": 72,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the beginning of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-3-flash-preview",
+    "response": "At the beginning of the video, the ball is located on the left side, and the leftmost cup is lowered to cover it.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_024.mp4",
+    "fps": 30,
+    "total_frames": 72,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the beginning of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-3-flash-preview",
+    "response": "The video starts with the left cup being lifted to reveal a red ball underneath it. The middle and right cups are sitting on the ground. Therefore, the ball is initially under the left cup.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_025.mp4",
+    "fps": 30,
+    "total_frames": 72,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the beginning of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-3-flash-preview",
+    "response": "Based on the beginning of the video (at 00:00), the left cup is raised to reveal a red ball underneath it, while the middle and right cups are sitting on the surface.\n\nTherefore, the ball is in the left cup at the start.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_026.mp4",
+    "fps": 30,
+    "total_frames": 72,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the beginning of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "gemini-3-flash-preview",
+    "response": "Based on the video, at the very beginning (00:00), there is a red ball on the right side of the screen. A cup is positioned directly above it and proceeds to cover it. Therefore, the ball is associated with the rightmost cup.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_027.mp4",
+    "fps": 30,
+    "total_frames": 72,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the beginning of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-3-flash-preview",
+    "response": "At the beginning of the video, a red ball is visible on the surface, positioned directly in front of the middle cup. As the action starts, the middle cup moves forward to cover the ball. Therefore, the cup that contains the ball at the start of the game is the middle one.\n\nFinal Answer: $\\boxed{B}$"
+  }
+]

@@ -1,0 +1,652 @@
+[
+  {
+    "video": "cup_001.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "E",
+    "model": "glm-4.6v-flash",
+    "response": "\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_002.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "glm-4.6v-flash",
+    "response": "\nE"
+  },
+  {
+    "video": "cup_003.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "glm-4.6v-flash",
+    "response": "\nC"
+  },
+  {
+    "video": "cup_004.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "E",
+    "model": "glm-4.6v-flash",
+    "response": "\nE"
+  },
+  {
+    "video": "cup_005.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "glm-4.6v-flash",
+    "response": "\nTo determine which cup contains the ball at the end of the video, we analyze the sequence of events and the final arrangement of the cups:  \n\n1. The video starts with 5 cups in a line, and a red ball is revealed under the middle (third from the left) cup when one cup is lifted.  \n2. Through subsequent movements and rearrangements of the cups, the ball remains under the third cup from the left in the final, organized line of cups.  \n\n\nThus, the cup containing the ball is the third from the left.  \n\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_006.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "D",
+    "model": "glm-4.6v-flash",
+    "response": "\nC"
+  },
+  {
+    "video": "cup_007.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "E",
+    "model": "glm-4.6v-flash",
+    "response": "\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_008.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "glm-4.6v-flash",
+    "response": "\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_009.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "E",
+    "model": "glm-4.6v-flash",
+    "response": "\nE"
+  },
+  {
+    "video": "cup_010.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "glm-4.6v-flash",
+    "response": "\n$\\boxed{E}$"
+  },
+  {
+    "video": "cup_011.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "D",
+    "model": "glm-4.6v-flash",
+    "response": "\nC"
+  },
+  {
+    "video": "cup_012.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "D",
+    "model": "glm-4.6v-flash",
+    "response": "\nC"
+  },
+  {
+    "video": "cup_013.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "E",
+    "model": "glm-4.6v-flash",
+    "response": "\nB"
+  },
+  {
+    "video": "cup_014.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "E",
+    "model": "glm-4.6v-flash",
+    "response": "\nC"
+  },
+  {
+    "video": "cup_015.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "glm-4.6v-flash",
+    "response": "\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_016.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "glm-4.6v-flash",
+    "response": "\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_017.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "glm-4.6v-flash",
+    "response": "\nC"
+  },
+  {
+    "video": "cup_018.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "glm-4.6v-flash",
+    "response": "\nC"
+  },
+  {
+    "video": "cup_019.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "glm-4.6v-flash",
+    "response": "\n$\\boxed{E}$"
+  },
+  {
+    "video": "cup_020.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "glm-4.6v-flash",
+    "response": "\nC"
+  },
+  {
+    "video": "cup_021.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "glm-4.6v-flash",
+    "response": "\nC"
+  },
+  {
+    "video": "cup_022.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "glm-4.6v-flash",
+    "response": "\nC"
+  },
+  {
+    "video": "cup_023.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "glm-4.6v-flash",
+    "response": "\n$\\boxed{E}$"
+  },
+  {
+    "video": "cup_024.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "E",
+    "model": "glm-4.6v-flash",
+    "response": "\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_025.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "D",
+    "model": "glm-4.6v-flash",
+    "response": "\nC"
+  },
+  {
+    "video": "cup_026.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "glm-4.6v-flash",
+    "response": "\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_027.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "E",
+    "model": "glm-4.6v-flash",
+    "response": "\nC"
+  },
+  {
+    "video": "cup_028.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "E",
+    "model": "glm-4.6v-flash",
+    "response": "\nC"
+  },
+  {
+    "video": "cup_029.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "glm-4.6v-flash",
+    "response": "\nC"
+  },
+  {
+    "video": "cup_030.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "D",
+    "model": "glm-4.6v-flash",
+    "response": "\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_031.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "glm-4.6v-flash",
+    "response": "\nC"
+  },
+  {
+    "video": "cup_032.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "E",
+    "model": "glm-4.6v-flash",
+    "response": "\nC"
+  },
+  {
+    "video": "cup_033.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "glm-4.6v-flash",
+    "response": "\nC"
+  },
+  {
+    "video": "cup_034.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "glm-4.6v-flash",
+    "response": "\nC"
+  },
+  {
+    "video": "cup_035.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "glm-4.6v-flash",
+    "response": "\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_036.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "glm-4.6v-flash",
+    "response": "\nC"
+  },
+  {
+    "video": "cup_037.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "D",
+    "model": "glm-4.6v-flash",
+    "response": "\nC"
+  },
+  {
+    "video": "cup_038.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "glm-4.6v-flash",
+    "response": "\nB"
+  },
+  {
+    "video": "cup_039.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "D",
+    "model": "glm-4.6v-flash",
+    "response": "\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_040.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "glm-4.6v-flash",
+    "response": "\nC"
+  },
+  {
+    "video": "cup_041.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "D",
+    "model": "glm-4.6v-flash",
+    "response": "\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_042.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "E",
+    "model": "glm-4.6v-flash",
+    "response": "\nC"
+  },
+  {
+    "video": "cup_043.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "E",
+    "model": "glm-4.6v-flash",
+    "response": "\nC"
+  },
+  {
+    "video": "cup_044.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "glm-4.6v-flash",
+    "response": "\nB"
+  },
+  {
+    "video": "cup_045.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "glm-4.6v-flash",
+    "response": "\nC"
+  },
+  {
+    "video": "cup_046.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "glm-4.6v-flash",
+    "response": "\nC"
+  },
+  {
+    "video": "cup_047.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "glm-4.6v-flash",
+    "response": "\nC"
+  },
+  {
+    "video": "cup_048.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "glm-4.6v-flash",
+    "response": "\nC"
+  },
+  {
+    "video": "cup_049.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "E",
+    "model": "glm-4.6v-flash",
+    "response": "\nC"
+  },
+  {
+    "video": "cup_050.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "glm-4.6v-flash",
+    "response": "\n$\\boxed{E}$"
+  }
+]

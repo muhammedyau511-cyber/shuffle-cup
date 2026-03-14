@@ -1,0 +1,5752 @@
+[
+  {
+    "video": "card_001.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "5♣",
+        "position": 1
+      },
+      {
+        "card": "Q♥",
+        "position": 2
+      },
+      {
+        "card": "5♦",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "5♣",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "5♦",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "5♣",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "5♦",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "5♣",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "5♦",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "5♣",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "5♦",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "5♣",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "5♦",
+          "position": 2
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "5♣",
+        "position": 1
+      },
+      {
+        "card": "Q♥",
+        "position": 3
+      },
+      {
+        "card": "5♦",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "video": "card_002.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "J♣",
+        "position": 1
+      },
+      {
+        "card": "2♦",
+        "position": 2
+      },
+      {
+        "card": "Q♥",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "J♣",
+          "position": 1
+        },
+        {
+          "card": "2♦",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "J♣",
+          "position": 3
+        },
+        {
+          "card": "2♦",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "J♣",
+          "position": 1
+        },
+        {
+          "card": "2♦",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "J♣",
+          "position": 2
+        },
+        {
+          "card": "2♦",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "J♣",
+          "position": 3
+        },
+        {
+          "card": "2♦",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "J♣",
+        "position": 3
+      },
+      {
+        "card": "2♦",
+        "position": 2
+      },
+      {
+        "card": "Q♥",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "video": "card_003.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "A♣",
+        "position": 1
+      },
+      {
+        "card": "3♦",
+        "position": 2
+      },
+      {
+        "card": "Q♥",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "A♣",
+          "position": 1
+        },
+        {
+          "card": "3♦",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "A♣",
+          "position": 2
+        },
+        {
+          "card": "3♦",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "A♣",
+          "position": 3
+        },
+        {
+          "card": "3♦",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "A♣",
+          "position": 3
+        },
+        {
+          "card": "3♦",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "A♣",
+          "position": 3
+        },
+        {
+          "card": "3♦",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "A♣",
+        "position": 3
+      },
+      {
+        "card": "3♦",
+        "position": 2
+      },
+      {
+        "card": "Q♥",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "video": "card_004.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "Q♥",
+        "position": 1
+      },
+      {
+        "card": "2♣",
+        "position": 2
+      },
+      {
+        "card": "8♦",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "2♣",
+          "position": 2
+        },
+        {
+          "card": "8♦",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "2♣",
+          "position": 1
+        },
+        {
+          "card": "8♦",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "2♣",
+          "position": 2
+        },
+        {
+          "card": "8♦",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "2♣",
+          "position": 2
+        },
+        {
+          "card": "8♦",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "2♣",
+          "position": 3
+        },
+        {
+          "card": "8♦",
+          "position": 2
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "Q♥",
+        "position": 1
+      },
+      {
+        "card": "2♣",
+        "position": 3
+      },
+      {
+        "card": "8♦",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "video": "card_005.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "8♥",
+        "position": 1
+      },
+      {
+        "card": "9♣",
+        "position": 2
+      },
+      {
+        "card": "Q♥",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "8♥",
+          "position": 3
+        },
+        {
+          "card": "9♣",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "8♥",
+          "position": 3
+        },
+        {
+          "card": "9♣",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "8♥",
+          "position": 1
+        },
+        {
+          "card": "9♣",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "8♥",
+          "position": 1
+        },
+        {
+          "card": "9♣",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "8♥",
+          "position": 3
+        },
+        {
+          "card": "9♣",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "8♥",
+        "position": 3
+      },
+      {
+        "card": "9♣",
+        "position": 2
+      },
+      {
+        "card": "Q♥",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "video": "card_006.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "8♠",
+        "position": 1
+      },
+      {
+        "card": "Q♥",
+        "position": 2
+      },
+      {
+        "card": "7♥",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "8♠",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "7♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "8♠",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "7♥",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "8♠",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "7♥",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "8♠",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "7♥",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "8♠",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "7♥",
+          "position": 1
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "8♠",
+        "position": 3
+      },
+      {
+        "card": "Q♥",
+        "position": 2
+      },
+      {
+        "card": "7♥",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "video": "card_007.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "4♦",
+        "position": 1
+      },
+      {
+        "card": "5♦",
+        "position": 2
+      },
+      {
+        "card": "Q♥",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "4♦",
+          "position": 2
+        },
+        {
+          "card": "5♦",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "4♦",
+          "position": 3
+        },
+        {
+          "card": "5♦",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "4♦",
+          "position": 3
+        },
+        {
+          "card": "5♦",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "4♦",
+          "position": 1
+        },
+        {
+          "card": "5♦",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "4♦",
+          "position": 2
+        },
+        {
+          "card": "5♦",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "4♦",
+        "position": 2
+      },
+      {
+        "card": "5♦",
+        "position": 1
+      },
+      {
+        "card": "Q♥",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "video": "card_008.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "Q♥",
+        "position": 1
+      },
+      {
+        "card": "5♣",
+        "position": 2
+      },
+      {
+        "card": "7♣",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "5♣",
+          "position": 1
+        },
+        {
+          "card": "7♣",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "5♣",
+          "position": 2
+        },
+        {
+          "card": "7♣",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "5♣",
+          "position": 1
+        },
+        {
+          "card": "7♣",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "5♣",
+          "position": 2
+        },
+        {
+          "card": "7♣",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "5♣",
+          "position": 1
+        },
+        {
+          "card": "7♣",
+          "position": 3
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "Q♥",
+        "position": 2
+      },
+      {
+        "card": "5♣",
+        "position": 1
+      },
+      {
+        "card": "7♣",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "video": "card_009.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "J♥",
+        "position": 1
+      },
+      {
+        "card": "J♣",
+        "position": 2
+      },
+      {
+        "card": "Q♥",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "J♥",
+          "position": 1
+        },
+        {
+          "card": "J♣",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "J♥",
+          "position": 2
+        },
+        {
+          "card": "J♣",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "J♥",
+          "position": 3
+        },
+        {
+          "card": "J♣",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "J♥",
+          "position": 2
+        },
+        {
+          "card": "J♣",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "J♥",
+          "position": 3
+        },
+        {
+          "card": "J♣",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "J♥",
+        "position": 3
+      },
+      {
+        "card": "J♣",
+        "position": 2
+      },
+      {
+        "card": "Q♥",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "video": "card_010.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "6♥",
+        "position": 1
+      },
+      {
+        "card": "7♣",
+        "position": 2
+      },
+      {
+        "card": "Q♥",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "6♥",
+          "position": 1
+        },
+        {
+          "card": "7♣",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "6♥",
+          "position": 1
+        },
+        {
+          "card": "7♣",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "6♥",
+          "position": 3
+        },
+        {
+          "card": "7♣",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "6♥",
+          "position": 2
+        },
+        {
+          "card": "7♣",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "6♥",
+          "position": 3
+        },
+        {
+          "card": "7♣",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "6♥",
+        "position": 3
+      },
+      {
+        "card": "7♣",
+        "position": 2
+      },
+      {
+        "card": "Q♥",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "video": "card_011.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "8♥",
+        "position": 1
+      },
+      {
+        "card": "Q♥",
+        "position": 2
+      },
+      {
+        "card": "J♥",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "8♥",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "J♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "8♥",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "J♥",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "8♥",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "J♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "8♥",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "J♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "8♥",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "J♥",
+          "position": 2
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "8♥",
+        "position": 1
+      },
+      {
+        "card": "Q♥",
+        "position": 3
+      },
+      {
+        "card": "J♥",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "video": "card_012.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "5♦",
+        "position": 1
+      },
+      {
+        "card": "Q♥",
+        "position": 2
+      },
+      {
+        "card": "K♠",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "5♦",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "K♠",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "5♦",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "K♠",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "5♦",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "K♠",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "5♦",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "K♠",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "5♦",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "K♠",
+          "position": 1
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "5♦",
+        "position": 3
+      },
+      {
+        "card": "Q♥",
+        "position": 2
+      },
+      {
+        "card": "K♠",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "video": "card_013.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "4♣",
+        "position": 1
+      },
+      {
+        "card": "Q♥",
+        "position": 2
+      },
+      {
+        "card": "6♦",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "4♣",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "6♦",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "4♣",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "6♦",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "4♣",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "6♦",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "4♣",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "6♦",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "4♣",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "6♦",
+          "position": 3
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "4♣",
+        "position": 2
+      },
+      {
+        "card": "Q♥",
+        "position": 1
+      },
+      {
+        "card": "6♦",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "video": "card_014.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "10♥",
+        "position": 1
+      },
+      {
+        "card": "9♠",
+        "position": 2
+      },
+      {
+        "card": "Q♥",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "10♥",
+          "position": 1
+        },
+        {
+          "card": "9♠",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "10♥",
+          "position": 1
+        },
+        {
+          "card": "9♠",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "10♥",
+          "position": 3
+        },
+        {
+          "card": "9♠",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "10♥",
+          "position": 1
+        },
+        {
+          "card": "9♠",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "10♥",
+          "position": 1
+        },
+        {
+          "card": "9♠",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "10♥",
+        "position": 1
+      },
+      {
+        "card": "9♠",
+        "position": 3
+      },
+      {
+        "card": "Q♥",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "video": "card_015.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "3♣",
+        "position": 1
+      },
+      {
+        "card": "Q♥",
+        "position": 2
+      },
+      {
+        "card": "7♦",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "3♣",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "7♦",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "3♣",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "7♦",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "3♣",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "7♦",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "3♣",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "7♦",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "3♣",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "7♦",
+          "position": 2
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "3♣",
+        "position": 1
+      },
+      {
+        "card": "Q♥",
+        "position": 3
+      },
+      {
+        "card": "7♦",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "video": "card_016.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "J♥",
+        "position": 1
+      },
+      {
+        "card": "4♣",
+        "position": 2
+      },
+      {
+        "card": "Q♥",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "J♥",
+          "position": 2
+        },
+        {
+          "card": "4♣",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "J♥",
+          "position": 1
+        },
+        {
+          "card": "4♣",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "J♥",
+          "position": 1
+        },
+        {
+          "card": "4♣",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "J♥",
+          "position": 1
+        },
+        {
+          "card": "4♣",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "J♥",
+          "position": 2
+        },
+        {
+          "card": "4♣",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "J♥",
+        "position": 2
+      },
+      {
+        "card": "4♣",
+        "position": 1
+      },
+      {
+        "card": "Q♥",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "video": "card_017.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "Q♥",
+        "position": 1
+      },
+      {
+        "card": "K♦",
+        "position": 2
+      },
+      {
+        "card": "8♠",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "K♦",
+          "position": 1
+        },
+        {
+          "card": "8♠",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "K♦",
+          "position": 1
+        },
+        {
+          "card": "8♠",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "K♦",
+          "position": 2
+        },
+        {
+          "card": "8♠",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "K♦",
+          "position": 1
+        },
+        {
+          "card": "8♠",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "K♦",
+          "position": 1
+        },
+        {
+          "card": "8♠",
+          "position": 3
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "Q♥",
+        "position": 2
+      },
+      {
+        "card": "K♦",
+        "position": 1
+      },
+      {
+        "card": "8♠",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "video": "card_018.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "Q♥",
+        "position": 1
+      },
+      {
+        "card": "J♠",
+        "position": 2
+      },
+      {
+        "card": "7♥",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "J♠",
+          "position": 2
+        },
+        {
+          "card": "7♥",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "J♠",
+          "position": 2
+        },
+        {
+          "card": "7♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "J♠",
+          "position": 3
+        },
+        {
+          "card": "7♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "J♠",
+          "position": 1
+        },
+        {
+          "card": "7♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "J♠",
+          "position": 3
+        },
+        {
+          "card": "7♥",
+          "position": 2
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "Q♥",
+        "position": 1
+      },
+      {
+        "card": "J♠",
+        "position": 3
+      },
+      {
+        "card": "7♥",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "video": "card_019.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "7♥",
+        "position": 1
+      },
+      {
+        "card": "A♦",
+        "position": 2
+      },
+      {
+        "card": "Q♥",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "7♥",
+          "position": 3
+        },
+        {
+          "card": "A♦",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "7♥",
+          "position": 1
+        },
+        {
+          "card": "A♦",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "7♥",
+          "position": 2
+        },
+        {
+          "card": "A♦",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "7♥",
+          "position": 3
+        },
+        {
+          "card": "A♦",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "7♥",
+          "position": 2
+        },
+        {
+          "card": "A♦",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "7♥",
+        "position": 2
+      },
+      {
+        "card": "A♦",
+        "position": 1
+      },
+      {
+        "card": "Q♥",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "video": "card_020.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "3♦",
+        "position": 1
+      },
+      {
+        "card": "5♥",
+        "position": 2
+      },
+      {
+        "card": "Q♥",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "3♦",
+          "position": 3
+        },
+        {
+          "card": "5♥",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "3♦",
+          "position": 2
+        },
+        {
+          "card": "5♥",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "3♦",
+          "position": 2
+        },
+        {
+          "card": "5♥",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "3♦",
+          "position": 3
+        },
+        {
+          "card": "5♥",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "3♦",
+          "position": 3
+        },
+        {
+          "card": "5♥",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "3♦",
+        "position": 3
+      },
+      {
+        "card": "5♥",
+        "position": 2
+      },
+      {
+        "card": "Q♥",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "video": "card_021.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "2♦",
+        "position": 1
+      },
+      {
+        "card": "Q♥",
+        "position": 2
+      },
+      {
+        "card": "7♠",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "2♦",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "7♠",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "2♦",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "7♠",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "2♦",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "7♠",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "2♦",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "7♠",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "2♦",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "7♠",
+          "position": 2
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "2♦",
+        "position": 1
+      },
+      {
+        "card": "Q♥",
+        "position": 3
+      },
+      {
+        "card": "7♠",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "video": "card_022.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "Q♥",
+        "position": 1
+      },
+      {
+        "card": "3♠",
+        "position": 2
+      },
+      {
+        "card": "K♣",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "3♠",
+          "position": 2
+        },
+        {
+          "card": "K♣",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "3♠",
+          "position": 1
+        },
+        {
+          "card": "K♣",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "3♠",
+          "position": 3
+        },
+        {
+          "card": "K♣",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "3♠",
+          "position": 2
+        },
+        {
+          "card": "K♣",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "3♠",
+          "position": 1
+        },
+        {
+          "card": "K♣",
+          "position": 3
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "Q♥",
+        "position": 2
+      },
+      {
+        "card": "3♠",
+        "position": 1
+      },
+      {
+        "card": "K♣",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "video": "card_023.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "Q♥",
+        "position": 1
+      },
+      {
+        "card": "4♦",
+        "position": 2
+      },
+      {
+        "card": "10♣",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "4♦",
+          "position": 3
+        },
+        {
+          "card": "10♣",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "4♦",
+          "position": 2
+        },
+        {
+          "card": "10♣",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "4♦",
+          "position": 1
+        },
+        {
+          "card": "10♣",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "4♦",
+          "position": 3
+        },
+        {
+          "card": "10♣",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "4♦",
+          "position": 3
+        },
+        {
+          "card": "10♣",
+          "position": 2
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "Q♥",
+        "position": 1
+      },
+      {
+        "card": "4♦",
+        "position": 3
+      },
+      {
+        "card": "10♣",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "video": "card_024.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "3♥",
+        "position": 1
+      },
+      {
+        "card": "10♠",
+        "position": 2
+      },
+      {
+        "card": "Q♥",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "3♥",
+          "position": 1
+        },
+        {
+          "card": "10♠",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "3♥",
+          "position": 2
+        },
+        {
+          "card": "10♠",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "3♥",
+          "position": 1
+        },
+        {
+          "card": "10♠",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "3♥",
+          "position": 1
+        },
+        {
+          "card": "10♠",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "3♥",
+          "position": 3
+        },
+        {
+          "card": "10♠",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "3♥",
+        "position": 3
+      },
+      {
+        "card": "10♠",
+        "position": 2
+      },
+      {
+        "card": "Q♥",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "video": "card_025.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "J♠",
+        "position": 1
+      },
+      {
+        "card": "6♥",
+        "position": 2
+      },
+      {
+        "card": "Q♥",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "J♠",
+          "position": 1
+        },
+        {
+          "card": "6♥",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "J♠",
+          "position": 3
+        },
+        {
+          "card": "6♥",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "J♠",
+          "position": 3
+        },
+        {
+          "card": "6♥",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "J♠",
+          "position": 3
+        },
+        {
+          "card": "6♥",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "J♠",
+          "position": 3
+        },
+        {
+          "card": "6♥",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "J♠",
+        "position": 3
+      },
+      {
+        "card": "6♥",
+        "position": 2
+      },
+      {
+        "card": "Q♥",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "video": "card_026.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "Q♥",
+        "position": 1
+      },
+      {
+        "card": "3♥",
+        "position": 2
+      },
+      {
+        "card": "A♦",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "3♥",
+          "position": 3
+        },
+        {
+          "card": "A♦",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "3♥",
+          "position": 1
+        },
+        {
+          "card": "A♦",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "3♥",
+          "position": 3
+        },
+        {
+          "card": "A♦",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "3♥",
+          "position": 1
+        },
+        {
+          "card": "A♦",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "3♥",
+          "position": 1
+        },
+        {
+          "card": "A♦",
+          "position": 3
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "Q♥",
+        "position": 2
+      },
+      {
+        "card": "3♥",
+        "position": 1
+      },
+      {
+        "card": "A♦",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "video": "card_027.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "3♠",
+        "position": 1
+      },
+      {
+        "card": "K♠",
+        "position": 2
+      },
+      {
+        "card": "Q♥",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "3♠",
+          "position": 2
+        },
+        {
+          "card": "K♠",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "3♠",
+          "position": 2
+        },
+        {
+          "card": "K♠",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "3♠",
+          "position": 1
+        },
+        {
+          "card": "K♠",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "3♠",
+          "position": 1
+        },
+        {
+          "card": "K♠",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "3♠",
+          "position": 2
+        },
+        {
+          "card": "K♠",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "3♠",
+        "position": 2
+      },
+      {
+        "card": "K♠",
+        "position": 1
+      },
+      {
+        "card": "Q♥",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "video": "card_028.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "9♣",
+        "position": 1
+      },
+      {
+        "card": "6♥",
+        "position": 2
+      },
+      {
+        "card": "Q♥",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "9♣",
+          "position": 1
+        },
+        {
+          "card": "6♥",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "9♣",
+          "position": 1
+        },
+        {
+          "card": "6♥",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "9♣",
+          "position": 1
+        },
+        {
+          "card": "6♥",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "9♣",
+          "position": 2
+        },
+        {
+          "card": "6♥",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "9♣",
+          "position": 1
+        },
+        {
+          "card": "6♥",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "9♣",
+        "position": 1
+      },
+      {
+        "card": "6♥",
+        "position": 3
+      },
+      {
+        "card": "Q♥",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "video": "card_029.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "Q♥",
+        "position": 1
+      },
+      {
+        "card": "8♣",
+        "position": 2
+      },
+      {
+        "card": "K♣",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "8♣",
+          "position": 3
+        },
+        {
+          "card": "K♣",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "8♣",
+          "position": 3
+        },
+        {
+          "card": "K♣",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "8♣",
+          "position": 1
+        },
+        {
+          "card": "K♣",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "8♣",
+          "position": 2
+        },
+        {
+          "card": "K♣",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "8♣",
+          "position": 1
+        },
+        {
+          "card": "K♣",
+          "position": 3
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "Q♥",
+        "position": 2
+      },
+      {
+        "card": "8♣",
+        "position": 1
+      },
+      {
+        "card": "K♣",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "video": "card_030.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "A♦",
+        "position": 1
+      },
+      {
+        "card": "3♦",
+        "position": 2
+      },
+      {
+        "card": "Q♥",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "A♦",
+          "position": 3
+        },
+        {
+          "card": "3♦",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "A♦",
+          "position": 1
+        },
+        {
+          "card": "3♦",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "A♦",
+          "position": 3
+        },
+        {
+          "card": "3♦",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "A♦",
+          "position": 2
+        },
+        {
+          "card": "3♦",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "A♦",
+          "position": 3
+        },
+        {
+          "card": "3♦",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "A♦",
+        "position": 3
+      },
+      {
+        "card": "3♦",
+        "position": 2
+      },
+      {
+        "card": "Q♥",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "video": "card_031.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "Q♥",
+        "position": 1
+      },
+      {
+        "card": "8♣",
+        "position": 2
+      },
+      {
+        "card": "3♣",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "8♣",
+          "position": 1
+        },
+        {
+          "card": "3♣",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "8♣",
+          "position": 3
+        },
+        {
+          "card": "3♣",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "8♣",
+          "position": 1
+        },
+        {
+          "card": "3♣",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "8♣",
+          "position": 1
+        },
+        {
+          "card": "3♣",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "8♣",
+          "position": 1
+        },
+        {
+          "card": "3♣",
+          "position": 3
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "Q♥",
+        "position": 2
+      },
+      {
+        "card": "8♣",
+        "position": 1
+      },
+      {
+        "card": "3♣",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "video": "card_032.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "Q♥",
+        "position": 1
+      },
+      {
+        "card": "K♥",
+        "position": 2
+      },
+      {
+        "card": "6♥",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "K♥",
+          "position": 3
+        },
+        {
+          "card": "6♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "K♥",
+          "position": 2
+        },
+        {
+          "card": "6♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "K♥",
+          "position": 3
+        },
+        {
+          "card": "6♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "K♥",
+          "position": 2
+        },
+        {
+          "card": "6♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "K♥",
+          "position": 2
+        },
+        {
+          "card": "6♥",
+          "position": 1
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "Q♥",
+        "position": 3
+      },
+      {
+        "card": "K♥",
+        "position": 2
+      },
+      {
+        "card": "6♥",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "video": "card_033.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "Q♥",
+        "position": 1
+      },
+      {
+        "card": "5♣",
+        "position": 2
+      },
+      {
+        "card": "3♠",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "5♣",
+          "position": 3
+        },
+        {
+          "card": "3♠",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "5♣",
+          "position": 2
+        },
+        {
+          "card": "3♠",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "5♣",
+          "position": 2
+        },
+        {
+          "card": "3♠",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "5♣",
+          "position": 1
+        },
+        {
+          "card": "3♠",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "5♣",
+          "position": 3
+        },
+        {
+          "card": "3♠",
+          "position": 2
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "Q♥",
+        "position": 1
+      },
+      {
+        "card": "5♣",
+        "position": 3
+      },
+      {
+        "card": "3♠",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "video": "card_034.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "Q♥",
+        "position": 1
+      },
+      {
+        "card": "10♦",
+        "position": 2
+      },
+      {
+        "card": "6♠",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "10♦",
+          "position": 2
+        },
+        {
+          "card": "6♠",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "10♦",
+          "position": 1
+        },
+        {
+          "card": "6♠",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "10♦",
+          "position": 3
+        },
+        {
+          "card": "6♠",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "10♦",
+          "position": 2
+        },
+        {
+          "card": "6♠",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "10♦",
+          "position": 2
+        },
+        {
+          "card": "6♠",
+          "position": 1
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "Q♥",
+        "position": 3
+      },
+      {
+        "card": "10♦",
+        "position": 2
+      },
+      {
+        "card": "6♠",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "video": "card_035.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "9♠",
+        "position": 1
+      },
+      {
+        "card": "Q♥",
+        "position": 2
+      },
+      {
+        "card": "5♥",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "9♠",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "5♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "9♠",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "5♥",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "9♠",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "5♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "9♠",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "5♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "9♠",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "5♥",
+          "position": 1
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "9♠",
+        "position": 3
+      },
+      {
+        "card": "Q♥",
+        "position": 2
+      },
+      {
+        "card": "5♥",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "video": "card_036.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "9♥",
+        "position": 1
+      },
+      {
+        "card": "9♦",
+        "position": 2
+      },
+      {
+        "card": "Q♥",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "9♥",
+          "position": 2
+        },
+        {
+          "card": "9♦",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "9♥",
+          "position": 2
+        },
+        {
+          "card": "9♦",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "9♥",
+          "position": 2
+        },
+        {
+          "card": "9♦",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "9♥",
+          "position": 1
+        },
+        {
+          "card": "9♦",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "9♥",
+          "position": 2
+        },
+        {
+          "card": "9♦",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "9♥",
+        "position": 2
+      },
+      {
+        "card": "9♦",
+        "position": 1
+      },
+      {
+        "card": "Q♥",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "video": "card_037.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "3♦",
+        "position": 1
+      },
+      {
+        "card": "Q♥",
+        "position": 2
+      },
+      {
+        "card": "A♣",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "3♦",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "A♣",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "3♦",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "A♣",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "3♦",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "A♣",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "3♦",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "A♣",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "3♦",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "A♣",
+          "position": 2
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "3♦",
+        "position": 1
+      },
+      {
+        "card": "Q♥",
+        "position": 3
+      },
+      {
+        "card": "A♣",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "video": "card_038.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "3♣",
+        "position": 1
+      },
+      {
+        "card": "10♥",
+        "position": 2
+      },
+      {
+        "card": "Q♥",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "3♣",
+          "position": 2
+        },
+        {
+          "card": "10♥",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "3♣",
+          "position": 2
+        },
+        {
+          "card": "10♥",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "3♣",
+          "position": 2
+        },
+        {
+          "card": "10♥",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "3♣",
+          "position": 2
+        },
+        {
+          "card": "10♥",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "3♣",
+          "position": 2
+        },
+        {
+          "card": "10♥",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "3♣",
+        "position": 2
+      },
+      {
+        "card": "10♥",
+        "position": 1
+      },
+      {
+        "card": "Q♥",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "video": "card_039.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "K♥",
+        "position": 1
+      },
+      {
+        "card": "4♦",
+        "position": 2
+      },
+      {
+        "card": "Q♥",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "K♥",
+          "position": 2
+        },
+        {
+          "card": "4♦",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "K♥",
+          "position": 1
+        },
+        {
+          "card": "4♦",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "K♥",
+          "position": 2
+        },
+        {
+          "card": "4♦",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "K♥",
+          "position": 1
+        },
+        {
+          "card": "4♦",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "K♥",
+          "position": 1
+        },
+        {
+          "card": "4♦",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "K♥",
+        "position": 1
+      },
+      {
+        "card": "4♦",
+        "position": 3
+      },
+      {
+        "card": "Q♥",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "video": "card_040.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "10♦",
+        "position": 1
+      },
+      {
+        "card": "5♣",
+        "position": 2
+      },
+      {
+        "card": "Q♥",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "10♦",
+          "position": 2
+        },
+        {
+          "card": "5♣",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "10♦",
+          "position": 3
+        },
+        {
+          "card": "5♣",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "10♦",
+          "position": 2
+        },
+        {
+          "card": "5♣",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "10♦",
+          "position": 3
+        },
+        {
+          "card": "5♣",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "10♦",
+          "position": 3
+        },
+        {
+          "card": "5♣",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "10♦",
+        "position": 3
+      },
+      {
+        "card": "5♣",
+        "position": 2
+      },
+      {
+        "card": "Q♥",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "video": "card_041.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "3♠",
+        "position": 1
+      },
+      {
+        "card": "Q♥",
+        "position": 2
+      },
+      {
+        "card": "2♦",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "3♠",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "2♦",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "3♠",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "2♦",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "3♠",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "2♦",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "3♠",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "2♦",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "3♠",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "2♦",
+          "position": 1
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "3♠",
+        "position": 3
+      },
+      {
+        "card": "Q♥",
+        "position": 2
+      },
+      {
+        "card": "2♦",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "video": "card_042.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "8♠",
+        "position": 1
+      },
+      {
+        "card": "Q♥",
+        "position": 2
+      },
+      {
+        "card": "3♣",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "8♠",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "3♣",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "8♠",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "3♣",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "8♠",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "3♣",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "8♠",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "3♣",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "8♠",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "3♣",
+          "position": 3
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "8♠",
+        "position": 2
+      },
+      {
+        "card": "Q♥",
+        "position": 1
+      },
+      {
+        "card": "3♣",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "video": "card_043.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "10♠",
+        "position": 1
+      },
+      {
+        "card": "4♦",
+        "position": 2
+      },
+      {
+        "card": "Q♥",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "10♠",
+          "position": 1
+        },
+        {
+          "card": "4♦",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "10♠",
+          "position": 3
+        },
+        {
+          "card": "4♦",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "10♠",
+          "position": 1
+        },
+        {
+          "card": "4♦",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "10♠",
+          "position": 1
+        },
+        {
+          "card": "4♦",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "10♠",
+          "position": 3
+        },
+        {
+          "card": "4♦",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "10♠",
+        "position": 3
+      },
+      {
+        "card": "4♦",
+        "position": 2
+      },
+      {
+        "card": "Q♥",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "video": "card_044.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "Q♥",
+        "position": 1
+      },
+      {
+        "card": "8♠",
+        "position": 2
+      },
+      {
+        "card": "8♦",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "8♠",
+          "position": 1
+        },
+        {
+          "card": "8♦",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "8♠",
+          "position": 2
+        },
+        {
+          "card": "8♦",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "8♠",
+          "position": 3
+        },
+        {
+          "card": "8♦",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "8♠",
+          "position": 3
+        },
+        {
+          "card": "8♦",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "8♠",
+          "position": 2
+        },
+        {
+          "card": "8♦",
+          "position": 1
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "Q♥",
+        "position": 3
+      },
+      {
+        "card": "8♠",
+        "position": 2
+      },
+      {
+        "card": "8♦",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "video": "card_045.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "6♣",
+        "position": 1
+      },
+      {
+        "card": "7♥",
+        "position": 2
+      },
+      {
+        "card": "Q♥",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "6♣",
+          "position": 3
+        },
+        {
+          "card": "7♥",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "6♣",
+          "position": 1
+        },
+        {
+          "card": "7♥",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "6♣",
+          "position": 2
+        },
+        {
+          "card": "7♥",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "6♣",
+          "position": 3
+        },
+        {
+          "card": "7♥",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "6♣",
+          "position": 1
+        },
+        {
+          "card": "7♥",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "6♣",
+        "position": 1
+      },
+      {
+        "card": "7♥",
+        "position": 3
+      },
+      {
+        "card": "Q♥",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "video": "card_046.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "Q♥",
+        "position": 1
+      },
+      {
+        "card": "8♠",
+        "position": 2
+      },
+      {
+        "card": "J♠",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "8♠",
+          "position": 2
+        },
+        {
+          "card": "J♠",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "8♠",
+          "position": 1
+        },
+        {
+          "card": "J♠",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "8♠",
+          "position": 3
+        },
+        {
+          "card": "J♠",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "8♠",
+          "position": 3
+        },
+        {
+          "card": "J♠",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "8♠",
+          "position": 1
+        },
+        {
+          "card": "J♠",
+          "position": 3
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "Q♥",
+        "position": 2
+      },
+      {
+        "card": "8♠",
+        "position": 1
+      },
+      {
+        "card": "J♠",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "video": "card_047.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "Q♥",
+        "position": 1
+      },
+      {
+        "card": "3♣",
+        "position": 2
+      },
+      {
+        "card": "5♥",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "3♣",
+          "position": 3
+        },
+        {
+          "card": "5♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "3♣",
+          "position": 2
+        },
+        {
+          "card": "5♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "3♣",
+          "position": 3
+        },
+        {
+          "card": "5♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "3♣",
+          "position": 2
+        },
+        {
+          "card": "5♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "3♣",
+          "position": 1
+        },
+        {
+          "card": "5♥",
+          "position": 3
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "Q♥",
+        "position": 2
+      },
+      {
+        "card": "3♣",
+        "position": 1
+      },
+      {
+        "card": "5♥",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "video": "card_048.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "7♥",
+        "position": 1
+      },
+      {
+        "card": "Q♥",
+        "position": 2
+      },
+      {
+        "card": "6♦",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "7♥",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "6♦",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "7♥",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "6♦",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "7♥",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "6♦",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "7♥",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "6♦",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "7♥",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "6♦",
+          "position": 3
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "7♥",
+        "position": 2
+      },
+      {
+        "card": "Q♥",
+        "position": 1
+      },
+      {
+        "card": "6♦",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "video": "card_049.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "3♦",
+        "position": 1
+      },
+      {
+        "card": "Q♥",
+        "position": 2
+      },
+      {
+        "card": "7♥",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "3♦",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "7♥",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "3♦",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "7♥",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "3♦",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "7♥",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "3♦",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "7♥",
+          "position": 2
+        }
+      ],
+      [
+        {
+          "card": "3♦",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "7♥",
+          "position": 3
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "3♦",
+        "position": 2
+      },
+      {
+        "card": "Q♥",
+        "position": 1
+      },
+      {
+        "card": "7♥",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "video": "card_050.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "card",
+    "game_settings": {
+      "num_cards": 3,
+      "swap_count": 5,
+      "swap_duration_ms": 2000
+    },
+    "initial": [
+      {
+        "card": "J♣",
+        "position": 1
+      },
+      {
+        "card": "Q♥",
+        "position": 2
+      },
+      {
+        "card": "8♦",
+        "position": 3
+      }
+    ],
+    "intermediate": [
+      [
+        {
+          "card": "J♣",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "8♦",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "J♣",
+          "position": 1
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "8♦",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "J♣",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 1
+        },
+        {
+          "card": "8♦",
+          "position": 3
+        }
+      ],
+      [
+        {
+          "card": "J♣",
+          "position": 2
+        },
+        {
+          "card": "Q♥",
+          "position": 3
+        },
+        {
+          "card": "8♦",
+          "position": 1
+        }
+      ],
+      [
+        {
+          "card": "J♣",
+          "position": 3
+        },
+        {
+          "card": "Q♥",
+          "position": 2
+        },
+        {
+          "card": "8♦",
+          "position": 1
+        }
+      ]
+    ],
+    "ground_truth": [
+      {
+        "card": "J♣",
+        "position": 3
+      },
+      {
+        "card": "Q♥",
+        "position": 2
+      },
+      {
+        "card": "8♦",
+        "position": 1
+      }
+    ]
+  }
+]

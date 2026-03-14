@@ -1,0 +1,2001 @@
+{
+  "model": "glm-4.6v-flash",
+  "total": 107,
+  "correct": 50,
+  "accuracy": 46.73,
+  "accuracy_by_num_of_swaps": {
+    "0": {
+      "correct": 11,
+      "total": 27,
+      "accuracy": 40.74
+    },
+    "1": {
+      "correct": 4,
+      "total": 4,
+      "accuracy": 100.0
+    },
+    "2": {
+      "correct": 5,
+      "total": 21,
+      "accuracy": 23.81
+    },
+    "3": {
+      "correct": 13,
+      "total": 20,
+      "accuracy": 65.0
+    },
+    "4": {
+      "correct": 10,
+      "total": 20,
+      "accuracy": 50.0
+    },
+    "5": {
+      "correct": 4,
+      "total": 6,
+      "accuracy": 66.67
+    },
+    "6": {
+      "correct": 1,
+      "total": 2,
+      "accuracy": 50.0
+    },
+    "7": {
+      "correct": 0,
+      "total": 2,
+      "accuracy": 0.0
+    },
+    "8": {
+      "correct": 0,
+      "total": 1,
+      "accuracy": 0.0
+    },
+    "9": {
+      "correct": 0,
+      "total": 1,
+      "accuracy": 0.0
+    },
+    "12": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 100.0
+    },
+    "14": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 100.0
+    },
+    "16": {
+      "correct": 0,
+      "total": 1,
+      "accuracy": 0.0
+    }
+  },
+  "results": [
+    {
+      "video_id": "video_66",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_147",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_496",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\nTo determine the position of the hidden object, we analyze the sequence of the occlusion game (shell game) with three cups. The person shuffles the cups and finally checks each one. By tracking the movements and the final reveal (implied by the sequence), the hidden object is found under the second cup from the left (from the viewer's perspective, which corresponds to the middle cup). Thus, the answer is \\boxed{B}.",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 5,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_749",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "glm-4.6v-flash",
+      "response": "\nTo determine the hidden object's position, we analyze the sequence of movements of the cups (occlusion game) and the final arrangement. By tracking the shuffling and the final reveal, the hidden object ends up under the second cup from the left (from the person’s and viewer’s perspective). Thus, the correct answer is \\boxed{C}.",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 4,
+      "num_of_cups": 4
+    },
+    {
+      "video_id": "video_781",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\nTo determine the position of the hidden object, we analyze the sequence of movements of the metal cups during the occlusion game:  \n\n1. The game involves shuffling the three cups, with the person moving them around to hide the object.  \n2. By tracking the final arrangement (and the sequence of swaps), the hidden object ends up under the middle cup (second from the left) from the person’s perspective.  \n\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_789",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 2,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_811",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "glm-4.6v-flash",
+      "response": "\nTo determine the position of the hidden object, we analyze the sequence of actions (shell game with orange cups) and the final reveal:  \n\n1. The game involves two orange cups, with the hidden object (purple bowl) under one of them after shuffling.  \n2. From the viewer’s perspective (left to right: blue bucket, orange cup 1, purple bowl, orange cup 2), the hidden object ends up under the middle orange cup (second from the left). From the person’s point of view (facing the table), this corresponds to the second orange cup from the left.  \n\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 5,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_922",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\nTo determine the position of the hidden object, we analyze the sequence of movements and the final arrangement of the cups. The game involves shuffling the cups, and from the final arrangement and the person's actions, the hidden object ends up under the second cup from the left. Thus, the answer is A. \\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 4,
+      "num_of_cups": 4
+    },
+    {
+      "video_id": "video_1034",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "glm-4.6v-flash",
+      "response": "\nB",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_1137",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_1196",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_1281",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_1395",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_1438",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_1503",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_1668",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_1727",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "glm-4.6v-flash",
+      "response": "\nTo determine the hidden object's position, we analyze the sequence of actions (shuffling cups and revealing the object) from the video frames:  \n\n1. The blue die is initially placed under one of the orange cups.  \n2. The person shuffles the orange cups.  \n3. After shuffling, the final position of the hidden die is revealed.  \n\nFrom the visual sequence, the hidden object ends up under the second orange cup from the left (when viewed from the person’s perspective, left to right: blue bucket, then two orange cups; the die is under the rightmost of the two orange cups, which is the second from the left relative to the blue bucket).  \n\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 4,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_1998",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_2046",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_2098",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_2117",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_2264",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 5,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_2453",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "glm-4.6v-flash",
+      "response": "\nTo determine the position of the hidden object, we analyze the sequence of movements of the mugs and the final arrangement from the person’s perspective (left to right as they view the table). By tracking the shuffling and the final placement, the hidden object is under the second mug from the left. \\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_2567",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 3,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_2863",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 2,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_3363",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "glm-4.6v-flash",
+      "response": "\nA",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 5,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_3479",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_3485",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_3637",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 1,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_3704",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the fourth object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "glm-4.6v-flash",
+      "response": "\nTo solve the shell game, we track the positions of the cups and the hidden object (an egg) through the sequence of movements:  \n\n1. The game starts with three cups (left, middle, right from the viewer’s perspective).  \n2. The person shuffles the cups by lifting and moving them.  \n3. After all shuffles, the final position of the hidden object is determined by the last set of movements.  \n\nFrom the sequence, the hidden object ends up under the **second cup from the left** (middle cup, from the viewer’s left-to-right arrangement, which matches the second position from the left as seen by the person at the table).  \n\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_3772",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\nB",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_3995",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "glm-4.6v-flash",
+      "response": "\nTo determine the position of the hidden object, we analyze the sequence of the shell game (occlusion game) with three cups:  \n\n1. The person initially places an orange object under the middle cup and then shuffles the cups.  \n2. Through the series of shuffling actions, we track the final position of the hidden object.  \n\nFrom the final steps of the game, the hidden object is revealed under the **second cup from the left** (when viewed from the person’s perspective).  \n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 7,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_4230",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the closest object to the person.",
+        "Under the middle object.",
+        "Under the farthest object from the person."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_4263",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 4,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_4282",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\nTo determine the hidden object's position, we analyze the sequence of cup movements (occlusion game) and the final arrangement from the person’s perspective (left to right on the table):  \n\n1. The game involves shuffling three upside-down cups, with the hidden object (initially the green cap) placed under one.  \n2. After shuffling, the cups are repositioned, and the hidden object remains under one of them.  \n3. From the final setup (before writing in the notebook), the hidden object is under the second cup from the left (when viewed from the person’s position).  \n\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_4289",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_4295",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_4320",
+      "question_id": 7,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 1,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_4388",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 12,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_4438",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\nTo determine the position of the hidden object from the person’s point of view, we analyze the sequence of actions (shuffling the cups) and the final arrangement. The person performs a series of swaps, and by the end of the game, the hidden object is under the second cup from the left. Thus, the answer is \\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 14,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_4560",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "glm-4.6v-flash",
+      "response": "\nTo determine the position of the hidden object, we analyze the sequence of actions (occlusion game with three cups) and track the final placement of the hidden item (blue cap, revealed and repositioned under a cup). The cups are arranged from left to right as positions 1 (leftmost), 2 (middle), and 3 (rightmost). By following the movements and the final state where the hidden object is under the middle cup, we identify the position.  \n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_4625",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_4649",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "glm-4.6v-flash",
+      "response": "\nTo determine the hidden object's position, we analyze the sequence of frames showing the occlusion (shell) game with three metal cups. The key is revealed and then repositioned through shuffling. By tracking the final arrangement and the movements, the hidden object ends up under the second cup from the left (middle position). \\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_4790",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "glm-4.6v-flash",
+      "response": "\nTo determine the hidden object's position, we analyze the sequence of movements (a shell game with three mugs) and the final reveal. By tracking the shuffling and the final arrangement, the hidden object ends up under the second mug from the left (from the person's perspective). \\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_5049",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_5222",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 4,
+      "num_of_cups": 4
+    },
+    {
+      "video_id": "video_5362",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the fourth object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_5431",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_5502",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "glm-4.6v-flash",
+      "response": "\nTo determine the hidden object's position, we analyze the sequence of the shell game (occlusion game) and the final arrangement of the cups:  \n\n1. The game involves three cups (left, middle, right from the viewer’s perspective) and a white ball as the hidden object.  \n2. After multiple shuffles, the person reveals the white ball under one of the cups.  \n3. From the final arrangement and the reveal, the white ball is under the **second cup from the left** (middle position).  \n\n\nThus, the hidden object is under the second object from the left.  \n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_5540",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 1,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_5848",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\nTo determine the hidden object's position, we analyze the sequence of the shell game (occlusion game) with three cups. By tracking the shuffling and final reveal, the hidden object (a blue die) is found under the second cup from the left from the person's perspective. Thus, the answer is \\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_6159",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_6204",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\nTo determine the hidden object's position, we analyze the sequence of movements (a shell game with three cups and a green cap):  \n\n1. The rightmost cup (third from the left) is lifted, revealing the green cap, and then placed back over the cap (second 4), so the cap is initially under the rightmost cup.  \n2. The middle (second from left) and then the leftmost (first from left) cups are shuffled but do not cover the cap. The cap remains under the rightmost cup.  \n\nFrom the person’s perspective (left to right), the rightmost cup is the third from the left. Thus, the hidden object is under the third object from the left.  \n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_6269",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 5,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_6443",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "glm-4.6v-flash",
+      "response": "\nTo determine the hidden object's position from the person's point of view at the end of the game, we analyze the sequence of actions:  \n\n1. The game involves cups and a hidden ball. Initially, the ball rests on a red cup (leftmost).  \n2. The person moves the ball and places it back on the red cup after revealing and re-covering it.  \n3. At the end, the ball is placed on the red cup, which is the first object from the left.  \n\n\nThus, the hidden object is under the first object from the left.  \n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_6534",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\nThe answer is \\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_6686",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_6704",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the fourth object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_6789",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_6855",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "glm-4.6v-flash",
+      "response": "\nTo determine the hidden object's position, we analyze the sequence of movements of the cups and the ball:  \n\n1. The ball is initially placed under the **first cup from the left** (front-left cup).  \n2. The cups are shuffled through a series of moves. By tracking the positions, we see the final arrangement where the ball is under the **second cup from the left** (middle cup) after shuffling.  \n\nFrom the person’s point of view (assuming the person is on the right side of the table), the hidden object ends up under the second cup from the left.  \n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_6902",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_7095",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_7331",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_7395",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_7471",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\nTo determine the position of the hidden object, we analyze the sequence of actions and the final arrangement of the blue dome - shaped objects. By tracking how the objects are moved and rearranged during the occlusion game, we can see the position where the hidden object is placed. From the final arrangement and the context of the game, the hidden object is under the second object from the left. \\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 6,
+      "num_of_cups": 4
+    },
+    {
+      "video_id": "video_7553",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_7632",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "glm-4.6v-flash",
+      "response": "\nB",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_7669",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_7812",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "glm-4.6v-flash",
+      "response": "\nC",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_7966",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 16,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_8255",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the fourth object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_8402",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_8517",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\nTo determine the position of the hidden object, we analyze the sequence of movements (a shell game with three cups and a pink ball):\n\n1. The person shuffles the cups, moving them around to hide the ball.\n2. After the final shuffle and rearrangement, the hidden ball is revealed under the middle cup (from the viewer's perspective, the second cup from the left).\n3. From the person’s point of view (facing the table), this middle cup corresponds to the second cup from the left.\n\nThus, the hidden object is under the second object from the left.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_8661",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the closest object to the person.",
+        "Under the farthest object from the person.",
+        "Under the middle object."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 5,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_8830",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_8963",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\nTo determine the position of the hidden object, we analyze the sequence of movements (a shell game with three mugs) and the final arrangement. By tracking the swaps and the final placement, the hidden object ends up under the second mug from the left (from the person’s perspective).  \n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_9146",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_9245",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\nTo determine the hidden object's position, we analyze the sequence of actions (shuffling the cups) and the final reveal. The object is revealed under the middle cup, which is the second from the left from the person's perspective. \\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_9265",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the fourth object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_9298",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_9426",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_9643",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_9735",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "glm-4.6v-flash",
+      "response": "\nC",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_9753",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\nTo determine the hidden object's position, we analyze the sequence of actions (shuffling the cups) and the final setup. The person performs a shell game with three cups, and by tracking the movements, the hidden object ends up under the middle cup (second from the left) from the person's perspective. \\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_9855",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_9896",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the fourth object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_9922",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_9946",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the fourth object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 3,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_10121",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 7,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_10172",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_10363",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_10698",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the fourth object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_10755",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\nB",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 1,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_10863",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "glm-4.6v-flash",
+      "response": "\nTo determine the position of the hidden object, we analyze the sequence of cup movements (occlusion game) and the final arrangement:  \n\n1. The person shuffles the cups through various moves (stacking, rearranging).  \n2. In the final seconds, the cups are repositioned, and the hidden object’s location is determined from the person’s perspective (left to right).  \n3. By tracking the final arrangement and the shuffling logic, the hidden object ends up under the second cup from the left.  \n\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_11046",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\nA",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_11071",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 6,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_11090",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 4,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_11143",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\nB",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_11151",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "glm-4.6v-flash",
+      "response": "\nTo determine the position of the hidden object, we analyze the sequence of the shell game (occlusion game) with three cups. The person shuffles the cups and reveals the hidden object. By tracking the final position after shuffling, the hidden object is under the middle cup (second from the left from the camera's perspective, which corresponds to the second cup from the left from the person's point of view). Thus, the hidden object is under the second object from the left. \\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 9,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_11166",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "glm-4.6v-flash",
+      "response": "\nTo determine the hidden object's position, we analyze the sequence of the occlusion game (shell game) with three green bowls, tracking the shuffling and final reveal:\n\n1. The game involves hiding a small object under one of the three bowls and shuffling them.\n2. After shuffling, the person lifts each bowl to locate the hidden object.\n3. From the person’s perspective (leftmost as \"first\", middle as \"second\", rightmost as \"third\"), the final reveal shows the object is under the middle bowl (second from the left).\n\nThus, the hidden object is under the second object from the left.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_11174",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the fourth object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\nTo determine the hidden object's position, we analyze the sequence of the shell game (occlusion game) with three cups. By tracking the shuffling and final arrangement, the hidden object ends up under the second cup from the left (from the person’s perspective). Thus, the correct answer is \\boxed{C}.",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 8,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_11250",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_11264",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "glm-4.6v-flash",
+      "response": "\nB",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_11301",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_11343",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\nTo solve the problem, we analyze the sequence of movements of the mugs (occlusion game) and determine the final position of the hidden object from the person's perspective:  \n\n1. The game involves shuffling three similar mugs, with a hidden object (like a die) under one of them.  \n2. By tracking the final positions after all shuffles, we see the hidden object ends up under the mug that is the **first from the left** when viewed from the person’s perspective.  \n\n\nThus, the hidden object is under the first object from the left.  \n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_11435",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 3,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_11499",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "glm-4.6v-flash",
+      "response": "\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    }
+  ]
+}

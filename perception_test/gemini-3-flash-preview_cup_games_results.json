@@ -1,0 +1,2001 @@
+{
+  "model": "gemini-3-flash-preview",
+  "total": 107,
+  "correct": 46,
+  "accuracy": 42.99,
+  "accuracy_by_num_of_swaps": {
+    "0": {
+      "correct": 13,
+      "total": 27,
+      "accuracy": 48.15
+    },
+    "1": {
+      "correct": 2,
+      "total": 4,
+      "accuracy": 50.0
+    },
+    "2": {
+      "correct": 8,
+      "total": 21,
+      "accuracy": 38.1
+    },
+    "3": {
+      "correct": 7,
+      "total": 20,
+      "accuracy": 35.0
+    },
+    "4": {
+      "correct": 11,
+      "total": 20,
+      "accuracy": 55.0
+    },
+    "5": {
+      "correct": 0,
+      "total": 6,
+      "accuracy": 0.0
+    },
+    "6": {
+      "correct": 1,
+      "total": 2,
+      "accuracy": 50.0
+    },
+    "7": {
+      "correct": 1,
+      "total": 2,
+      "accuracy": 50.0
+    },
+    "8": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 100.0
+    },
+    "9": {
+      "correct": 0,
+      "total": 1,
+      "accuracy": 0.0
+    },
+    "12": {
+      "correct": 0,
+      "total": 1,
+      "accuracy": 0.0
+    },
+    "14": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 100.0
+    },
+    "16": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 100.0
+    }
+  },
+  "results": [
+    {
+      "video_id": "video_66",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "gemini-3-flash-preview",
+      "response": "The person in the video plays a game where they reveal a small white object hidden under one of three cups. \n\n1. Initially, there are three cups and an apple on the table.\n2. The person lifts the first cup from the left, showing nothing underneath.\n3. They then lift the second cup (middle), also showing nothing.\n4. Finally, they lift the third cup from the left, revealing a small white object.\n5. They place the cup back down over the object and do not move the cups again.\n\nTherefore, the hidden object remains under the third cup from the left.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_147",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "gemini-3-flash-preview",
+      "response": "The person starts by showing a small black object under the wooden cup on the left at 0:03. \n\n1. At 0:06, the person swaps the two cups, moving the cup with the object to the right and the empty cup to the left.\n2. At 0:09, the person rotates the cups again, moving the cup with the object back to the left and the empty cup to the right.\n3. The movement stops at 0:12 with the cup containing the object on the left.\n\nFrom the person's point of view, the object is under the first cup from the left.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_496",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final position of the hidden object (the lime) from the person's point of view, let's track its movement throughout the video:\n\n1.  **Initial Position:** The person places the lime under the cup on her **left** (which is the viewer's right).\n2.  **First Move (0:09):** The person swaps the cup on her **right** and the **middle** cup. The lime remains under the cup on her **left**.\n3.  **Second Move (0:10):** The person swaps the **middle** cup and the cup on her **left**. The lime moves to the **middle** position.\n4.  **Third Move (0:11):** The person swaps the cup on her **right** and the **middle** cup. The lime moves to her **right** position.\n5.  **Fourth Move (0:12):** The person swaps the **middle** cup and the cup on her **left**. The lime remains at her **right** position.\n6.  **Fifth Move (0:13):** The person swaps the cup on her **right** and the **middle** cup. The lime moves back to the **middle** position.\n7.  **Sixth Move (0:14):** The person swaps the **middle** cup and the cup on her **left**. The lime moves to her **left** position.\n\nAt the end of the game, the lime is under the leftmost cup from the person's perspective.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 5,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_749",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "gemini-3-flash-preview",
+      "response": "To find the hidden object, let's track its movement from the beginning of the video:\n\n1.  **Initial Position:** At the start (0:01), the person lifts the first cup from the left, revealing the hidden object underneath it.\n2.  **First Move (0:07):** The person swaps the first and second cups. The object is now under the **second** cup from the left.\n3.  **Second Move (0:08):** The person swaps the second and third cups. The object is now under the **third** cup from the left.\n4.  **Third Move (0:09):** The person swaps the third and fourth cups. The object is now under the **fourth** cup from the left.\n5.  **Fourth Move (0:10):** The person swaps the fourth and third cups. The object is now under the **third** cup from the left.\n6.  **Fifth Move (0:11):** The person swaps the third and second cups. The object is now under the **second** cup from the left.\n7.  **Sixth Move (0:12):** The person swaps the second and third cups. The object is now under the **third** cup from the left.\n\nAfter the shuffling stops, the hidden object remains under the third cup from the left.\n\nTherefore, the correct option is **A**.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 4,
+      "num_of_cups": 4
+    },
+    {
+      "video_id": "video_781",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object, let's track its movement throughout the video:\n\n1.  **Initial Reveal:** At approximately 0:04, the person lifts the middle cup to reveal a key.\n2.  **Placing the Key:** At 0:06, the person lifts the left cup and places it over the key, which is still in the middle position. At this point, the key is under the cup now located in the **middle**.\n3.  **Shuffling:**\n    *   At 0:08, the person swaps the middle cup (containing the key) with the right cup. The key is now under the cup on the **right**.\n    *   At 0:09, the person swaps the left cup with the middle cup. The key remains under the cup on the **right**.\n    *   At 0:10, the person swaps the middle cup with the right cup (containing the key). The key is now back under the cup in the **middle**.\n\nAt the end of the game, the key is under the middle cup. From any horizontal perspective (including the person's point of view), the middle cup is the second object from the left.\n\nThe correct answer is **A. Under the second object from the left.**\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_789",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object from the person's point of view, let's track the movements step-by-step:\n\n1.  **Initial State (0:01):** The person places a white cup over a blue bottle cap. From the viewer's perspective, this cup is on the **right**. From the person's perspective (facing the viewer), this cup is on their **left**.\n2.  **First Swap (0:03 - 0:04):** The person swaps the two cups. The cup containing the cap moves from the viewer's right to the viewer's **left**. From the person's perspective, it moves from their left to their **right**.\n3.  **Second Swap (0:04 - 0:05):** The person swaps the cups again. The cup containing the cap moves from the viewer's left back to the viewer's **right**. From the person's perspective, it moves from their right back to their **left**.\n4.  **Third Swap (0:05 - 0:06):** The person performs a final swap. The cup containing the cap moves from the viewer's right to the viewer's **left**. From the person's perspective, it moves from their left to their **right**.\n\nAt the end of the game, the hidden object is under the cup on the viewer's left, which corresponds to the **rightmost** cup from the person's point of view. When counting from the left from the person's perspective, the first object is on their left and the second object is on their right.\n\nTherefore, from the person's point of view, the hidden object is under the second object from the left.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_811",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final position of the hidden object (the die), we need to track its movements throughout the game from the person's point of view.\n\n1.  **Initial Position:** At approximately 0:03, the person places a blue die under the orange cup on the **viewer's left**.\n2.  **Tracking the Swaps (Viewer's Perspective):**\n    *   **Swap 1 (0:07.5):** The cups are swapped. The die is now under the cup on the **viewer's right**.\n    *   **Swap 2 (0:08.2):** The cups are swapped. The die is now under the cup on the **viewer's left**.\n    *   **Swap 3 (0:08.7):** The cups are swapped. The die is now under the cup on the **viewer's right**.\n    *   **Swap 4 (0:09.2):** The cups are swapped. The die is now under the cup on the **viewer's left**.\n    *   **Swap 5 (0:09.7):** The cups are swapped. The die is now under the cup on the **viewer's right**.\n    *   **Swap 6 (0:10.2):** The cups are swapped. The die is now under the cup on the **viewer's left**.\n    *   **Swap 7 (0:10.7):** The cups are swapped. The die is now under the cup on the **viewer's right**.\n    *   **Swap 8 (0:11.5):** The cups are swapped. The die is now under the cup on the **viewer's left**.\n    *   **Swap 9 (0:12.2):** The cups are swapped. The die is now under the cup on the **viewer's right**.\n3.  **Final Position:** The game ends with the die under the orange cup on the **viewer's right**.\n4.  **Person's Point of View:** The person is facing the camera. Therefore, the viewer's right is the **person's left**.\n5.  **Identifying the Object:** From the person's point of view, looking at the objects on the table from left to right, the first object is the orange cup on the viewer's right (which contains the die), followed by the other orange cup, and then the blue pitcher. Thus, the hidden object is under the first object from the left from the person's point of view.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 5,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_922",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "To find the hidden object, let's track the movement of the cups step-by-step:\n\n1.  **Initial State:** The person reveals a small grey object under the **second cup from the left** at 0:04.\n2.  **First Swap (0:07):** The second cup (with the object) and the third cup are swapped. The object is now under the **third cup from the left**.\n3.  **Second Swap (0:08):** The third cup (with the object) and the first cup are swapped. The object is now under the **first cup from the left**.\n4.  **Third Swap (0:08):** The first cup (with the object) and the second cup are swapped. The object is now under the **second cup from the left**.\n5.  **Fourth Swap (0:09):** The second cup (with the object) and the third cup are swapped. The object is now under the **third cup from the left**.\n6.  **Fifth Swap (0:09):** The third cup (with the object) and the fourth cup are swapped. The object is now under the **fourth cup from the left**.\n7.  **Sixth Swap (0:10):** The fourth cup (with the object) and the first cup are swapped. The object is now under the **first cup from the left**.\n8.  **Seventh Swap (0:10):** The first cup (with the object) and the second cup are swapped. The object is now under the **second cup from the left**.\n9.  **Eighth Swap (0:11):** The second cup (with the object) and the third cup are swapped. The object is now under the **third cup from the left**.\n10. **Ninth Swap (0:11):** The third cup (with the object) and the fourth cup are swapped. The object is now under the **fourth cup from the left**.\n11. **Tenth Swap (0:12):** The fourth cup (with the object) and the first cup are swapped. The object is now under the **first cup from the left**.\n12. **Eleventh Swap (0:12):** The first cup (with the object) and the second cup are swapped. The object is now under the **second cup from the left**.\n\nThe shuffling stops at 0:13, and the object remains under the second cup from the left.\n\nThe correct answer is **A. Under the second object from the left.**\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 4,
+      "num_of_cups": 4
+    },
+    {
+      "video_id": "video_1034",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final position of the hidden object from the person's point of view, let's track the movement of the cups throughout the video:\n\n1.  **Initial Placement (0:05):** The person places a small white object under the **middle cup** (from the viewer's perspective).\n2.  **First Move (0:08):** The person swaps the middle cup (containing the object) with the cup on the right. The object is now under the **right cup**.\n3.  **Second Move (0:10):** The person swaps the right cup (containing the object) with the cup on the left. The object is now under the **left cup**.\n4.  **Third Move (0:11):** The person swaps the left cup (containing the object) with the cup in the middle. The object is now under the **middle cup**.\n\nAt the end of the game, the object is under the middle cup. From the person's point of view (standing opposite the viewer), the middle cup remains the middle cup, which is the **second object from the left**.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_1137",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object from the person's point of view, let's track the movement of the cups throughout the video:\n\n1.  **Initial Position:** The person reveals the object under the rightmost cup (from the viewer's perspective) at 0:01. From the person's point of view, this is the **first cup from the left**.\n2.  **First Swap (0:07):** The person swaps the leftmost and middle cups. The object remains under the rightmost cup.\n3.  **Second Swap (0:08):** The person swaps the middle and rightmost cups. The object is now under the **middle cup**.\n4.  **Third Swap (0:09):** The person swaps the leftmost and middle cups. The object is now under the **leftmost cup** (from the viewer's perspective).\n5.  **Fourth Swap (0:10):** The person swaps the middle and rightmost cups. The object remains under the **leftmost cup**.\n6.  **Fifth Swap (0:11):** The person swaps the leftmost and middle cups. The object is now under the **middle cup**.\n7.  **Sixth Swap (0:12):** The person swaps the middle and leftmost cups again. The object ends up under the **leftmost cup** (from the viewer's perspective).\n\nFrom the viewer's perspective, the object is under the first cup from the left. However, the question asks for the position from the **person's point of view**. Since the person is facing the viewer, their left and right are reversed:\n*   Viewer's Left = Person's Right\n*   Viewer's Right = Person's Left\n\nThe object is under the viewer's leftmost cup, which is the person's rightmost cup. Counting from the person's left to right, this is the **third object from the left**.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_1196",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object from the person's point of view, let's track the movement of the cups step-by-step:\n\n1.  **Initial State:** The person reveals a small object under the **middle cup** (the second cup from the left).\n2.  **First Swap (0:10):** The person swaps the **left cup** and the **middle cup**. The object is now under the cup in the **left position** (the first cup from the left).\n3.  **Second Swap (0:12):** The person swaps the **left cup** (which has the object) and the **right cup**. The object is now under the cup in the **right position** (the third cup from the left).\n4.  **Third Swap (0:14):** The person swaps the **middle cup** and the **right cup** (which has the object). The object is now under the cup in the **middle position**.\n\nAt the end of the game, the hidden object is under the middle cup, which is the second object from the left.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_1281",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the location of the hidden object from the person's point of view, let's track the movements step-by-step:\n\n1.  **Initial Setup (Viewer's Perspective):** From left to right, there is a red object (with a white ball), followed by three white cups (let's call them Cup 1, Cup 2, and Cup 3).\n2.  **Movement 1:** The person uses their right hand (which is on the viewer's left) to pick up **Cup 1** and place it over the red object.\n3.  **Movement 2:** The person uses their right hand to pick up **Cup 2** and move it into the position previously occupied by Cup 1.\n4.  **Movement 3:** The person uses their left hand (which is on the viewer's right) to pick up **Cup 3** and move it into the position previously occupied by Cup 2.\n5.  **Final State (Viewer's Perspective):** The cups are now in a row: [Cup 1 (covering the object)], [Cup 2], [Cup 3]. The hidden object is under the **first cup from the left**.\n6.  **Person's Point of View:** Since the person is facing the camera, their left and right are reversed compared to the viewer's.\n    *   The viewer's **left** is the person's **right**.\n    *   The viewer's **right** is the person's **left**.\n    *   From the person's perspective, the cups are arranged from their left to their right as: [Cup 3], [Cup 2], [Cup 1 (covering the object)].\n    *   Therefore, from the person's point of view, the hidden object is under the **third object from the left**.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_1395",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object (the tomato) from the person's point of view, we need to track the movement of the mugs throughout the video, keeping in mind that the person is facing the camera.\n\n1.  **Initial State (0:01):** The person places the rightmost mug (from the camera's perspective, which is the **person's left**) over the tomato.\n    *   *Person's POV:* [Mug 1 (Tomato), Mug 2, Mug 3] (Left to Right)\n    *   *Camera's POV:* [Mug 3, Mug 2, Mug 1 (Tomato)] (Left to Right)\n\n2.  **First Movement (0:08):** The person moves the leftmost mug (camera's perspective, which is the **person's right**) to the middle, and the middle mug is pushed to the left.\n    *   *Person's POV:* [Mug 1 (Tomato), Mug 3, Mug 2]\n\n3.  **Second Movement (0:09):** The person moves the rightmost mug (camera's perspective, which is the **person's left**, containing the tomato) to the far left of the screen (the **person's right**). The mug that was on the far left is moved to the middle.\n    *   *Person's POV:* [Mug 2, Mug 3, Mug 1 (Tomato)]\n\n4.  **Third Movement (0:11):** The person moves the middle mug to the far right of the screen (the **person's left**) and moves the mug on the far right of the screen to the middle. The mug on the far left of the screen (the **person's right**, containing the tomato) is not moved.\n    *   *Person's POV:* [Mug 3, Mug 2, Mug 1 (Tomato)]\n\nAt the end of the game, the tomato is under the mug on the far left of the screen. From the person's point of view, this is the mug on their far right. Counting from the left from the person's perspective, this is the third object.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_1438",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final position of the hidden object, let's track the movement of the cups throughout the video:\n\n1.  **Initial Position (0:01):** The person places a red bottle cap under the **middle cup** (the second object from the left).\n2.  **Shuffle Starts (0:05):**\n    *   The **left** and **middle** cups are swapped. The object is now under the **left** cup.\n    *   The **middle** and **right** cups are swapped. The object remains under the **left** cup.\n    *   The **left** and **middle** cups are swapped. The object is now under the **middle** cup.\n    *   The **middle** and **right** cups are swapped. The object is now under the **right** cup.\n    *   The **left** and **middle** cups are swapped. The object remains under the **right** cup.\n    *   The **middle** and **right** cups are swapped. The object is now under the **middle** cup.\n    *   The **left** and **middle** cups are swapped. The object is now under the **left** cup.\n    *   The **middle** and **right** cups are swapped. The object remains under the **left** cup.\n    *   The **left** and **middle** cups are swapped. The object is now under the **middle** cup.\n    *   The **left** and **middle** cups are swapped again. The object is now under the **left** cup.\n    *   Finally, the **left** and **right** cups are swapped. The object is now under the **right** cup.\n\nAt the end of the game (0:11), the object is under the cup on the far right, which is the third object from the left.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_1503",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "gemini-3-flash-preview",
+      "response": "The hidden object is under the second mug from the left at the end of the game.\n\nTherefore, the correct answer is **C**.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_1668",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object, let's track the movement of the mugs from the viewer's perspective:\n\n1.  **Initial State:** The object (a small piece of paper) is placed under the **middle mug** (0:04).\n2.  **First Swap (0:07):** The person swaps the **left mug** and the **middle mug**. The object is now under the **left mug**.\n3.  **Second Swap (0:08):** The person swaps the **middle mug** and the **right mug**. The object remains under the **left mug**.\n4.  **Third Swap (0:09):** The person swaps the **left mug** and the **middle mug**. The object is now under the **middle mug**.\n5.  **Fourth Swap (0:10):** The person swaps the **middle mug** and the **right mug**. The object is now under the **right mug**.\n6.  **Fifth Swap (0:11):** The person swaps the **left mug** and the **middle mug**. The object remains under the **right mug**.\n7.  **Sixth Swap (0:12):** The person swaps the **middle mug** and the **right mug**. The object is now under the **middle mug**.\n\nAt the end of the game, the object is under the middle mug, which is the second object from the left.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_1727",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object (the blue die), let's track its movement throughout the video:\n\n1.  **Initial Position:** At 0:04, the person lifts the orange cup on the left to reveal a blue die. The die is then covered by this cup.\n2.  **Tracking the Shuffle:**\n    *   **0:06:** The cups swap positions. The die is now under the cup on the **right**.\n    *   **0:07:** Another swap. The die is now under the cup on the **left**.\n    *   **0:07:** Another swap. The die is now under the cup on the **right**.\n    *   **0:08:** Another swap. The die is now under the cup on the **left**.\n    *   **0:08:** Another swap. The die is now under the cup on the **right**.\n    *   **0:09:** Another swap. The die is now under the cup on the **left**.\n    *   **0:09:** Another swap. The die is now under the cup on the **right**.\n    *   **0:10:** A final swap occurs. The die ends up under the orange cup on the **left**.\n\n3.  **Identifying the Object Position:** Looking at the table from left to right, we see:\n    *   1st object: A blue bucket.\n    *   2nd object: The left orange cup (which contains the die).\n    *   3rd object: The right orange cup.\n\nThe hidden object is under the second object from the left.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 4,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_1998",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "To track the hidden object (the small basketball) during the game:\n\n1.  **Initial Position:** The basketball is placed under the **third cup from the left** (the rightmost cup) at approximately 0:04.\n2.  **First Move:** The person moves the rightmost cup (with the ball) to the middle position and the middle cup to the right. The ball is now under the **middle cup**.\n3.  **Second Move:** The person moves the leftmost cup to the middle and the middle cup (with the ball) to the left. The ball is now under the **leftmost cup**.\n4.  **Third Move:** The person moves the leftmost cup (with the ball) to the middle and the middle cup to the left. The ball is now under the **middle cup**.\n5.  **Fourth Move:** The person moves the middle cup (with the ball) to the right and the rightmost cup to the middle. The ball is now under the **rightmost cup**.\n6.  **Fifth Move:** The person moves the rightmost cup (with the ball) to the left and the leftmost cup to the right. The ball is now under the **leftmost cup**.\n7.  **Final Shuffling:** The person continues to shuffle the cups rapidly. By carefully following the cup that originally contained the ball through the final sequence of movements, it ends up in the **middle position**.\n\nFrom the person's point of view, the hidden object is under the second object from the left.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_2046",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "The hidden object is placed under the middle cup at the beginning of the game. Let's track its movement as the person swaps the cups:\n\n1.  **Initial position:** Under the middle cup (2nd from left).\n2.  The person swaps the left and middle cups. The object is now under the **left cup** (1st from left).\n3.  The person swaps the middle and right cups. The object remains under the **left cup**.\n4.  The person swaps the left and middle cups. The object is now under the **middle cup** (2nd from left).\n5.  The person swaps the middle and right cups. The object is now under the **right cup** (3rd from left).\n6.  The person swaps the left and middle cups. The object remains under the **right cup**.\n7.  The person swaps the middle and right cups. The object is now under the **middle cup** (2nd from left).\n\nAt the end of the game, the hidden object is under the second object from the left.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_2098",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "gemini-3-flash-preview",
+      "response": "To find the hidden object, we need to track the movement of the cup that initially covers it.\n\n1.  **Initial Position:** At the beginning of the game (around 0:04), the person places a small pink ball under the **middle cup** (the second object from the left).\n2.  **Tracking the Shuffling:**\n    *   The person starts shuffling the cups at 0:09.\n    *   The middle cup (containing the ball) is moved to the **left position**.\n    *   That same cup (now on the left) is then moved back to the **middle position**.\n    *   The middle cup is then moved to the **right position**.\n    *   The right cup (containing the ball) is moved back to the **middle position**.\n    *   The middle cup is moved to the **left position**.\n    *   Finally, the left cup (containing the ball) is moved back to the **middle position**.\n3.  **Final Position:** When the shuffling stops at 0:13, the cup that contains the pink ball is in the middle.\n\nFrom the person's point of view, the hidden object is under the second object from the left.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_2117",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "gemini-3-flash-preview",
+      "response": "To track the hidden object, we first observe that the person places a small dark ball on the table and then covers it with the wooden cup on the left at the beginning of the game. Throughout the video, the person repeatedly swaps the positions of the two cups. By carefully following the movement of the cup that initially covered the ball (the left cup), we can determine its final position. After a series of rapid movements, the cup containing the ball ends up on the left side from the person's point of view.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_2264",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "gemini-3-flash-preview",
+      "response": "To find the final location of the hidden object (the red bottle cap), let's track its movement throughout the video:\n\n1.  **Initial Placement (0:01 - 0:03):** The person places the middle metal cup over the red bottle cap. Then, they stack the rightmost cup on top of the middle one, and finally the leftmost cup on top of those. At this point, the cap is under the bottom cup of the stack.\n2.  **Separation (0:04):** The person lifts the entire stack and places the bottom cup (which contains the cap) in the **left** position. They place the middle cup of the stack in the middle position and the top cup in the right position. The cap is now under the **leftmost** cup.\n3.  **Shuffling (0:05 - 0:11):**\n    *   **0:05:** The person swaps the left and middle cups. The cap is now in the **middle**.\n    *   **0:06:** The person swaps the middle and right cups. The cap is now on the **right**.\n    *   **0:07:** The person swaps the left and middle cups. The cap remains on the **right**.\n    *   **0:08:** The person swaps the middle and right cups. The cap is now in the **middle**.\n    *   **0:09:** The person swaps the left and middle cups. The cap is now on the **left**.\n    *   **0:10:** The person swaps the middle and right cups. The cap remains on the **left**.\n4.  **Final Position:** When the shuffling stops at 0:11, the red bottle cap is under the first object from the left.\n\nComparing this to the given options:\nA. Under the second object from the left.\nB. Under the first object from the left.\nC. Under the third object from the left.\n\nThe correct option is **B**.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 5,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_2453",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object (the lime), let's track the movements of the cups throughout the video:\n\n1.  **Initial State:** The lime is on the left, and the person places the first cup (Cup 1) over it.\n2.  **0:01:** Cup 1 (with the lime) moves to the middle, and the middle cup (Cup 2) moves to the left. (Lime is now in the **middle**)\n3.  **0:03:** Cup 1 (with the lime) moves to the right, and the rightmost cup (Cup 3) moves to the middle. (Lime is now on the **right**)\n4.  **0:05:** Cup 1 (with the lime) moves back to the middle, and Cup 3 moves to the right. (Lime is now in the **middle**)\n5.  **0:07:** Cup 1 (with the lime) moves to the left, and Cup 2 moves to the middle. (Lime is now on the **left**)\n6.  **0:08:** The middle and right cups swap positions. (Lime remains on the **left**)\n7.  **0:09:** Cup 1 (with the lime) moves to the middle, and the leftmost cup moves to the left. (Lime is now in the **middle**)\n8.  **0:10:** Cup 1 (with the lime) moves to the right, and the middle cup moves to the middle. (Lime is now on the **right**)\n9.  **0:11:** The left and middle cups swap positions. (Lime remains on the **right**)\n10. **0:12:** Cup 1 (with the lime) moves to the middle, and the rightmost cup moves to the right. (Lime is now in the **middle**)\n11. **0:13:** Cup 1 (with the lime) moves to the left, and the middle cup moves to the middle. (Lime is now on the **left**)\n\nAt the end of the game, the lime is under the first object from the left.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_2567",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object, we need to track the movement of the bowls throughout the video.\n\n1.  **Initial Setup (0:00 - 0:01):** At the beginning of the video, there are two bowls already on the table (one on the far left, mostly out of frame, and one in the middle). The person is holding a third bowl and places it on the table to the right of the others. A small white object is visible on the table just before the third bowl is placed over it. Thus, the object starts under the **Right** bowl (from the camera's perspective).\n\n2.  **Tracking the Swaps (0:02 - 0:09):** The person performs a series of swaps between the three positions: Left (L), Middle (M), and Right (R).\n    *   **Swap 1 (0:02):** The person swaps the Middle and Right bowls. The object is now in the **Middle**.\n    *   **Swap 2 (0:03):** The person swaps the Left and Middle bowls. The object is now on the **Left**.\n    *   **Swap 3 (0:04):** The person swaps the Middle and Right bowls. The object remains on the **Left**.\n    *   **Swap 4 (0:05):** The person swaps the Left and Middle bowls. The object is now in the **Middle**.\n    *   **Swap 5 (0:06):** The person swaps the Middle and Right bowls. The object is now on the **Right**.\n    *   **Swap 6 (0:07):** The person swaps the Left and Middle bowls. The object remains on the **Right**.\n    *   **Swap 7 (0:08):** The person swaps the Middle and Right bowls. The object is now in the **Middle**.\n\n3.  **Final Position:** At the end of the game (0:09), the object is under the bowl in the **Middle** position from the camera's point of view.\n\n4.  **Person's Point of View:** From the person's point of view (facing the camera), the middle position remains the middle position. In a row of three objects, the middle one is the **second object from the left**.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 3,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_2863",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object from the person's point of view, let's track the movement of the blue bottle cap throughout the video:\n\n1.  **Initial Placement (0:01):** The person places a blue bottle cap under the cup on the **right** (from the camera's perspective). Since the person is facing the camera, the camera's right is the **person's left**.\n2.  **First Move (0:03):** The person swaps the two cups. The cup containing the cap moves from the camera's right to the camera's left. From the person's perspective, it moves from their **left to their right**.\n3.  **Second Move (0:05):** The person swaps the two cups again. The cup containing the cap moves from the camera's left back to the camera's **right**. From the person's perspective, it moves from their **right back to their left**.\n\nAt the end of the game, the cap is under the cup on the camera's right, which corresponds to the **first object from the left** from the person's point of view.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 2,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_3363",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final position of the hidden object, let's track its movement throughout the video:\n\n1.  **Initial Placement:** At the beginning of the video (around 0:01), the person places an egg under the middle cup (the second object from the left).\n2.  **First Set of Swaps:**\n    *   The person swaps the first and second cups. The egg is now under the **first cup (left)**.\n    *   The person swaps the second and third cups. The egg remains under the **first cup**.\n    *   The person swaps the first and second cups. The egg is now under the **second cup (middle)**.\n    *   The person swaps the second and third cups. The egg is now under the **third cup (right)**.\n3.  **Second Set of Swaps:**\n    *   The person swaps the first and second cups. The egg remains under the **third cup**.\n    *   The person swaps the second and third cups. The egg is now under the **second cup (middle)**.\n    *   The person swaps the first and second cups. The egg is now under the **first cup (left)**.\n    *   The person swaps the second and third cups. The egg remains under the **first cup**.\n    *   The person swaps the first and second cups. The egg is now under the **second cup (middle)**.\n    *   The person swaps the second and third cups. The egg is now under the **third cup (right)**.\n\nAt the end of the game, the hidden object is under the third object from the left.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 5,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_3479",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "gemini-3-flash-preview",
+      "response": "To find the hidden object, let's track the movement of the cups from the person's point of view:\n\n1.  **Initial Position:** At the beginning of the game (0:02), the person reveals a small green paper ball under the **first cup from the left**.\n2.  **First Move:** The person shuffles the cups, moving the leftmost cup (with the ball) to the **middle position** (0:12).\n3.  **Second Move:** The middle cup (with the ball) is then moved to the **rightmost position** (0:13).\n4.  **Third Move:** The rightmost cup (with the ball) is moved back to the **leftmost position** (0:14).\n5.  **Final Move:** Finally, the leftmost cup (with the ball) is moved to the **middle position** (0:15).\n\nWhen the shuffling stops at 0:16, the hidden object is under the middle cup, which is the second object from the left.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_3485",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object, let's track the movement of the cups from the person's point of view:\n\n1.  **Initial State:** There are three cups on the table. The person lifts the rightmost cup (the third one from the left) to reveal a small pink ball underneath it.\n2.  **First Move (0:10):** The person swaps the middle cup and the rightmost cup. The ball is now under the **middle cup**.\n3.  **Second Move (0:12):** The person swaps the leftmost cup and the middle cup. The ball is now under the **leftmost cup**.\n4.  **Third Move (0:14):** The person swaps the leftmost cup and the rightmost cup. The ball is now under the **rightmost cup**.\n5.  **Fourth Move (0:15):** The person swaps the leftmost cup and the rightmost cup again. The ball is now back under the **leftmost cup**.\n6.  **Fifth Move (0:16):** The person swaps the leftmost cup and the middle cup. The ball is now under the **middle cup**.\n7.  **Sixth Move (0:18):** The person swaps the middle cup and the rightmost cup. The ball is now under the **rightmost cup**.\n8.  **Final Move (0:19):** The person swaps the middle cup and the rightmost cup once more. The ball ends up under the **middle cup**.\n\nThe middle cup is the second object from the left. Therefore, the correct option is:\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_3637",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object, let's track its movement throughout the video:\n\n1.  **Initial Placement:** At approximately 0:05, the person places a small black object under the **rightmost cup** (the third cup from the left).\n2.  **First Move (0:11):** The person swaps the rightmost cup (containing the object) with the middle cup. The object is now under the **middle cup**.\n3.  **Second Move (0:12):** The person swaps the leftmost cup with the rightmost cup. The object remains under the **middle cup**.\n4.  **Third Move (0:13):** The person swaps the leftmost cup with the rightmost cup again. The object remains under the **middle cup**.\n5.  **Fourth Move (0:14):** The person swaps the middle cup (containing the object) with the rightmost cup. The object is now under the **rightmost cup**.\n6.  **Fifth Move (0:15):** The person swaps the leftmost cup with the middle cup. The object remains under the **rightmost cup**.\n7.  **Sixth Move (0:16):** The person swaps the leftmost cup with the middle cup again. The object remains under the **rightmost cup**.\n\nAt the end of the game, the object is under the third cup from the left.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 1,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_3704",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the fourth object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object, let's track its movement throughout the video:\n\n1.  **Initial State (0:04 - 0:06):** The person lifts the middle cup, revealing a small orange ball underneath it.\n2.  **Shuffling (0:10 - 0:15):**\n    *   At **0:11**, the person swaps the left cup and the middle cup. The ball is now under the **left cup**.\n    *   At **0:12**, the person swaps the left cup and the middle cup again. The ball is now back under the **middle cup**.\n    *   At **0:13**, the person swaps the middle cup and the right cup. The ball is now under the **right cup**.\n    *   At **0:14**, the person swaps the right cup and the middle cup. The ball is now under the **middle cup**.\n3.  **Final Position:** When the shuffling stops at **0:15**, the ball remains under the middle cup.\n\nFrom the person's point of view (and the viewer's), the middle cup is the second object from the left.\n\nTherefore, the correct option is:\nA. Under the second object from the left.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_3772",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "The person places a small white object under the middle mug (the second one from the left). Then, they swap the middle mug with the rightmost mug (the third one from the left). After that, they swap the leftmost mug with the middle mug. The object remains under the rightmost mug throughout the rest of the video.\n\nTherefore, the hidden object is under the third object from the left.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_3995",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object, let's track the movement of the cups throughout the video:\n\n1.  **Initial State:** There are three cups on the table. At **0:02**, the person lifts the middle cup to reveal a small orange cube.\n    *   Positions: [Left Cup, Middle Cup (Cube), Right Cup]\n\n2.  **Tracking the Swaps:**\n    *   **0:07:** The person swaps the **Left** and **Middle** cups. The cube is now under the **Left** cup.\n    *   **0:08:** The person swaps the **Left** and **Right** cups. The cube is now under the **Right** cup.\n    *   **0:09:** The person swaps the **Middle** and **Right** cups. The cube is now under the **Middle** cup.\n    *   **0:10:** The person swaps the **Left** and **Middle** cups. The cube is now under the **Left** cup.\n    *   **0:11:** The person swaps the **Middle** and **Right** cups. The cube remains under the **Left** cup.\n    *   **0:12:** The person swaps the **Left** and **Middle** cups. The cube is now under the **Middle** cup.\n    *   **0:13:** The person swaps the **Middle** and **Right** cups. The cube is now under the **Right** cup.\n    *   **0:14:** The person swaps the **Left** and **Middle** cups. The cube remains under the **Right** cup.\n    *   **0:15:** The person swaps the **Middle** and **Right** cups. The cube is now under the **Middle** cup.\n    *   **0:16:** The person swaps the **Left** and **Middle** cups. The cube is now under the **Left** cup.\n    *   **0:17:** The person swaps the **Middle** and **Right** cups. The cube remains under the **Left** cup.\n\nAt the end of the game, the hidden object is under the first object from the left.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 7,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_4230",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the closest object to the person.",
+        "Under the middle object.",
+        "Under the farthest object from the person."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the location of the hidden object (the electrical adapter), let's track its movement throughout the video:\n\n1.  **0:01**: The person places a white plastic cup over the adapter. This cup is initially in the position **closest** to the person.\n2.  **0:02**: The person swaps the closest cup (containing the adapter) with the middle cup. The adapter is now under the **middle** cup.\n3.  **0:03**: The person swaps the middle cup (containing the adapter) with the farthest cup. The adapter is now under the **farthest** cup.\n4.  **0:04**: The person swaps the farthest cup (containing the adapter) back with the middle cup. The adapter is now under the **middle** cup again.\n5.  **0:05**: The person swaps the middle cup (containing the adapter) with the closest cup. The adapter is now under the **closest** cup.\n\nAt the end of the game, the hidden object is under the cup closest to the person.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_4263",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object, let's track the movement of the mugs throughout the video:\n\n1.  **Initial State (0:01 - 0:04):** A small black ring is placed on the table, and the person covers it with the **left mug**. A second, identical mug is placed to the right.\n2.  **Swap 1 (0:08 - 0:10):** The person swaps the two mugs. The mug with the ring moves from the left to the **right**.\n3.  **Swap 2 (0:10 - 0:11):** The mugs are swapped again. The mug with the ring moves from the right back to the **left**.\n4.  **Swap 3 (0:11 - 0:12):** Another swap occurs. The mug with the ring moves to the **right**.\n5.  **Swap 4 (0:12 - 0:13):** The mugs are swapped. The mug with the ring moves to the **left**.\n6.  **Swap 5 (0:13 - 0:14):** The mugs are swapped. The mug with the ring moves to the **right**.\n7.  **Swap 6 (0:14 - 0:15):** The mugs are swapped. The mug with the ring moves to the **left**.\n8.  **Swap 7 (0:15 - 0:16):** The mugs are swapped. The mug with the ring moves to the **right**.\n9.  **Swap 8 (0:16 - 0:17):** The final swap occurs. The mug with the ring moves from the right to the **left**.\n\nAt the end of the game, the mug containing the hidden ring is the first object from the left.\n\nThe correct option is **A**.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 4,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_4282",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "The hidden object, a green bottle cap, is placed under the middle cup (second from the left) at the beginning of the game. The person then moves this cup to the leftmost position. After a few more moves involving the other cups, the cup containing the cap remains in the first position from the left.\n\nTherefore, the correct answer is **B. Under the first object from the left.**\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_4289",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "gemini-3-flash-preview",
+      "response": "The hidden object is under the third object from the left at the end of the game.\n\n1. Initially, the hidden object is placed under the third cup from the left.\n2. The person swaps the first and second cups. The object remains under the third cup.\n3. The person swaps the second and third cups. The object is now under the second cup from the left.\n4. The person swaps the second and third cups again. The object is now back under the third cup from the left.\n5. The person swaps the first and second cups. The object remains under the third cup.\n6. The person swaps the second and third cups. The object is now under the second cup from the left.\n7. The person swaps the second and third cups again. The object is now back under the third cup from the left.\n\nTherefore, the hidden object is under the third cup from the left.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_4295",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object, let's track its movement throughout the video from the viewer's perspective:\n\n1.  **Initial Position:** At 0:02, the person lifts the middle cup to reveal a small white object. At 0:03, the cup is placed back over it. The object is in the **middle position**.\n2.  **First Move (0:09):** The person swaps the middle cup and the right cup. The object is now under the **rightmost cup**.\n3.  **Second Move (0:10):** The person swaps the leftmost cup and the middle cup. The object remains under the **rightmost cup**.\n4.  **Third Move (0:11):** The person swaps the middle cup and the rightmost cup. The object is now under the **middle cup**.\n\nAt the end of the shuffling (0:12), the object is under the middle cup. From any horizontal perspective (including the person's point of view), the middle cup is the second object in the row.\n\nTherefore, the hidden object is under the second object from the left.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_4320",
+      "question_id": 7,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object, let's track the movement of the cups throughout the video:\n\n1.  **Initial Placement:** At approximately 0:05, the person lifts the leftmost cup (let's call it Cup A) and places a small black ring underneath it.\n2.  **The Shuffle:**\n    *   At 0:17, Cup A is moved from the left position to the **middle** position.\n    *   At 0:18, Cup A is moved from the middle position to the **right** position.\n    *   At 0:19, Cup A is moved from the right position back to the **middle** position.\n    *   At 0:20, Cup A is moved from the middle position to the **left** position.\n    *   At 0:21, Cup A is moved from the left position to the **middle** position.\n3.  **Final Position:** The shuffle ends at 0:22 with Cup A (containing the ring) in the middle position.\n\nFrom the person's point of view, the middle position is the second object from the left.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 1,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_4388",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object from the person's point of view, let's track its movement throughout the video:\n\n1.  **Initial Placement (0:01):** The person places a white cup over the small object. From the person's perspective, this cup is on their **left** (which is the viewer's right).\n2.  **Swapping Phase:**\n    *   **Swap 1 (0:03):** The cups are swapped. The object is now on the person's **right**.\n    *   **Swap 2 (0:04):** The cups are swapped. The object is now on the person's **left**.\n    *   **Swap 3 (0:05):** The cups are swapped. The object is now on the person's **right**.\n    *   **Swap 4 (0:06):** The cups are swapped. The object is now on the person's **left**.\n    *   **Swap 5 (0:07):** The cups are swapped. The object is now on the person's **right**.\n    *   **Swap 6 (0:08):** The cups are swapped. The object is now on the person's **left**.\n    *   **Swap 7 (0:09):** The cups are swapped. The object is now on the person's **right**.\n    *   **Swap 8 (0:10):** The cups are swapped. The object is now on the person's **left**.\n    *   **Swap 9 (0:11):** The cups are swapped. The object is now on the person's **right**.\n    *   **Swap 10 (0:12):** The cups are swapped. The object is now on the person's **left**.\n\nAt the end of the game (0:13), the object is under the cup on the person's left. From the person's point of view, this is the first object from the left.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 12,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_4438",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object, we need to track the cup that covers it throughout the game.\n\n1.  **Initial Position:** At the beginning of the video (00:01), the person places the cup on the **viewer's left** over the small white object.\n2.  **Tracking the Swaps:** The person then shuffles the two cups. Let's track the cup containing the object (Cup A) from the viewer's perspective:\n    *   **Swap 1 (00:03):** Cup A moves to the **right**.\n    *   **Swap 2 (00:04):** Cup A moves to the **left**.\n    *   **Swap 3 (00:05):** Cup A moves to the **right**.\n    *   **Swap 4 (00:06):** Cup A moves to the **left**.\n    *   **Swap 5 (00:07):** Cup A moves to the **right**.\n    *   **Swap 6 (00:08):** Cup A moves to the **left**.\n    *   **Swap 7 (00:09):** Cup A moves to the **right**.\n    *   **Swap 8 (00:10):** Cup A moves to the **left**.\n    *   **Swap 9 (00:11):** Cup A moves to the **right**.\n    *   **Swap 10 (00:12):** Cup A moves to the **left**.\n    *   **Swap 11 (00:13):** Cup A moves to the **right**.\n    *   **Swap 12 (00:14):** Cup A moves to the **left**.\n    *   **Swap 13 (00:14):** Cup A moves to the **right**.\n    *   **Swap 14 (00:15):** Cup A moves to the **left**.\n    *(Note: Counting the exact number of rapid swaps can be tricky, but observing the final state at 00:15 shows the cup that started on the left has returned to the viewer's left after an even number of total movements.)*\n3.  **Final Position:** At the end of the game, the cup with the object is on the **viewer's left**.\n4.  **Person's Point of View:** The question asks for the position from the **person's point of view**. Since the person is facing the camera, the viewer's left is the **person's right**.\n5.  **Conclusion:** In a row of two objects, the one on the right is the **second object from the left**.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 14,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_4560",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object, let's follow the movements of the cups throughout the video:\n\n1.  **Initial Placement:** A blue cap is placed under the middle cup at approximately 0:04.\n2.  **First Move:** The middle cup (containing the cap) is swapped with the left cup. The cap is now under the **leftmost** cup.\n3.  **Second Move:** The leftmost cup (containing the cap) is swapped back with the middle cup. The cap is now under the **middle** cup.\n4.  **Reveal:** At 0:15, the middle cup is lifted to show the cap is still there and then placed back down.\n5.  **Final Move:** The middle cup (containing the cap) is swapped with the left cup. The cap ends up under the **leftmost** cup.\n\nFrom the person's point of view, the hidden object is under the first object from the left.\n\nThe correct option is **B**.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_4625",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object, let's track its movement throughout the video:\n\n1.  **Initial State:** Three mugs are placed on the table.\n2.  **0:04:** The person lifts the **middle mug** (second from the left), revealing a small white object underneath it. They place the mug back down, covering the object. At this point, the object is under the **middle mug**.\n3.  **0:05:** The person swaps the **leftmost mug** and the **middle mug**. Since the object was under the middle mug, it is now under the **leftmost mug**.\n4.  **0:06:** The person swaps the **leftmost mug** and the **middle mug** again. The object is now back under the **middle mug**.\n5.  **0:07:** The person performs one final swap between the **leftmost mug** and the **middle mug**. The object is now under the **leftmost mug**.\n6.  **Rest of the video:** The person uses spoons, a phone handset, and pencils to tap on the mugs, but the mugs themselves are not moved again.\n\nTherefore, at the end of the game, the hidden object is under the first mug from the left.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_4649",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the location of the hidden object, let's track its movement throughout the video:\n\n1.  **Initial Placement:** At approximately 0:04, a key is placed on the table and covered by the **middle cup**.\n2.  **First Move:** At 0:05, the person moves the middle cup (containing the key) to the **leftmost position**. The key is now under the first cup from the left.\n3.  **Shuffle Phase:**\n    *   At 0:08, the middle and right cups are swapped. The key remains under the **left cup**.\n    *   At 0:09, the left cup (with the key) and the middle cup are swapped. The key is now under the **middle cup**.\n    *   Immediately after, the middle cup (with the key) and the right cup are swapped. The key is now under the **right cup**.\n    *   At 0:10, the left and middle cups are swapped. The key remains under the **right cup**.\n    *   Then, the middle and right cups (with the key) are swapped. The key is now under the **middle cup**.\n    *   At 0:11, the left and middle cups (with the key) are swapped. The key is now under the **left cup**.\n    *   Immediately after, the middle and right cups are swapped. The key remains under the **left cup**.\n    *   At 0:12, the left cup (with the key) and the middle cup are swapped. The key is now under the **middle cup**.\n    *   Finally, the middle cup (with the key) and the right cup are swapped. The key ends up under the **rightmost cup**.\n\nAt the end of the game (0:13), the hidden object is under the third object from the left.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_4790",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final position of the hidden object from the person's point of view, let's track the movements step-by-step. Note that the person is facing the camera, so their \"left\" is the viewer's \"right\" and their \"right\" is the viewer's \"left.\"\n\n1.  **Initial Position:** At 0:01, the person lifts the mug on the viewer's right (the person's **left**), revealing a small white object. They place the mug back over it.\n2.  **Swap 1 (0:08):** The person swaps the viewer's right and middle mugs. The object is now under the **middle** mug.\n3.  **Swap 2 (0:09):** The person swaps the viewer's middle and left mugs. The object is now under the viewer's left mug (the person's **right**).\n4.  **Swap 3 (0:10):** The person swaps the viewer's right and middle mugs. The object remains under the viewer's left mug (the person's **right**).\n5.  **Swap 4 (0:11):** The person swaps the viewer's middle and left mugs. The object is now under the **middle** mug.\n6.  **Swap 5 (0:12):** The person swaps the viewer's right and middle mugs. The object is now under the viewer's right mug (the person's **left**).\n7.  **Swap 6 (0:13):** The person swaps the viewer's middle and left mugs. The object remains under the viewer's right mug (the person's **left**).\n\nAt the end of the game, the object is under the mug on the viewer's right, which corresponds to the first object from the left from the person's point of view.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_5049",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object, let's track its movement throughout the game:\n\n1.  **Initial Position (0:05):** The small orange toy is revealed to be under the **third cup from the left** (the rightmost cup).\n2.  **First Swap (0:08):** The person swaps the first (left) and second (middle) cups. The toy remains under the **third cup**.\n3.  **Second Swap (0:09):** The person swaps the second (middle) and third (right) cups. The toy moves to the **second cup** (middle).\n4.  **Third Swap (0:10):** The person swaps the first (left) and second (middle) cups. The toy moves to the **first cup** (left).\n5.  **Fourth Swap (0:11):** The person swaps the second (middle) and third (right) cups. The toy remains under the **first cup**.\n6.  **Fifth Swap (0:12):** The person swaps the first (left) and second (middle) cups. The toy moves to the **second cup** (middle).\n7.  **Sixth Swap (0:13):** The person swaps the second (middle) and third (right) cups. The toy moves to the **third cup** (right).\n\nAt the end of the game, the hidden object is under the third object from the left.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_5222",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final position of the hidden object from the person's point of view, let's track the movements step-by-step from the camera's perspective first:\n\n1.  **Initial Placement:** At approximately 0:03, the person lifts the first cup from the left (camera's view) and reveals a small green object.\n    *   **Camera View:** [Object, _, _, _]\n2.  **First Move (0:10):** The person swaps the first and second cups.\n    *   **Camera View:** [_, Object, _, _]\n3.  **Second Move (0:11):** The person swaps the second and third cups.\n    *   **Camera View:** [_, _, Object, _]\n4.  **Third Move (0:12):** The person swaps the third and fourth cups.\n    *   **Camera View:** [_, _, _, Object]\n5.  **Fourth Move (0:13):** The person swaps the fourth and third cups.\n    *   **Camera View:** [_, _, Object, _]\n6.  **Fifth Move (0:14):** The person swaps the third and second cups.\n    *   **Camera View:** [_, Object, _, _]\n7.  **Sixth Move (0:15):** The person swaps the second and third cups.\n    *   **Camera View:** [_, _, Object, _]\n\nAt the end of the game, the object is under the **third cup from the left** in the camera's view.\n\nNow, we translate this to the **person's point of view**. Since the person is facing the camera:\n*   The camera's right is the person's left.\n*   The camera's left is the person's right.\n*   The 1st cup from the left (camera) is the 4th cup from the left (person).\n*   The 2nd cup from the left (camera) is the 3rd cup from the left (person).\n*   The **3rd cup from the left (camera)** is the **2nd cup from the left (person)**.\n*   The 4th cup from the left (camera) is the 1st cup from the left (person).\n\nTherefore, from the person's point of view, the object is under the second object from the left.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 4,
+      "num_of_cups": 4
+    },
+    {
+      "video_id": "video_5362",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the fourth object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "gemini-3-flash-preview",
+      "response": "Based on the video, here is the step-by-step tracking of the hidden object (a black hair clip):\n\n1.  **Initial Position:** At the beginning of the game (around 0:01), the person lifts the mug on the **right** (from the camera's perspective) to reveal the black clip and then places the mug back over it.\n2.  **First Move (0:05):** The person swaps the **right** mug (containing the clip) with the **middle** mug. The clip is now under the **middle** mug.\n3.  **Second Move (0:06):** The person swaps the **middle** mug (containing the clip) with the **left** mug. The clip is now under the **left** mug.\n4.  **Third Move (0:07):** The person swaps the **left** mug (containing the clip) with the **middle** mug. The clip is now under the **middle** mug.\n5.  **Fourth Move (0:08):** The person swaps the **middle** mug (containing the clip) with the **right** mug. The clip is now under the **right** mug.\n\nFrom the person's point of view (facing the camera), the mug on the camera's right is their **first** object from the left.\n\nFinal position from the person's point of view: Under the first object from the left.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_5431",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "gemini-3-flash-preview",
+      "response": "The hidden object is placed under the third green bowl from the left at the beginning of the game. After several swaps, the object ends up under the second bowl from the left.\n\n1. At 0:04, the object is shown under the rightmost (third) bowl.\n2. At 0:05, the first and third bowls are swapped. The object is now under the first bowl.\n3. At 0:06, the first and second bowls are swapped. The object is now under the second bowl.\n4. At 0:07, the second and third bowls are swapped. The object is now under the third bowl.\n5. At 0:08, the first and third bowls are swapped. The object is now under the first bowl.\n6. At 0:09, the first and second bowls are swapped. The object is now under the second bowl.\n\nThe game ends with the object under the second bowl from the left.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_5502",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final position of the hidden object from the person's point of view, let's track the movements of the cups from the viewer's perspective and then translate that to the person's perspective:\n\n1.  **Initial State:** The red ball is placed under the **leftmost cup** (from the viewer's perspective).\n2.  **First Swap (00:07):** The person swaps the middle and right cups. The ball remains under the **leftmost cup**.\n3.  **Second Swap (00:08):** The person swaps the left and middle cups. The ball is now under the **middle cup**.\n4.  **Third Swap (00:09):** The person swaps the middle and right cups. The ball is now under the **rightmost cup**.\n5.  **Fourth Swap (00:09):** The person swaps the left and middle cups. The ball remains under the **rightmost cup**.\n\nFrom the viewer's perspective, the ball ends up under the rightmost cup. From the **person's point of view** (facing the viewer), the viewer's right is the person's left. Therefore, the ball is under the **first object from the left** from the person's perspective.\n\nThe correct option is **B**.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_5540",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "gemini-3-flash-preview",
+      "response": "The person places a small red ball under the middle cup at approximately 0:05. At 0:11, the person swaps the positions of the leftmost and rightmost cups while leaving the middle cup in its original place. Since the ball was under the middle cup and that cup was not moved, the ball remains under the middle cup. From any perspective, the middle cup is the second object in a row of three.\n\nTherefore, the hidden object is under the second object from the left.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 1,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_5848",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object (the blue die), let's track the movement of the mugs throughout the video:\n\n1.  **Initial State:** The blue die is placed under the **middle mug** (the second mug from the left).\n2.  **Shuffling Begins (0:13):**\n    *   The person first swaps the left and right mugs. The die remains under the middle mug.\n    *   The middle mug (with the die) is then swapped with the mug on the left. The die is now on the **left**.\n    *   The left mug (with the die) is swapped with the mug on the right. The die is now on the **right**.\n    *   The right mug (with the die) is swapped with the mug in the middle. The die is now in the **middle**.\n    *   The middle mug (with the die) is swapped with the mug on the left. The die is now on the **left**.\n    *   The left mug (with the die) is swapped with the mug on the right. The die is now on the **right**.\n    *   Finally, the right mug (with the die) is swapped with the mug in the middle. The die ends up in the **middle**.\n\nAt the end of the game, the hidden object is under the middle mug, which is the second object from the left.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_6159",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "gemini-3-flash-preview",
+      "response": "Based on the video, here is the sequence of events:\n1.  **Initial Placement:** A lime is placed under the middle cup (the second object from the left) at approximately 0:03.\n2.  **Tracking the Movements:**\n    *   The person begins shuffling the cups at 0:08.\n    *   The cups are moved rapidly in a series of swaps.\n    *   By carefully following the cup that originally contained the lime, we can track its final position.\n    *   After all the swaps are completed at 0:13, the cup that was originally in the middle and contains the lime ends up in the **middle** position.\n\nFrom the person's point of view, the hidden object is under the second object from the left.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_6204",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object from the person's point of view, let's track the movements step-by-step:\n\n1.  **Initial State:** There are three cups on the table. From the viewer's perspective, we can label them as Left, Middle, and Right. From the person's perspective (sitting opposite the camera), the order is reversed: the viewer's Right is the person's Left, and the viewer's Left is the person's Right.\n2.  **Reveal:** At approximately 0:02, the person lifts the **Right cup** (from the viewer's perspective), revealing a green bottle cap. This is the **first cup from the left** from the person's point of view.\n3.  **First Swap:** At 0:04, the person swaps the Right cup with the Middle cup. The green cap is now under the **Middle cup**.\n4.  **Second Swap:** At 0:06, the person swaps the Middle cup with the **Left cup** (from the viewer's perspective). The green cap is now under the Left cup.\n5.  **Final Position:** From the viewer's perspective, the object is under the first cup from the left. However, from the **person's point of view**, this cup is the **third object from the left**.\n\nTherefore, the hidden object is under the third object from the left from the person's point of view.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_6269",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object, let's track its movement throughout the video:\n\n1.  **Initial Position:** At approximately 0:01, a small pink object is placed under the **middle cup** (the second object from the left).\n2.  **Shuffle Begins:**\n    *   The left and middle cups are swapped; the object is now under the **left cup**.\n    *   The middle and right cups are swapped; the object remains under the **left cup**.\n    *   The left and middle cups are swapped; the object is now under the **middle cup**.\n    *   The middle and right cups are swapped; the object is now under the **right cup**.\n    *   The left and middle cups are swapped; the object remains under the **right cup**.\n    *   The middle and right cups are swapped; the object is now under the **middle cup**.\n    *   The left and middle cups are swapped; the object is now under the **left cup**.\n    *   The middle and right cups are swapped; the object remains under the **left cup**.\n    *   The left and middle cups are swapped; the object is now under the **middle cup**.\n    *   Finally, the middle and right cups are swapped; the object is now under the **right cup**.\n3.  **Final Position:** When the shuffling stops at 0:10, the object is under the rightmost cup, which is the **third object from the left**.\n\nTherefore, the correct option is:\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 5,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_6443",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the location of the hidden object at the end of the game, let's follow the sequence of events in the video:\n\n1.  **Initial Setup:** There are three white cups placed upside down on a table and a small red stand with a white ball on the left.\n2.  **Revealing the Object:**\n    *   At approximately **0:01**, the person lifts the **first cup** (leftmost from the viewer's perspective) to show it is empty.\n    *   At approximately **0:02**, the person lifts the **second cup** (the middle one) and reveals a **small red ball** underneath it. He then places the cup back down, hiding the ball.\n    *   At approximately **0:03**, the person lifts the **third cup** (rightmost from the viewer's perspective) to show it is also empty.\n3.  **Rest of the Video:** The person performs some sleight-of-hand tricks with a white ball and the red stand, but the three cups remain in their original positions and are not moved or swapped.\n4.  **Conclusion:** Since the cups were never moved after the red ball was shown under the middle cup, the hidden object remains under the middle cup. From any horizontal perspective (including the person's point of view), the middle cup is the **second object from the left**.\n\nTherefore, the correct option is **A**.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_6534",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "The hidden object is initially placed under the first cup from the left. The person then shuffles the cups as follows:\n1. The first cup (with the ball) and the second cup are swapped. The ball is now under the second cup.\n2. The second cup (with the ball) and the third cup are swapped. The ball is now under the third cup.\n3. The first and second cups are swapped. The ball remains under the third cup.\n4. The second and third cups (with the ball) are swapped. The ball is now under the second cup.\n5. The first and second cups (with the ball) are swapped. The ball is now under the first cup.\n\nAt the end of the game, the hidden object is under the first object from the left.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_6686",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden lime from the person's point of view, let's track its movement throughout the video from the camera's perspective and then translate that to the person's perspective.\n\n1.  **Initial Position:** The lime is revealed to be under the **middle cup** at 0:03.\n2.  **Movement 1 (0:05):** The middle cup (with the lime) is moved to the **right**.\n3.  **Movement 2 (0:06):** The right cup (with the lime) is moved to the **middle**.\n4.  **Movement 3 (0:07):** The middle cup (with the lime) is moved to the **right**.\n5.  **Movement 4 (0:08):** The right cup (with the lime) is moved to the **middle**.\n6.  **Movement 5 (0:09):** The middle cup (with the lime) is moved to the **left**.\n7.  **Movement 6 (0:10):** The left cup (with the lime) is moved to the **middle**.\n8.  **Movement 7 (0:11):** The middle cup (with the lime) is moved to the **right**.\n9.  **Movement 8 (0:12):** The right cup (with the lime) is moved to the **left**.\n\nAt the end of the game (0:15), the lime is under the **leftmost cup** from the camera's perspective.\n\n**Translating to the person's point of view:**\nSince the person is facing the camera, their left and right are reversed.\n*   The camera's **left** is the person's **right**.\n*   The camera's **right** is the person's **left**.\n\nThe lime is under the leftmost cup from the camera's perspective, which corresponds to the **rightmost cup** (the third object from the left) from the person's point of view.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_6704",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the fourth object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object, let's track the movements of the cups throughout the video:\n\n1.  **Initial State:** There are three cups in a row on the table.\n2.  **0:04:** The person lifts the **middle cup**, reveals a small yellow object, and places the cup back over it. The object is now under the middle cup.\n3.  **0:05:** The person swaps the **middle cup** (with the object) and the **right cup**. The object is now under the **right cup**.\n4.  **0:06:** The person swaps the **left cup** and the **middle cup**. The object remains under the **right cup**.\n5.  **0:07:** The person swaps the **middle cup** and the **right cup** (with the object). The object is now back under the **middle cup**.\n6.  **0:08:** The person lifts the **middle cup** to show the object is still there and puts it back.\n7.  **0:09:** The person swaps the **middle cup** (with the object) and the **left cup**. The object is now under the **left cup**.\n\nAt the end of the game, the hidden object is under the first cup from the left.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_6789",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object, let's track its movement throughout the video from the person's point of view:\n\n1.  **Initial Reveal:** At the beginning (around 0:06), the person lifts the cup closest to them (the bottom cup in the vertical line) to reveal a small white object. They then place the cup back over it.\n2.  **First Shuffle (0:08):** The person uses both hands to swap the bottom cup (which contains the object) and the top cup. The bottom cup moves to the top position, and the top cup moves to the bottom position. At this point, the object is under the **top cup**.\n3.  **Second Shuffle (0:09):** The person then swaps the new top cup (which now contains the object) with the middle cup. The top cup moves to the middle position, and the middle cup moves to the top position.\n4.  **Final Position:** After these movements, the object is under the cup in the middle of the line.\n\nIn a sequence of three objects, the middle one is the second object. Therefore, the hidden object is under the second cup.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_6855",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object, let's track the movements of the cups step-by-step:\n\n1.  **Initial State:** A small basketball is placed under the **leftmost cup** (Cup 1).\n2.  **First Move (0:07):** The person swaps the **leftmost cup** and the **middle cup**. The ball is now under the **middle cup**.\n3.  **Second Move (0:08):** The person swaps the **middle cup** and the **rightmost cup**. The ball is now under the **rightmost cup**.\n4.  **Third Move (0:09):** The person swaps the **leftmost cup** and the **middle cup**. Since the ball was under the rightmost cup, its position remains unchanged. The ball is still under the **rightmost cup**.\n5.  **Fourth Move (0:10):** The person swaps the **middle cup** and the **rightmost cup**. The ball moves from the rightmost position to the **middle position**.\n\nAt the end of the game, the hidden object is under the middle cup, which is the second object from the left.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_6902",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object, let's track the movement of the cups throughout the video:\n\n1.  **Initial State:** There are three cups on the table. At 0:05, the person lifts the **third cup from the left** (the rightmost cup) to reveal a small yellow candy. The candy is then covered by this cup.\n2.  **First Move (0:07 - 0:08):** The person swaps the first cup (left) and the second cup (middle). The candy remains under the third cup (right).\n3.  **Second Move (0:08 - 0:09):** The person swaps the first cup (now on the left) and the third cup (on the right). The candy, which was under the third cup, is now under the cup on the **left** (the first object from the left).\n4.  **Third Move (0:11 - 0:12):** The person swaps the first cup (left, with candy) and the second cup (middle). The candy is now under the cup in the **middle** (the second object from the left).\n5.  **Fourth Move (0:12 - 0:13):** The person swaps the second cup (middle, with candy) and the third cup (right). The candy is now under the cup on the **right** (the third object from the left).\n\nAt the end of the game, the hidden object is under the third object from the left.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_7095",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object, let's track its movement throughout the video:\n\n1.  **Initial Reveal:** At 0:02, the person lifts the third cup from the left, revealing a crumpled piece of paper.\n2.  **Placing the Cup:** At 0:05, the person places the first cup (originally on the far left) over the paper. At this point, the paper is under the cup in the **leftmost** position.\n3.  **First Move:** At 0:07, the person moves this leftmost cup (containing the paper) to the **middle** position.\n4.  **Shuffling:**\n    *   At 0:08, the middle cup (with the paper) is moved to the **right**.\n    *   At 0:09, the right cup (with the paper) is moved to the **left**.\n    *   At 0:10, the left cup (with the paper) is moved to the **middle**.\n    *   At 0:11, the middle cup (with the paper) is moved to the **right**.\n    *   At 0:12, the right cup (with the paper) is moved to the **left**.\n    *   At 0:13, the left cup (with the paper) is moved to the **middle**.\n    *   At 0:14, the middle cup (with the paper) is moved to the **right**.\n    *   At 0:15, the right cup (with the paper) is moved back to the **middle**.\n\nAt the end of the game, the hidden object is under the middle cup, which is the second object from the left.\n\nThe correct answer is **C. Under the second object from the left.**\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_7331",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "gemini-3-flash-preview",
+      "response": "The hidden object, a small red ring, is placed under the leftmost cup at the beginning of the game. After several swaps, the final position of the hidden object is under the third cup from the left.\n\nTherefore, the correct answer is **B**.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_7395",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "gemini-3-flash-preview",
+      "response": "To find the hidden object, let's track the movement of the cups throughout the video:\n\n1.  **Initial Reveal:** At 0:04, the person lifts the middle cup to reveal an orange ball.\n2.  **First Move:** The middle cup (containing the ball) is moved to the right position, and the right cup is moved to the middle. (Ball is now on the **right**).\n3.  **Shuffling Starts:**\n    *   The left cup and the middle cup are swapped. (Ball remains on the **right**).\n    *   The middle cup and the right cup (with the ball) are swapped. (Ball is now in the **middle**).\n    *   The left cup and the middle cup (with the ball) are swapped. (Ball is now on the **left**).\n    *   The middle cup and the right cup are swapped. (Ball remains on the **left**).\n\nAt the end of the game, the ball is under the first object from the left.\n\nThe correct answer is **C. Under the first object from the left.**\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_7471",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "To find the hidden object, let's track the movement of the cups from the beginning of the game:\n\n1.  **Initial State:** The person reveals a small grey object under the **third cup from the left** at 0:03.\n2.  **First Move (0:07):** The third and fourth cups are swapped. The object is now under the **fourth cup**.\n3.  **Second Move (0:07):** The second and third cups are swapped. The object remains under the **fourth cup**.\n4.  **Third Move (0:08):** The third and fourth cups are swapped. The object is now under the **third cup**.\n5.  **Fourth Move (0:08):** The second and third cups are swapped. The object is now under the **second cup**.\n6.  **Fifth Move (0:09):** The first and second cups are swapped. The object is now under the **first cup**.\n7.  **Sixth Move (0:09):** The second and third cups are swapped. The object remains under the **first cup**.\n8.  **Seventh Move (0:10):** The first and second cups are swapped. The object is now under the **second cup**.\n9.  **Eighth Move (0:10):** The third and fourth cups are swapped. The object remains under the **second cup**.\n10. **Ninth Move (0:11):** The second and third cups are swapped. The object is now under the **third cup**.\n11. **Final Move (0:11):** The first and second cups are swapped. The object remains under the **third cup**.\n\nAt the end of the game, the hidden object is under the third object from the left.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 6,
+      "num_of_cups": 4
+    },
+    {
+      "video_id": "video_7553",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object from the person's point of view, we need to track the object's movement throughout the video:\n\n1.  **Initial Placement (0:05):** The person reveals a small green object under the **leftmost cup** (from the viewer's perspective).\n2.  **Shuffling (0:06 - 0:13):**\n    *   The cup with the object moves from the left to the middle, then back and forth between the middle and the other positions.\n    *   By the time the fast shuffling stops at **0:13**, the cup containing the object is in the **middle position**.\n3.  **Final Moves (0:14 - 0:16):**\n    *   At **0:14**, the person swaps the middle cup (with the object) and the left cup. The object is now in the **viewer's left** position.\n    *   At **0:15**, the person swaps them back. The object is now in the **middle** position.\n    *   At **0:16**, the person swaps them once more. The object ends up in the **viewer's leftmost cup**.\n4.  **Perspective Shift:**\n    *   The question asks for the location from the **person's point of view** (the person in the red shirt facing the camera).\n    *   The viewer's **left** is the person's **right**.\n    *   Counting from the person's left to right: the first cup is on the viewer's right, the second is in the middle, and the **third cup** is on the viewer's left.\n    *   Since the object is in the viewer's leftmost cup, it is under the **third object from the left** from the person's point of view.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_7632",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "gemini-3-flash-preview",
+      "response": "The hidden object, a lime, is initially placed under the middle cup. The person then performs a series of swaps:\n1. The left and middle cups are swapped, moving the lime to the **left** position.\n2. The middle and right cups are swapped, but the lime remains in the **left** position.\n3. The left and middle cups are swapped again, moving the lime to the **middle** position.\n4. Finally, the middle and right cups are swapped, moving the lime to the **right** position.\n\nAt the end of the game, the lime is revealed under the third cup from the left.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_7669",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "gemini-3-flash-preview",
+      "response": "The hidden object, a small red and white ball, is initially revealed under the middle cup. The person then places the middle cup back over the ball and proceeds to flip through a book without moving any of the cups. Therefore, the ball remains under the middle cup, which is the second object from the left.\n\nThe correct answer is **A. Under the second object from the left.**\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_7812",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "gemini-3-flash-preview",
+      "response": "To track the hidden object (the apple), let's follow its movements step-by-step:\n\n1.  **Initial State:** The apple is on the far left, followed by three cups.\n2.  **0:01:** The person places the first cup (leftmost) over the apple. The apple is now at **Position 1**.\n3.  **0:03:** The second cup moves to Position 1, and the cup with the apple moves to **Position 2**.\n4.  **0:05:** The third cup moves to Position 2, and the cup with the apple moves to **Position 3**.\n5.  **0:07:** The cup with the apple moves from Position 3 to **Position 2**.\n6.  **0:08:** The cup with the apple moves from Position 2 to **Position 1**.\n\nNow, the fast shuffling begins:\n7.  **0:09:** The cups at Position 1 and Position 2 swap. The apple is now at **Position 2**.\n8.  **0:10:** The cups at Position 2 and Position 3 swap. The apple is now at **Position 3**.\n9.  **0:11:** The cups at Position 3 and Position 2 swap. The apple is now at **Position 2**.\n10. **0:12:** The cups at Position 2 and Position 1 swap. The apple is now at **Position 1**.\n11. **0:13:** The cups at Position 1 and Position 2 swap. The apple is now at **Position 2**.\n12. **0:14:** The cups at Position 2 and Position 3 swap. The apple is now at **Position 3**.\n13. **0:15:** The cups at Position 3 and Position 2 swap. The apple is now at **Position 2**.\n\nAt the end of the game, the apple is under the second object from the left.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_7966",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object, let's track the movement of the cups from the person's point of view (where the leftmost cup is position 1, the middle is position 2, and the rightmost is position 3):\n\n1.  **Setup:** At approximately 0:02, the person places a small ring under the cup closest to them. They then move this cup to the **leftmost position (Position 1)**. The other two cups are placed in the middle and right positions.\n2.  **Shuffling:**\n    *   The person swaps the cups at positions 1 and 2. The ring is now at **Position 2**.\n    *   They swap positions 2 and 3. The ring is now at **Position 3**.\n    *   They swap positions 1 and 2. The ring remains at **Position 3**.\n    *   They swap positions 2 and 3. The ring is now at **Position 2**.\n    *   They swap positions 1 and 2. The ring is now at **Position 1**.\n    *   They swap positions 2 and 3. The ring remains at **Position 1**.\n    *   They swap positions 1 and 2. The ring is now at **Position 2**.\n    *   They swap positions 2 and 3. The ring is now at **Position 3**.\n    *   They swap positions 1 and 2. The ring remains at **Position 3**.\n    *   They swap positions 2 and 3. The ring is now at **Position 2**.\n    *   They swap positions 1 and 2. The ring is now at **Position 1**.\n    *   They swap positions 2 and 3. The ring remains at **Position 1**.\n    *   They swap positions 1 and 2. The ring is now at **Position 2**.\n    *   They swap positions 2 and 3. The ring is now at **Position 3**.\n    *   They swap positions 1 and 2. The ring remains at **Position 3**.\n    *   They swap positions 2 and 3. The ring is now at **Position 2**.\n    *   They swap positions 1 and 2. The ring is now at **Position 1**.\n    *   They swap positions 2 and 3. The ring remains at **Position 1**.\n    *   They swap positions 1 and 2. The ring is now at **Position 2**.\n    *   They swap positions 2 and 3. The ring is now at **Position 3**.\n    *   They swap positions 1 and 2. The ring remains at **Position 3**.\n\nAt the end of the game, the ring is under the third object from the left from the person's point of view.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 16,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_8255",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the fourth object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "The person places a small yellow candy under the third cup from the left at 0:05. Following the movements of the cups:\n1. The first and second cups are swapped (candy remains under the third cup).\n2. The second and third cups are swapped (candy is now under the second cup).\n3. The first and second cups are swapped (candy is now under the first cup).\n4. The second and third cups are swapped (candy remains under the first cup).\n5. The first and second cups are swapped (candy is now under the second cup).\n\nAt the end of the game, the hidden object is under the second cup from the left.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_8402",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object, let's track the movements of the mugs throughout the video:\n\n1.  **Initial Setup:** There are three mugs on a checkered tablecloth.\n2.  **Revealing the Object:** At approximately 0:04, the person moves the rightmost mug to the leftmost position. At 0:06, they lift this new leftmost mug to reveal a small, white crumpled piece of paper.\n3.  **Covering the Object:** At 0:08, the person places the leftmost mug back down, covering the object.\n4.  **The Shuffle:** From 0:09 to 0:20, the person repeatedly swaps the positions of the **middle** and **rightmost** mugs. During this entire sequence, the **leftmost** mug (which covers the object) remains stationary and is never moved.\n5.  **Final Position:** Since the leftmost mug was never moved after covering the object, the object remains under the first mug from the left.\n\nBased on these observations, the hidden object is under the first object from the left.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_8517",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final position of the hidden object, we need to track its movement throughout the video from the person's point of view.\n\n1.  **Initial Position:** At the beginning of the video (0:00-0:05), the person shows three empty cups. At approximately **0:04**, the person's right hand (on the left side of the screen) places a small white object on the table, and the **middle cup** is placed over it.\n2.  **Tracking the Shuffle:**\n    *   **Swap 1 (0:08):** The person swaps the left and middle cups. The object moves from the middle to the **left** (from our perspective).\n    *   **Swap 2 (0:09):** The person swaps the middle and right cups. The object remains at the **left**.\n    *   **Swap 3 (0:09):** The person swaps the left and middle cups. The object moves from the left to the **middle**.\n    *   **Swap 4 (0:10):** The person swaps the middle and right cups. The object moves from the middle to the **right**.\n    *   **Swap 5 (0:10):** The person swaps the left and middle cups. The object remains at the **right**.\n    *   **Swap 6 (0:11):** The person swaps the middle and right cups. The object moves from the right to the **middle**.\n    *   **Swap 7 (0:11):** The person swaps the left and middle cups. The object moves from the middle to the **left**.\n    *   **Swap 8 (0:12):** The person swaps the middle and right cups. The object remains at the **left**.\n3.  **Final Position (Viewer's Perspective):** The object ends up under the cup on the **far left** of the screen.\n4.  **Final Position (Person's Point of View):** The person is facing the camera, so their left and right are reversed relative to ours. From the person's perspective, the cup on the right of the screen is the \"first from the left,\" the middle cup is the \"second from the left,\" and the cup on the left of the screen is the **\"third from the left.\"**\n\nSince the object is under the cup on the left of the screen, it is under the third object from the left from the person's point of view.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_8661",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the closest object to the person.",
+        "Under the farthest object from the person.",
+        "Under the middle object."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object, let's track its movement throughout the video:\n\n1.  **Initial Placement (0:04):** The person places a small red object under the **middle** cup.\n2.  **First Swap (0:10):** The person swaps the **left** and **middle** cups. The object is now under the **left** cup.\n3.  **Second Swap (0:11):** The person swaps the **middle** and **right** cups. The object remains under the **left** cup.\n4.  **Third Swap (0:12):** The person swaps the **left** and **middle** cups. The object is now under the **middle** cup.\n5.  **Fourth Swap (0:13):** The person swaps the **middle** and **right** cups. The object is now under the **right** cup.\n6.  **Fifth Swap (0:14):** The person swaps the **left** and **middle** cups. The object remains under the **right** cup.\n7.  **Sixth Swap (0:15):** The person swaps the **middle** and **right** cups. The object is now under the **middle** cup.\n8.  **Seventh Swap (0:16):** The person swaps the **left** and **middle** cups. The object is now under the **left** cup.\n9.  **Eighth Swap (0:17):** The person swaps the **middle** and **right** cups. The object remains under the **left** cup.\n10. **Ninth Swap (0:18):** The person swaps the **left** and **middle** cups. The object is now under the **middle** cup.\n\nAt the end of the game, the hidden object is under the middle cup.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 5,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_8830",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object, we first identify the object and its starting position, then track its movement through the shuffling process.\n\n1.  **Initial Position:** At approximately 0:03, the person lifts the cup furthest from the camera (the \"top\" cup) to reveal a small white ball. The other two cups (middle and \"bottom\"/closest to camera) are shown to be empty.\n2.  **Tracking the Shuffles:**\n    *   **Swap 1 (0:05):** The person swaps the top cup (with the ball) and the middle cup. The ball is now in the **middle** position.\n    *   **Swap 2 (0:06):** The person swaps the middle cup (with the ball) and the bottom cup. The ball is now in the **bottom** position.\n    *   **Swap 3 (0:07):** The person swaps the bottom cup (with the ball) and the middle cup. The ball is now in the **middle** position.\n    *   **Swap 4 (0:07.5):** The person swaps the middle cup (with the ball) and the top cup. The ball is now in the **top** position.\n    *   **Swap 5 (0:08):** The person swaps the top cup (with the ball) and the middle cup. The ball is now in the **middle** position.\n    *   **Swap 6 (0:08.5):** The person swaps the middle cup (with the ball) and the bottom cup. The ball is now in the **bottom** position.\n    *   **Swap 7 (0:09):** The person swaps the bottom cup (with the ball) and the middle cup. The ball is now in the **middle** position.\n    *   **Swap 8 (0:09.5):** The person swaps the middle cup (with the ball) and the top cup. The ball is now in the **top** position.\n3.  **Final Position:** The ball ends up under the cup furthest from the camera.\n4.  **Person's Point of View:** The person is standing to the right of the cups, facing them. From her perspective, the cup furthest from the camera is the one on her far left. Therefore, the object is under the first object from the left from her point of view.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_8963",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object from the person's point of view, let's track the mug containing the paper (Mug P) through each movement:\n\n1.  **Initial State (0:06):** The person lifts the mug on their **left** to reveal the crumpled paper. We will call the positions from the person's perspective: Left (1st), Middle (2nd), and Right (3rd). Mug P starts at the **Left (1st)** position.\n2.  **0:09:** The person swaps the Middle and Right mugs. Mug P remains at the **Left** position.\n3.  **0:10:** The person swaps the Left mug (Mug P) and the Middle mug. Mug P is now in the **Middle** position.\n4.  **0:11:** The person swaps the Middle mug (Mug P) and the Right mug. Mug P is now in the **Right** position.\n5.  **0:12:** The person swaps the Left and Middle mugs. Mug P remains in the **Right** position.\n6.  **0:13:** The person swaps the Middle and Right mugs (Mug P). Mug P is now in the **Middle** position.\n7.  **0:14:** The person swaps the Left and Middle mugs (Mug P). Mug P is now in the **Left** position.\n8.  **0:15:** The person swaps the Middle and Right mugs. Mug P remains in the **Left** position.\n9.  **0:16:** The person swaps the Left mug (Mug P) and the Middle mug. Mug P is now in the **Middle** position.\n10. **0:17:** The person swaps the Middle mug (Mug P) and the Right mug. Mug P is now in the **Right** position.\n\nAt the end of the game, the hidden object is under the mug on the person's far right. From the person's point of view, counting from left to right, this is the third object.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_9146",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object, let's track the movement of the cups step-by-step:\n\n1.  **Initial State:** The person places a small white object under the **leftmost cup** (let's call it Cup A). The arrangement is [Cup A (with object), Cup B, Cup C].\n2.  **First Move (0:05):** Cup A (left) and Cup B (middle) are swapped. The object is now in the **middle**. Arrangement: [Cup B, Cup A (obj), Cup C].\n3.  **Second Move (0:06):** Cup A (middle) and Cup C (right) are swapped. The object is now on the **right**. Arrangement: [Cup B, Cup C, Cup A (obj)].\n4.  **Third Move (0:07):** Cup A (right) and Cup C (middle) are swapped. The object is now in the **middle**. Arrangement: [Cup B, Cup A (obj), Cup C].\n5.  **Fourth Move (0:08):** Cup A (middle) and Cup B (left) are swapped. The object is now on the **left**. Arrangement: [Cup A (obj), Cup B, Cup C].\n6.  **Fifth Move (0:09):** Cup A (left) and Cup B (middle) are swapped. The object is now in the **middle**. Arrangement: [Cup B, Cup A (obj), Cup C].\n7.  **Final Move (0:10):** Cup A (middle) and Cup C (right) are swapped. The object ends up on the **far right**. Arrangement: [Cup B, Cup C, Cup A (obj)].\n\nAt the end of the game, the hidden object is under the third object from the left.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_9245",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "To find the hidden object, let's track the movement of the cups. Initially, the person places an orange toy under the middle cup. Let's call the positions 1, 2, and 3 from left to right.\n\n1.  **Initial state:** The toy is under the cup at position 2.\n2.  **First movement (00:07 - 00:09):** The person swaps the cups at positions 1 and 2. The toy, which was at position 2, is now at position 1.\n3.  **Second movement (00:09 - 00:11):** The person swaps the cups at positions 2 and 3. The toy remains at position 1.\n4.  **Third movement (00:12 - 00:14):** The person swaps the cups at positions 1 and 2. The toy, which was at position 1, is now at position 2.\n5.  **Final state:** The toy is under the second cup from the left.\n\nThe correct answer is B.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_9265",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the fourth object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the location of the hidden object, let's follow the actions in the video:\n\n1.  **0:01**: The person lifts the first cup on the left (from the viewer's perspective) to show it is empty.\n2.  **0:03**: The person lifts the middle cup, revealing a small green object (a grape) underneath it.\n3.  **0:05**: The person lifts the third cup on the right to show it is also empty.\n4.  The cups are not moved after these reveals.\n\nThe object remains under the middle cup, which is the second object from the left (from both the viewer's and the person's perspective, as there are only three cups).\n\nTherefore, the correct option is **B**.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_9298",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "The hidden object, a small orange ball, is revealed to be under the middle cup at the beginning of the video. Throughout the rest of the clip, the person does not move or swap the positions of the three cups. Therefore, the ball remains under the middle cup, which is the second object from the left.\n\nThe correct answer is **A. Under the second object from the left.**\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_9426",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "gemini-3-flash-preview",
+      "response": "The person places a small red object under the middle mug (the second one from the left) at the beginning of the video. Throughout the rest of the clip, the person lifts each mug to show whether the object is underneath, but they do not shuffle or move the mugs from their original positions. Therefore, the hidden object remains under the second mug from the left.\n\nThe correct answer is **C. Under the second object from the left.**\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_9643",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "The person places a small red object under the leftmost red mug at the beginning of the video. Let's track the movement of the mugs:\n\n1.  The leftmost mug (containing the object) is moved to the middle position.\n2.  The middle mug (now containing the object) is moved back to the leftmost position.\n3.  The rightmost mug and the middle mug are swapped, but the leftmost mug remains in place.\n\nAt the end of the game, the hidden object is under the first mug from the left.\n\nTherefore, the correct answer is:\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_9735",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "gemini-3-flash-preview",
+      "response": "The hidden object is under the second object from the left at the end of the game.\n\n1.  **Initial Position:** The lime is revealed under the middle (second) cup at 0:05.\n2.  **First Move:** The person swaps the left and middle cups. The lime is now under the first cup from the left.\n3.  **Second Move:** The person swaps the middle and right cups. The lime remains under the first cup.\n4.  **Third Move:** The person swaps the left and middle cups. The lime is now under the second cup.\n5.  **Fourth Move:** The person swaps the middle and right cups. The lime is now under the third cup.\n6.  **Fifth Move:** The person swaps the left and middle cups. The lime remains under the third cup.\n7.  **Sixth Move:** The person swaps the middle and right cups. The lime is now under the second cup.\n\nAt the end of the video, the lime is under the second cup from the left.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": true,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_9753",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "The hidden object, a green grape, is revealed under the middle cup at approximately 0:05. After showing the grape, the person places the cup back over it and does not move or swap any of the cups for the remainder of the video. Therefore, the grape remains under the second cup from the left.\n\nThe correct answer is **B. Under the second object from the left.**\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_9855",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object (the key) from the person's point of view, let's track the movement of the cups from the viewer's perspective first:\n\n1.  **Initial State:** At 0:04, the key is revealed under the middle cup. At 0:05, the person places the **rightmost cup** over the key.\n2.  **The Shuffle:**\n    *   The person swaps the left and middle cups. (Key remains under the **right** cup).\n    *   The person swaps the middle and right cups. (Key is now under the **middle** cup).\n    *   The person swaps the left and middle cups. (Key is now under the **left** cup).\n    *   The person swaps the middle and right cups. (Key remains under the **left** cup).\n    *   The person swaps the left and middle cups. (Key is now under the **middle** cup).\n    *   The person swaps the middle and right cups. (Key is now under the **right** cup).\n    *   The person swaps the left and middle cups. (Key remains under the **right** cup).\n3.  **Final Position:** From the viewer's perspective, the key ends up under the **third object from the left** (the rightmost cup).\n\nBecause the person is sitting opposite the camera, their left and right are reversed compared to the viewer's. The viewer's rightmost cup (the third from the left) is the person's **first object from the left**.\n\nTherefore, from the person's point of view, the hidden object is under the first object from the left.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_9896",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the fourth object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the location of the hidden object at the end of the game, let's track the movements step-by-step:\n\n1.  **Initial State:** There are three styrofoam cups on the table and a fourth one in the person's hand. A crumpled piece of paper is placed on the table to the right of the three cups. The person places the fourth cup over the paper. We now have four cups in a row, with the paper under the **fourth cup from the left**.\n2.  **The Shuffle:**\n    *   At the beginning of the shuffle (around 0:04), the person stacks the first cup onto the second cup. This creates three \"units\" to move: a stack of two cups on the left, a single cup in the middle, and the cup covering the paper on the right.\n    *   The person shuffles these three units rapidly.\n    *   At the end of the shuffle (0:07), the units are in a line. The person lifts the middle unit (the **second object from the left**) at 0:08 to reveal the paper is underneath it.\n3.  **Final Sequence:**\n    *   The person picks up the paper, shows it, and places it back on the table to the right of all the cups.\n    *   He then takes the rightmost cup and places it over the paper.\n    *   At 0:10, he lifts all the cups to show their contents. When he lifts the leftmost unit, it is still a stack of two cups.\n    *   At 0:11, as he puts the cups back down, he **unstacks** the leftmost unit, placing the two cups side-by-side.\n    *   By the very end of the video (0:12), there are **four distinct styrofoam cups** lined up on the table.\n    *   The paper was last covered by the cup on the far right.\n\nCounting from the person's point of view (left to right), the paper is under the **fourth object**.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_9922",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object, we must track its movement throughout the video from the perspective of the person performing the shuffle.\n\n1.  **Initial State (0:00 - 0:03):** The person lifts three blue cups to show what is underneath.\n    *   Left cup (from camera's view): Empty.\n    *   Middle cup: Empty.\n    *   **Right cup (from camera's view):** A small white object is revealed.\n    *   The person's perspective is opposite the camera. Therefore, the cup on the camera's **right** is the person's **left** cup.\n\n2.  **Tracking the Object (Camera's Perspective):**\n    *   **0:04:** The person places the right cup back down over the object. (Object is at **Right**)\n    *   **0:05:** The person moves the right cup to the left position, the left cup to the middle, and the middle cup is pushed to the right. (Object moves from Right to **Left**)\n    *   **0:06:** The person swaps the left and middle cups. (Object moves from Left to **Middle**)\n    *   **0:07:** The person swaps the middle and right cups. (Object moves from Middle to **Right**)\n    *   **0:08:** The person moves the right cup to the middle, the left cup to the right, and the middle cup to the left. (Object moves from Right to **Middle**)\n    *   **0:09:** The person moves the middle cup to the left, the right cup to the middle, and the left cup to the right. (Object moves from Middle to **Left**)\n    *   **0:10:** The shuffling stops. The object is under the cup at the **leftmost** position from the camera's point of view.\n\n3.  **Perspective Shift:**\n    *   The question asks for the location from the **person's point of view**.\n    *   The person is sitting across the table from the camera.\n    *   The camera's **left** is the person's **right**.\n    *   Counting from the person's left to right:\n        *   1st object: Person's Left (Camera's Right)\n        *   2nd object: Person's Middle (Camera's Middle)\n        *   **3rd object: Person's Right (Camera's Left)**\n    *   Since the object ended at the camera's left, it is under the **third object from the left** from the person's point of view.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_9946",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the fourth object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object from the person's point of view, let's track the movement of the cups throughout the video:\n\n1.  **Initial State (0:01):** The person places a small object under the cup on the **right** (from the camera's perspective).\n2.  **Tracking the Swaps (Camera's Perspective):**\n    *   **0:02:** The cups are swapped. The object is now under the **left** cup.\n    *   **0:03:** Swapped again. The object is now under the **right** cup.\n    *   **0:04:** Swapped again. The object is now under the **left** cup.\n    *   **0:05:** Swapped again. The object is now under the **right** cup.\n    *   **0:06:** Swapped again. The object is now under the **left** cup.\n    *   **0:07:** Swapped again. The object is now under the **right** cup.\n    *   **0:08:** Swapped again. The object is now under the **left** cup.\n    *   **0:09:** Swapped again. The object is now under the **right** cup.\n    *   **0:10:** Swapped again. The object is now under the **left** cup.\n    *   **0:11:** Swapped again. The object is now under the **right** cup.\n    *   **0:12:** Swapped again. The object is now under the **left** cup.\n    *   **0:13:** Final swap. The object is now under the **right** cup.\n3.  **Final Position:** At the end of the game (0:14), the object is under the cup on the **right** from the camera's point of view.\n4.  **Person's Point of View:** Since the person is facing the camera, their left and right are reversed compared to the camera. The cup on the camera's right is the **first object from the left** from the person's point of view.\n\nTherefore, the hidden object is under the first object from the left from the person's point of view.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 3,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_10121",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object, let's track its movement throughout the video:\n\n1.  **Initial Position (0:03):** The person reveals a small orange hexagonal object under the **middle cup** (the second object from the left).\n2.  **First Swap (0:08):** The person swaps the middle cup and the left cup. The object is now under the **left cup**.\n3.  **Second Swap (0:09):** The person swaps the left cup and the middle cup. The object is now back under the **middle cup**.\n4.  **Third Swap (0:10):** The person swaps the middle cup and the right cup. The object is now under the **right cup**.\n5.  **Fourth Swap (0:11):** The person swaps the right cup and the left cup. The object is now under the **left cup**.\n6.  **Fifth Swap (0:12):** The person swaps the left cup and the middle cup. The object is now under the **middle cup**.\n7.  **Sixth Swap (0:13):** The person swaps the middle cup and the right cup. The object is now under the **right cup**.\n8.  **Seventh Swap (0:14):** The person swaps the right cup and the left cup. The object is now under the **left cup**.\n9.  **Eighth Swap (0:15):** The person swaps the left cup and the middle cup. The object is now under the **middle cup**.\n\nAt the end of the game (0:16), the object remains under the middle cup, which is the second object from the left.\n\nThe correct answer is **C. Under the second object from the left.**\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 7,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_10172",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the first object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "The person places a small red object under the cup on the right. Let's track the movement of this cup (the one with the object):\n\n1.  Initially, there are three cups. The object is under the **third cup** (the one on the right).\n2.  The person swaps the first and second cups. The object remains under the **third cup**.\n3.  The person swaps the first and third cups. The object is now under the **first cup**.\n4.  The person swaps the second and third cups. The object remains under the **first cup**.\n5.  The person swaps the first and second cups. The object is now under the **second cup**.\n6.  The person swaps the first and second cups again. The object is now under the **first cup**.\n7.  The person swaps the second and third cups. The object remains under the **first cup**.\n8.  The person swaps the first and second cups. The object is now under the **second cup**.\n\nAt the end of the game, the object is under the second cup from the left.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_10363",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "The hidden object is under the second object from the left at the end of the game.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_10698",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the fourth object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "gemini-3-flash-preview",
+      "response": "The hidden object (a small pink ball) is initially placed under the middle cup (the second cup from the left). During the shuffling process, the cups are moved as follows:\n\n1. The middle cup and the right cup are swapped (the ball is now under the right cup).\n2. The left cup and the middle cup are swapped (the ball remains under the right cup).\n3. The middle cup and the right cup are swapped (the ball is now under the middle cup).\n4. The left cup and the middle cup are swapped (the ball is now under the left cup).\n5. The left cup and the middle cup are swapped again (the ball is now under the middle cup).\n6. The middle cup and the right cup are swapped (the ball is now under the right cup).\n7. The left and middle cups are swapped twice more, but the ball remains under the rightmost cup.\n\nAt the end of the game, the hidden object is under the third cup from the left.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_10755",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "The hidden object is placed under the third cup from the left at the beginning of the game. After several movements, the cup containing the object is moved to the first position from the left. Therefore, the hidden object is under the first object from the left at the end of the game.\n\nThe correct answer is **C. Under the first object from the left.**\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 1,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_10863",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final position of the hidden object, let's track the movement of the cup that covers it:\n\n1.  **Initial State:** There are three cups on the table. A crumpled piece of paper is placed on the right side.\n2.  **Covering the Object:** At approximately 0:02, the person places the **third cup (the one on the right)** over the crumpled paper.\n3.  **Tracking the Shuffle:**\n    *   The person begins shuffling the cups.\n    *   The cup with the paper (initially on the right) is moved to the **middle** position.\n    *   It is then moved to the **left** position.\n    *   It is moved back to the **middle** position.\n    *   It is moved to the **right** position.\n    *   It is moved back to the **middle** position.\n    *   It is moved to the **left** position.\n    *   Finally, it is moved back to the **middle** position just before the shuffling stops at 0:10.\n\nAt the end of the game, the cup containing the hidden object is in the middle position.\n\nThe correct answer is **C. Under the second object from the left.**\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_11046",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object from the person's point of view, we track the movements of the cups throughout the video:\n\n1.  **Initial State:** There are three cups on the counter. From the viewer's perspective, they are Left, Middle, and Right. From the **person's point of view**, the cup on the viewer's right is their **Left**, and the cup on the viewer's left is their **Right**.\n2.  **Revealing the Object (0:01):** The person lifts the cup on the right side of the screen (their **Left** cup) to reveal a small black object. They then place the cup back over it.\n3.  **Tracking Movements:**\n    *   At **0:08**, the person moves the cup on the right side of the screen (their **Left** cup, which contains the object) further to the right.\n    *   At **0:11**, the person moves the cup on the left side of the screen (their **Right** cup) further to the left.\n    *   At **0:13**, the person moves the middle cup slightly.\n4.  **Final Positions:** At the end of the video, the cups are arranged in a row. From the viewer's perspective, the object is under the third cup from the left (the rightmost one).\n5.  **Person's Point of View:** Since the person is facing the camera, their left and right are reversed relative to the viewer. The cup on the viewer's right is the **first cup from the left** from the person's point of view.\n\nThe hidden object is under the cup that is on the person's left, which is the first object from the left from their perspective.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_11071",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final position of the hidden object, let's track the movement of the cups throughout the video:\n\n1.  **Initial Position (0:05):** The crumpled piece of paper is revealed and then covered by the **leftmost cup** (Cup 1).\n2.  **First Swap (0:07):** The person swaps the left and middle cups. The paper is now under the **middle cup**.\n3.  **Second Swap (0:08):** The person swaps the middle and right cups. The paper is now under the **rightmost cup**.\n4.  **Third Swap (0:08):** The person swaps the left and middle cups. The paper remains under the **rightmost cup**.\n5.  **Fourth Swap (0:09):** The person swaps the middle and right cups. The paper is now under the **middle cup**.\n6.  **Fifth Swap (0:09):** The person swaps the left and middle cups. The paper is now under the **leftmost cup**.\n7.  **Sixth Swap (0:10):** The person swaps the middle and right cups. The paper remains under the **leftmost cup**.\n8.  **Seventh Swap (0:10):** The person swaps the left and middle cups. The paper is now under the **middle cup**.\n9.  **Eighth Swap (0:11):** The person swaps the middle and right cups. The paper is now under the **rightmost cup**.\n10. **Ninth Swap (0:11):** The person swaps the left and middle cups. The paper remains under the **rightmost cup**.\n\nAt the end of the game (0:12), the hidden object is under the rightmost cup, which is the third object from the left.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 6,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_11090",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the location of the hidden object, we need to track the movement of the cups from the beginning of the game until the end, and then interpret the final position from the person's (the actor's) point of view.\n\n1.  **Initial State (0:00 - 0:05):** The person shows that a small object is hidden under the cup on the **right** (from the camera's perspective). The cup on the left is empty.\n2.  **Tracking the Swaps (0:06 - 0:14):** The person performs a series of swaps. Let's track the position of the cup with the object from the camera's perspective:\n    *   **Swap 1 (0:07):** Right to **Left**.\n    *   **Swap 2 (0:08):** Left to **Right**.\n    *   **Swap 3 (0:09):** Right to **Left**.\n    *   **Swap 4 (0:10):** Left to **Right**.\n    *   **Swap 5 (0:11):** Right to **Left**.\n    *   **Swap 6 (0:12):** Left to **Right**.\n    *   **Swap 7 (0:13):** Right to **Left**.\n    *   **Swap 8 (0:14):** Left to **Right**.\n3.  **Final Position:** After 8 swaps, the cup with the hidden object ends up on the **right** from the camera's perspective.\n4.  **Person's Point of View:** The person in the video is facing the camera. Therefore, the camera's right is the **person's left**.\n5.  **Conclusion:** From the person's point of view, the object is under the cup on their left. Counting from left to right from their perspective, this is the **first object from the left**.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": true,
+      "num_of_swaps": 4,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_11143",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object, let's track the movement of the cups throughout the video:\n\n1.  **Initial Position:** At 0:04, the person reveals a small orange toy under the middle cup (the second object from the left).\n2.  **First Swap (0:08):** The person swaps the leftmost cup and the middle cup. The toy is now under the **leftmost cup** (first from the left).\n3.  **Second Swap (0:09):** The person swaps the middle cup and the rightmost cup. The toy remains under the **leftmost cup**.\n4.  **Third Swap (0:10):** The person swaps the leftmost cup and the middle cup. The toy is now under the **middle cup** (second from the left).\n5.  **Fourth Swap (0:11):** The person swaps the middle cup and the rightmost cup. The toy is now under the **rightmost cup** (third from the left).\n6.  **Fifth Swap (0:12):** The person swaps the leftmost cup and the middle cup. The toy remains under the **rightmost cup**.\n\nAt the end of the game, the hidden object is under the third object from the left.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_11151",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "gemini-3-flash-preview",
+      "response": "To find the hidden object, let's track the movement of the cups from the person's point of view:\n\n1.  **Initial State:** The person places an orange object under the middle cup (the second object from the left).\n2.  **First Move:** The middle and right cups are swapped. The object is now under the **right cup** (third from the left).\n3.  **Second Move:** The left and middle cups are swapped. The object remains under the **right cup**.\n4.  **Third Move:** The middle and right cups are swapped. The object is now under the **middle cup** (second from the left).\n5.  **Fourth Move:** The left and middle cups are swapped. The object is now under the **left cup** (first from the left).\n6.  **Fifth Move:** The middle and right cups are swapped. The object remains under the **left cup**.\n7.  **Sixth Move:** The left and middle cups are swapped. The object is now under the **middle cup**.\n8.  **Seventh Move:** The middle and right cups are swapped. The object is now under the **right cup**.\n9.  **Eighth Move:** The left and middle cups are swapped. The object remains under the **right cup**.\n10. **Ninth Move:** The middle and right cups are swapped. The object is now under the **middle cup**.\n11. **Tenth Move:** The left and middle cups are swapped. The object is now under the **left cup**.\n12. **Final Move:** The middle and right cups are swapped. The object remains under the **left cup**.\n\nAt the end of the game, the hidden object is under the first object from the left.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 9,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_11166",
+      "question_id": 4,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object from the person's point of view, we need to track the movements of the bowls throughout the video.\n\n1.  **Initial Position:** At the beginning of the game (around 0:03), the person reveals a small brown object under the bowl on the **viewer's right**. From the person's perspective, this is the bowl on their **left** (the first object from their left).\n2.  **First Move (0:05):** The person swaps the bowl on the viewer's left and the bowl on the viewer's right. The object is now under the bowl on the **viewer's left** (person's right).\n3.  **Second Move (0:06):** The person swaps the bowl on the viewer's left and the middle bowl. The object is now under the **middle bowl** (person's middle).\n4.  **Third Move (0:07):** The person swaps the middle bowl and the bowl on the viewer's right. The object is now under the bowl on the **viewer's right** (person's left).\n5.  **Fourth Move (0:08):** The person swaps the bowl on the viewer's left and the middle bowl. The object remains under the bowl on the **viewer's right** (person's left).\n6.  **Fifth Move (0:09):** The person swaps the middle bowl and the bowl on the viewer's right. The object is now under the **middle bowl** (person's middle).\n7.  **Sixth Move (0:10):** The person swaps the bowl on the viewer's left and the middle bowl. The object is now under the bowl on the **viewer's left**.\n\nAt the end of the game, the object is under the bowl on the viewer's left. From the person's point of view, sitting across the table, the viewer's left is the person's right. In a row of three objects, the rightmost position is the **third object from the left**.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": false,
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_11174",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the fourth object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final position of the hidden object, let's track the movement of the cups from the beginning of the game:\n\n1.  **Initial Position:** At 0:05, the person places the **left cup** over the two small orange objects.\n2.  **First Swap (0:09):** The person swaps the left cup (with the objects) and the middle cup. The objects are now in the **middle** position.\n3.  **Second Swap (0:10):** The person swaps the middle cup (with the objects) and the right cup. The objects are now in the **right** position.\n4.  **Third Swap (0:11):** The person swaps the left and middle cups. The objects remain in the **right** position.\n5.  **Fourth Swap (0:12):** The person swaps the middle cup and the right cup (with the objects). The objects are now in the **middle** position.\n6.  **Fifth Swap (0:13):** The person swaps the left cup and the middle cup (with the objects). The objects are now in the **left** position.\n7.  **Sixth Swap (0:14):** The person swaps the middle and right cups. The objects remain in the **left** position.\n8.  **Seventh Swap (0:15):** The person swaps the left cup (with the objects) and the middle cup. The objects are now in the **middle** position.\n9.  **Eighth Swap (0:16):** The person swaps the middle cup (with the objects) and the right cup. The objects are now in the **right** position.\n\nAt the end of the game (0:17), the objects are under the rightmost cup, which is the third object from the left.\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 8,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_11250",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the first object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "gemini-3-flash-preview",
+      "response": "The video shows a person playing a shell game with three cups. Initially, the person lifts the cups to show that a small blue object is under the leftmost cup. Then, the person shuffles the cups around. By carefully tracking the movement of the leftmost cup, which contains the object, we can determine its final position. After the shuffling sequence, the cup that originally started on the left and contains the object ends up in the middle position. Therefore, the hidden object is under the second object from the left.\n\nThe correct answer is A. \\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_11264",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the third object from the left.",
+        "Under the second object from the left."
+      ],
+      "ground_truth_index": 2,
+      "ground_truth_letter": "C",
+      "model": "gemini-3-flash-preview",
+      "response": "The hidden object is placed under the first cup from the left at the beginning of the game and remains there until the end of the video. Therefore, the correct option is:\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_11301",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "The hidden object, an orange ball, is first revealed under the middle cup (the second object from the left) at approximately 0:03. The person then places the cup back over the ball. Throughout the rest of the video, the person interacts with the other cups and a book, but the middle cup is never moved. Therefore, at the end of the game, the hidden object remains under the second object from the left.\n\nThe correct answer is **B. Under the second object from the left.**\n\n\\boxed{B}",
+      "predicted": "B",
+      "correct": true,
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_11343",
+      "question_id": 5,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the third object from the left.",
+        "Under the second object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final location of the hidden object (the blue die), let's track its movement throughout the video:\n\n1.  **Initial Placement (0:03):** The person places the blue die on the table and covers it with the **third mug from the left** (the rightmost mug).\n2.  **First Move (0:04):** The third mug (containing the die) is moved to the middle position.\n3.  **Verification (0:11):** The person lifts the mug at the **third position** (it was moved back there just before) to show the die is still there, then covers it again.\n4.  **Shuffling (0:12 - 0:18):**\n    *   **0:12:** The mug at the third position (with the die) is swapped with the mug at the first position. The die is now at the **first position**.\n    *   **0:13:** The mug at the first position (with the die) is swapped with the mug at the second position. The die is now at the **second position**.\n    *   **0:14:** The mug at the second position (with the die) is swapped with the mug at the third position. The die is now at the **third position**.\n    *   **0:15:** The mug at the third position (with the die) is swapped with the mug at the first position. The die is now at the **first position**.\n    *   **0:16:** The mug at the first position (with the die) is swapped with the mug at the second position. The die is now at the **second position**.\n    *   **0:17:** The mug at the second position (with the die) is swapped with the mug at the third position. The die is now at the **third position**.\n\nAt the end of the shuffling, the die remains under the mug located at the third position from the left.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    {
+      "video_id": "video_11435",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the second object from the left.",
+        "Under the third object from the left.",
+        "Under the first object from the left."
+      ],
+      "ground_truth_index": 0,
+      "ground_truth_letter": "A",
+      "model": "gemini-3-flash-preview",
+      "response": "To find the hidden object, let's track the movement of the mugs throughout the video:\n\n1.  **Initial Placement:** At 0:05, the person reveals a ring under the right mug and then places the mug back over it.\n2.  **Shuffling:** The person begins to swap the positions of the two mugs repeatedly.\n    *   At 0:07, the right mug (with the ring) moves to the left.\n    *   At 0:08, it moves back to the right.\n    *   At 0:09, it moves to the left.\n    *   At 0:10, it moves to the right.\n    *   At 0:11, it moves to the left.\n    *   At 0:12, it moves to the right.\n    *   At 0:13, it moves to the left.\n    *   At 0:14, it moves to the right.\n    *   At 0:15, it moves to the left.\n    *   At 0:16, it moves to the right.\n    *   At 0:17, it moves to the left.\n3.  **Final Position:** The shuffling stops with the mug containing the ring in the left position.\n\nFrom the person's point of view, the hidden object is under the first object from the left.\n\n\\boxed{C}",
+      "predicted": "C",
+      "correct": false,
+      "num_of_swaps": 3,
+      "num_of_cups": 2
+    },
+    {
+      "video_id": "video_11499",
+      "question_id": 6,
+      "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+      "options": [
+        "Under the first object from the left.",
+        "Under the second object from the left.",
+        "Under the third object from the left."
+      ],
+      "ground_truth_index": 1,
+      "ground_truth_letter": "B",
+      "model": "gemini-3-flash-preview",
+      "response": "To determine the final position of the hidden object, we first identify its starting position and then track its movement through each shuffle.\n\n1.  **Initial Position:** At the beginning of the video, the person lifts each of the three blue cups to reveal what is underneath.\n    *   At **0:01**, the left cup (position 1) is lifted; it is empty.\n    *   At **0:03**, the middle cup (position 2) is lifted, revealing a **small white ball**.\n    *   At **0:05**, the right cup (position 3) is lifted; it is empty.\n    *   **Starting state:** The object is under the **middle cup (position 2)**.\n\n2.  **Tracking the Shuffles:**\n    *   **Shuffle 1 (0:08):** The person swaps the **left cup (1)** and the **right cup (3)**. The object remains in the middle cup at **position 2**.\n    *   **Shuffle 2 (0:09):** The person swaps the **middle cup (2)** and the **right cup (3)**. The object moves from position 2 to **position 3**.\n    *   **Shuffle 3 (0:10):** The person swaps the **left cup (1)** and the **middle cup (2)**. The object remains in the cup at **position 3**.\n    *   **Shuffle 4 (0:11):** The person swaps the **middle cup (2)** and the **right cup (3)**. The object moves from position 3 back to **position 2**.\n    *   **Shuffle 5 (0:12):** The person swaps the **left cup (1)** and the **middle cup (2)**. The object moves from position 2 to **position 1**.\n\n3.  **Final Position:** After the final shuffle, the object is under the cup at **position 1**, which is the first object from the left from the viewer's perspective. While the question mentions \"from the person's point of view,\" in the context of such video tasks, \"left\" and \"right\" typically refer to the viewer's perspective of the frame, and the object ends up under the leftmost cup.\n\n\\boxed{A}",
+      "predicted": "A",
+      "correct": false,
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    }
+  ]
+}

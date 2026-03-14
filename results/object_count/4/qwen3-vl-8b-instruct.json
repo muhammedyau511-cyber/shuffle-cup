@@ -1,0 +1,652 @@
+[
+  {
+    "video": "cup_001.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The video shows four upside-down cups in a row. At 0:02, a red ball appears under the third cup from the left (which is the rightmost cup in the initial arrangement). The ball is then covered by the third cup again at 0:03, and remains hidden under it for the rest of the video. Therefore, at the end of the video, the ball is under the third cup from the left.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_002.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The ball is initially under the fourth cup from the left (at 0:01). The fourth cup then moves back into place, covering the ball again at 0:02. After that, all cups move around, but none of them are shown to have moved away from or over the ball. At the end of the video (0:12), all cups are back in their original positions, and since the ball was under the fourth cup when it was first covered and no other cup ever covers it after that, the ball remains under the fourth cup.\n\nTherefore, the correct answer is $\\boxed{D}$."
+  },
+  {
+    "video": "cup_003.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The video shows four upside-down cups in a row. At 0:02, the ball is revealed under the second cup from the left (which is the middle one). Then, from 0:03 to 0:12, the cups are shuffled around by tilting and moving them, but at no point is the ball shown again or any cup clearly seen to contain it after the initial reveal.\n\nHowever, since the question asks which cup contains the ball *at the end of the video*, and the ball was revealed under the second cup from the left at 0:02, and then all cups were moved around without showing the ball being hidden again, we must assume that the ball remains under the second cup from the left throughout the rest of the video, as there is no visual indication that it has been moved elsewhere.\n\nTherefore, the correct answer is:\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_004.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The video shows four upside-down cups in a row. At 0:02, a red ball appears under the second cup from the left (which is the middle one). Then, at 0:03, the second cup from the left is lifted, revealing the ball underneath it. After that, all cups are moved around and shuffled multiple times between 0:04 and 0:12.\n\nHowever, since the question asks which cup contains the ball **at the end of the video**, we need to look at the final frame at 0:12. In this frame, all four cups are back in their original positions — first, second, third, and fourth from the left — and none of them are lifted or moved. Since the ball was revealed under the second cup from the left when it was lifted at 0:03, and no further movement or hiding occurs after that (the cups return to their initial positions), it implies the ball is now under the second cup from the left again.\n\nTherefore, the correct answer is:\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_005.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The ball is initially placed under the first cup from the left at 0:01. It is then covered again by the same cup at 0:02, and remains under it throughout the rest of the video. The cups are shuffled around, but the ball stays under the first cup from the left.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_006.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The video shows four upside-down cups in a row. At 0:00, all cups are upright (inverted). At 0:02, the first cup from the left is lifted slightly and then placed back down, revealing a red ball underneath it. The ball is then covered again by the first cup.\n\nFrom 0:03 to 0:12, the cups are shuffled around — specifically, the second and third cups are moved to different positions relative to each other, and eventually, they return to their original positions at 0:12.\n\nAt no point after 0:02 does any other cup cover the ball. The ball remains under the first cup throughout the entire sequence of movements.\n\nTherefore, the ball is under the first cup from the left at the end of the video.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_007.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The video shows four upside-down cups in a row. At 0:02, a red ball appears under the third cup from the left (which is the second cup from the right). Then, at 0:04, the third cup from the left is lifted slightly, revealing the ball underneath it. The ball remains under this cup until the end of the video.\n\nTherefore, the cup that contains the ball at the end of the video is the **third from the left**.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_008.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The video shows four upside-down cups in a row. At 0:02, a red ball appears under the third cup from the left (which is the rightmost cup among the first three, but the fourth overall). The third cup from the left is the one that covers the ball at 0:02. After that, the cups are moved around, but by 0:12, they return to their original positions. Since the ball was hidden under the third cup from the left at 0:02 and no other cup ever covers it afterward (the cups are just shuffled around), and since the cups return to their original positions at the end, the ball must still be under the third cup from the left.\n\nTherefore, the answer is $\\boxed{C}$."
+  },
+  {
+    "video": "cup_009.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the beginning of the video, four upside-down cups are arranged in a row. A red ball appears under the third cup from the left (at 0:06). Then, the cups start moving around.\n\nBy 0:12, all cups have returned to their original positions. Since the ball was under the third cup and no cup has moved out of position permanently, the ball must still be under the third cup.\n\nTherefore, the answer is $\\boxed{C}$."
+  },
+  {
+    "video": "cup_010.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The ball is initially placed under the second cup from the left at 0:06. Then, at 0:07, the second cup is lifted, revealing the ball underneath it. The ball remains visible under the second cup until the end of the video at 0:12.\n\nTherefore, the cup that contains the ball at the end of the video is the **second from the left**.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_011.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the beginning, four upside-down cups are arranged in a row. At 0:02, a red ball appears under the second cup from the left. Then, at 0:04, the second cup is lifted, revealing the ball underneath it. The ball remains under that cup until the end of the video, when all cups return to their original positions.\n\nTherefore, the ball is under the second cup from the left at the end of the video.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_012.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "D",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The ball is initially placed under the first cup from the left at 0:01. At 0:02, the first cup is lifted, revealing the ball underneath it. Then, at 0:03, the second cup is lifted, but the ball is not under it. The third and fourth cups are lifted later (at 0:04 and 0:05 respectively), but the ball remains under the first cup.\n\nTherefore, at the end of the video, the ball is still under the first cup from the left.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_013.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The video shows four upside-down cups in a row. At 0:00, all cups are in place. At 0:02, a red ball appears under the first cup from the left. Then, at 0:03, the first cup is lifted slightly, revealing the ball underneath it. The ball remains under the first cup throughout the rest of the video, even as the cups are shuffled around. Therefore, at the end of the video, the ball is still under the first cup from the left.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_014.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "D",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The ball is placed under the first cup from the left at 0:01. Then, at 0:02, the first cup is lifted, revealing the ball underneath it. After that, all cups are shuffled around, but the ball remains hidden under the first cup from the left throughout the rest of the video (as seen at 0:03, 0:05, 0:07, 0:09, 0:11). Therefore, at the end of the video, the ball is still under the first cup from the left.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_015.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The ball is placed under the first cup from the left at 0:01. Then, at 0:02, the first cup is lifted, revealing the ball underneath it. After that, all cups are shuffled around, but the ball remains under the first cup from the left throughout the rest of the video.\n\nAt 0:06, the first cup (leftmost) is lifted again, and we can see the ball is still under it. The ball does not appear to move or be hidden under any other cup during the shuffling.\n\nTherefore, at the end of the video, the ball is still under the first cup from the left.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_016.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The video shows four upside-down cups in a row. At 0:02, a red ball appears under the second cup from the left (which is the middle one). Then, at 0:03, the second cup from the left is lifted slightly and then placed back down, covering the ball again.\n\nFrom 0:04 to 0:12, the cups are shuffled around through various motions — they tilt, rotate, and move positions relative to each other — but crucially, **the ball never leaves the area underneath any of the cups**; it remains hidden under one of them throughout.\n\nAt 0:12, all cups are back in their original positions — first from left, second from left, third from left, fourth from left — as they were at the beginning. Since the ball was last seen under the second cup from the left (at 0:03), and no cup has moved away from that position since then (as evidenced by the final frame showing all cups stationary in their initial positions), we can conclude that the ball is still under the second cup from the left.\n\nTherefore, the correct answer is:\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_017.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The ball is initially under the fourth cup from the left (at 0:01). The fourth cup then moves away, and the ball remains under it until it returns to its original position at 0:12. Therefore, at the end of the video, the ball is still under the fourth cup from the left.\n\n$\\boxed{D}$"
+  },
+  {
+    "video": "cup_018.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The ball is initially placed under the first cup from the left at 0:01. Then, at 0:02, the first cup is lifted, revealing the ball underneath it. The ball remains hidden under the first cup until 0:03 when the first cup is lifted again, but this time it's not shown covering the ball anymore.\n\nAt 0:04, the first cup is moved to the leftmost position and remains there throughout the rest of the video (until 0:12). The other cups are shuffled around but never cover the ball again after it was revealed under the first cup.\n\nSince the ball was initially under the first cup and then remained hidden under it after being covered again (at 0:02), and since the first cup stays in place at the leftmost position throughout the rest of the video, the ball must still be under the first cup.\n\nTherefore, the correct answer is:\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_019.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "D",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The video shows four upside-down cups in a row. At the beginning, a red ball appears under the first cup from the left. Then, the cups are shuffled around through a series of movements. By the end of the video, the cups have returned to their original positions, and the ball is still under the first cup from the left.\n\nTherefore, the correct answer is (A) First from left.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_020.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The video shows four upside-down cups in a row. At 0:00, all cups are upright (inverted). At 0:02, a red ball appears under the third cup from the left. Then, from 0:02 to 0:06, the cups are shuffled around by being lifted and moved. By 0:06, the cups are back in their original positions, but now the ball is under the third cup from the left again.\n\nLet’s trace the movements:\n\n- At 0:00: All cups are upright.\n- At 0:02: The ball appears under the third cup from the left.\n- From 0:02 to 0:06: Cups are shuffled. Specifically, at 0:03, the first cup moves left; at 0:04, the fourth cup moves right; at 0:05, the second cup moves left; at 0:06, the cups return to their original positions.\n\nAt 0:06, the cups are back in their original positions — meaning the first cup is on the far left, second next, third middle, fourth far right.\n\nSince the ball was under the third cup at 0:02 and the cups were shuffled but returned to their original positions by 0:06, the ball must still be under the third cup from the left.\n\nTherefore, the correct answer is (C) Third from left.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_021.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The ball is placed under the fourth cup from the left at 0:06. Then, from 0:07 to 0:12, all cups are moved around, but the ball remains hidden under the fourth cup from the left. At no point does the ball appear under any other cup.\n\nTherefore, the cup that contains the ball at the end of the video is the fourth from the left.\n\n$\\boxed{D}$"
+  },
+  {
+    "video": "cup_022.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The video shows four upside-down cups in a row. At 0:02, a red ball appears under the third cup from the left (which is the rightmost cup among the first three). Then, at 0:03, the third cup is lifted, revealing the ball underneath it. The ball remains under that cup until the end of the video at 0:12, when all cups are back in their original positions. Since the ball was revealed under the third cup and stayed there, it must be under the third cup at the end.\n\nTherefore, the correct answer is (C) Third from left.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_023.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The ball is initially under the fourth cup from the left (at 0:01). The fourth cup then moves back into place, covering the ball again by 0:02. Throughout the rest of the video, the cups are moved around, but the ball remains hidden under the fourth cup from the left.\n\nTherefore, the correct answer is (D) Fourth from left.\n\n$\\boxed{D}$"
+  },
+  {
+    "video": "cup_024.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The video shows four upside-down cups in a row. At 0:02, a red ball appears under the second cup from the left (which is the middle one). Then, at 0:03, the second cup from the left is lifted slightly and then placed back down, covering the ball again.\n\nFrom 0:04 to 0:12, the cups are moved around slightly, but the ball remains under the second cup from the left. The other cups are moved independently of each other, and there's no indication that the ball moves under any other cup during this time.\n\nTherefore, at the end of the video, the ball is still under the second cup from the left.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_025.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The ball is initially under the fourth cup from the left (at 0:01). The fourth cup then moves back into place at 0:02, covering the ball again. All other cups remain stationary throughout the video. Therefore, at the end of the video, the ball is still under the fourth cup from the left.\n\n$\\boxed{D}$"
+  },
+  {
+    "video": "cup_026.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "D",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The video shows four upside-down cups in a row. At 0:00, all cups are positioned. At 0:02, the ball appears under the third cup from the left (which is the second cup from the right). The ball remains hidden under that cup for the rest of the video, even as the cups are shuffled around.\n\nAt 0:06, the cups are rearranged, but the ball is still under the third cup from the left (second from right), which corresponds to option (C).\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_027.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The ball is initially placed under the second cup from the left at 0:06. Then, at 0:12, all cups are back in their original positions, and the ball is still under the second cup from the left.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_028.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The video shows four upside-down cups in a row. At 0:01, a red ball appears under the rightmost cup (fourth from left). The rightmost cup then moves slightly but remains covering the ball. The other cups shift positions over time, but none of them ever cover the ball. The ball is visible under the fourth cup throughout the rest of the video.\n\nTherefore, the cup that contains the ball at the end of the video is the fourth one from the left.\n\n$\\boxed{D}$"
+  },
+  {
+    "video": "cup_029.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "D",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the beginning, four cups are arranged in a row. At 0:02, the second cup from the left is lifted, revealing a red ball underneath it. The ball remains under that cup until 0:04, when the cup is placed back down, covering the ball.\n\nFrom 0:05 to 0:12, all cups are moved around, but at no point is the ball visible again. However, since the ball was revealed under the second cup and then covered again by the same cup (which is then moved), we need to track where that cup ends up.\n\n- At 0:05, the second cup is back in place.\n- From 0:06 to 0:09, the cups are shuffled. The second cup moves to the right, then to the bottom, then to the left, and finally returns to its original position at 0:12.\n\nTherefore, at the end of the video, the ball is still under the second cup from the left.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_030.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The ball is initially placed under the fourth cup from the left at 0:06. The cups then move around, but by 0:12, all cups are back in their original positions. Since the ball was placed under the fourth cup and no cup has moved to cover it or reveal it again, the ball remains under the fourth cup.\n\n$\\boxed{D}$"
+  },
+  {
+    "video": "cup_031.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The video shows four upside-down cups in a row. At 0:06, a red ball appears under the rightmost cup (fourth from left). The cups then start moving around, but by 0:12, they have returned to their original positions. Since the ball was placed under the fourth cup and no other cup ever covers it during the movement (the cups move independently and don't overlap or cover each other), the ball remains under the fourth cup.\n\nTherefore, at the end of the video, the ball is still under the fourth cup from the left.\n\n$\\boxed{D}$"
+  },
+  {
+    "video": "cup_032.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The ball is initially placed under the first cup from the left at 0:01. At 0:02, the first cup is lifted, revealing the ball underneath it. Then, from 0:03 to 0:12, the cups are shuffled around, but the ball remains hidden under the first cup from the left throughout this period. The video ends with all four cups in their original positions, meaning the ball is still under the first cup from the left.\n\nTherefore, the correct answer is (A) First from left.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_033.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The ball is initially under the fourth cup from the left (at 0:01). The fourth cup then moves back to its original position at 0:02, and remains there throughout the rest of the video. Therefore, at the end of the video, the ball is still under the fourth cup from the left.\n\n$\\boxed{D}$"
+  },
+  {
+    "video": "cup_034.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The video shows four upside-down cups in a row. At 0:02, a red ball appears under the second cup from the left (which is the middle-left cup). Then, at 0:04, the second cup from the left is lifted slightly, revealing the ball underneath it. The ball remains under this cup for the rest of the video as the cups are shuffled around.\n\nAt 0:12, all cups are back in their original positions. Since the ball was under the second cup from the left throughout the entire sequence and ends up under that same cup at the end, the correct answer is:\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_035.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The video shows four upside-down cups in a row. At 0:02, the ball is revealed under the second cup from the left (which was the middle cup initially). Then, from 0:02 to 0:06, the cups are shuffled around through various positions. However, at 0:06, the ball disappears, and by 0:12, all cups are back in their original positions. Since the ball was revealed under the second cup from the left at 0:02, and then the cups were moved but returned to their original positions by 0:12, the ball must still be under the second cup from the left.\n\nTherefore, the correct answer is (B) Second from left.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_036.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "Error: HTTPSConnectionPool(host='dashscope-file-mgr.oss-cn-beijing.aliyuncs.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))"
+  },
+  {
+    "video": "cup_037.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The video shows four upside-down cups in a row. At 0:02, a red ball appears under the third cup from the left (which is the rightmost cup among the first three). Then, at 0:03, the third cup is lifted slightly, revealing the ball underneath it. From 0:04 to 0:12, all cups are moved around, but the ball remains hidden under the third cup from the left throughout the rest of the video.\n\nTherefore, the correct answer is:\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_038.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the beginning of the video, four upside-down cups are arranged in a row. A red ball appears under the third cup from the left (which is the second cup from the right). Then, the third cup (second from right) is lifted, revealing the ball. After that, all cups are shuffled around through various tilting and repositioning movements. However, at the very end of the video, the cups return to their original positions, and the ball is still under the third cup from the left.\n\nTherefore, the correct answer is (C) Third from left.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_039.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The ball is initially placed under the first cup from the left at 0:01. It remains there as the cups are shuffled around, and no other cup ever covers it. Even though the cups move and reposition themselves multiple times, the ball stays hidden under the first cup from the left throughout the entire video.\n\nTherefore, at the end of the video, the ball is still under the first cup from the left.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_040.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The video shows four upside-down cups in a row. At 0:02, the ball is revealed under the fourth cup from the left (the rightmost one). The ball remains hidden under that cup for the rest of the video, as the cups are moved around but never lifted to reveal what's underneath again.\n\nTherefore, at the end of the video, the ball is still under the fourth cup from the left.\n\n$\\boxed{D}$"
+  },
+  {
+    "video": "cup_041.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The ball is initially placed under the second cup from the left at 0:06. Then, at 0:12, all cups are back in their original positions, and the ball is still under the second cup from the left.\n\nTherefore, the correct answer is (B) Second from left.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_042.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The ball is initially placed under the first cup from the left at 0:01. At 0:02, the first cup is lifted, revealing the ball underneath it. Then, at 0:03, the first cup is placed back down, covering the ball again. From 0:04 onwards, the cups are shuffled around, but the ball remains hidden under the first cup from the left throughout the entire video. Therefore, the correct answer is (A) First from left.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_043.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The ball is placed under the first cup from the left at 0:01. Then, at 0:02, the first cup is lifted, revealing the ball underneath it. After that, the cups are shuffled around, but the ball remains under the first cup from the left throughout the rest of the video.\n\nAt 0:08, the first cup from the left is still in place and upright, and the ball is visible under it (though not explicitly shown due to the cup being upright). The other cups have been moved around, but none of them are positioned over the ball at any point after 0:02.\n\nTherefore, the ball ends up under the first cup from the left.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_044.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The video shows four upside-down cups in a row. At 0:01, a red ball appears under the first cup from the left. Then, at 0:02, the first cup is lifted, revealing the ball underneath it. The ball is then covered again by the first cup at 0:03.\n\nAfter that, from 0:04 to 0:12, all cups are moved around, but the ball remains hidden under the first cup from the left throughout this entire period. There is no visual indication that the ball moves to any other cup during this time.\n\nTherefore, at the end of the video (0:12), the ball is still under the first cup from the left.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_045.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The video shows four upside-down cups in a row. At 0:02, the ball is revealed under the third cup from the left (which is the rightmost cup in the initial arrangement). Then, starting at 0:03, the cups begin to shuffle around.\n\nBy 0:06, the cups have moved, and the ball is no longer visible under any cup. However, the question asks which cup contains the ball **at the end of the video**.\n\nLooking at the final frame at 0:12, all cups are back in their original positions — first from left, second from left, third from left, fourth from left. Since the ball was hidden under the third cup from the left at 0:02 and then the cups shuffled around but returned to their original positions by 0:12, it implies that the ball must still be under the third cup from the left.\n\nTherefore, the answer is $\\boxed{C}$."
+  },
+  {
+    "video": "cup_046.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "D",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The video shows four upside-down cups in a row. At 0:02, a red ball appears under the second cup from the left (which is the middle one). Then, at 0:03, the second cup from the left is lifted slightly and then placed back down, covering the ball again.\n\nFrom 0:04 to 0:12, the cups are shuffled around by being tilted and moved, but the ball remains hidden under the second cup from the left throughout this entire period. The ball is never seen again, and no other cup ever reveals it.\n\nTherefore, at the end of the video (0:12), the ball is still under the second cup from the left.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_047.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The video shows four upside-down cups in a row. At the beginning, a red ball appears under the first cup from the left. Then, all cups are shuffled around through a series of movements. The ball is not visible during the shuffling, but at the end of the video, the ball is revealed to be under the cup that was originally the first from the left.\n\nThis can be inferred because:\n- The ball initially appears under the first cup.\n- The cups are moved around, but the ball remains hidden under one of them.\n- When the cups are finally shown stationary again at the end, the ball is still under the first cup from the left.\n\nThus, the correct answer is (A) First from left.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_048.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "D",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The video shows four upside-down cups in a row. At 0:02, a red ball appears under the third cup from the left (which is the rightmost of the first three). The ball is then covered by the third cup as it is lifted at 0:03. From 0:04 onwards, the ball remains hidden under that same cup.\n\nAt the end of the video (12.3 seconds), all cups are back in their original positions, but since the ball was placed under the third cup and never moved again, it remains under that cup throughout the rest of the video.\n\nTherefore, the cup that contains the ball at the end of the video is the **third from the left**.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_049.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the beginning, four upside-down cups are arranged in a row. At 0:02, a red ball appears under the second cup from the left. Then, at 0:04, the second cup is lifted, revealing the ball underneath it. The ball remains under that cup throughout the rest of the video, even as the cups are moved around.\n\nTherefore, the ball is under the second cup from the left.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_050.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The ball is placed under the fourth cup from the left at 0:01. Then, the cups are shuffled around, but at the end of the video (12.3 seconds), the cups are back in their original positions, and the ball is still under the fourth cup from the left.\n\nTherefore, the answer is (D) Fourth from left.\n\n$\\boxed{D}$"
+  }
+]

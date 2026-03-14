@@ -1,0 +1,652 @@
+[
+  {
+    "video": "card_001.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "C",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 500 504;0.5 1 500 504;1.0 1 500 504;1.5 1 500 431;2.0 1 571 306;2.5 1 664 293;3.0 1 735 389;3.5 1 750 504;4.0 1 750 504;4.5 1 750 504;5.0 1 750 504;5.5 1 750 504;6.0 1 750 504;6.5 1 750 504;7.0 1 750 504;7.5 1 750 480;8.0 1 704 330;8.5 1 614 280;9.0 1 532 352;9.5 1 500 493;10.0 1 539 339;10.5 1 630 280;11.0 1 710 341;11.5 1 750 504;12.0 1 750 504\">the Queen of Hearts</tracks> Answer: right.<|im_end|>"
+  },
+  {
+    "video": "card_002.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "A",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 750 517;0.5 1 750 517;1.0 1 745 500;4.5 1 442 775;5.0 1 286 646;5.5 1 252 538;6.0 1 355 738;6.5 1 539 788;7.0 1 705 662;7.5 1 750 500;8.0 1 750 500;8.5 1 750 500;9.0 1 750 500;9.5 1 750 500;10.0 1 714 338;10.5 1 622 281;11.0 1 536 342;11.5 1 500 496;12.0 1 500 496\">the Queen of Hearts</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "card_003.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "A",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 750 517;0.5 1 750 517;1.0 1 745 500;1.5 1 744 433;2.0 1 680 306;2.5 1 584 289;3.0 1 512 394;3.5 1 503 450;4.0 1 442 308;4.5 1 348 283;5.0 1 267 378;5.5 1 248 497;6.0 1 248 497;6.5 1 248 497;7.0 1 248 497;7.5 1 248 511;8.0 1 292 672;8.5 1 384 728;9.0 1 469 642;9.5 1 500 502;10.0 1 467 656;10.5 1 373 725;11.0 1 286 658;11.5 1 245 494;12.0 1 245 494\">the Queen of Hearts</tracks> Answer: left.<|im_end|>"
+  },
+  {
+    "video": "card_004.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "A",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 256 499;1.0 1 247 492;2.0 1 386 751;3.0 1 722 626;4.0 1 750 499;5.0 1 750 499;6.0 1 750 499;7.0 1 750 499;8.0 1 664 276;9.0 1 311 320;10.0 1 250 501;11.0 1 250 501;12.0 1 250 501\">the Queen of Hearts</tracks> Answer: left.<|im_end|>"
+  },
+  {
+    "video": "card_005.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "A",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 745 512;0.5 1 745 512;1.0 1 745 500;1.5 1 741 421;2.0 1 617 250;2.5 1 425 231;3.0 1 278 367;3.5 1 256 552;4.0 1 317 692;4.5 1 406 717;5.0 1 483 610;5.5 1 500 498;6.0 1 506 512;6.5 1 489 502;7.0 1 497 498;7.5 1 500 477;8.0 1 545 331;8.5 1 639 275;9.0 1 725 352;9.5 1 750 481;10.0 1 680 300;10.5 1 495 229;11.0 1 320 302;11.5 1 245 492;12.0 1 245 492\">the Queen of Hearts</tracks> Answer: left.<|im_end|>"
+  },
+  {
+    "video": "card_006.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "B",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 500 504;0.5 1 500 504;1.0 1 500 504;1.5 1 500 578;2.0 1 438 699;2.5 1 343 715;3.0 1 265 601;3.5 1 257 430;4.0 1 365 261;4.5 1 557 230;5.0 1 714 349;5.5 1 750 465;6.0 1 693 315;6.5 1 607 283;7.0 1 525 361;7.5 1 500 480;8.0 1 543 330;8.5 1 638 276;9.0 1 722 351;9.5 1 750 483;10.0 1 714 335;10.5 1 625 276;11.0 1 538 347;11.5 1 500 485;12.0 1 500 485\">the Queen of Hearts</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "card_007.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "C",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 748 517;0.5 1 748 517;1.0 1 745 500;1.5 1 748 500;2.0 1 748 500;2.5 1 748 500;3.0 1 748 500;3.5 1 748 558;4.0 1 689 689;4.5 1 598 722;5.0 1 522 622;5.5 1 500 469;6.0 1 448 322;6.5 1 356 286;7.0 1 272 367;7.5 1 248 478;8.0 1 339 286;8.5 1 522 225;9.0 1 692 314;9.5 1 748 500;10.0 1 748 500;10.5 1 748 500;11.0 1 748 500;11.5 1 748 500;12.0 1 748 500\">the Queen of Hearts</tracks> Answer: right.<|im_end|>"
+  },
+  {
+    "video": "card_008.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "B",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 255 499;1.0 1 246 499;2.0 1 326 703;2.5 1 421 715;3.0 1 492 599;3.5 1 501 556;4.0 1 443 688;4.5 1 351 715;5.0 1 272 615;5.5 1 251 467;6.0 1 307 326;6.5 1 390 288;7.0 1 472 365;7.5 1 501 478;8.0 1 458 333;8.5 1 365 288;9.0 1 281 357;9.5 1 248 504;10.0 1 286 657;10.5 1 379 724;11.0 1 467 657;11.5 1 501 499;12.0 1 501 499\">the Queen of Hearts</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "card_009.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "A",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 750 517;0.5 1 750 517;1.0 1 745 500;1.5 1 744 433;2.0 1 680 306;2.5 1 584 289;3.0 1 512 394;3.5 1 500 558;4.0 1 445 689;4.5 1 350 711;5.0 1 270 617;5.5 1 247 500;6.0 1 247 500;6.5 1 247 500;7.0 1 247 500;7.5 1 247 500;8.0 1 247 500;8.5 1 247 500;9.0 1 247 500;9.5 1 247 500;10.0 1 247 500;10.5 1 247 500;11.0 1 247 500;11.5 1 247 500;12.0 1 247 500\">the Queen of Hearts</tracks> Answer: left.<|im_end|>"
+  },
+  {
+    "video": "card_010.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "A",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 750 517;0.5 1 750 517;1.0 1 745 500;1.5 1 744 433;2.0 1 680 306;2.5 1 584 289;3.0 1 512 389;3.5 1 506 447;4.0 1 562 311;4.5 1 653 283;5.0 1 734 378;5.5 1 748 547;6.0 1 652 728;6.5 1 466 778;7.0 1 297 667;7.5 1 247 500;8.0 1 247 500;8.5 1 247 500;9.0 1 247 500;9.5 1 247 500;10.0 1 247 500;10.5 1 247 500;11.0 1 247 500;11.5 1 247 500;12.0 1 247 500\">the Queen of Hearts</tracks> Answer: left.<|im_end|>"
+  },
+  {
+    "video": "card_011.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "C",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 500 504;0.5 1 500 504;1.0 1 500 504;1.5 1 500 504;2.0 1 500 504;2.5 1 500 504;3.0 1 500 504;3.5 1 500 504;4.0 1 500 504;4.5 1 500 504;5.0 1 500 504;5.5 1 500 504;6.0 1 500 504;6.5 1 500 504;7.0 1 500 504;7.5 1 500 504;8.0 1 500 504;8.5 1 500 504;9.0 1 500 504;9.5 1 500 504;10.0 1 500 504;10.5 1 500 504;11.0 1 500 504;11.5 1 500 504;12.0 1 500 504\">the Queen of Hearts</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "card_012.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "B",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 500 505;0.5 1 500 505;1.0 1 500 505;1.5 1 500 505;2.0 1 500 505;2.5 1 500 505;3.0 1 500 505;3.5 1 500 451;4.0 1 561 310;4.5 1 653 283;5.0 1 734 377;5.5 1 753 505;6.0 1 753 505;6.5 1 753 505;7.0 1 753 505;7.5 1 753 505;8.0 1 667 719;8.5 1 484 783;9.0 1 314 681;9.5 1 247 510;10.0 1 284 662;10.5 1 375 724;11.0 1 466 656;11.5 1 500 499;12.0 1 500 499\">the Queen of Hearts</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "card_013.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "A",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 500 508;0.5 1 500 508;1.0 1 500 500;1.5 1 500 500;2.0 1 505 517;2.5 1 489 508;3.0 1 500 500;3.5 1 500 452;4.0 1 442 311;4.5 1 348 289;5.0 1 267 381;5.5 1 253 542;6.0 1 356 733;6.5 1 541 789;7.0 1 706 661;7.5 1 750 500;8.0 1 750 500;8.5 1 750 500;9.0 1 750 500;9.5 1 750 500;10.0 1 680 300;10.5 1 495 231;11.0 1 322 306;11.5 1 245 500;12.0 1 245 500\">the Queen of Hearts</tracks> Answer: left.<|im_end|>"
+  },
+  {
+    "video": "card_014.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "B",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 750 517;0.5 1 750 517;1.0 1 745 500;1.5 1 745 569;2.0 1 680 697;2.5 1 588 711;3.0 1 517 603;3.5 1 508 447;4.0 1 562 319;4.5 1 653 289;5.0 1 736 381;5.5 1 748 550;6.0 1 652 731;6.5 1 466 778;7.0 1 297 669;7.5 1 245 481;8.0 1 339 289;8.5 1 517 228;9.0 1 695 317;9.5 1 750 506;10.0 1 714 667;10.5 1 623 722;11.0 1 538 658;11.5 1 500 497;12.0 1 500 497\">the Queen of Hearts</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "card_015.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "C",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 500 508;0.5 1 500 508;1.0 1 500 500;1.5 1 505 431;2.0 1 570 306;2.5 1 662 289;3.0 1 736 389;3.5 1 750 500;4.0 1 750 500;4.5 1 750 500;5.0 1 750 500;5.5 1 748 548;6.0 1 650 733;6.5 1 467 778;7.0 1 297 667;7.5 1 245 483;8.0 1 339 294;8.5 1 517 222;9.0 1 695 317;9.5 1 750 500;10.0 1 750 500;10.5 1 750 500;11.0 1 750 500;11.5 1 750 500;12.0 1 750 500\">the Queen of Hearts</tracks> Answer: right.<|im_end|>"
+  },
+  {
+    "video": "card_016.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "C",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 748 517;0.5 1 748 517;1.0 1 748 500;1.5 1 748 500;2.0 1 748 500;2.5 1 748 500;3.0 1 748 500;3.5 1 748 500;4.0 1 748 500;4.5 1 748 500;5.0 1 748 500;5.5 1 748 544;6.0 1 697 678;6.5 1 608 719;7.0 1 528 639;7.5 1 503 528;8.0 1 544 675;8.5 1 639 725;9.0 1 722 642;9.5 1 748 500;10.0 1 748 500;10.5 1 748 500;11.0 1 748 500;11.5 1 748 500;12.0 1 748 500\">the Queen of Hearts</tracks> Answer: right.<|im_end|>"
+  },
+  {
+    "video": "card_017.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "B",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 255 497;0.5 1 255 497;1.0 1 246 494;1.5 1 255 572;2.0 1 324 703;2.5 1 419 717;3.0 1 492 597;3.5 1 504 558;4.0 1 563 694;4.5 1 657 717;5.0 1 735 617;5.5 1 751 500;6.0 1 751 500;6.5 1 751 500;7.0 1 751 500;7.5 1 751 500;8.0 1 751 500;8.5 1 751 500;9.0 1 751 500;9.5 1 751 500;10.0 1 713 661;10.5 1 626 722;11.0 1 540 656;11.5 1 500 497;12.0 1 500 497\">the Queen of Hearts</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "card_018.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "A",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 256 499;0.5 1 256 499;1.0 1 247 499;1.5 1 261 417;2.0 1 385 256;2.5 1 576 233;3.0 1 726 367;3.5 1 746 444;4.0 1 639 256;4.5 1 440 233;5.0 1 283 356;5.5 1 247 504;6.0 1 247 504;6.5 1 247 504;7.0 1 247 504;7.5 1 247 533;8.0 1 343 722;8.5 1 526 794;9.0 1 697 678;9.5 1 750 504;10.0 1 681 696;10.5 1 500 783;11.0 1 328 696;11.5 1 247 499;12.0 1 247 499\">the Queen of Hearts</tracks> Answer: left.<|im_end|>"
+  },
+  {
+    "video": "card_019.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "C",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 748 517;0.5 1 748 517;1.0 1 745 500;1.5 1 739 589;2.0 1 617 756;2.5 1 422 769;3.0 1 275 628;3.5 1 256 561;4.0 1 367 747;4.5 1 561 778;5.0 1 714 644;5.5 1 750 502;6.0 1 750 502;6.5 1 750 502;7.0 1 750 502;7.5 1 750 517;8.0 1 705 675;8.5 1 614 725;9.0 1 534 647;9.5 1 503 506;10.0 1 539 667;10.5 1 633 725;11.0 1 714 653;11.5 1 750 502;12.0 1 750 502\">the Queen of Hearts</tracks> Answer: right.<|im_end|>"
+  },
+  {
+    "video": "card_020.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "A",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 748 517;0.5 1 748 517;1.0 1 745 500;1.5 1 740 422;2.0 1 618 250;2.5 1 426 233;3.0 1 278 369;3.5 1 249 500;4.0 1 249 500;4.5 1 249 500;5.0 1 249 500;5.5 1 251 456;6.0 1 351 267;6.5 1 542 222;7.0 1 704 333;7.5 1 751 467;8.0 1 704 333;8.5 1 618 269;9.0 1 532 350;9.5 1 501 500;10.0 1 468 656;10.5 1 374 722;11.0 1 285 656;11.5 1 249 494;12.0 1 249 494\">the Queen of Hearts</tracks> Answer: left.<|im_end|>"
+  },
+  {
+    "video": "card_021.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "C",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 500 504;0.5 1 500 504;1.0 1 500 504;1.5 1 500 430;2.0 1 432 307;2.5 1 338 296;3.0 1 263 393;3.5 1 256 454;4.0 1 317 307;4.5 1 401 289;5.0 1 485 385;5.5 1 500 538;6.0 1 453 678;6.5 1 357 715;7.0 1 276 631;7.5 1 249 481;8.0 1 290 333;8.5 1 382 281;9.0 1 472 356;9.5 1 500 504;10.0 1 540 660;10.5 1 634 722;11.0 1 714 656;11.5 1 750 500;12.0 1 750 500\">the Queen of Hearts</tracks> Answer: right.<|im_end|>"
+  },
+  {
+    "video": "card_022.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "B",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 256 497;0.5 1 256 497;1.0 1 247 492;1.5 1 261 414;2.0 1 386 250;2.5 1 577 233;3.0 1 725 364;3.5 1 750 500;4.0 1 750 500;4.5 1 750 500;5.0 1 750 500;5.5 1 748 547;6.0 1 650 731;6.5 1 467 778;7.0 1 295 661;7.5 1 248 500;8.0 1 248 500;8.5 1 248 500;9.0 1 248 500;9.5 1 248 500;10.0 1 286 339;10.5 1 375 281;11.0 1 462 339;11.5 1 497 497;12.0 1 497 497\">the Queen of Hearts</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "card_023.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "A",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 256 497;0.5 1 256 497;1.0 1 247 494;1.5 1 250 497;2.0 1 250 497;2.5 1 250 497;3.0 1 250 497;3.5 1 250 497;4.0 1 250 497;4.5 1 250 497;5.0 1 250 497;5.5 1 250 462;6.0 1 306 322;6.5 1 392 278;7.0 1 472 362;7.5 1 497 494;8.0 1 500 503;8.5 1 488 500;9.0 1 497 497;9.5 1 497 497;10.0 1 467 656;10.5 1 372 725;11.0 1 286 656;11.5 1 250 497;12.0 1 250 497\">the Queen of Hearts</tracks> Answer: left.<|im_end|>"
+  },
+  {
+    "video": "card_024.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "A",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 748 517;0.5 1 748 517;1.0 1 745 500;1.5 1 745 569;2.0 1 683 697;2.5 1 588 711;3.0 1 519 603;3.5 1 503 450;4.0 1 442 311;4.5 1 348 289;5.0 1 267 381;5.5 1 250 469;6.0 1 306 322;6.5 1 392 281;7.0 1 472 361;7.5 1 503 472;8.0 1 545 331;8.5 1 639 278;9.0 1 722 350;9.5 1 750 483;10.0 1 680 303;10.5 1 500 231;11.0 1 323 306;11.5 1 245 494;12.0 1 245 494\">the Queen of Hearts</tracks> Answer: left.<|im_end|>"
+  },
+  {
+    "video": "card_025.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "A",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 748 517;0.5 1 748 517;1.0 1 745 500;4.5 1 444 233;5.0 1 284 356;5.5 1 250 472;6.0 1 306 319;6.5 1 392 278;7.0 1 470 361;7.5 1 500 522;8.0 1 464 672;8.5 1 366 708;9.0 1 280 644;9.5 1 245 511;10.0 1 284 658;10.5 1 375 725;11.0 1 464 656;11.5 1 497 497;12.0 1 497 497\">the Queen of Hearts</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "card_026.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "B",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 256 497;0.5 1 256 497;1.0 1 247 492;1.5 1 250 497;2.0 1 250 497;2.5 1 250 497;3.0 1 250 497;3.5 1 256 564;4.0 1 369 742;4.5 1 558 778;5.0 1 714 647;5.5 1 748 461;6.0 1 656 272;6.5 1 461 233;7.0 1 295 336;7.5 1 250 528;8.0 1 342 725;8.5 1 525 797;9.0 1 695 678;9.5 1 750 511;10.0 1 714 658;10.5 1 625 722;11.0 1 539 656;11.5 1 498 497;12.0 1 498 497\">the Queen of Hearts</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "card_027.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "C",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 748 517;0.5 1 748 517;1.0 1 748 500;1.5 1 748 500;2.0 1 748 500;2.5 1 748 500;3.0 1 748 500;3.5 1 748 567;4.0 1 636 752;4.5 1 444 775;5.0 1 289 642;5.5 1 247 467;6.0 1 306 317;6.5 1 392 283;7.0 1 470 361;7.5 1 500 475;8.0 1 545 331;8.5 1 638 278;9.0 1 722 356;9.5 1 750 500;10.0 1 750 500;10.5 1 750 500;11.0 1 750 500;11.5 1 750 500;12.0 1 750 500\">the Queen of Hearts</tracks> Answer: right.<|im_end|>"
+  },
+  {
+    "video": "card_028.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "B",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 750 517;0.5 1 750 517;1.0 1 745 500;1.5 1 744 433;2.0 1 680 306;2.5 1 584 289;3.0 1 512 394;3.5 1 506 450;4.0 1 562 311;4.5 1 653 283;5.0 1 731 381;5.5 1 750 467;6.0 1 692 317;6.5 1 606 283;7.0 1 523 369;7.5 1 500 478;8.0 1 456 331;8.5 1 362 281;9.0 1 278 356;9.5 1 247 492;10.0 1 284 342;10.5 1 373 283;11.0 1 462 347;11.5 1 500 489;12.0 1 500 489\">the Queen of Hearts</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "card_029.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "B",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 256 497;0.5 1 256 497;1.0 1 247 492;1.5 1 250 497;2.0 1 250 497;2.5 1 250 497;3.0 1 250 497;3.5 1 253 450;4.0 1 317 317;4.5 1 398 286;5.0 1 481 383;5.5 1 497 497;6.0 1 495 508;6.5 1 495 508;7.0 1 497 497;7.5 1 497 492;8.0 1 456 331;8.5 1 361 283;9.0 1 278 358;9.5 1 247 500;10.0 1 281 658;10.5 1 375 722;11.0 1 464 656;11.5 1 497 497;12.0 1 497 497\">the Queen of Hearts</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "card_030.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "A",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 748 517;0.5 1 748 517;1.0 1 745 500;1.5 1 739 592;2.0 1 617 756;2.5 1 422 775;3.0 1 275 625;3.5 1 256 433;4.0 1 364 267;4.5 1 553 233;5.0 1 717 356;5.5 1 748 467;6.0 1 658 275;6.5 1 458 225;7.0 1 295 333;7.5 1 245 500;8.0 1 245 500;8.5 1 245 500;9.0 1 245 500;9.5 1 245 500;10.0 1 245 500;10.5 1 245 500;11.0 1 245 500;11.5 1 245 500;12.0 1 245 500\">the Queen of Hearts</tracks> Answer: left.<|im_end|>"
+  },
+  {
+    "video": "card_031.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "B",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 256 499;0.5 1 256 499;1.0 1 247 499;1.5 1 256 430;2.0 1 325 307;2.5 1 412 293;3.0 1 488 393;3.5 1 500 502;4.0 1 500 511;4.5 1 488 506;5.0 1 498 502;5.5 1 498 502;6.0 1 498 506;6.5 1 498 506;7.0 1 498 502;7.5 1 498 491;8.0 1 545 330;8.5 1 638 280;9.0 1 723 349;9.5 1 750 502;10.0 1 716 661;10.5 1 627 719;11.0 1 541 661;11.5 1 498 499;12.0 1 498 499\">the Queen of Hearts</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "card_032.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "C",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 256 497;0.5 1 256 497;1.0 1 246 494;1.5 1 246 494;2.0 1 246 494;2.5 1 246 494;3.0 1 246 494;3.5 1 246 494;4.0 1 246 494;4.5 1 246 494;5.0 1 246 494;5.5 1 246 494;6.0 1 246 494;6.5 1 246 494;7.0 1 246 494;7.5 1 246 494;8.0 1 246 494;8.5 1 246 494;9.0 1 246 494;9.5 1 246 494;10.0 1 326 300;10.5 1 496 228;11.0 1 678 300;11.5 1 751 494;12.0 1 751 494\">the Queen of Hearts</tracks> Answer: right.<|im_end|>"
+  },
+  {
+    "video": "card_033.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "A",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 256 497;0.5 1 256 497;1.0 1 247 497;1.5 1 250 497;2.0 1 250 497;2.5 1 250 497;3.0 1 250 497;3.5 1 250 497;4.0 1 250 497;4.5 1 250 497;5.0 1 250 497;5.5 1 253 542;6.0 1 356 731;6.5 1 539 783;7.0 1 705 664;7.5 1 750 500;8.0 1 750 500;8.5 1 750 500;9.0 1 750 500;9.5 1 750 500;10.0 1 680 303;10.5 1 497 231;11.0 1 322 306;11.5 1 250 497;12.0 1 250 497\">the Queen of Hearts</tracks> Answer: left.<|im_end|>"
+  },
+  {
+    "video": "card_034.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "C",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 256 497;0.5 1 256 497;1.0 1 247 497;1.5 1 258 411;2.0 1 386 256;2.5 1 575 239;3.0 1 725 367;3.5 1 750 500;4.0 1 750 500;4.5 1 750 500;5.0 1 750 500;5.5 1 750 461;6.0 1 658 269;6.5 1 458 231;7.0 1 295 333;7.5 1 247 502;8.0 1 247 502;8.5 1 247 502;9.0 1 247 502;9.5 1 247 502;10.0 1 325 300;10.5 1 500 231;11.0 1 680 302;11.5 1 750 500;12.0 1 750 500\">the Queen of Hearts</tracks> Answer: right.<|im_end|>"
+  },
+  {
+    "video": "card_035.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "B",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 500 508;0.5 1 500 508;1.0 1 500 500;1.5 1 505 578;2.0 1 573 709;2.5 1 666 711;3.0 1 738 598;3.5 1 750 500;4.0 1 750 500;4.5 1 750 500;5.0 1 750 500;5.5 1 748 458;6.0 1 656 272;6.5 1 459 233;7.0 1 295 331;7.5 1 250 522;8.0 1 295 678;8.5 1 384 728;9.0 1 470 642;9.5 1 500 500;10.0 1 500 508;10.5 1 500 500;11.0 1 500 500;11.5 1 500 500;12.0 1 500 500\">the Queen of Hearts</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "card_036.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "C",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 745 517;0.5 1 745 517;1.0 1 745 500;1.5 1 745 500;2.0 1 745 500;2.5 1 745 500;3.0 1 745 500;3.5 1 745 450;4.0 1 636 258;4.5 1 441 233;5.0 1 286 350;5.5 1 250 544;6.0 1 356 731;6.5 1 539 783;7.0 1 706 661;7.5 1 745 500;8.0 1 745 500;8.5 1 745 500;9.0 1 745 500;9.5 1 745 500;10.0 1 745 500;10.5 1 745 500;11.0 1 745 500;11.5 1 745 500;12.0 1 745 500\">the Queen of Hearts</tracks> Answer: right.<|im_end|>"
+  },
+  {
+    "video": "card_037.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "C",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 500 506;0.5 1 500 506;1.0 1 500 506;1.5 1 500 431;2.0 1 571 306;2.5 1 660 293;3.0 1 736 389;3.5 1 742 441;4.0 1 636 256;4.5 1 440 233;5.0 1 286 356;5.5 1 250 469;6.0 1 307 319;6.5 1 393 278;7.0 1 470 361;7.5 1 497 472;8.0 1 457 331;8.5 1 362 283;9.0 1 278 356;9.5 1 247 489;10.0 1 320 306;10.5 1 497 230;11.0 1 678 296;11.5 1 745 483;12.0 1 745 483\">the Queen of Hearts</tracks> Answer: right.<|im_end|>"
+  },
+  {
+    "video": "card_038.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "C",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 748 517;0.5 1 748 517;1.0 1 745 500;1.5 1 748 500;2.0 1 748 500;2.5 1 748 500;3.0 1 748 500;3.5 1 748 567;4.0 1 636 752;4.5 1 444 775;5.0 1 289 642;5.5 1 250 462;6.0 1 350 275;6.5 1 542 225;7.0 1 705 338;7.5 1 750 483;8.0 1 670 283;8.5 1 480 225;9.0 1 311 321;9.5 1 245 500;10.0 1 323 700;10.5 1 497 788;11.0 1 680 700;11.5 1 748 500;12.0 1 748 500\">the Queen of Hearts</tracks> Answer: right.<|im_end|>"
+  },
+  {
+    "video": "card_039.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "B",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 748 517;0.5 1 748 517;1.0 1 748 500;1.5 1 748 500;2.0 1 748 500;2.5 1 748 500;3.0 1 748 500;3.5 1 748 500;4.0 1 748 500;4.5 1 748 500;5.0 1 748 500;5.5 1 748 500;6.0 1 748 500;6.5 1 748 500;7.0 1 748 500;7.5 1 748 500;8.0 1 748 500;8.5 1 748 500;9.0 1 748 500;9.5 1 748 500;10.0 1 712 333;10.5 1 623 283;11.0 1 538 342;11.5 1 500 494;12.0 1 500 494\">the Queen of Hearts</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "card_040.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "A",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 750 517;0.5 1 750 517;1.0 1 747 500;1.5 1 747 500;2.0 1 747 500;2.5 1 747 500;3.0 1 747 500;3.5 1 747 558;4.0 1 689 686;4.5 1 598 719;5.0 1 522 622;5.5 1 505 542;6.0 1 555 686;6.5 1 648 725;7.0 1 725 633;7.5 1 750 483;8.0 1 705 344;8.5 1 617 283;9.0 1 530 356;9.5 1 502 500;10.0 1 466 658;10.5 1 375 725;11.0 1 286 658;11.5 1 245 494;12.0 1 245 494\">the Queen of Hearts</tracks> Answer: left.<|im_end|>"
+  },
+  {
+    "video": "card_041.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "B",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 500 504;0.5 1 500 504;1.0 1 500 504;1.5 1 500 581;2.0 1 438 699;2.5 1 343 715;3.0 1 265 602;3.5 1 257 451;4.0 1 321 310;4.5 1 403 288;5.0 1 485 385;5.5 1 503 540;6.0 1 557 683;6.5 1 648 722;7.0 1 725 635;7.5 1 750 504;8.0 1 750 504;8.5 1 750 504;9.0 1 750 504;9.5 1 750 504;10.0 1 714 657;10.5 1 626 722;11.0 1 540 657;11.5 1 500 500;12.0 1 500 500\">the Queen of Hearts</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "card_042.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "A",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 500 504;0.5 1 500 504;1.0 1 500 504;1.5 1 500 431;2.0 1 571 306;2.5 1 664 293;3.0 1 735 393;3.5 1 743 565;4.0 1 635 750;4.5 1 443 778;5.0 1 285 646;5.5 1 246 502;6.0 1 246 502;6.5 1 246 502;7.0 1 246 502;7.5 1 246 528;8.0 1 340 724;8.5 1 522 796;9.0 1 693 678;9.5 1 746 502;10.0 1 678 306;10.5 1 496 233;11.0 1 322 306;11.5 1 246 502;12.0 1 246 502\">the Queen of Hearts</tracks> Answer: left.<|im_end|>"
+  },
+  {
+    "video": "card_043.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "A",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 748 517;0.5 1 748 517;1.0 1 745 500;1.5 1 745 569;2.0 1 681 697;2.5 1 588 711;3.0 1 517 603;3.5 1 503 497;4.0 1 500 511;4.5 1 486 508;5.0 1 497 500;5.5 1 500 500;6.0 1 503 511;6.5 1 486 508;7.0 1 497 500;7.5 1 500 525;8.0 1 542 678;8.5 1 641 725;9.0 1 722 642;9.5 1 750 500;10.0 1 681 308;10.5 1 495 231;11.0 1 322 306;11.5 1 245 497;12.0 1 245 497\">the Queen of Hearts</tracks> Answer: left.<|im_end|>"
+  },
+  {
+    "video": "card_044.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "C",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 255 499;1.0 1 246 494;3.0 1 265 601;3.5 1 255 451;4.0 1 318 315;4.5 1 399 282;5.0 1 485 382;5.5 1 503 462;6.0 1 557 315;6.5 1 647 276;7.0 1 728 356;7.5 1 750 499;8.0 1 750 499;8.5 1 750 499;9.0 1 750 499;9.5 1 750 499;10.0 1 710 337;10.5 1 624 276;11.0 1 538 344;11.5 1 503 494;12.0 1 503 494\">the Queen of Hearts</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "card_045.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "B",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 748 517;0.5 1 748 517;1.0 1 745 502;1.5 1 738 590;2.0 1 619 756;2.5 1 424 769;3.0 1 276 628;3.5 1 257 433;4.0 1 365 267;4.5 1 557 231;5.0 1 718 356;5.5 1 751 502;6.0 1 751 502;6.5 1 751 502;7.0 1 751 502;7.5 1 751 481;8.0 1 707 331;8.5 1 615 278;9.0 1 532 352;9.5 1 500 498;10.0 1 500 506;10.5 1 500 506;11.0 1 500 506;11.5 1 500 500;12.0 1 500 500\">the Queen of Hearts</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "card_046.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "B",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 256 497;0.5 1 256 497;1.0 1 247 492;1.5 1 262 594;2.0 1 386 750;2.5 1 580 767;3.0 1 725 628;3.5 1 750 497;4.0 1 750 497;4.5 1 750 497;5.0 1 750 497;5.5 1 747 547;6.0 1 650 731;6.5 1 467 772;7.0 1 295 656;7.5 1 250 519;8.0 1 292 669;8.5 1 384 731;9.0 1 470 639;9.5 1 500 500;10.0 1 500 506;10.5 1 500 778;11.0 1 680 697;11.5 1 750 497;12.0 1 750 497\">the Queen of Hearts</tracks> Answer: right.<|im_end|>"
+  },
+  {
+    "video": "card_047.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "B",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 256 497;0.5 1 256 497;1.0 1 246 494;1.5 1 246 494;2.0 1 246 494;2.5 1 246 494;3.0 1 246 494;3.5 1 246 494;4.0 1 246 494;4.5 1 246 494;5.0 1 246 494;5.5 1 246 494;6.0 1 246 494;6.5 1 246 494;7.0 1 246 494;7.5 1 246 494;8.0 1 246 494;8.5 1 246 494;9.0 1 246 494;9.5 1 246 494;10.0 1 285 342;10.5 1 374 286;11.0 1 461 342;11.5 1 496 494;12.0 1 496 494\">the Queen of Hearts</tracks> Answer: middle.<|im_end|>"
+  },
+  {
+    "video": "card_048.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "A",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 500 506;0.5 1 500 506;1.0 1 500 506;1.5 1 500 581;2.0 1 438 699;2.5 1 343 715;3.0 1 265 602;3.5 1 257 549;4.0 1 318 699;4.5 1 407 724;5.0 1 485 611;5.5 1 500 467;6.0 1 554 319;6.5 1 646 283;7.0 1 728 356;7.5 1 750 494;8.0 1 750 494;8.5 1 750 494;9.0 1 750 494;9.5 1 750 494;10.0 1 681 699;10.5 1 500 783;11.0 1 328 699;11.5 1 246 494;12.0 1 246 494\">the Queen of Hearts</tracks> Answer: left.<|im_end|>"
+  },
+  {
+    "video": "card_049.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "A",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 500 505;0.5 1 500 505;1.0 1 500 505;1.5 1 500 505;2.0 1 488 508;2.5 1 492 505;3.0 1 500 505;3.5 1 500 505;4.0 1 492 505;4.5 1 488 508;5.0 1 500 505;5.5 1 500 505;6.0 1 488 508;6.5 1 492 505;7.0 1 500 505;7.5 1 500 505;8.0 1 457 330;8.5 1 364 287;9.0 1 281 356;9.5 1 246 500;10.0 1 246 500;10.5 1 246 500;11.0 1 246 500;11.5 1 246 500;12.0 1 246 500\">the Queen of Hearts</tracks> Answer: left.<|im_end|>"
+  },
+  {
+    "video": "card_050.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Track the Queen of Hearts and answer where is the Queen of Hearts at the end of the video.",
+    "answer": "B",
+    "model": "Molmo2-8B-finetuned",
+    "response": "<tracks coords=\"0.0 1 500 504;0.5 1 500 504;1.0 1 500 504;1.5 1 500 430;2.0 1 433 307;2.5 1 338 296;3.0 1 262 393;3.5 1 256 454;4.0 1 317 309;4.5 1 403 288;5.0 1 484 385;5.5 1 500 472;6.0 1 447 315;6.5 1 353 288;7.0 1 270 372;7.5 1 247 472;8.0 1 338 288;8.5 1 523 226;9.0 1 695 307;9.5 1 747 498;10.0 1 712 663;10.5 1 625 722;11.0 1 539 659;11.5 1 500 498;12.0 1 500 498\">the Queen of Hearts</tracks> Answer: middle.<|im_end|>"
+  }
+]

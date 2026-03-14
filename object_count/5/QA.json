@@ -1,0 +1,852 @@
+[
+  {
+    "video": "cup_001.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 5
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "E"
+  },
+  {
+    "video": "cup_002.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "C"
+  },
+  {
+    "video": "cup_003.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "C"
+  },
+  {
+    "video": "cup_004.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 5
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "E"
+  },
+  {
+    "video": "cup_005.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "B"
+  },
+  {
+    "video": "cup_006.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 4
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "D"
+  },
+  {
+    "video": "cup_007.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 5
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "E"
+  },
+  {
+    "video": "cup_008.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "B"
+  },
+  {
+    "video": "cup_009.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 5
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "E"
+  },
+  {
+    "video": "cup_010.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "C"
+  },
+  {
+    "video": "cup_011.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 4
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "D"
+  },
+  {
+    "video": "cup_012.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 4
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "D"
+  },
+  {
+    "video": "cup_013.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 5
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "E"
+  },
+  {
+    "video": "cup_014.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 5
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "E"
+  },
+  {
+    "video": "cup_015.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "A"
+  },
+  {
+    "video": "cup_016.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "B"
+  },
+  {
+    "video": "cup_017.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "B"
+  },
+  {
+    "video": "cup_018.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "B"
+  },
+  {
+    "video": "cup_019.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "C"
+  },
+  {
+    "video": "cup_020.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "B"
+  },
+  {
+    "video": "cup_021.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "A"
+  },
+  {
+    "video": "cup_022.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "C"
+  },
+  {
+    "video": "cup_023.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "C"
+  },
+  {
+    "video": "cup_024.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 5
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "E"
+  },
+  {
+    "video": "cup_025.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 4
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "D"
+  },
+  {
+    "video": "cup_026.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "A"
+  },
+  {
+    "video": "cup_027.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 5
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "E"
+  },
+  {
+    "video": "cup_028.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 5
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "E"
+  },
+  {
+    "video": "cup_029.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "A"
+  },
+  {
+    "video": "cup_030.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 4
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "D"
+  },
+  {
+    "video": "cup_031.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "B"
+  },
+  {
+    "video": "cup_032.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 5
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "E"
+  },
+  {
+    "video": "cup_033.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "A"
+  },
+  {
+    "video": "cup_034.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "B"
+  },
+  {
+    "video": "cup_035.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "B"
+  },
+  {
+    "video": "cup_036.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "B"
+  },
+  {
+    "video": "cup_037.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 4
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "D"
+  },
+  {
+    "video": "cup_038.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "C"
+  },
+  {
+    "video": "cup_039.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 4
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "D"
+  },
+  {
+    "video": "cup_040.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "B"
+  },
+  {
+    "video": "cup_041.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 4
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "D"
+  },
+  {
+    "video": "cup_042.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 5
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "E"
+  },
+  {
+    "video": "cup_043.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 5
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "E"
+  },
+  {
+    "video": "cup_044.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "A"
+  },
+  {
+    "video": "cup_045.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "B"
+  },
+  {
+    "video": "cup_046.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "A"
+  },
+  {
+    "video": "cup_047.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "B"
+  },
+  {
+    "video": "cup_048.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "B"
+  },
+  {
+    "video": "cup_049.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 5
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "E"
+  },
+  {
+    "video": "cup_050.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\n(E) Fifth from left\nOutput your final answer (A, B, C, etc.) in the format: $\\boxed{<option>}$.",
+    "answer": "C"
+  }
+]

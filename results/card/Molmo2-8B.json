@@ -1,0 +1,652 @@
+[
+  {
+    "video": "card_001.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "Molmo2-8B",
+    "response": "(A) Left"
+  },
+  {
+    "video": "card_002.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "Molmo2-8B",
+    "response": "(A) Left"
+  },
+  {
+    "video": "card_003.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "Molmo2-8B",
+    "response": "(A) Left"
+  },
+  {
+    "video": "card_004.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "Molmo2-8B",
+    "response": "(A) Left"
+  },
+  {
+    "video": "card_005.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "Molmo2-8B",
+    "response": "(A) Left"
+  },
+  {
+    "video": "card_006.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "Molmo2-8B",
+    "response": "(A) Left"
+  },
+  {
+    "video": "card_007.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "Molmo2-8B",
+    "response": "C"
+  },
+  {
+    "video": "card_008.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "Molmo2-8B",
+    "response": "C"
+  },
+  {
+    "video": "card_009.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "Molmo2-8B",
+    "response": "(A) Left"
+  },
+  {
+    "video": "card_010.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "Molmo2-8B",
+    "response": "(A) Left"
+  },
+  {
+    "video": "card_011.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "Molmo2-8B",
+    "response": "(A) Left"
+  },
+  {
+    "video": "card_012.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "Molmo2-8B",
+    "response": "(A) Left"
+  },
+  {
+    "video": "card_013.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "Molmo2-8B",
+    "response": "(A) Left"
+  },
+  {
+    "video": "card_014.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "Molmo2-8B",
+    "response": "(A) Left"
+  },
+  {
+    "video": "card_015.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "Molmo2-8B",
+    "response": "(A) Left"
+  },
+  {
+    "video": "card_016.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "Molmo2-8B",
+    "response": "A"
+  },
+  {
+    "video": "card_017.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "Molmo2-8B",
+    "response": "A"
+  },
+  {
+    "video": "card_018.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "Molmo2-8B",
+    "response": "(A) Left"
+  },
+  {
+    "video": "card_019.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "Molmo2-8B",
+    "response": "(A) Left"
+  },
+  {
+    "video": "card_020.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "Molmo2-8B",
+    "response": "(A) Left"
+  },
+  {
+    "video": "card_021.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "Molmo2-8B",
+    "response": "(A) Left"
+  },
+  {
+    "video": "card_022.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "Molmo2-8B",
+    "response": "(A) Left"
+  },
+  {
+    "video": "card_023.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "Molmo2-8B",
+    "response": "(A) Left"
+  },
+  {
+    "video": "card_024.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "Molmo2-8B",
+    "response": "A"
+  },
+  {
+    "video": "card_025.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "Molmo2-8B",
+    "response": "(C) Right"
+  },
+  {
+    "video": "card_026.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "Molmo2-8B",
+    "response": "(A) Left"
+  },
+  {
+    "video": "card_027.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "Molmo2-8B",
+    "response": "A"
+  },
+  {
+    "video": "card_028.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "Molmo2-8B",
+    "response": "(A) Left"
+  },
+  {
+    "video": "card_029.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "Molmo2-8B",
+    "response": "(C) Right"
+  },
+  {
+    "video": "card_030.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "Molmo2-8B",
+    "response": "(A) Left"
+  },
+  {
+    "video": "card_031.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "Molmo2-8B",
+    "response": "A"
+  },
+  {
+    "video": "card_032.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "Molmo2-8B",
+    "response": "(A) Left"
+  },
+  {
+    "video": "card_033.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "Molmo2-8B",
+    "response": "(A) Left"
+  },
+  {
+    "video": "card_034.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "Molmo2-8B",
+    "response": "(A) Left"
+  },
+  {
+    "video": "card_035.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "Molmo2-8B",
+    "response": "(A) Left"
+  },
+  {
+    "video": "card_036.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "Molmo2-8B",
+    "response": "C"
+  },
+  {
+    "video": "card_037.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "Molmo2-8B",
+    "response": "(A) Left"
+  },
+  {
+    "video": "card_038.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "Molmo2-8B",
+    "response": "A"
+  },
+  {
+    "video": "card_039.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "Molmo2-8B",
+    "response": "(A) Left"
+  },
+  {
+    "video": "card_040.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "Molmo2-8B",
+    "response": "A"
+  },
+  {
+    "video": "card_041.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "Molmo2-8B",
+    "response": "(A) Left"
+  },
+  {
+    "video": "card_042.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "Molmo2-8B",
+    "response": "(A) Left"
+  },
+  {
+    "video": "card_043.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "Molmo2-8B",
+    "response": "(A) Left"
+  },
+  {
+    "video": "card_044.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "Molmo2-8B",
+    "response": "A"
+  },
+  {
+    "video": "card_045.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "Molmo2-8B",
+    "response": "(A) Left"
+  },
+  {
+    "video": "card_046.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "Molmo2-8B",
+    "response": "(A) Left"
+  },
+  {
+    "video": "card_047.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "Molmo2-8B",
+    "response": "A"
+  },
+  {
+    "video": "card_048.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "Molmo2-8B",
+    "response": "(C) Right"
+  },
+  {
+    "video": "card_049.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "Molmo2-8B",
+    "response": "(A) Left"
+  },
+  {
+    "video": "card_050.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "Molmo2-8B",
+    "response": "(A) Left"
+  }
+]

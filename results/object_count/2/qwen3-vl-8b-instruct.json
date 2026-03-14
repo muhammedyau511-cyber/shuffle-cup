@@ -1,0 +1,522 @@
+[
+  {
+    "video": "cup_001.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the end of the video, both cups are upright and stationary. The ball was initially under the right cup, and then the right cup was moved away, revealing the ball. However, at the very end, the right cup is back in its original position, and the left cup has not been moved since the ball was revealed. Since the ball was revealed under the right cup earlier and then the right cup was moved away, it implies that the ball is now visible and not under either cup. But since the question asks which cup contains the ball at the end, and based on the sequence where the ball is covered by the right cup again after being revealed (at 0:01.8), it suggests the ball ends up under the right cup again.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_002.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the end of the video, both cups are upright and stationary. The ball was covered by the left cup at one point and then uncovered. However, after the ball is uncovered (at 0:01), it remains visible on the ground until it is covered again by the left cup at 0:02. After that, the left cup moves away and ends up in its original position without covering anything else. The right cup never covers or interacts with the ball again after 0:01. Therefore, since the ball disappears under the left cup at 0:02 and no other cup covers it afterward, the ball must be under the left cup at the end of the video.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_003.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The ball appears under the right cup at 0:01. At 0:02, the right cup is lifted to reveal the ball inside it, and then both cups are moved around but the ball remains under the right cup. The final frame at 0:12 shows both cups upright and separated, with no indication of the ball being under the left cup.\n\nTherefore, the ball is under the right cup at the end of the video.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_004.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "$\\boxed{A}$"
+  },
+  {
+    "video": "cup_005.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the end of the video, both cups are upright and stationary. The ball was covered by the left cup when it was placed over the ball at 0:01, and then the left cup was moved away at 0:02. However, since no further movement or action is shown after that, and the ball is not visible outside the cups, we must infer based on the sequence.\n\nThe ball appears under the left cup at 0:01, and then the left cup is moved to cover it again at 0:02. After that, no other cup moves to cover the ball, and the ball remains hidden under the left cup until the end.\n\nTherefore, at the end of the video, the ball is still under the left cup.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_006.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the beginning, both cups are upside down. A red ball appears between them and then gets covered by the left cup. The left cup is then moved slightly, but it remains covering the ball throughout the rest of the video. The right cup stays in place and does not cover anything. Therefore, at the end of the video, the ball is under the left cup.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_007.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The ball is initially placed between the two cups. At 0:01, it appears under the left cup. Then, at 0:02, the left cup moves down and covers the ball. From 0:03 onwards, both cups are stationary, and the ball remains hidden under the left cup. Therefore, at the end of the video, the ball is under the left cup.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_008.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the beginning, both cups are upside down. At 0:02, a red ball appears under the right cup. Then, at 0:04, the right cup is lifted slightly, revealing the ball underneath it. The left cup remains untouched throughout. Therefore, at the end of the video, the ball is under the right cup.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_009.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the end of the video, both cups are upright and stationary. The ball was hidden under the right cup at 0:01. At 0:02, the right cup is lifted slightly, revealing the ball underneath it, and then it is placed back down covering the ball again. From 0:03 onwards, the right cup remains in place, still covering the ball. The left cup never moves or reveals anything. Therefore, the ball is under the right cup at the end.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_010.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the beginning, both cups are upside down. A red ball appears under the right cup at 0:02. Then, at 0:04, the right cup is lifted slightly, revealing the ball underneath it. The ball remains under the right cup until the end of the video.\n\nTherefore, the ball is under the right cup at the end.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_011.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the beginning of the video, two upside-down cups are shown. A red ball appears under the right cup. Then, the right cup is lifted slightly, revealing the ball underneath it. The right cup then moves slightly to the right, and the ball remains under it. Finally, both cups are shown in their original positions, with the ball still under the right cup.\n\nTherefore, at the end of the video, the ball is under the right cup.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_012.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the end of the video, both cups are upright and stationary. The ball was initially under the left cup, and then the left cup was moved away, revealing the ball. However, at the very end, the left cup is back in place, and the right cup has not been moved. Since the ball was revealed under the left cup earlier and then covered again by the left cup, it must still be under the left cup.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_013.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the beginning, both cups are upside down. A red ball appears under the right cup. Then, the right cup is lifted slightly, revealing the ball underneath it. The right cup then moves back into place, covering the ball again.\n\nAfter that, the two cups are moved around, but they never separate again. At the end of the video, both cups are in their original positions — the left cup is still upside down, and the right cup is also upside down, covering the ball.\n\nTherefore, at the end of the video, the ball is under the right cup.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_014.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the beginning, both cups are upside down. A red ball appears under the left cup. Then, the left cup is moved to cover the ball. The right cup remains in place. At the end of the video, the ball is hidden under the left cup.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_015.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the end of the video, both cups are upright and positioned side by side. The ball is not visible under either cup because it was covered by the right cup at 0:01. However, at 0:02, the right cup moves away from the ball, revealing that the ball was underneath it before being uncovered. Since the ball disappears after being uncovered (at 0:02), it implies it was hidden under the right cup until then.\n\nTherefore, at the end of the video, the ball is not under either cup—it has been revealed and is no longer hidden. But if we interpret \"contains\" as \"was last hidden under,\" then the answer is the right cup.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_016.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The ball is initially placed under the right cup at 0:01. It remains there as the cups are moved around, and by the end of the video (0:12), both cups are upright again, with the ball still under the right cup.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_017.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the end of the video, both cups are upright and stationary. The ball was covered by the left cup at one point, but then the left cup was moved away, and the ball disappeared from view. The right cup never covered the ball. Therefore, neither cup contains the ball at the end of the video.\n\nHowever, since the question asks which cup contains the ball, and based on the sequence provided (where the ball was under the left cup before being uncovered), we must assume that the ball is still under the left cup despite it being uncovered in the middle of the video.\n\nGiven this assumption and the options provided, the answer should be:\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_018.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the beginning, both cups are upside down. A red ball appears under the right cup. Then, the right cup is lifted slightly, revealing the ball underneath it. The right cup then moves back to its original position, covering the ball again.\n\nTherefore, at the end of the video, the ball is under the right cup.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_019.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the end of the video, both cups are upright and stationary. The ball was covered by the left cup when it was placed over the ball at 0:01. Then, at 0:02, the left cup is moved to the right side of the screen, leaving the right cup in place. However, since the ball was covered by the left cup and then that cup was moved away (to the right), the ball should now be under the right cup.\n\nWait, let's re-examine the sequence:\n\n- At 0:00: Two upside-down cups.\n- At 0:01: A red ball appears between the two cups, under the left cup? No, actually, the ball appears *between* them, not under either. The left cup is still inverted, but the ball appears *outside* the left cup, near its base.\n\nActually, looking again:\n- At 0:00: Two cups upside down.\n- At 0:01: The ball appears *between* the two cups, so not under either.\n- At 0:02: The left cup moves up and covers the ball — so now the ball is under the left cup.\n- At 0:03: The left cup is moved to the right side of the screen, and the right cup remains in place.\n\nSo after moving the left cup to the right, the ball is still under the left cup, which is now on the right side of the screen. Therefore, at the end of the video, the ball is under the cup that is now on the right side of the screen.\n\nThus, the ball is under the **right** cup.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_020.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the beginning, both cups are upside down. At 0:02, a red ball appears under the right cup and then disappears under the left cup at 0:03. From 0:04 to the end, the ball is hidden under the left cup, which remains upside down.\n\nTherefore, the ball is under the left cup at the end.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_021.mp4",
+    "fps": 30,
+    "total_frames": 312,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the end of the video, both cups are upright and stationary. The ball was covered by the left cup at 0:01, then uncovered at 0:02, and then covered again by the left cup at 0:03. After that, no further movement occurs. Therefore, at the end of the video, the ball is under the left cup.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_022.mp4",
+    "fps": 30,
+    "total_frames": 312,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the end of the video, both cups are upright and stationary. The ball was covered by the left cup at 0:01 and then covered again at 0:02 when the left cup was placed back down over it. Since no other movement or action occurs afterward, the ball remains under the left cup.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_023.mp4",
+    "fps": 30,
+    "total_frames": 312,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the end of the video, both cups are upright and stationary. The ball was covered by the left cup at 0:01, then covered again at 0:02 when the left cup was moved over it. At 0:03, the left cup is back in its original position, covering the ball. The right cup remains untouched throughout. Therefore, the ball is under the left cup.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_024.mp4",
+    "fps": 30,
+    "total_frames": 312,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the end of the video, both cups are upright and stationary. The ball was covered by the left cup at one point, but then the left cup was moved away, and the ball disappeared from view. The right cup never covered the ball. Since the ball is not visible and there's no indication it moved to the right cup, we must assume it was hidden under the left cup before it was uncovered.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_025.mp4",
+    "fps": 30,
+    "total_frames": 312,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the end of the video, both cups are shown upside down, and there is no visible ball. However, based on the sequence:\n\n- At 0:02, the ball appears under the left cup.\n- The left cup then moves to cover the ball again at 0:03.\n- From 0:04 onwards, both cups remain in place, and the ball is not visible.\n\nSince the ball was last seen under the left cup before being covered again, and no movement or reveal happens after that, we infer that the ball remains under the left cup throughout the rest of the video.\n\nTherefore, the correct answer is (A) Left.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_026.mp4",
+    "fps": 30,
+    "total_frames": 312,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the beginning, both cups are upside down. A red ball appears under the left cup. Then, the left cup is moved to cover the ball, and the right cup remains in place. After that, both cups are shaken slightly, but the ball is still under the left cup. Since the ball is hidden under the left cup at the end of the video, the answer is (A).\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_027.mp4",
+    "fps": 30,
+    "total_frames": 312,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the end of the video, both cups are upright and stationary. The ball was hidden under the right cup at 0:01. At 0:02, the right cup is lifted to reveal the ball, but then it is immediately covered again by the right cup. From 0:03 onwards, both cups remain upright and stationary with no indication that either has been moved or that the ball has been revealed again.\n\nSince the ball was hidden under the right cup and then covered again without being revealed or moved elsewhere, the ball remains under the right cup until the end of the video.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_028.mp4",
+    "fps": 30,
+    "total_frames": 312,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the end of the video, both cups are upright and stationary. The ball was covered by the left cup when it was placed over the ball at 0:01, then covered again when the left cup was moved back down at 0:02. The right cup never covered the ball. Therefore, at the end of the video, the ball is under the left cup.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_029.mp4",
+    "fps": 30,
+    "total_frames": 312,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the beginning of the video, both cups are upright. At 0:01, a red ball appears under the right cup. At 0:02, the right cup is lifted slightly, revealing the ball underneath it. Then, at 0:03, the right cup is placed back down over the ball, covering it again.\n\nThe left cup remains untouched throughout the entire sequence.\n\nTherefore, at the end of the video (0:10), the ball is still under the right cup.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_030.mp4",
+    "fps": 30,
+    "total_frames": 312,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the beginning, both cups are upside down. A red ball appears under the right cup. Then, the right cup is lifted slightly, revealing the ball underneath it. The right cup then moves back to its original position, covering the ball again.\n\nAt the end of the video, both cups are upside down and stationary. Since the ball was revealed under the right cup and then covered again by that same cup, the ball must be under the right cup at the end.\n\nTherefore, the answer is (B) Right.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_031.mp4",
+    "fps": 30,
+    "total_frames": 312,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the beginning of the video, two upside-down cups are shown. A red ball appears between them. The left cup is then moved down to cover the ball, and it remains covered throughout the rest of the video. The right cup stays in place without covering anything.\n\nTherefore, at the end of the video, the ball is under the left cup.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_032.mp4",
+    "fps": 30,
+    "total_frames": 312,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At 0:02, the right cup is lifted, revealing the red ball underneath. Then, at 0:03, the right cup is placed back down, covering the ball. The left cup remains untouched throughout the video. Therefore, at the end of the video, the ball is under the right cup.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_033.mp4",
+    "fps": 30,
+    "total_frames": 312,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "$\\boxed{A}$"
+  },
+  {
+    "video": "cup_034.mp4",
+    "fps": 30,
+    "total_frames": 312,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the end of the video, both cups are upright and stationary. The ball was initially under the right cup, and then the right cup was moved away, revealing the ball. Later, the right cup was moved back over the ball, covering it again. At the very end, both cups are upright, and since the right cup was the last to be moved over the ball, it is covering the ball.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_035.mp4",
+    "fps": 30,
+    "total_frames": 312,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the beginning, both cups are upside down. A red ball appears under the right cup. Then, the right cup is lifted slightly, revealing the ball underneath it. The right cup then moves back into place, covering the ball again.\n\nSince the ball is covered by the right cup at the end of the video, the answer is (B) Right.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_036.mp4",
+    "fps": 30,
+    "total_frames": 312,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the beginning, both cups are upright. Then, a red ball appears under the right cup. The right cup then moves to cover the ball, and the left cup remains stationary. After that, both cups move around, but the ball stays hidden under the right cup throughout the rest of the video.\n\nTherefore, at the end of the video, the ball is under the right cup.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_037.mp4",
+    "fps": 30,
+    "total_frames": 312,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the end of the video, both cups are shown upside down, and the ball is not visible outside of them. However, based on the sequence:\n\n- At 0:02, the left cup covers the ball.\n- The ball is then covered again at 0:06 by the left cup after being moved under it.\n- The right cup remains in place without covering the ball.\n\nTherefore, the ball ends up under the left cup.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_038.mp4",
+    "fps": 30,
+    "total_frames": 312,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the end of the video, both cups are shown upside down, and the ball is not visible. However, based on the sequence:\n\n- At 0:02, the ball is under the left cup.\n- The right cup remains empty throughout.\n- The left cup is then moved slightly but stays covering the ball until the end.\n\nSince the ball disappears under the left cup at 0:02 and no further movement or reveal occurs, it logically remains under the left cup.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_039.mp4",
+    "fps": 30,
+    "total_frames": 312,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "The ball is initially under the right cup at 0:02. It is then revealed at 0:05 and remains visible outside the cups until 0:08, when it disappears again under the right cup at 0:09. The video ends at 0:10 with both cups in their original positions, and the ball is hidden under the right cup.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_040.mp4",
+    "fps": 30,
+    "total_frames": 312,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Right\nOutput your final answer (A or B) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-instruct",
+    "response": "At the end of the video, both cups are shown upside down. The ball was initially placed under the left cup and then covered by it again after being revealed. The right cup never covered the ball. Therefore, the ball is under the left cup.\n\n$\\boxed{A}$"
+  }
+]

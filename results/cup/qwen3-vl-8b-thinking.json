@@ -1,0 +1,652 @@
+[
+  {
+    "video": "cup_001.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of events:\n\n1. **Initial Setup**: Three cups are positioned side-by-side on a brown surface.  \n2. **Ball Introduction**: At timestamp `0.5s`, the left cup lifts upward, revealing a red ball beneath it. This means the ball was initially under the left cup’s original position.  \n3. **Left Cup Resets**: By `1.5s`, the left cup lowers back down, covering the ball again. Thus, the ball is now under the left cup.  \n4. **Cup Movement**: From `2.0s` onward, the cups move dynamically (e.g., left cup shifts left, middle cup shifts right, right cup shifts left). During this movement, the left cup temporarily moves away from its original position, exposing the ball. However, the ball remains stationary on the surface at the left cup’s original location.  \n5. **Final Position**: By the end of the video (around `12.3s`), all cups return to their **original positions** (left, middle, right). The left cup, which had moved away, now shifts back to its starting position. Since the ball was stationary at the left cup’s original location, the left cup covers it again.  \n\nThus, at the conclusion of the video, the ball is under the left cup.\n\n$$\n\\boxed{A}\n$$"
+  },
+  {
+    "video": "cup_002.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence:\n\n1. **Initial Setup**: Three cups are arranged in a row.\n2. **Ball Appearance**: At frame 0.5, the leftmost cup moves left, revealing a red ball underneath it. This means the ball is now under the left cup.\n3. **Ball Covered**: At frame 1.0, the left cup moves back to cover the ball, meaning the ball is now inside the left cup.\n4. **Subsequent Movement**: The cups shift positions over time (e.g., moving up/down/left/right), but the ball remains hidden under the left cup throughout all later frames. The left cup continues to cover the ball as it moves, so the ball stays inside the left cup.\n\nAt the end of the video (frame 12.3), the left cup is still the one containing the ball. The middle and right cups do not cover the ball at any point, as the ball was never revealed under them.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_003.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of events:\n\n1. **Initial Setup**: Three cups are placed in a row (left, middle, right) on a brown surface.\n2. **Ball Appearance**: The right cup lifts up, revealing a red ball underneath it. This indicates the ball was hidden under the right cup initially.\n3. **Movement Sequence**: The right cup moves rightward, revealing the ball on the ground. Subsequently, the right cup moves back down, covering the ball again.\n4. **Cup Rearrangements**: While the cups move around (left cup shifts, middle cup shifts, etc.), the ball remains on the ground under the right cup. The ball is never relocated or covered by another cup during these movements.\n5. **Final Frame**: By the end of the video, the cups return to a linear arrangement (left, middle, right). The ball, which was consistently under the right cup throughout the sequence, remains under the right cup in the final frame.\n\nThus, the ball is contained within the **right cup** at the conclusion of the video.\n\n$$\n\\boxed{C}\n$$"
+  },
+  {
+    "video": "cup_004.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of events:\n\n1. **Initial State (0.0 seconds):** Three cups are positioned in a row: left, middle, right. No ball is visible.\n2. **At 0.3 seconds:** The right cup is lifted, revealing a red ball **underneath** its original position. This means the ball is located where the right cup was.\n3. **At 1.6 seconds:** The right cup is lowered again, covering the ball. The ball remains hidden under the right cup.\n4. **Subsequent Frames (2.0–12.3 seconds):** The cups move and reposition, but the ball is consistently hidden **under the right cup** as the right cup remains lowered. The ball is never visible under the left or middle cups at any point.\n\nAt the end of the video (frame 12.3), the cups are arranged back into a row, and the right cup is still in place. Since the ball was hidden under the right cup throughout the entire sequence (and never moved to another position), the right cup contains the ball.\n\n$$\n\\boxed{C}\n$$"
+  },
+  {
+    "video": "cup_005.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of events:\n\n1. **Initial Setup (0.0 seconds):** Three cups are positioned in a line: left, middle, and right. No ball is visible.\n2. **Ball Appears (0.3 seconds):** The right cup is lifted and moved to the right, revealing a red ball underneath the original position of the right cup. The ball is now under the right cup.\n3. **Ball Under Right Cup (0.6–1.8 seconds):** The right cup returns to its original position, covering the ball. The ball remains under the right cup until the right cup is lifted again at 1.6 seconds, exposing the ball.\n4. **Cup Movement After Ball Exposure (1.8–12.3 seconds):** The cups move dynamically (shuffling left/right and up/down). While the ball is no longer visible in the later frames, it follows the cup that initially covered it (the right cup). As the cups move, the ball transitions under different cups:\n   - When the right cup moves left (e.g., at 4.8 seconds), the ball is now under the middle cup.\n   - When the middle cup moves left (e.g., at 6.6 seconds), the ball moves under the left cup.\n   - Subsequent movements cause the ball to cycle between cups, but the final key observation is that the **middle cup ends up containing the ball** at the end of the video (12.3 seconds), as the cup movement sequence positions the ball under the middle cup before the cups return to their original positions.\n\nThus, the cup containing the ball at the end of the video is the **middle cup**.\n\n$$\n\\boxed{B}\n$$"
+  },
+  {
+    "video": "cup_006.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "$\\boxed{B}$"
+  },
+  {
+    "video": "cup_007.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "$\\boxed{A}$"
+  },
+  {
+    "video": "cup_008.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of events:\n\n1. **Initial Setup (0.0 seconds)**: Three cups are arranged in a row (left, middle, right), and no ball is present.\n2. **Ball Introduction (0.3–1.8 seconds)**: The rightmost cup is lifted, revealing a red ball beneath it. This ball is under the right cup during this phase.\n3. **Cup Movement (1.8–12.3 seconds)**: After the right cup is lowered, the ball is contained within it. As the cups move around (e.g., left cup shifts left/right, middle cup remains stationary, right cup repositions), the ball remains inside the right cup due to its motion with the cup.\n\nAt the **end of the video (12.3 seconds)**, the cups return to their original positions (left, middle, right). Since the ball was consistently inside the right cup throughout the movement, it remains inside the right cup at the conclusion.\n\nThus, the cup containing the ball at the end of the video is the **right cup**.\n\n$$\n\\boxed{C}\n$$"
+  },
+  {
+    "video": "cup_009.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of events:\n\n1. **Initial Setup (Frame 0.0)**: Three inverted cups are positioned in a line (left, middle, right). The ball is not visible.\n\n2. **Ball Introduction (Frame 0.3)**: The leftmost cup is lifted, revealing a red ball. This means the ball was previously hidden under the **left cup**.\n\n3. **Ball Placement (Frame 0.6)**: The left cup is lowered, covering the ball again. Thus, the ball remains under the **left cup**.\n\n4. **Subsequent Movements**: As the cups move around (e.g., shifting positions, lifting and lowering), the ball stays hidden under the **left cup** because the ball is a stationary object and the left cup is consistently the one covering it throughout the sequence.\n\n5. **Final Frame (Frame 12.3)**: The cups return to a line, but the left cup still contains the ball. All movements of the cups occurred while the ball was under the left cup, as no other cup ever lifted to reveal the ball.\n\nThus, the ball is under the **left cup** at the end of the video.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_010.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of events:\n\n1. **Initial State**: Three cups are aligned in a row (left, middle, right).\n2. **Frame 0.2**: The left cup moves upward, revealing a red ball under it. This indicates the ball was initially positioned under the left cup.\n3. **Frame 1.6**: The left cup moves back down, covering the ball again. Thus, the ball remains under the left cup.\n4. **Subsequent Frames (2.0–12.3)**: The cups move dynamically (shuffling positions), but the ball stays in place. The ball is always covered by the cup that moves into its position. Critically, the left cup consistently covers the ball as it shifts during the sequence.\n5. **Final Frame (12.3)**: The cups return to their original alignment (left, middle, right). Since the ball was under the left cup throughout the sequence and the cups end in their initial positions, the ball remains under the left cup.\n\nThus, the cup containing the ball at the end of the video is the **left cup**.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_011.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of events:\n\n1. **Initial Setup (0.0s)**: Three cups are arranged in a row (left, middle, right), with no ball visible.\n2. **Middle Cup Lifted (0.3s)**: The middle cup is lifted, revealing the red ball underneath it.\n3. **Ball Placed Under Middle Cup (0.6s)**: The middle cup is lowered back down, now covering the red ball. The ball remains stationary throughout the video.\n4. **Cup Movement (0.8s–12.3s)**: The cups shuffle around the ball, but the ball stays in place. This includes the middle cup moving, but the ball is always under the middle cup during these movements.\n5. **Final Position (12.3s)**: By the end of the video, the cups return to their original positions (left, middle, right), and the ball is still under the middle cup.\n\nThus, at the end of the video, the **middle cup** contains the ball.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_012.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of events:\n\n1. **Initial State**: Three cups are placed upside down on a brown surface.  \n2. **At 0.3 seconds**: The rightmost cup is lifted upward, revealing a red ball beneath it. This indicates the ball is now positioned under the right cup.  \n3. **At 0.6 seconds**: The rightmost cup is lowered back down, covering the ball. The ball remains hidden under the right cup.  \n4. **Subsequent Frames (0.6–12.3 seconds)**: The cups move and reposition, but the ball is consistently hidden under the right cup. The video ends with the cups arranged such that the right cup still contains the ball (as the ball was never removed from under it).\n\nThus, at the end of the video, the ball is contained within the **right cup**.\n\n$$\n\\boxed{C}\n$$"
+  },
+  {
+    "video": "cup_013.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of events:\n\n1. **Initial Setup**: Three cups are lined up (left, middle, right) with no ball present.\n2. **Ball Introduction**: At some point, a red ball appears under the **left** cup (visible when the left cup is lifted).\n3. **Cup Movement**: The cups shuffle positions. As they move, the ball remains fixed in place while the cups cover it. \n   - When the left cup is moved to the middle position, the ball is now under the **middle** cup.\n   - Subsequent movements continue to shuffle the cups, but the ball is always under the cup that covers it.\n4. **Final Arrangement**: By the end of the video (frame 12.3), the cups return to their original positions (left, middle, right). However, due to the shuffling, the ball has been relocated under the **middle** cup during the sequence.\n\nThus, at the end of the video, the **middle** cup contains the ball.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_014.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we track the ball's position through the sequence of movements:\n\n1. **Initial Setup**: Three cups are arranged left, middle, and right.\n2. **Ball Introduction**: At 0.6 seconds, the red ball appears under the **middle cup** when it is lifted.\n3. **Ball Coverage**: By 1.6 seconds, the middle cup lowers, covering the ball, so the ball is hidden under the middle cup.\n4. **Cup Movements**: As the cups move around (from 2.0 to 12.3 seconds), the ball remains hidden under the cup that is covering it. \n   - The middle cup initially covers the ball and then moves right, shifting the ball to the right cup.\n   - Subsequent movements (e.g., 6.3 seconds) cause the middle cup to shift left, bringing the ball under the **left cup**.\n5. **Final Position**: By the end of the video (12.3 seconds), the left cup is the one that covers the ball.\n\nThus, the ball is under the **left cup** at the end.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_015.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of events:\n\n1. **Initial Setup**: Three inverted cups are placed in a row on a brown surface.\n2. **Ball Introduction**: At approximately 0.3 seconds, the rightmost cup is lifted, revealing a red ball underneath it. This indicates the ball is initially under the right cup.\n3. **Cup Movement**: As the video progresses, the cups are moved around in a shuffled manner. This movement is characteristic of a shell game, where the ball is hidden under one of the cups and its position changes with the cup’s movement.\n4. **Final Frame (12.3 seconds)**: After multiple shuffles, the cups return to a lined-up position. By tracking the ball’s movement through the sequence (e.g., the ball moves from the right cup to the middle cup during the shuffling), we observe that at the end, the ball is under the **middle cup**.\n\nThus, the cup containing the ball at the end of the video is the middle one.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_016.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of events:\n\n1. **Initial Setup**: Three cups (left, middle, right) are arranged in a row on a brown background.  \n2. **Ball Appearance**: At approximately 0.6 seconds, the middle cup lifts up, revealing a red ball under its original position (i.e., the ball is initially under the middle cup).  \n3. **Ball Concealment**: At around 1.8 seconds, the middle cup lowers back down, covering the ball again. This confirms the ball is now *under* the middle cup.  \n4. **Subsequent Movement**: From 2.0 seconds onward, the cups move dynamically, but the key observation is that the middle cup remains on the ground (or covers the ball) through all movements. For example:  \n   - When other cups (left or right) lift or shift, the middle cup stays on the ground.  \n   - The ball’s position remains fixed under the middle cup, as the middle cup consistently covers it during all subsequent motion.  \n5. **Final Frame (12.3 seconds)**: All three cups return to a rowed arrangement, with the middle cup positioned in the center, still covering the ball.  \n\nThus, at the end of the video, the ball is under the **middle** cup.\n\n$$\n\\boxed{B}\n$$"
+  },
+  {
+    "video": "cup_017.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of events:\n\n1. **Initial Setup**: Three cups are placed side-by-side (left, middle, right).\n2. **Ball Appearance**: At approximately 0.5 seconds, the rightmost cup lifts, revealing a red ball underneath it. This confirms the ball is initially under the right cup.\n3. **Cup Movement**: The right cup later lowers back over the ball, keeping it hidden. Subsequent movements of the cups (shuffling, rotating) involve the ball being covered by the right cup throughout the video. \n4. **Final Frames**: By the end of the video (12.3 seconds), the cups return to a linear arrangement. Since the ball was consistently hidden under the right cup during all movements, it remains under the right cup in the final frame.\n\nThus, the ball is contained within the right cup.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_018.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of events:\n\n1. **Initial State (Time 0.0)**: Three cups are placed upside down, and no ball is visible.\n2. **Revealing the Ball (Time 0.3–0.5)**: The left cup is lifted, revealing a red ball. This indicates the ball was initially hidden **under the left cup**.\n3. **Covering the Ball (Time 1.5)**: The left cup is lowered again, **covering the ball**.\n4. **Cup Shuffling (Time 2.0–12.2)**: After the left cup covers the ball, the cups begin to shuffle around. During this shuffling, the **left cup moves**, carrying the ball with it (as the ball is hidden under the cup). Through the movement, the cup that was initially holding the ball (the left cup) eventually shifts to a new position, and the ball remains under it. \n\nHowever, upon close examination of the final frames (Time 12.2), the cup that contains the ball is the **middle cup**. This is because during the shuffling sequence, the left cup moves toward the middle position, and the ball remains hidden under it. As a result, the ball ends up under the middle cup.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_019.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "$\\boxed{C}$"
+  },
+  {
+    "video": "cup_020.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of events:\n\n1. **Initial Setup**: Three white cups are arranged in a line (left, middle, right) on a brown background.\n2. **Ball Appearance**: At approximately 0.3 seconds, the middle cup lifts upward, revealing a red ball beneath it. This indicates the ball is initially under the middle cup.\n3. **Middle Cup Returns**: At approximately 1.8 seconds, the middle cup lowers back down, covering the ball again. Thus, the ball remains under the middle cup.\n4. **Cup Movement**: From 2.0 seconds onward, the cups move around (e.g., the left cup shifts left, the right cup shifts right). However, the ball is a stationary object. When the cups move, the ball stays under whichever cup is positioned over it. Despite the movement, the ball is still under the middle cup, as confirmed by the middle cup being the one covering the ball during this phase.\n5. **Final Frame**: By 12.3 seconds, the cups return to a linear arrangement (left, middle, right), and the ball remains under the middle cup.\n\nThus, at the end of the video, the ball is under the **middle** cup.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_021.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of events:\n\n1. **Initial Setup**: Three cups are placed in a row (left, middle, right).\n2. **Ball Introduction**: At approximately 0.6 seconds, a red ball appears **under the rightmost cup**.\n3. **Cup Movement**: The cups then shuffle and move around, with the ball remaining hidden under one cup throughout the animation. As the cups reposition themselves, the ball shifts to different cups over time.\n4. **Final Frame (12.3 seconds)**: By the end of the video, the three cups are arranged back in a line. Through observation of the cup movements and the ball’s hiding pattern, it becomes evident that the ball is hidden **under the middle cup** at this final position.\n\nThus, the cup containing the ball at the end of the video is the middle cup.\n\n$$\n\\boxed{B}\n$$"
+  },
+  {
+    "video": "cup_022.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of movements:\n\n1. **Initial Setup (0.0s)**: Three cups are positioned in a line (left, middle, right).  \n2. **First Movement (0.3–0.6s)**: The right cup lifts up, revealing a red ball beneath it (indicating the ball was hidden under the right cup). The ball remains visible until the right cup lowers back down (1.6s), covering the ball.  \n3. **Subsequent Movements**: The cups shuffle positions (left cup moves, middle cup lifts, etc.), but the ball remains hidden under the **right cup** throughout these movements. This is because the ball was initially under the right cup, and the shell game mechanics involve the cup covering the ball without moving the ball itself.  \n4. **Final Frame (12.3s)**: The cups return to their original positions (left, middle, right). Since the ball was consistently under the right cup during all movements, it remains hidden under the right cup at the end.\n\nThus, the cup containing the ball at the end is the right cup.\n\n$$\n\\boxed{C}\n$$"
+  },
+  {
+    "video": "cup_023.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of events:\n\n1. **Initial Setup (0.0 seconds):** Three inverted cups (left, middle, right) are aligned on a brown surface.\n2. **Ball Reveal (0.3 seconds):** The middle cup lifts, revealing a red ball *under* its original position. This confirms the ball is initially placed under the middle cup.\n3. **Ball Covered (0.6 seconds):** The middle cup lowers back down, covering the ball. The ball remains under the middle cup.\n4. **Subsequent Movements (2.1–12.3 seconds):** The cups move around (shuffling positions), but the ball is never shown to move out from under the middle cup. The cup movements only reposition the cups while the ball stays hidden under the middle cup.\n\nAt the **end of the video (12.3 seconds)**, the cups return to their original positions (left, middle, right), and the ball remains under the middle cup. \n\nThus, the cup containing the ball at the end is the **middle cup**.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_024.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of movements:\n\n1. **Initial Setup**: Three cups are arranged in a row (left, middle, right).\n2. **Ball Introduction**: At approximately 0.2 seconds, the left cup moves left, revealing a red ball underneath it. This confirms the ball is initially under the left cup.\n3. **Cup Movements**: The cups shuffle around. However, the ball is always **moved with the cup it was under** (since the ball remains under the cup during its movements). For example:\n   - When the left cup is lifted (e.g., at 0.6 seconds), the ball is visible, and when the left cup is placed back down, the ball is under it.\n   - As the cups shift positions (e.g., in frames 2.0–12.2), the ball is always under the left cup, as this is the cup initially housing the ball.\n\n4. **Final Frames**: In the last few frames (e.g., 12.0–12.2), the three cups are repositioned, but the ball remains under the left cup due to its consistent association with the left cup during the entire sequence.\n\nThus, the ball is contained in the **left cup** at the end of the video.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_025.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of events:\n\n1. **Initial State (0.0 seconds)**: Three cups are arranged in a line (left, middle, right), with no ball visible.\n\n2. **Ball Appearance (0.3 seconds)**: The rightmost cup is lifted, and a red ball appears **under the right cup**.\n\n3. **Ball Movement (0.6–1.0 seconds)**: The right cup is lowered back to its original position, keeping the ball under it. The cups continue to move around, but the ball remains hidden under the right cup.\n\n4. **Key Transition (1.0–1.3 seconds)**: As the cups shift positions, the ball is now **under the middle cup**. This occurs because the right cup moves away, revealing the ball beneath the middle cup.\n\n5. **Final Arrangement (12.3 seconds)**: The video ends with three cups in a line. The ball remains hidden **under the middle cup**, as confirmed by the consistent repositioning and covering of the ball throughout the sequence.\n\nThus, the ball is ultimately under the **middle cup** at the end of the video.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_026.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of events:\n\n1. **Initial Setup**: Three white cups are lined up left-to-right (L, M, R).\n2. **Ball Appearance**: At timestamp 0.5 seconds, the left cup (L) is lifted, revealing a red ball. The ball is now positioned under the original left cup.\n3. **Ball Covered**: By 1.8 seconds, the left cup (L) is placed back down, covering the ball.\n4. **Cup Shuffling**: From 2 seconds onward, the cups move around in a circular manner:\n   - The middle cup (M) shifts leftward.\n   - The right cup (R) shifts rightward.\n   - The left cup (L) shifts leftward.\n\nAs the cups shuffle, the ball (fixed in position on the ground) is no longer under the original left cup. Instead, due to the movement of the cups, the ball ends up under the **middle cup** (M) by the final frame (12.3 seconds).\n\nThus, the cup containing the ball at the end of the video is the middle cup.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_027.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence:\n\n1. **Initial State**: Three cups are placed side-by-side on a brown surface.  \n2. **Ball Introduction**: At approximately 0.5 seconds, the leftmost cup is lifted, revealing a red ball beneath it. The ball remains under the left cup when the cup is lowered back down (0.8 seconds).  \n3. **Cup Movement**: Subsequent frames show the cups moving around, but the ball is never revealed under the middle or right cups. Instead, the ball remains hidden under the left cup throughout the movement sequences.  \n\nBy the final frame (12.3 seconds), the cups return to a linear arrangement (left, middle, right), and the ball is still hidden beneath the left cup. This is consistent with the ball being introduced and consistently hidden under the left cup throughout the video.\n\nThus, the cup containing the ball at the end of the video is the left cup.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_028.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of events:\n\n1. **Initial Setup**: Three cups are placed in a row (left, middle, right) on a brown surface.\n2. **Ball Introduction**: At approximately 0.3 seconds, a fourth cup appears on the right, and a red ball is placed under it. This means the **right cup** initially contains the ball.\n3. **Movement of Cups**: Throughout the video, the cups move around, but the ball remains hidden under the right cup. For example:\n   - The right cup moves right, left, and down, but the ball stays beneath it.\n   - As the cups shuffle, the right cup consistently holds the ball, even when other cups pass by.\n4. **Final Frame**: By the end of the video (around 12.3 seconds), the three cups are back in a row. The ball remains under the right cup, as all movements were centered around the right cup's position.\n\nThus, at the end of the video, the **right cup** contains the ball.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_029.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of events:\n\n1. **Initial Setup**: Three cups are placed in a row (left, middle, right).\n2. **Ball Introduction**: At approximately 0.3 seconds, the left cup lifts up, revealing a red ball underneath it. This confirms the ball is initially under the left cup.\n3. **Ball Covered**: By 0.8 seconds, the left cup lowers back down, covering the ball again. Thus, the ball remains under the left cup during this phase.\n4. **Cup Movements**: Throughout the subsequent frames (e.g., 1.0s to 12.3s), the cups move dynamically (shifting positions, rotating), but the ball is not visible in these later frames. However, the critical detail is that **the ball is consistently positioned under the left cup** during all actions involving the ball (before it becomes obscured or after it is reintroduced).\n\nAt the **end of the video** (12.3 seconds), the cups return to a similar arrangement as the initial setup, with the left cup still holding the ball beneath it (as the ball was never removed or moved from under the left cup during the sequence).\n\nThus, the ball remains under the **left cup** at the end of the video.\n\n$$\n\\boxed{A}\n$$"
+  },
+  {
+    "video": "cup_030.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of events:\n\n1. **Initial Setup**: Three inverted cups are arranged in a row (left, middle, right).\n2. **Middle Cup Lifting**: At frame 0.3, the middle cup lifts up, revealing a red ball underneath it. This indicates the ball was initially hidden under the middle cup.\n3. **Ball Coverage**: The middle cup then moves back down to cover the ball (frame 0.6), confirming the ball remains under the middle cup.\n4. **Cup Movement**: From frame 2.0 onward, the cups shuffle around in various positions. However, the ball is hidden under one of the cups throughout the movement.\n5. **Final Position**: At frame 12.3, the cups are repositioned into a row (left, middle, right), but the ball remains under the middle cup due to its continuous coverage during the movement sequence.\n\nThus, the middle cup continues to contain the ball until the end of the video.\n\n$$\n\\boxed{B}\n$$"
+  },
+  {
+    "video": "cup_031.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of events:\n\n1. **Initial Setup (0.0 seconds)**: Three cups are arranged in a row (left, middle, right), with no ball visible.\n\n2. **Ball Revealed (0.3 seconds)**: The left cup is lifted, revealing a red ball underneath. This indicates the ball was initially hidden under the left cup.\n\n3. **Ball Hidden Again (0.6–1.8 seconds)**: The left cup is placed back down, covering the ball. Thus, the ball remains under the left cup during this period.\n\n4. **Cup Movement (2.0–12.3 seconds)**: The cups begin to shuffle. In such shell games, when cups are moved, the ball stays under the cup that was initially covering it. However, the movement of the cups changes which cup is positioned where. The key insight is that the ball is transferred to a different cup through the shuffling process.\n\n   - As the cups move around, the ball transitions from being under the left cup to being under the middle cup. This is a standard pattern in shell games where the ball moves with the cup that covered it, and through movement, it ends up under a different position.\n\n5. **Final Position (12.3 seconds)**: At the end of the video, the cups are repositioned into a standard row (left, middle, right), and the ball is located under the **middle** cup. This is consistent with the movement of the cups throughout the video, where the ball has been transferred to the middle position via the shuffling process.\n\nThus, the cup that contains the ball at the end of the video is the **middle** cup.\n\n$$\n\\boxed{B}\n$$"
+  },
+  {
+    "video": "cup_032.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "$\\boxed{B}$"
+  },
+  {
+    "video": "cup_033.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence:\n\n1. **Initial Setup**: Three cups are lined up (left, middle, right).\n2. **Ball Introduction**: At approximately 0.3 seconds, the left cup lifts, revealing a red ball. When the left cup lowers back down (0.6 seconds), the ball is hidden under it.\n3. **Cup Movement**: As the cups shuffle and move around, the ball remains under the **left cup** throughout the sequence. The ball is never shown under the middle or right cups.\n4. **Final Frame (12.3 seconds)**: The cups return to a linear arrangement (left, middle, right). Since the ball was consistently under the left cup during all movements, it remains hidden under the left cup at the end.\n\nThus, the left cup contains the ball.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_034.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of events:\n\n1. **Initial Setup (0.0s)**: Three inverted cups are arranged in a line.  \n2. **Ball Revealed (0.3s)**: The left cup lifts, revealing a red ball underneath it (now visible on the ground between the left and middle cups).  \n3. **Ball Covered (1.5s)**: The left cup lowers back down, covering the ball.  \n4. **Cup Movement (2.0s–12.3s)**: The cups move around dynamically (e.g., left cup shifts left, middle cup shifts, right cup shifts), but the ball remains hidden under the **left cup** throughout these movements.  \n\nAt the end of the video (12.3s), the cups return to a near-linear arrangement, with the **left cup** still positioned to cover the ball. Since the ball is always under the left cup during the entire sequence (especially after being covered at 1.5s), it remains inside the left cup at the conclusion.\n\n$$\n\\boxed{A}\n$$"
+  },
+  {
+    "video": "cup_035.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of events:\n\n1. **Initial Setup (0.0 seconds)**: Three cups are aligned in a row, with no visible ball.\n2. **Ball Introduction (0.3 seconds)**: The left cup lifts up, revealing a red ball *under* it. This confirms the ball is initially hidden beneath the left cup.\n3. **Ball Concealment (0.6–1.8 seconds)**: The left cup lowers back down, covering the ball again. The ball remains under the left cup during this phase.\n4. **Cup Movement (2.0–12.3 seconds)**: The cups shift positions dynamically. However, the ball is only revealed when the left cup lifts, and it remains hidden when the left cup is lowered. Throughout all subsequent movements, the ball is consistently positioned *under* the left cup (as the left cup is the only one that was lifted to expose the ball, and it returns to cover the ball after each lift).\n\nSince the ball is hidden under the left cup throughout the entire sequence (confirmed by the initial reveal and continuous coverage), it remains under the left cup at the end of the video.\n\n$$\n\\boxed{A}\n$$"
+  },
+  {
+    "video": "cup_036.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "$\\boxed{B}$"
+  },
+  {
+    "video": "cup_037.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of events:\n\n1. **Initial Setup**: Three cups (Left, Middle, Right) are arranged in a row.\n2. **Ball Introduction**: At approximately 0.3 seconds, a red ball appears under the **Right cup**.\n3. **Cup Movement**: The Right cup moves down to cover the ball, but the ball remains under the Right cup throughout the animation.\n4. **Final Frames**: By the end of the video (around 12.3 seconds), the cups return to their original positions (Left, Middle, Right), with the ball still positioned under the **Right cup**.\n\nThus, the ball is consistently under the **Right cup** throughout the sequence, and at the end of the video, it remains under the Right cup.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_038.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of events:\n\n1. **Initial Setup**: Three cups are aligned in a row (left, middle, right).\n2. **Ball Revelation**: The right cup lifts, revealing a red ball underneath it (indicating the ball was under the right cup).\n3. **Cup Movement**: The cups move around dynamically (e.g., shifting positions, rotating), but the ball remains hidden under one of the cups during this motion.\n4. **Final Position**: By the end of the video, the cups return to a linear arrangement. Through observation of the sequence and the classic \"cup and ball\" trick logic, the ball ends up under the **middle cup**.\n\nThis conclusion aligns with the typical pattern of such animations, where the ball is often hidden under the middle cup after the dynamic rearrangement.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_039.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of events:\n\n1. **Initial Setup**: Three cups are placed in a line (left, middle, right).\n2. **Ball Revelation**: At frame 0.3, the left cup lifts, revealing a red ball under it. This means the ball is initially under the left cup.\n3. **Cup Movement**: As the cups move around (shuffling positions), the ball remains under the left cup when the left cup is lifted or moved. For example:\n   - When the left cup lifts (frames 0.3, 1.1, 1.8), the ball is visible under it.\n   - When the left cup is lowered back down (frames 0.8, 1.6), the ball is covered by the left cup.\n4. **Final Position**: At the end of the video (frame 12.3), all cups return to their original positions (left, middle, right). Since the ball was consistently under the left cup throughout the sequence, it remains under the left cup when the cups are stationary at the end.\n\nThus, the ball is contained under the left cup at the end of the video.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_040.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of events:\n\n1. **Initial Setup**: Three cups are arranged in a row (left, middle, right).\n2. **Ball Appearance**: At around 0.5 seconds, the left cup moves left, revealing a red ball underneath it. This indicates the ball is initially under the left cup.\n3. **Cup Movement**: The left cup then moves back to cover the ball (around 1.6 seconds), confirming the ball is now hidden under the left cup.\n4. **Subsequent Movements**: The cups shuffle around (from approximately 2.0 seconds onward), but the ball remains hidden under the left cup. The left cup moves throughout these frames, maintaining the ball's position beneath it.\n5. **Final Frame (12.3 seconds)**: The cups return to a linear arrangement. Since the ball was consistently hidden under the left cup during all movements, it remains under the left cup in the final frame.\n\nThus, the cup containing the ball at the end of the video is the **left cup**.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_041.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of events:\n\n1. **Initial Setup**: Three cups are lined up left, middle, and right.\n2. **Ball Revelation**: At approximately 0.3 seconds, the right cup lifts, revealing a red ball under it. This confirms the ball is initially under the right cup.\n3. **Ball Movement**: As the cups shift positions throughout the video, the ball remains stationary while the cups move. When a cup lifts, the ball is visible under it. For example, at frame 1.5, the right cup lifts again, and the ball is still under it.\n4. **Final Position**: By the end of the video (frame 12.3), the cups are arranged in a line, but the ball has moved under the middle cup due to the shifting positions of the cups. This is deduced from the continuous movement of the cups and the ball's consistent position under the middle cup in the later frames.\n\nThus, the ball is contained within the middle cup at the end of the video.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_042.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "$\\boxed{A}$"
+  },
+  {
+    "video": "cup_043.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of events:\n\n1. **Initial Setup**: Three cups are placed in a row on a brown surface.\n2. **Ball Appearance**: At frame 0.6, the leftmost cup is lifted, revealing a red ball underneath it. The ball remains visible under the left cup until the cup is moved back (around frame 1.7), covering the ball again.\n3. **Cup Movement**: After the ball is covered, the cups begin moving around (frames 2.0–12.3). Despite the movement of the cups, the red ball remains hidden under one of them. Since the ball was initially revealed under the left cup and not explicitly moved or removed in subsequent frames, it stays hidden under the left cup throughout the rest of the video.\n\nAt the end of the video (frame 12.3), the cups are positioned in a row, and the leftmost cup still contains the hidden red ball.\n\nThus, the cup that contains the ball at the end of the video is the **left** cup.\n\n$$\n\\boxed{A}\n$$"
+  },
+  {
+    "video": "cup_044.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of events:\n\n1. **Initial Setup (0.0s)**: Three cups are arranged left-to-right.\n2. **Ball Reveal (0.2s–0.4s)**: The rightmost cup lifts, revealing a red ball underneath it. The cup then lowers back, covering the ball.\n3. **Cup Shuffling (0.6s–12.3s)**: The cups move dynamically, shifting positions. Key movements include:\n   - Left cup moves leftward.\n   - Middle cup moves rightward.\n   - Right cup moves leftward.\n   - This shuffling continues with no visible ball, indicating the ball remains hidden under one cup.\n\nIn classic cup-and-ball tricks, the ball often ends under the left cup after shuffling. By tracking the ball’s implied position (initially under the right cup, then following the right cup’s movements), the ball ultimately ends under the **left cup** as the cups return to a final alignment.\n\n$$\n\\boxed{A}\n$$"
+  },
+  {
+    "video": "cup_045.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "$\\boxed{B}$"
+  },
+  {
+    "video": "cup_046.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of events:\n\n1. **Initial Setup (Frame 0)**: Three white cups are arranged in a row on a brown surface.\n2. **First Movement (Frame 0.3)**: The rightmost cup lifts up, revealing a red ball *under* it. This confirms the ball is initially positioned under the right cup.\n3. **Closing the Cup (Frame 0.6)**: The right cup lowers back down, covering the ball. Thus, the ball remains *inside* the right cup.\n4. **Subsequent Movements (Frames 1.6–12.3)**: The cups shuffle and move in various directions. However, the ball is only visible when the right cup is lifted. During these movements, the ball remains hidden under the cup that was originally lifted (the right cup), as it does not appear elsewhere.\n\nAt the **end of the video (Frame 12.3)**, the cups return to their initial positions (left, middle, right). Since the ball was consistently under the right cup throughout the sequence (especially when the right cup was closed), it remains under the right cup even after the cups shuffle.\n\nThus, the cup containing the ball at the end of the video is the **right** cup.\n\n$$\n\\boxed{C}\n$$"
+  },
+  {
+    "video": "cup_047.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of events:\n\n1. **Initial Setup**: Three cups are placed upside down in a row (left, middle, right).\n2. **Ball Introduction**: At frame 0.2, the left cup lifts, revealing a red ball under it. This confirms the ball is initially under the left cup.\n3. **Cup Movement**: As the video progresses, the cups shuffle around, but the ball remains hidden under one cup (it does not move independently; it stays with the cup that covers it).\n4. **Final Position**: By the end of the video (frame 12.3), the cups return to a linear arrangement (left, middle, right). However, the ball is no longer visible, meaning it is hidden under one of the cups.\n\nTo identify which cup hides the ball:\n- The ball starts under the left cup.\n- As the cups move during the shuffling phase, the ball transitions to being under the **middle** cup.\n- By the final frames, the cups settle into a row, and the ball remains under the cup that was last positioned to cover it, which is the **middle cup**.\n\n$$\n\\boxed{B}\n$$"
+  },
+  {
+    "video": "cup_048.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of events:\n\n1. **Initial Setup**: Three cups (left, middle, right) are arranged in a row.\n2. **Ball Appearance**: At approximately 0.3 seconds, the middle cup is lifted, revealing a red ball under it. This confirms the ball is initially under the middle cup.\n3. **Cup Movements**: The cups shuffle around during the video. However, the ball remains under one of the cups throughout the sequence. The ball is never displaced from its position under a cup, as the cups move but the ball stays hidden underneath one of them.\n4. **Final Frame (12.3 seconds)**: The cups return to their original positions (left, middle, right). Since the ball was under the middle cup during the shuffle and the cups end up back in their original arrangement, the ball must still be under the **middle cup**.\n\nThus, the cup containing the ball at the end of the video is the middle cup.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_049.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of events:\n\n1. **Initial Setup**: Three cups are lined up on a brown background.\n2. **Ball Appearance**: At around 0.3 seconds, the middle cup lifts up, revealing a red ball underneath it.\n3. **Covering the Ball**: The middle cup then moves back down, covering the ball (around 1.6–1.8 seconds).\n4. **Cup Movement**: Subsequent frames show the cups shifting positions (e.g., left and middle cups move, right cup remains), but the ball remains hidden under one of the cups. The ball was initially revealed under the **middle cup** when it lifted, and since the cup moves with the ball, the ball stays under the middle cup during all subsequent movements.\n\nAt the final frame (12.3 seconds), the cups return to a near-linear arrangement, and the ball is still hidden under the **middle cup**.\n\nThus, the answer is:\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_050.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-8b-thinking",
+    "response": "To determine which cup contains the ball at the end of the video, we analyze the sequence of events:\n\n1. **Initial Setup**: Three cups are placed in a row on a brown surface.\n2. **Ball Introduction**: At approximately 0.3 seconds, the leftmost cup is lifted, revealing a red ball beneath it. This confirms the ball was initially hidden under the left cup.\n3. **Cup Movement and Ball Position**: The left cup is then moved down (replacing it), but the ball remains beneath it. As the video progresses, the cups shift positions, but the ball is consistently associated with the left cup’s position during these movements.\n4. **Final Frame (12.3 seconds)**: By the end of the video, the cups return to a rowed arrangement. However, due to the initial positioning and consistent movement of the left cup (which covers the ball), the ball remains beneath the left cup at the conclusion.\n\nThus, the ball is contained under the **left** cup at the end of the video.\n\n$$\n\\boxed{A}\n$$"
+  }
+]

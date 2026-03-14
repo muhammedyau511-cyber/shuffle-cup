@@ -1,0 +1,652 @@
+[
+  {
+    "video": "card_001.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "kimi-k2.5",
+    "response": "Looking at the video, the Queen of Hearts starts face-up in the middle position [00:00:00.000]. It then flips face-down [00:00:01.000] and the three cards begin shuffling around the table in a complex pattern. \n\nWhile the cards move in various directions throughout the animation, by the end of the video [00:00:12.033], the three cards have returned to their original horizontal alignment. Tracking the movement pattern and considering the classic \"three-card monte\" style of the animation, the Queen of Hearts ends up back in its original position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_002.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "kimi-k2.5",
+    "response": "Looking at this three-card monte style video, I need to track the Queen of Hearts from the beginning to the end.\n\n**Initial state [00:00:00.000]:**\n- The Queen of Hearts is face up on the **right** position.\n\n**Animation sequence:**\n- At [00:00:01.000], the Queen flips face down.\n- The three cards then shuffle around in various positions (moving up, down, left, right, forming diagonal patterns, etc.).\n- Throughout the shuffling, the cards swap positions multiple times.\n- At the end of the video [00:00:11.500] to [00:00:12.000], the cards return to their original horizontal alignment.\n\n**Tracking the Queen:**\nThe card that started on the right (the Queen) goes through the shuffling sequence and returns to the right position by the end of the video. While the cards move around during the animation, they settle back into their original positions, with the Queen ending up back where it started.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_003.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "kimi-k2.5",
+    "response": "Looking at this three-card monte style video, I need to track the Queen of Hearts from start to finish.\n\n**Starting position (00:00:00):** Queen of Hearts is on the **right**.\n**00:00:01:** The Queen flips face down.\n**00:00:01.5 - 00:00:11.5:** The three face-down cards shuffle around in various positions.\n\nLet me trace the key movements:\n- At 00:00:07, the Queen moves to the **center** position\n- At 00:00:09, the Queen is still in the **center** \n- At 00:00:11, the Queen is in the lower middle position\n- At 00:00:11.5, the cards return to a horizontal line, with the Queen settling in the **middle** position\n\n**At the end of the video (00:00:12):** The Queen of Hearts is in the **middle** position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_004.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "kimi-k2.5",
+    "response": "Looking at the video, I need to track the Queen of Hearts from the start to the end.\n\n**Starting position [00:00:00.000]:**\n- Left: Queen of Hearts ♥️\n- Middle: Face down\n- Right: Face down\n\n**At [00:00:01.000]:** The Queen flips face down, so all three cards look identical.\n\n**Tracking the movement:** The three cards shuffle around in a shell game pattern. Following the card that started as the Queen (leftmost card at [00:00:01.000]):\n\n**At [00:00:11.000] to [00:00:12.033] (end):**\nThe cards return to a horizontal row, and based on the movement pattern, the Queen ends up in the **middle** position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_005.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "kimi-k2.5",
+    "response": "Looking at this three-card monte animation, I need to track the Queen of Hearts from start to finish.\n\n**Starting position [00:00:00.000]:** Queen of Hearts is on the **right**.\n**At [00:00:01.000]:** The Queen flips face-down.\n\n**Key shuffle at [00:00:05.500]:**\n- The left card moves down\n- The middle card moves up and right  \n- **The right card (Queen) moves left** toward the center\n\n**At [00:00:06.033]:** The cards form a diagonal line. Based on the movement pattern, the Queen has moved to the **center** position.\n\n**From [00:00:06.033] to [00:00:09.000]:** The cards continue shuffling but return to a horizontal line with the Queen still in the **middle** position.\n\n**From [00:00:09.000] to [00:00:12.033]:** Additional shuffling occurs, but the tracking shows the Queen remains in or returns to the **middle** position by the end of the video.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_006.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "kimi-k2.5",
+    "response": "Looking at the video, the Queen of Hearts starts in the **middle** position face-up. At 00:00:01.000, it flips face-down, and then the three cards begin shuffling around the screen in a complex pattern. \n\nWhile the cards move in various directions throughout the animation, tracking the specific card shows that by the end of the video (00:00:12.033), the Queen of Hearts returns to the **middle** position as the cards settle back into a horizontal row.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_007.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "kimi-k2.5",
+    "response": "Looking at this three-card monte style animation, I need to track the Queen of Hearts from its starting position on the right through the shuffling sequence.\n\nThe Queen starts on the **right** at [00:00:00.000]. The cards then shuffle through various positions - moving to diagonal arrangements and back to horizontal rows multiple times.\n\nTracking the movement pattern through the animation:\n- The cards cycle through different formations\n- At [00:00:08.033], they form a diagonal line\n- By the end at [00:00:12.033], the cards return to a horizontal row\n\nFollowing the shuffle pattern, the Queen of Hearts ends up in the **middle** position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_008.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "kimi-k2.5",
+    "response": "Looking at this three-card monte animation, I need to track the Queen of Hearts from the start to the end.\n\n**Starting position (00:00:00.000):**\n- Left: Queen of Hearts\n- Middle: Face-down card\n- Right: Face-down card\n\nAt 00:00:01.000, the Queen flips to face-down, and the shuffling begins. Tracking the physical card that was originally the Queen:\n\n**Key positions:**\n- 00:00:01.500: Queen moves to bottom-left\n- 00:00:02.500: Queen moves to bottom-center\n- 00:00:03.000: Queen moves to **center** (middle)\n- 00:00:05.000: Queen returns to **center** position in horizontal line\n- 00:00:10.500: Queen is at bottom-left\n- 00:00:11.000: Queen moves to **center**\n- 00:00:11.533: Cards align horizontally with Queen in the **middle**\n- 00:00:12.033: Final position - Queen is in the center\n\nAfter tracking all the movements through the shuffle sequence, the Queen of Hearts ends up in the middle position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_009.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "kimi-k2.5",
+    "response": "Looking at this three-card monte style animation, I need to track the Queen of Hearts as the cards shuffle.\n\n**Starting position [00:00:00.000]:**\n- Left: Face-down card\n- Middle: Face-down card  \n- Right: Queen of Hearts (visible)\n\n**At [00:00:01.000]:** The Queen flips face down, and the three cards begin shuffling.\n\n**Tracking the movement:**\n- The right card (Queen) moves upward and then toward the center\n- The middle card moves toward the bottom-right\n- The left card stays on the left initially\n\n**Key observation around [00:00:03.500]:**\n- The original left card moves to the upper-left position\n- The original middle card moves to the right position\n- The Queen (original right card) moves to the **center/middle** position\n\nAs the shuffle continues and the cards eventually realign into a horizontal row at the end of the video [00:00:11.533] to [00:00:12.033], the Queen remains in the middle position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_010.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "kimi-k2.5",
+    "response": "Looking at this video, I need to track the Queen of Hearts as the three cards move around. Let me trace the movement:\n\n**Starting position [00:00:00.000]:**\n- Left: Face-down card\n- Middle: Face-down card  \n- Right: **Queen of Hearts** (face up, then flips face down at [00:00:01.000])\n\n**Tracking the Queen through the shuffle:**\n- At [00:00:01.500]-[00:00:02.500]: The Queen moves to the upper right area\n- At [00:00:03.000]: The Queen moves to the **middle** position\n- The cards continue shuffling in a complex pattern, but following the movement cycle:\n  - When cards return to a horizontal row at [00:00:05.000], the Queen is in the middle\n  - When cards form a diagonal at [00:00:06.033], the Queen is in the center\n  - When cards return to a row at [00:00:07.033], the Queen is in the middle\n  - This pattern continues through the video\n\n**At the end [00:00:11.500]-[00:00:12.000]:**\nThe three cards return to a horizontal row, and based on the tracking of the movement pattern throughout the animation, the Queen of Hearts ends up in the **middle** position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_011.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "kimi-k2.5",
+    "response": "Looking at this three-card monte style animation:\n\n1. At the beginning [00:00:00.000], the Queen of Hearts is revealed face-up in the **middle** position.\n\n2. At [00:00:01.000], the Queen flips face-down, and the three cards begin shuffling around the screen in various patterns.\n\n3. At the end of the video [00:00:11.500 - 00:00:12.000], the three cards return to their original horizontal arrangement. Since the cards complete a full shuffle cycle and return to their starting positions, and the Queen started in the middle, the Queen ends up back in the **middle** position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_012.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "kimi-k2.5",
+    "response": "Looking at this three-card monte style animation:\n\n1. The video begins with the Queen of Hearts face up in the **middle** position [00:00:00.000]\n2. At [00:00:01.000], the Queen flips face down, becoming indistinguishable from the other two cards\n3. The three cards then shuffle around in various patterns (diagonal, stacked, etc.) for several seconds\n4. At the end [00:00:11.500] to [00:00:12.033], the cards return to a horizontal line formation\n\nIn this type of shell game animation, while the cards appear to move rapidly and swap positions, the Queen of Hearts typically ends up back in the **middle** position where it started. The movement is designed to confuse the viewer, but tracking the card's path through the shuffle reveals it returns to center.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_013.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "kimi-k2.5",
+    "response": "Looking at this animation, I need to track where the Queen of Hearts ends up after the shuffle.\n\n**Starting position [00:00:00.000]:**\n- Left card: Face down\n- Middle card: Queen of Hearts (face up)\n- Right card: Face down\n\nAt [00:00:01.000], the Queen flips face down, and then the three cards begin moving in a complex shuffling pattern - rotating, overlapping, and changing positions diagonally.\n\n**Ending position [00:00:11.500 - 00:00:12.000]:**\nThe cards settle back into a horizontal line in their original positions (left, middle, right).\n\nSince the cards return to their original spatial arrangement and the Queen started in the middle position, the Queen of Hearts ends up in the **middle** position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_014.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "kimi-k2.5",
+    "response": "Looking at this three-card monte style animation, I need to track the Queen of Hearts from start to finish.\n\n**Starting position [00:00:00.000]:**\n- Left: Face-down card\n- Middle: Face-down card  \n- **Right: Queen of Hearts** ✓\n\nThe Queen flips face-down at [00:00:01.000], and the three cards begin shuffling around the screen. They move in various patterns - forming diagonals, overlapping, and changing positions - but analyzing the movement carefully:\n\n1. The cards shuffle but maintain their individual identities\n2. At [00:00:05.500], they return to horizontal positions\n3. They shuffle again in a diagonal pattern [00:00:06.000]-[00:00:07.000]\n4. At [00:00:07.000], they separate back to horizontal with the original card positions maintained\n5. They continue shuffling but return to the horizontal line by [00:00:11.500]\n\nThroughout the animation, while the cards move around the screen, the specific card that started as the Queen of Hearts (the rightmost card) ends up back in the **rightmost position** at the end of the video [00:00:12.000].\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_015.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "kimi-k2.5",
+    "response": "Looking at this animation, I need to track the Queen of Hearts from start to finish.\n\n**Starting position [00:00:00.000]:**\n- Left: Face-down card\n- Middle: Queen of Hearts (face-up)\n- Right: Face-down card\n\n**At [00:00:01.000]:** The Queen flips to face-down, so all three cards appear identical.\n\n**Tracking the movement:** The cards move in a complex shuffling pattern. The key is to track the card that was originally in the middle position.\n\n**Critical transition at [00:00:06.533]:** The three cards align diagonally from bottom-left to top-right.\n- The bottom card of the diagonal corresponds to the right card from the previous position\n- The middle card of the diagonal is the middle card (the Queen)\n- The top card of the diagonal corresponds to the left card\n\n**At [00:00:07.000]:** The diagonal spreads back to horizontal positions:\n- Bottom diagonal card → Left position\n- Middle diagonal card → Middle position  \n- Top diagonal card → Right position\n\nSince the Queen was the middle card of the diagonal, it ends up in the **middle** position.\n\n**Final position [00:00:12.000]:** The three cards return to a horizontal row, with the Queen in the middle.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_016.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "kimi-k2.5",
+    "response": "Looking at the video, I need to track the Queen of Hearts from the start to the end.\n\n**Initial state:** The Queen of Hearts is face up on the **right** position.\n**At [00:00:01.000]:** The Queen flips face down, still on the right.\n\n**Tracking the movement:**\n- From [00:00:01.500] to [00:00:05.000]: The Queen remains on the right side while the other two cards move around.\n- At [00:00:05.500]: The Queen moves from the right position to the bottom-right area.\n- From [00:00:06.000] to [00:00:07.500]: The Queen moves upward from the bottom position to the **middle** position.\n- From [00:00:07.500] to [00:00:12.033]: The Queen stays in the middle position, occasionally moving up and down vertically but remaining in the center.\n\nAt the end of the video ([00:00:12.033]), the three cards are back in a horizontal line, and the Queen of Hearts is in the **middle** position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_017.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "kimi-k2.5",
+    "response": "Looking at this three-card monte style video, I need to track the Queen of Hearts from the start to the end.\n\n**Starting position [00:00:00.000]:**\n- Left: Queen of Hearts (face up)\n- Middle: Face down\n- Right: Face down\n\n**At [00:00:01.000]:** The Queen is flipped face down, so all three cards are face down.\n\n**Tracking the shuffle:** The cards move around in a complex pattern, changing positions multiple times throughout the video. The left card (the Queen) moves to various positions including bottom-left, bottom-center, and continues moving as the cards are shuffled.\n\n**At the end [00:00:12.033]:** The three cards return to a horizontal line (left, middle, right), all face down.\n\nBased on tracking the movement trajectory of the card that started on the left (the Queen of Hearts) through the shuffling sequence, the Queen ends up in the **middle** position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_018.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "kimi-k2.5",
+    "response": "Looking at the video, I need to track the Queen of Hearts from the beginning to the end.\n\n**Starting position [00:00:00.000]:**\n- Left: Queen of Hearts (face-up)\n- Middle: Face-down card\n- Right: Face-down card\n\n**At [00:00:01.000]:**\nThe Queen of Hearts flips over and becomes face-down, so all three cards appear identical.\n\n**The shuffle:**\nThe three cards then move around the screen in a swirling pattern, swapping positions multiple times.\n\n**Ending position [00:00:12.033]:**\nThe cards return to their original horizontal alignment. Since the Queen started on the **left** and the cards cycle back to their starting positions (though all are now face-down), the Queen of Hearts ends up on the **left**.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_019.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "kimi-k2.5",
+    "response": "Looking at the animation, I need to track the Queen of Hearts as it moves with the other cards.\n\n**Initial position (0:00):** The Queen of Hearts is on the **right**.\n\n**Tracking the movement:**\n- At 0:01, the Queen flips face-down.\n- The cards perform a shuffling motion where the left and right cards swap positions via a circular path (left goes up, right goes down, then they cross), while the middle card stays in the center.\n\n**The pattern:**\n- Each shuffle takes approximately 2 seconds and swaps the left and right cards.\n- Start: Queen is on the **right**\n- After shuffle 1 (0:03): Queen moves to the **left**\n- After shuffle 2 (0:05): Queen moves back to the **right**\n- After shuffle 3 (0:07): Queen moves to the **left**\n- After shuffle 4 (0:09): Queen moves back to the **right**\n- After shuffle 5 (0:11): Queen moves to the **left**\n\nThe video ends at approximately 0:12, with the Queen having completed the 5th shuffle.\n\n**Answer: (A) Left**\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_020.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "kimi-k2.5",
+    "response": "Looking at this shell game animation, I need to track the Queen of Hearts from the start to the end of the video.\n\n**Starting position [00:00:00.000]:**\n- Left: Face-down card\n- Middle: Face-down card  \n- Right: **Queen of Hearts** (face up)\n\nAt [00:00:01.000], the Queen flips face down, and the shuffling begins.\n\n**Tracking the first shuffle cycle (approximately 1s to 3s):**\nThe cards move through various positions (diagonal spreads, vertical stacks) and return to horizontal at [00:00:03.000]. Through this shuffle pattern, the Queen moves from the **Right** position to the **Left** position.\n\n**Subsequent shuffle cycles:**\nThe cards continue shuffling in cycles of approximately 2 seconds, returning to horizontal positions at approximately:\n- [00:00:03.000]: Queen at **Left**\n- [00:00:05.000]: Queen at **Right** (swap 2)\n- [00:00:07.033]: Queen at **Left** (swap 3)\n- [00:00:09.033]: Queen at **Right** (swap 4)\n- [00:00:11.533]: Queen at **Left** (swap 5)\n\n**End position [00:00:12.000]:**\nThe video ends with the cards in a horizontal row. After 5 complete swaps (an odd number), the Queen that started on the Right ends up on the **Left**.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_021.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "kimi-k2.5",
+    "response": "Looking at the video, I need to track the Queen of Hearts from start to finish:\n\n**Initial state ([00:00:00.000]):** The Queen of Hearts is face up in the **middle** position, with two face-down cards on the left and right.\n\n**First action ([00:00:01.000]):** The Queen of Hearts flips face down, making all three cards look identical.\n\n**The shuffle ([00:00:01.500] to [00:00:11.000]):** The three cards move around the screen in a complex pattern, swapping positions multiple times.\n\n**Final state ([00:00:12.033]):** The three cards return to their original horizontal formation, all face down.\n\nIn this type of three-card monte animation, the cards typically shuffle and then return to their starting positions. Since the Queen of Hearts started in the middle position and the cards end up back in their original horizontal alignment, the Queen remains in the **middle** position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_022.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "kimi-k2.5",
+    "response": "Looking at the video, I need to track the Queen of Hearts from start to finish:\n\n**Initial state [00:00:00.000]:** The Queen of Hearts is face-up on the **left** position.\n\n**At [00:00:01.000]:** The Queen flips face-down, so we now have three face-down cards with the Queen being the leftmost one.\n\n**The shuffling:** The three cards move around in various diagonal and horizontal patterns, swapping positions multiple times.\n\n**Final state [00:00:11.500] to [00:00:12.033]:** The cards settle back into a horizontal row. Observing the animation pattern, the cards return to their original positions after the shuffling sequence completes.\n\nSince the Queen started on the left and the cards return to their starting formation by the end of the video, the Queen of Hearts ends up on the **left**.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_023.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "kimi-k2.5",
+    "response": "Looking at this shell game animation, I need to track the Queen of Hearts from start to finish.\n\n**Starting position (00:00:00.000):** Queen of Hearts is on the **left**.\n\n**Tracking the movement:**\n- At 00:00:01.000, the Queen flips face-down and is the leftmost card.\n- Through the shuffling sequence, I trace the left card's path:\n  - It moves to the top-left area around 00:00:05.500\n  - It stays in the upper area through 00:00:06.533\n  - **At 00:00:07.033, the upper card moves to the middle position**\n  - From there, it stays in the middle as the cards continue shuffling\n  - At 00:00:08.533, it's the middle card of the diagonal stack\n  - When the cards spread back out at 00:00:09.033, it remains in the **middle**\n  - Through the final shuffling (00:00:09.033 to 00:00:12.033), the card in the middle position stays in the middle\n\n**End position (00:00:12.033):** The Queen of Hearts is in the **middle** position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_024.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "kimi-k2.5",
+    "response": "Looking at this shell game animation, I need to track the Queen of Hearts from its starting position to the end.\n\n**Starting position (00:00.0):**\n- Left: Face-down card\n- Middle: Face-down card  \n- Right: **Queen of Hearts** (face-up)\n\n**Key tracking points:**\n- At 00:01.0, the Queen flips face-down and the shuffling begins.\n- At 00:09.5, the cards align horizontally with the Queen on the **left**.\n- At 00:10.033, the cards form a diagonal from top-left to bottom-right:\n  - Top-left: Queen\n  - Middle: Middle card\n  - Bottom-right: Right card\n- At 00:10.533-00:11.033, the diagonal shifts - the Queen moves down from the top-left position.\n- At 00:11.533 (final horizontal arrangement), the card that was at the **top** of the diagonal moves to the **left** position.\n\nSince the Queen was at the top of the diagonal at 00:10.033, she ends up in the **left** position at the end of the video.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_025.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "kimi-k2.5",
+    "response": "Looking at this three-card monte animation, I need to track the Queen of Hearts from start to finish.\n\n**Starting position [00:00:00.000]:** The Queen of Hearts is on the **right**.\n\n**[00:00:01.000]:** The Queen flips face-down but remains the rightmost card.\n\n**Tracking the movement:**\n- At [00:00:01.500], the right card moves to the upper-right position.\n- At [00:00:02.500], it moves to the lower-right position.\n- At [00:00:03.000], the cards return to a horizontal line with the Queen still on the **right**.\n- At [00:00:03.500], while the left and middle cards move, the right card stays in place.\n- At [00:00:04.000], the cards form a diagonal stack. The Queen (right card) goes to the **bottom** of this stack.\n- At [00:00:05.000], when returning to horizontal, the bottom card of the diagonal stack becomes the rightmost card - so the Queen is back on the **right**.\n- From [00:00:05.000] through [00:00:12.000], tracking the movements shows the card on the right side consistently remains the rightmost card (or returns to the rightmost position when the cards realign).\n\n**Final position [00:00:12.000]:** The Queen of Hearts ends up on the **right**.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_026.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "kimi-k2.5",
+    "response": "Looking at the video, I need to track the Queen of Hearts from start to finish:\n\n**Initial State (00:00:00.000):**\n- Queen of Hearts is on the **Left**\n- Two other cards are in the Middle and Right positions\n\n**00:00:01.000:**\n- The Queen is flipped face down, so all three cards are face down\n- The Queen is still the leftmost card\n\n**Tracking the shuffle:**\n- From 00:00:01.000 to 00:00:05.000, the cards move through various diagonal and scattered positions\n- At 00:00:05.000, the cards return to a horizontal row\n- Through this first shuffle cycle, the Queen moves from the Left to the **Right** position\n\n**Subsequent shuffles (00:00:05.000 to 00:00:12.033):**\n- The cards continue to shuffle in patterns, moving between horizontal rows and diagonal arrangements\n- The Queen remains in the **Right** position throughout these subsequent movements\n- At 00:00:12.033, the video ends with three face-down cards in a horizontal row, with the Queen on the **Right**\n\nBased on tracking the card positions through the animation, the Queen of Hearts ends up on the **Right**.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_027.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "kimi-k2.5",
+    "response": "Looking at this three-card monte style animation, I need to track the Queen of Hearts from its starting position to the end of the video.\n\n**Starting position (00:00:00):**\n- Left: Face-down card\n- Middle: Face-down card  \n- Right: Queen of Hearts (face up)\n\nAt 00:00:01, the Queen flips to face down, and the three identical cards begin moving around the screen.\n\nTracking the card that started on the right (the Queen) through the animation:\n- From 00:00:01 to 00:00:05: The cards move in various diagonal and scattered patterns, but the Queen consistently stays on the right side or rightmost position.\n- At 00:00:05: The cards return to a horizontal row with the Queen on the right.\n- From 00:00:05 to 00:00:12: The cards continue to move and wiggle, but the Queen maintains its position on the right side.\n- At 00:00:12 (the end): The three cards settle back into a horizontal row.\n\nThroughout the entire sequence, the Queen of Hearts (the card that started on the right) ends up remaining on the right side.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_028.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "kimi-k2.5",
+    "response": "Looking at this three-card monte animation, I need to track the Queen of Hearts from start to finish.\n\n**Starting position:**\n- Left: Face-down card\n- Middle: Face-down card  \n- Right: Queen of Hearts (face up)\n\nAt 00:00:01, the Queen is flipped face down, making all three cards look identical.\n\n**Tracking the rightmost card (the Queen):**\n- The Queen starts on the right\n- Through the shuffling sequence, it moves to various positions (top, bottom, etc.)\n- At 00:00:10.5, the Queen is on the right\n- At 00:00:11, the Queen moves to the bottom position\n- At 00:00:11.5, the Queen moves to the **middle** position\n- At 00:00:12, the cards are aligned horizontally with the Queen in the middle\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_029.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "kimi-k2.5",
+    "response": "Looking at this three-card monte style animation, I need to track the Queen of Hearts from its starting position to the end.\n\n**Starting position [00:00:00.000]:**\n- Queen of Hearts is on the **Left**\n- Two face-down cards are in the Middle and Right\n\n**At [00:00:01.000]:**\n- The Queen flips face down\n- Now all three cards are face down, with the Queen being the leftmost card\n\n**Key transition [00:00:05.500] to [00:00:07.000]:**\nThe cards stack diagonally and then separate:\n- The left card (Queen) moves to the **top** of the diagonal stack\n- The middle card stays in the **middle** of the stack  \n- The right card moves to the **bottom** of the stack\n\nWhen the stack unravels at [00:00:07.000]:\n- The **top** card (Queen) moves to the **Right** position\n- The middle card stays in the Middle\n- The bottom card moves to the Left\n\n**From [00:00:07.000] to the end [00:00:12.000]:**\nThe cards continue to move up and down but maintain their horizontal lanes. The card on the Right stays on the Right.\n\nTherefore, the Queen of Hearts ends up on the **Right**.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_030.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "kimi-k2.5",
+    "response": "Looking at the video, I need to track the Queen of Hearts as it moves among the three positions.\n\n**Starting position [00:00:00.000]:**\n- The Queen of Hearts is on the **right**\n- At [00:00:01.000], it flips face down\n\n**Tracking the movement:**\nThe cards move in a repeating cycle. Analyzing the pattern:\n- **Cycle 1** ([00:00:01.000] → [00:00:03.000]): Queen moves from Right → **Left**\n- **Cycle 2** ([00:00:03.000] → [00:00:05.000]): Queen moves from Left → **Right**\n- **Cycle 3** ([00:00:05.000] → [00:00:07.033]): Queen moves from Right → **Left**\n- **Cycle 4** ([00:00:07.033] → [00:00:09.033]): Queen moves from Left → **Right**\n- **Cycle 5** ([00:00:09.033] → [00:00:11.533]): Queen moves from Right → **Left**\n\n**End position [00:00:12.033]:**\nThe video ends with the cards horizontal again, completing 5 full cycles. Since odd-numbered cycles end with the Queen on the left, the Queen of Hearts is on the **left** at the end.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_031.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "kimi-k2.5",
+    "response": "Looking at this three-card monte style animation, I need to track the Queen of Hearts from start to finish.\n\n**Starting position [00:00:00.000]:**\n- Queen of Hearts is on the **Left**\n- Two other cards are in Middle and Right positions\n\n**At [00:00:01.000]:**\n- The Queen is flipped face down (now indistinguishable from the others)\n- Still in the Left position\n\n**Tracking the shuffle:**\nThe cards undergo complex movements. The key is to follow the original leftmost card (the Queen) through the sequence:\n\n- **[00:00:01.500] to [00:00:05.500]:** The cards shuffle in a circular pattern. Notably, at [00:00:05.500], the cards return to their original horizontal positions with the Queen back on the Left.\n\n- **[00:00:06.000] to [00:00:07.000]:** A new shuffle begins. The Queen (leftmost) moves to the top of a vertical stack, then spreads back to the **Left** position at [00:00:07.000].\n\n- **[00:00:07.000] to [00:00:11.500]:** In this final phase, the Left card stays on the left, the Right card stays on the right, and only the Middle card moves up and down. The Queen remains in the Left position throughout this final sequence.\n\n**Final position [00:00:11.500] to [00:00:12.033]:**\nThe three cards are arranged horizontally again, with the Queen of Hearts on the **Left**.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_032.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "kimi-k2.5",
+    "response": "Looking at the video, I need to track the Queen of Hearts from start to finish:\n\n1. **Start ([00:00:00.000])**: The Queen of Hearts is face-up on the **left**.\n2. **Flip ([00:00:01.000])**: The Queen flips face-down, becoming visually identical to the other two cards.\n3. **Shuffling**: The three face-down cards move around in various patterns - sometimes horizontal, sometimes diagonal.\n4. **Key tracking**: Throughout the animation, when the cards return to horizontal alignment (around [00:00:11.033] and [00:00:12.033]), the card that was originally the Queen (leftmost at the start) returns to the **left** position.\n\nThe cards perform a shuffling animation, but the Queen of Hearts ends up back in its original position on the left side.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_033.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "kimi-k2.5",
+    "response": "Looking at the video, the Queen of Hearts starts in the **left** position at [00:00:00.000]. At [00:00:01.000], it is turned face down. Throughout the shuffling animation, the leftmost card remains on the left side of the screen while the other two cards move around it. By the end of the video at [00:00:12.033], the three cards return to a horizontal row, with the Queen of Hearts still in the leftmost position.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_034.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "kimi-k2.5",
+    "response": "Looking at this video, I need to track the Queen of Hearts from the beginning to the end.\n\n**Starting position** [00:00:00.000]: The Queen of Hearts is clearly visible on the **left** position.\n\n**At [00:00:01.000]**: The Queen flips over to face down, showing the red card back like the other two cards.\n\n**Throughout the animation**: The three cards move around the screen in various patterns - forming diagonals, shifting positions, and moving in cycles. However, tracking the movement carefully shows that the cards maintain their relative identities. When the cards return to a horizontal arrangement at the end, they are in their original order.\n\n**Ending position** [00:00:12.033]: The three cards are back in a horizontal line. Since the Queen started on the left and the cards return to their original positions (just face down), the Queen remains on the **left**.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_035.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "kimi-k2.5",
+    "response": "Looking at this three-card monte style video, I need to track the Queen of Hearts (which starts in the middle position) through the entire sequence of movements.\n\n**Tracking the Queen:**\n- **[00:00:00.000]**: Queen starts in the **middle** position\n- **[00:00:01.000]**: Queen is flipped face down (still middle)\n- **[00:00:09.033]**: After several movements, the Queen moves to the **left** position\n- **[00:00:09.533]**: Queen moves to the **center** position\n- **[00:00:10.533]**: Queen is in the **center** of the diagonal\n- **[00:00:11.033]**: Queen moves to the **top-left** of the diagonal\n- **[00:00:11.533]** and **[00:00:12.033]**: Queen settles in the **left** position\n\nThrough careful tracking of the card movements and position swaps, the Queen of Hearts ends up in the left position at the end of the video.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_036.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "kimi-k2.5",
+    "response": "Looking at this three-card monte style animation, I need to track the Queen of Hearts from its starting position to the end.\n\n**Starting position:** The Queen of Hearts begins face-up on the **right** (00:00:00.000).\n\n**Animation sequence:**\n- At 00:00:01.000, the Queen flips face-down.\n- The three cards then perform a shuffling animation, moving in various patterns (diagonal stacks, scattered positions, and horizontal rows).\n- At 00:00:12.033, the video ends with all three cards face-down in a horizontal row.\n\n**Analysis of the shuffle:**\nThe cards undergo multiple position swaps throughout the animation. While the backs are identical making visual tracking difficult, the movement pattern follows the classic three-card monte shuffle. In this type of animation, the card that starts on the right typically moves through the positions and ends up in the **middle** after the complete shuffle sequence.\n\nThe final position of the Queen of Hearts is the middle card.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_037.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "kimi-k2.5",
+    "response": "Looking at this three-card monte style animation:\n\n1. The Queen of Hearts starts **face up in the middle position** [00:00:00.000]\n2. It flips face down [00:00:01.000]\n3. The three cards shuffle around in a complex pattern\n4. By the end [00:00:12.033], the cards return to their original horizontal formation\n\nSince the cards shuffle and then return to their starting positions, the Queen of Hearts ends up back where it started.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_038.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "kimi-k2.5",
+    "response": "Looking at this three-card monte style animation, the Queen of Hearts starts on the right position [00:00:00.000], flips face-down [00:00:01.000], and then the three cards shuffle around the screen in a complex pattern. \n\nTracking the movement through the sequence, the cards swap positions multiple times - moving in diagonal patterns, shifting left and right, and rearranging. At the end of the video [00:00:12.033], the three cards return to a horizontal line formation.\n\nBased on the shuffle pattern typical of these types of card tracking puzzles, the Queen of Hearts ends up in the **middle** position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_039.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "kimi-k2.5",
+    "response": "Looking at this three-card monte style animation, I need to track the Queen of Hearts from start to finish.\n\n**Initial position [00:00:00.000]:**\n- The Queen of Hearts starts on the **right** (the third card).\n\n**The shuffle sequence:**\nThe cards move around with their backs showing. Let me track the specific card that was originally the Queen.\n\n**Key frames in the final sequence:**\n- **[00:00:09.500]**: Cards are roughly horizontal - Left, Middle, Right (Queen is on the right)\n- **[00:00:10.000]**: The right card moves up and right; the middle card moves down\n- **[00:00:10.500]**: Three positions are Left, Bottom, and Top. The Queen (originally right) is now at the **top**.\n- **[00:00:11.000]**: The card at the **bottom** moves to the center; the card at the **top** (the Queen) moves down to the **right**.\n- **[00:00:11.500]**: Cards align horizontally again.\n\n**Tracking:**\n- The left card stays on the left throughout the final sequence.\n- The middle card goes down to the bottom, then up to the center.\n- The Queen (right card) goes up to the top, then down to the right.\n\nAt the end of the video [00:00:12.033], the Queen of Hearts is on the **right**.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_040.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "kimi-k2.5",
+    "response": "Looking at the video, I need to track the Queen of Hearts from the beginning to the end.\n\n**Starting position [00:00:00.000]:** The Queen of Hearts is face up on the **right**.\n\n**[00:00:01.000]:** The Queen flips face down but remains in the right position.\n\n**Tracking the shuffle:**\n- At [00:00:01.500], the cards scatter - the Queen (originally right) moves to the upper right.\n- At [00:00:03.000], the cards return to a horizontal line, with the Queen on the **right**.\n- Throughout the subsequent shuffle animation ([00:00:03.500] to [00:00:12.033]), the Queen remains on the right side, moving between the right position and upper/lower right positions.\n- At [00:00:09.533], the cards line up again with the Queen on the right.\n- In the final sequence ([00:00:09.533] to [00:00:12.033]), the right card stays on the right while the left and center cards move up and down.\n- At [00:00:12.033] (the end), the three cards are in a horizontal line with the Queen on the **right**.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_041.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "kimi-k2.5",
+    "response": "Looking at this three-card monte style animation, I need to track the Queen of Hearts from start to finish.\n\n**Starting position:** [00:00:00.000] - Queen of Hearts is clearly in the **middle** position.\n\n**The shuffle:** The card flips face down at [00:00:01.000], and the three cards begin moving in a circular pattern. Tracking the middle card through the animation:\n- It moves down, then left, then up, then back toward center\n- By [00:00:05.000], it returns to the middle position\n- The cards continue shuffling in a similar circular pattern for the remainder of the video\n- At [00:00:11.500], the cards align back into a horizontal row\n\n**Ending position:** [00:00:12.033] - The three cards are back in their original horizontal alignment. Through the continuous shuffle pattern, the Queen of Hearts (the original middle card) ends up back in the **middle** position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_042.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "kimi-k2.5",
+    "response": "Looking at this three-card monte animation, I need to track the Queen of Hearts from start to finish.\n\n**Starting position** [00:00:00.000]: Queen of Hearts is face up in the **middle** position.\n\n**The shuffle begins** [00:00:01.000]: The Queen flips face down. Now I need to track this specific card as it moves:\n- At [00:00:01.500] to [00:00:02.500]: The middle card moves to the top and then upper-right area\n- At [00:00:03.000]: The card returns to the **middle** position in the horizontal line\n- From [00:00:03.500] through the rest of the animation: The middle card stays in the center position while the left and right cards move around it in various patterns (diagonal stacks, vertical movements, etc.)\n\n**End position** [00:00:12.033]: The three cards return to their horizontal lineup, with the Queen still in the **middle** position.\n\nDespite the complex shuffling animation, the Queen of Hearts ends up back where it started.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_043.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "kimi-k2.5",
+    "response": "Looking at this video, I need to track the Queen of Hearts through the card shuffle.\n\n**Starting position:** The Queen of Hearts begins face-up on the **right** (00:00:00.000).\n\n**The shuffle:** The Queen flips face-down at 00:00:01.000, and the three cards begin moving around the screen in a three-card monte style shuffle. They move in diagonal patterns, rotate positions, and rearrange multiple times.\n\n**Key tracking point:** Around 00:00:02.500-00:00:03.000, the card that started on the right (the Queen) moves into the **middle** position. Through the subsequent shuffling patterns, the Queen remains in or returns to the middle position by the end of the video.\n\n**Final position:** At 00:00:11.533 and 00:00:12.033, when the cards settle back into a horizontal row, the Queen of Hearts is in the **middle** position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_044.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "kimi-k2.5",
+    "response": "Looking at this animation, I need to track the Queen of Hearts from the beginning to the end.\n\n**Starting position:** At 00:00:00.000, the Queen of Hearts is clearly on the **left**.\n\n**First shuffle (00:00:01.000 - 00:00:03.500):**\n- The cards flip face down at 00:00:01.000\n- The left card (Queen) moves through various positions: up-left → upper area → center → back to left\n- At 00:00:03.500, the cards return to a horizontal row with the Queen back on the **left**\n\n**Second shuffle (00:00:03.500 - 00:00:05.500):**\n- The pattern repeats: left card goes up and around, middle card goes down, right card stays mostly right\n- At 00:00:05.500, the cards again form a horizontal row with the Queen on the **left**\n\n**Final sequence (00:00:05.500 - 00:00:12.033):**\n- From 00:00:05.500 onwards, the card on the left stays in the left area while the other two cards move around on the right side\n- The video ends at 00:00:11.500-00:00:12.033 with the three cards back in a horizontal row\n- The Queen, which has been tracking on the left side throughout, finishes on the **left**\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_045.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "kimi-k2.5",
+    "response": "Looking at the video sequence:\n\n1. **00:00:00.000**: The Queen of Hearts starts on the **right**.\n2. **00:00:01.000**: The Queen of Hearts flips over to face down (showing the red back), making all three cards look identical.\n3. **00:00:01.500 - 00:00:11.000**: The three cards move around in a shuffling pattern, changing positions.\n4. **00:00:11.533**: The cards settle back into a horizontal line.\n\nBy tracking the movement pattern through the animation, the Queen of Hearts (which started on the right) ends up in the **middle** position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_046.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "kimi-k2.5",
+    "response": "Looking at the video, I need to track the Queen of Hearts from the start to the end.\n\n**Starting position:** At [00:00:00.000], the Queen of Hearts is face-up on the **left**.\n**At [00:00:01.000]:** The Queen flips face-down, still on the left.\n**The shuffle:** The three cards then move around in a diagonal cascading pattern, changing positions multiple times.\n**Ending position:** At [00:00:12.000], the cards return to a horizontal line. \n\nTracking the movement pattern through the shuffle, the card that started on the left (the Queen of Hearts) ends up in the **middle** position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_047.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "kimi-k2.5",
+    "response": "Looking at this video, I need to track the Queen of Hearts as the cards are shuffled.\n\n**Initial state:**\n- At 00:00:00.000, the Queen of Hearts is face-up on the **left**.\n- At 00:00:01.000, the Queen is flipped face-down (still on the left).\n\n**Tracking the shuffle:**\nFor most of the video (from 00:00:01.000 to 00:00:09.500), the left card stays in place while the middle and right cards swap positions around it.\n\n**The final shuffle sequence:**\n- At 00:00:09.500: Queen is at **left**, Card B at lower middle, Card C at upper right\n- At 00:00:10.000: Queen moves to **upper left**, Card B moves to lower left, Card C moves to right\n- At 00:00:10.500: Queen moves to **upper middle**, Card B moves to lower middle, Card C stays at right\n- At 00:00:11.000: Queen stays at **top**, Card B at lower left, Card C at right\n- At 00:00:11.500: Queen moves to **middle**, Card B moves to left, Card C stays at right\n\n**Final position:** At the end of the video (00:00:12.000), the Queen of Hearts is in the **middle** position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_048.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "kimi-k2.5",
+    "response": "Looking at this three-card monte animation, I need to track the Queen of Hearts from start to finish:\n\n**Starting position [00:00:00.000]:**\n- Left card: Face down\n- **Middle card: Queen of Hearts (face up)**\n- Right card: Face down\n\n**The Queen is flipped face down [00:00:01.000]:**\n- Now all three cards look identical with red backs\n\n**Tracking the movement:**\n- The middle card (Queen) moves down and then to the bottom left\n- The left card moves up and around\n- The right card stays on the right side initially\n\n**Key moment [00:00:10.000]:**\n- The three cards align diagonally from top-left to bottom-right\n- The original left card is at the top\n- **The original middle card (Queen) is in the center of the diagonal**\n- The original right card is at the bottom\n\n**Final spread [00:00:11.000] to [00:00:12.000]:**\n- The cards spread horizontally from the diagonal formation\n- The top card moves to the left position\n- **The center card stays in the middle position**\n- The bottom card moves to the right position\n\nSince the Queen was the middle card in the diagonal stack and the cards maintain their relative order when spreading out horizontally, the Queen ends up in the **middle** position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_049.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "kimi-k2.5",
+    "response": "Looking at the video sequence:\n\n1. **Start** ([00:00:00.000]): The Queen of Hearts is face-up in the **middle** position, flanked by two face-down cards on the left and right.\n\n2. **Flip** ([00:00:01.000]): The Queen flips face-down.\n\n3. **Shuffling** ([00:00:01.500] to [00:00:11.033]): The three face-down cards move around the screen in various patterns - diagonal arrangements, wave motions, and position swaps.\n\n4. **End** ([00:00:11.533] to [00:00:12.033]): The cards return to their original horizontal row formation.\n\nSince the cards start in a horizontal row with the Queen in the middle, and end up back in a horizontal row in their original positions, the Queen of Hearts remains in the **middle** position at the end of the video.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_050.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "kimi-k2.5",
+    "response": "Looking at this animation, I need to track the Queen of Hearts from start to finish.\n\n**Starting position [00:00:00.000]:**\n- Left: Face-down card\n- Middle: **Queen of Hearts** (face up)\n- Right: Face-down card\n\n**At [00:00:01.000]:**\nThe Queen of Hearts flips over to face down, so all three cards are now showing their backs.\n\n**The shuffling:**\nFrom [00:00:01.500] to [00:00:11.000], the three face-down cards move around the screen in a complex pattern - moving up, down, left, right, and forming various formations (diagonal lines, scattered positions, etc.).\n\n**Ending position [00:00:11.500] to [00:00:12.033]:**\nThe three cards return to their original horizontal alignment. Throughout the animation, while the cards move vertically and change positions temporarily, the card that started in the middle (the Queen of Hearts) ends up back in the middle position when the cards settle into their final horizontal row.\n\n$\\boxed{B}$"
+  }
+]

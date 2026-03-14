@@ -1,0 +1,1602 @@
+[
+  {
+    "video": "cup_001.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 5
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 2
+    },
+    "intermediate": [
+      "52341",
+      "52143",
+      "42153",
+      "41253",
+      "41352"
+    ]
+  },
+  {
+    "video": "cup_002.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 5
+    },
+    "intermediate": [
+      "12543",
+      "32541",
+      "32514",
+      "12534",
+      "21534"
+    ]
+  },
+  {
+    "video": "cup_003.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 3
+    },
+    "intermediate": [
+      "42315",
+      "24315",
+      "14325",
+      "41325",
+      "42315"
+    ]
+  },
+  {
+    "video": "cup_004.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 5
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 3
+    },
+    "intermediate": [
+      "42315",
+      "42351",
+      "42153",
+      "12453",
+      "12543"
+    ]
+  },
+  {
+    "video": "cup_005.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 3
+    },
+    "intermediate": [
+      "52341",
+      "52143",
+      "53142",
+      "52143",
+      "53142"
+    ]
+  },
+  {
+    "video": "cup_006.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 4
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 1
+    },
+    "intermediate": [
+      "21345",
+      "21354",
+      "51324",
+      "21354",
+      "25314"
+    ]
+  },
+  {
+    "video": "cup_007.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 5
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 1
+    },
+    "intermediate": [
+      "52341",
+      "32541",
+      "35241",
+      "45231",
+      "35241"
+    ]
+  },
+  {
+    "video": "cup_008.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 2
+    },
+    "intermediate": [
+      "52341",
+      "12345",
+      "42315",
+      "42135",
+      "42531"
+    ]
+  },
+  {
+    "video": "cup_009.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 5
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 1
+    },
+    "intermediate": [
+      "21345",
+      "23145",
+      "23541",
+      "25341",
+      "23541"
+    ]
+  },
+  {
+    "video": "cup_010.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 5
+    },
+    "intermediate": [
+      "12435",
+      "12534",
+      "32514",
+      "32541",
+      "23541"
+    ]
+  },
+  {
+    "video": "cup_011.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 4
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 5
+    },
+    "intermediate": [
+      "15342",
+      "25341",
+      "25143",
+      "24153",
+      "23154"
+    ]
+  },
+  {
+    "video": "cup_012.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 4
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 3
+    },
+    "intermediate": [
+      "52341",
+      "52314",
+      "51324",
+      "51234",
+      "51432"
+    ]
+  },
+  {
+    "video": "cup_013.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 5
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 1
+    },
+    "intermediate": [
+      "52341",
+      "52431",
+      "54231",
+      "34251",
+      "43251"
+    ]
+  },
+  {
+    "video": "cup_014.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 5
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 4
+    },
+    "intermediate": [
+      "12435",
+      "12534",
+      "52134",
+      "12534",
+      "52134"
+    ]
+  },
+  {
+    "video": "cup_015.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 3
+    },
+    "intermediate": [
+      "12435",
+      "32415",
+      "32145",
+      "35142",
+      "31542"
+    ]
+  },
+  {
+    "video": "cup_016.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 2
+    },
+    "intermediate": [
+      "12435",
+      "21435",
+      "21345",
+      "21435",
+      "12435"
+    ]
+  },
+  {
+    "video": "cup_017.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 2
+    },
+    "intermediate": [
+      "12543",
+      "12453",
+      "12435",
+      "15432",
+      "12435"
+    ]
+  },
+  {
+    "video": "cup_018.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 3
+    },
+    "intermediate": [
+      "12435",
+      "12453",
+      "21453",
+      "23451",
+      "23415"
+    ]
+  },
+  {
+    "video": "cup_019.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 5
+    },
+    "intermediate": [
+      "12543",
+      "12345",
+      "12354",
+      "12534",
+      "12543"
+    ]
+  },
+  {
+    "video": "cup_020.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 4
+    },
+    "intermediate": [
+      "15342",
+      "15243",
+      "25143",
+      "15243",
+      "14253"
+    ]
+  },
+  {
+    "video": "cup_021.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 3
+    },
+    "intermediate": [
+      "21345",
+      "21354",
+      "41352",
+      "42351",
+      "32451"
+    ]
+  },
+  {
+    "video": "cup_022.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 2
+    },
+    "intermediate": [
+      "15342",
+      "15243",
+      "12543",
+      "32541",
+      "35241"
+    ]
+  },
+  {
+    "video": "cup_023.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 5
+    },
+    "intermediate": [
+      "32145",
+      "32154",
+      "32514",
+      "34512",
+      "24513"
+    ]
+  },
+  {
+    "video": "cup_024.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 5
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 5
+    },
+    "intermediate": [
+      "14325",
+      "13425",
+      "23415",
+      "43215",
+      "43125"
+    ]
+  },
+  {
+    "video": "cup_025.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 4
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 5
+    },
+    "intermediate": [
+      "52341",
+      "32541",
+      "32451",
+      "34251",
+      "31254"
+    ]
+  },
+  {
+    "video": "cup_026.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 2
+    },
+    "intermediate": [
+      "52341",
+      "25341",
+      "25431",
+      "21435",
+      "21453"
+    ]
+  },
+  {
+    "video": "cup_027.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 5
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 2
+    },
+    "intermediate": [
+      "32145",
+      "32154",
+      "35124",
+      "34125",
+      "34152"
+    ]
+  },
+  {
+    "video": "cup_028.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 5
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 2
+    },
+    "intermediate": [
+      "15342",
+      "13542",
+      "43512",
+      "43152",
+      "45132"
+    ]
+  },
+  {
+    "video": "cup_029.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 3
+    },
+    "intermediate": [
+      "52341",
+      "52143",
+      "53142",
+      "23145",
+      "32145"
+    ]
+  },
+  {
+    "video": "cup_030.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 4
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 1
+    },
+    "intermediate": [
+      "52341",
+      "12345",
+      "13245",
+      "31245",
+      "34215"
+    ]
+  },
+  {
+    "video": "cup_031.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 4
+    },
+    "intermediate": [
+      "15342",
+      "15243",
+      "15342",
+      "15324",
+      "14325"
+    ]
+  },
+  {
+    "video": "cup_032.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 5
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 3
+    },
+    "intermediate": [
+      "12354",
+      "42351",
+      "52341",
+      "52143",
+      "25143"
+    ]
+  },
+  {
+    "video": "cup_033.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 3
+    },
+    "intermediate": [
+      "13245",
+      "43215",
+      "42315",
+      "45312",
+      "35412"
+    ]
+  },
+  {
+    "video": "cup_034.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 5
+    },
+    "intermediate": [
+      "21345",
+      "12345",
+      "15342",
+      "35142",
+      "35412"
+    ]
+  },
+  {
+    "video": "cup_035.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 3
+    },
+    "intermediate": [
+      "32145",
+      "52143",
+      "54123",
+      "52143",
+      "53142"
+    ]
+  },
+  {
+    "video": "cup_036.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 2
+    },
+    "intermediate": [
+      "42315",
+      "42351",
+      "42153",
+      "42351",
+      "52341"
+    ]
+  },
+  {
+    "video": "cup_037.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 4
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 3
+    },
+    "intermediate": [
+      "52341",
+      "52143",
+      "51243",
+      "51234",
+      "54231"
+    ]
+  },
+  {
+    "video": "cup_038.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 4
+    },
+    "intermediate": [
+      "13245",
+      "14235",
+      "12435",
+      "21435",
+      "51432"
+    ]
+  },
+  {
+    "video": "cup_039.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 4
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 1
+    },
+    "intermediate": [
+      "15342",
+      "35142",
+      "15342",
+      "45312",
+      "25314"
+    ]
+  },
+  {
+    "video": "cup_040.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 1
+    },
+    "intermediate": [
+      "12435",
+      "14235",
+      "13245",
+      "31245",
+      "41235"
+    ]
+  },
+  {
+    "video": "cup_041.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 4
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 1
+    },
+    "intermediate": [
+      "52341",
+      "52431",
+      "52341",
+      "54321",
+      "54312"
+    ]
+  },
+  {
+    "video": "cup_042.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 5
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 3
+    },
+    "intermediate": [
+      "12543",
+      "52143",
+      "32145",
+      "42135",
+      "42153"
+    ]
+  },
+  {
+    "video": "cup_043.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 5
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 3
+    },
+    "intermediate": [
+      "32145",
+      "32415",
+      "34215",
+      "54213",
+      "14253"
+    ]
+  },
+  {
+    "video": "cup_044.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 5
+    },
+    "intermediate": [
+      "13245",
+      "12345",
+      "42315",
+      "24315",
+      "54312"
+    ]
+  },
+  {
+    "video": "cup_045.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 3
+    },
+    "intermediate": [
+      "15342",
+      "12345",
+      "12543",
+      "32541",
+      "23541"
+    ]
+  },
+  {
+    "video": "cup_046.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 4
+    },
+    "intermediate": [
+      "15342",
+      "45312",
+      "45321",
+      "45312",
+      "45132"
+    ]
+  },
+  {
+    "video": "cup_047.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 5
+    },
+    "intermediate": [
+      "14325",
+      "34125",
+      "35124",
+      "45123",
+      "45321"
+    ]
+  },
+  {
+    "video": "cup_048.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 3
+    },
+    "intermediate": [
+      "21345",
+      "21435",
+      "31425",
+      "13425",
+      "13524"
+    ]
+  },
+  {
+    "video": "cup_049.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 5
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 2
+    },
+    "intermediate": [
+      "32145",
+      "31245",
+      "31425",
+      "31452",
+      "51432"
+    ]
+  },
+  {
+    "video": "cup_050.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 5,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 5
+    },
+    "intermediate": [
+      "12354",
+      "15324",
+      "35124",
+      "31524",
+      "32514"
+    ]
+  }
+]

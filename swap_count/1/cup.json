@@ -1,0 +1,758 @@
+[
+  {
+    "video": "cup_001.mp4",
+    "fps": 30,
+    "total_frames": 132,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 1,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 2
+    },
+    "intermediate": [
+      "132"
+    ]
+  },
+  {
+    "video": "cup_002.mp4",
+    "fps": 30,
+    "total_frames": 132,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 1,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 3
+    },
+    "intermediate": [
+      "132"
+    ]
+  },
+  {
+    "video": "cup_003.mp4",
+    "fps": 30,
+    "total_frames": 132,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 1,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 2
+    },
+    "intermediate": [
+      "132"
+    ]
+  },
+  {
+    "video": "cup_004.mp4",
+    "fps": 30,
+    "total_frames": 132,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 1,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 1
+    },
+    "intermediate": [
+      "321"
+    ]
+  },
+  {
+    "video": "cup_005.mp4",
+    "fps": 30,
+    "total_frames": 132,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 1,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 1
+    },
+    "intermediate": [
+      "321"
+    ]
+  },
+  {
+    "video": "cup_006.mp4",
+    "fps": 30,
+    "total_frames": 132,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 1,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 2
+    },
+    "intermediate": [
+      "132"
+    ]
+  },
+  {
+    "video": "cup_007.mp4",
+    "fps": 30,
+    "total_frames": 132,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 1,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 1
+    },
+    "intermediate": [
+      "321"
+    ]
+  },
+  {
+    "video": "cup_008.mp4",
+    "fps": 30,
+    "total_frames": 132,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 1,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 1
+    },
+    "intermediate": [
+      "213"
+    ]
+  },
+  {
+    "video": "cup_009.mp4",
+    "fps": 30,
+    "total_frames": 132,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 1,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 3
+    },
+    "intermediate": [
+      "213"
+    ]
+  },
+  {
+    "video": "cup_010.mp4",
+    "fps": 30,
+    "total_frames": 132,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 1,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 1
+    },
+    "intermediate": [
+      "132"
+    ]
+  },
+  {
+    "video": "cup_011.mp4",
+    "fps": 30,
+    "total_frames": 132,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 1,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 3
+    },
+    "intermediate": [
+      "213"
+    ]
+  },
+  {
+    "video": "cup_012.mp4",
+    "fps": 30,
+    "total_frames": 132,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 1,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 1
+    },
+    "intermediate": [
+      "132"
+    ]
+  },
+  {
+    "video": "cup_013.mp4",
+    "fps": 30,
+    "total_frames": 132,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 1,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 3
+    },
+    "intermediate": [
+      "132"
+    ]
+  },
+  {
+    "video": "cup_014.mp4",
+    "fps": 30,
+    "total_frames": 132,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 1,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 2
+    },
+    "intermediate": [
+      "132"
+    ]
+  },
+  {
+    "video": "cup_015.mp4",
+    "fps": 30,
+    "total_frames": 132,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 1,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 1
+    },
+    "intermediate": [
+      "321"
+    ]
+  },
+  {
+    "video": "cup_016.mp4",
+    "fps": 30,
+    "total_frames": 132,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 1,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 3
+    },
+    "intermediate": [
+      "321"
+    ]
+  },
+  {
+    "video": "cup_017.mp4",
+    "fps": 30,
+    "total_frames": 132,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 1,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 1
+    },
+    "intermediate": [
+      "132"
+    ]
+  },
+  {
+    "video": "cup_018.mp4",
+    "fps": 30,
+    "total_frames": 132,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 1,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 1
+    },
+    "intermediate": [
+      "321"
+    ]
+  },
+  {
+    "video": "cup_019.mp4",
+    "fps": 30,
+    "total_frames": 132,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 1,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 3
+    },
+    "intermediate": [
+      "213"
+    ]
+  },
+  {
+    "video": "cup_020.mp4",
+    "fps": 30,
+    "total_frames": 132,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 1,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 1
+    },
+    "intermediate": [
+      "132"
+    ]
+  },
+  {
+    "video": "cup_021.mp4",
+    "fps": 30,
+    "total_frames": 132,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 1,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 2
+    },
+    "intermediate": [
+      "321"
+    ]
+  },
+  {
+    "video": "cup_022.mp4",
+    "fps": 30,
+    "total_frames": 132,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 1,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 3
+    },
+    "intermediate": [
+      "132"
+    ]
+  },
+  {
+    "video": "cup_023.mp4",
+    "fps": 30,
+    "total_frames": 132,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 1,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 3
+    },
+    "intermediate": [
+      "132"
+    ]
+  },
+  {
+    "video": "cup_024.mp4",
+    "fps": 30,
+    "total_frames": 132,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 1,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 2
+    },
+    "intermediate": [
+      "213"
+    ]
+  },
+  {
+    "video": "cup_025.mp4",
+    "fps": 30,
+    "total_frames": 132,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 1,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 2
+    },
+    "intermediate": [
+      "213"
+    ]
+  },
+  {
+    "video": "cup_026.mp4",
+    "fps": 30,
+    "total_frames": 132,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 1,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 1
+    },
+    "intermediate": [
+      "132"
+    ]
+  },
+  {
+    "video": "cup_027.mp4",
+    "fps": 30,
+    "total_frames": 132,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "task_type": "SOT",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 1,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "initial": {
+      "color": "Red",
+      "cup": 2
+    },
+    "intermediate": [
+      "132"
+    ]
+  }
+]

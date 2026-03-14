@@ -1,0 +1,2891 @@
+{
+  "video_66": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_66",
+      "frame_rate": 29.970029830932617,
+      "num_frames": 288,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the first object from the left.",
+          "Under the second object from the left.",
+          "Under the third object from the left."
+        ],
+        "answer": 0
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_147": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_147",
+      "frame_rate": 29.973831176757812,
+      "num_frames": 230,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 0,
+      "num_of_cups": 2
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the first object from the left.",
+          "Under the third object from the left.",
+          "Under the second object from the left."
+        ],
+        "answer": 2
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_496": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_496",
+      "frame_rate": 30.0,
+      "num_frames": 213,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 5,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the first object from the left.",
+          "Under the second object from the left.",
+          "Under the third object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_749": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_749",
+      "frame_rate": 30.288055419921875,
+      "num_frames": 279,
+      "resolution": [
+        720,
+        1280
+      ],
+      "num_of_swaps": 4,
+      "num_of_cups": 4
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the third object from the left.",
+          "Under the first object from the left.",
+          "Under the second object from the left."
+        ],
+        "answer": 0
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_781": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_781",
+      "frame_rate": 29.601896286010742,
+      "num_frames": 169,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the second object from the left.",
+          "Under the third object from the left.",
+          "Under the first object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_789": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_789",
+      "frame_rate": 29.602781295776367,
+      "num_frames": 121,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 2,
+      "num_of_cups": 2
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the second object from the left.",
+          "Under the first object from the left.",
+          "Under the third object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_811": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_811",
+      "frame_rate": 29.573362350463867,
+      "num_frames": 178,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 5,
+      "num_of_cups": 2
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the third object from the left.",
+          "Under the first object from the left.",
+          "Under the second object from the left."
+        ],
+        "answer": 2
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_922": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_922",
+      "frame_rate": 30.011390686035156,
+      "num_frames": 195,
+      "resolution": [
+        720,
+        1280
+      ],
+      "num_of_swaps": 4,
+      "num_of_cups": 4
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the second object from the left.",
+          "Under the third object from the left.",
+          "Under the first object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_1034": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_1034",
+      "frame_rate": 29.970029830932617,
+      "num_frames": 274,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the third object from the left.",
+          "Under the second object from the left.",
+          "Under the first object from the left."
+        ],
+        "answer": 0
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_1137": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_1137",
+      "frame_rate": 30.16109275817871,
+      "num_frames": 184,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the first object from the left.",
+          "Under the second object from the left.",
+          "Under the third object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_1196": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_1196",
+      "frame_rate": 29.970029830932617,
+      "num_frames": 331,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the first object from the left.",
+          "Under the third object from the left.",
+          "Under the second object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_1281": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_1281",
+      "frame_rate": 30.225427627563477,
+      "num_frames": 203,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the first object from the left.",
+          "Under the second object from the left.",
+          "Under the third object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_1395": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_1395",
+      "frame_rate": 30.0,
+      "num_frames": 222,
+      "resolution": [
+        720,
+        1280
+      ],
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the second object from the left.",
+          "Under the third object from the left.",
+          "Under the first object from the left."
+        ],
+        "answer": 2
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_1438": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_1438",
+      "frame_rate": 29.773134231567383,
+      "num_frames": 143,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the third object from the left.",
+          "Under the second object from the left.",
+          "Under the first object from the left."
+        ],
+        "answer": 0
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_1503": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_1503",
+      "frame_rate": 30.0,
+      "num_frames": 234,
+      "resolution": [
+        720,
+        1280
+      ],
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the first object from the left.",
+          "Under the third object from the left.",
+          "Under the second object from the left."
+        ],
+        "answer": 0
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_1668": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_1668",
+      "frame_rate": 29.870128631591797,
+      "num_frames": 225,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 6,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the first object from the left.",
+          "Under the third object from the left.",
+          "Under the second object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_1727": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_1727",
+      "frame_rate": 29.372093200683594,
+      "num_frames": 193,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 4,
+      "num_of_cups": 2
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the third object from the left.",
+          "Under the first object from the left.",
+          "Under the second object from the left."
+        ],
+        "answer": 2
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_1998": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_1998",
+      "frame_rate": 29.762725830078125,
+      "num_frames": 401,
+      "resolution": [
+        720,
+        1280
+      ],
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the second object from the left.",
+          "Under the third object from the left.",
+          "Under the first object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_2046": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_2046",
+      "frame_rate": 29.581666946411133,
+      "num_frames": 168,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the second object from the left.",
+          "Under the third object from the left.",
+          "Under the first object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_2098": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_2098",
+      "frame_rate": 30.0,
+      "num_frames": 204,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the second object from the left.",
+          "Under the first object from the left.",
+          "Under the third object from the left."
+        ],
+        "answer": 0
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_2117": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_2117",
+      "frame_rate": 27.79120635986328,
+      "num_frames": 167,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 0,
+      "num_of_cups": 2
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the third object from the left.",
+          "Under the first object from the left.",
+          "Under the second object from the left."
+        ],
+        "answer": 2
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_2264": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_2264",
+      "frame_rate": 29.77313804626465,
+      "num_frames": 160,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 5,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the second object from the left.",
+          "Under the first object from the left.",
+          "Under the third object from the left."
+        ],
+        "answer": 2
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_2453": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_2453",
+      "frame_rate": 30.01342010498047,
+      "num_frames": 222,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the second object from the left.",
+          "Under the third object from the left.",
+          "Under the first object from the left."
+        ],
+        "answer": 2
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_2567": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_2567",
+      "frame_rate": 29.806758880615234,
+      "num_frames": 182,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 3,
+      "num_of_cups": 2
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the first object from the left.",
+          "Under the third object from the left.",
+          "Under the second object from the left."
+        ],
+        "answer": 0
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_2863": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_2863",
+      "frame_rate": 29.60271644592285,
+      "num_frames": 122,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 2,
+      "num_of_cups": 2
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the second object from the left.",
+          "Under the third object from the left.",
+          "Under the first object from the left."
+        ],
+        "answer": 2
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_3363": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_3363",
+      "frame_rate": 30.170013427734375,
+      "num_frames": 154,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 5,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the second object from the left.",
+          "Under the third object from the left.",
+          "Under the first object from the left."
+        ],
+        "answer": 0
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_3479": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_3479",
+      "frame_rate": 29.602676391601562,
+      "num_frames": 310,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the second object from the left.",
+          "Under the third object from the left.",
+          "Under the first object from the left."
+        ],
+        "answer": 0
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_3485": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_3485",
+      "frame_rate": 27.872007369995117,
+      "num_frames": 216,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the third object from the left.",
+          "Under the first object from the left.",
+          "Under the second object from the left."
+        ],
+        "answer": 2
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_3637": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_3637",
+      "frame_rate": 30.0,
+      "num_frames": 349,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 1,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 6,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the second object from the left.",
+          "Under the third object from the left.",
+          "Under the first object from the left."
+        ],
+        "answer": 2
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_3704": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_3704",
+      "frame_rate": 30.026329040527344,
+      "num_frames": 294,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the second object from the left.",
+          "Under the fourth object from the left.",
+          "Under the first object from the left."
+        ],
+        "answer": 0
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_3772": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_3772",
+      "frame_rate": 29.977603912353516,
+      "num_frames": 230,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the third object from the left.",
+          "Under the second object from the left.",
+          "Under the first object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_3995": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_3995",
+      "frame_rate": 30.019287109375,
+      "num_frames": 233,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 7,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the first object from the left.",
+          "Under the second object from the left.",
+          "Under the third object from the left."
+        ],
+        "answer": 0
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_4230": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_4230",
+      "frame_rate": 30.007543563842773,
+      "num_frames": 202,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the closest object to the person.",
+          "Under the middle object.",
+          "Under the farthest object from the person."
+        ],
+        "answer": 0
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_4263": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_4263",
+      "frame_rate": 29.968820571899414,
+      "num_frames": 226,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 4,
+      "num_of_cups": 2
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the first object from the left.",
+          "Under the third object from the left.",
+          "Under the second object from the left."
+        ],
+        "answer": 0
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_4282": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_4282",
+      "frame_rate": 29.746315002441406,
+      "num_frames": 272,
+      "resolution": [
+        720,
+        1280
+      ],
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 6,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the third object from the left.",
+          "Under the first object from the left.",
+          "Under the second object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_4289": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_4289",
+      "frame_rate": 30.030752182006836,
+      "num_frames": 356,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the first object from the left.",
+          "Under the third object from the left.",
+          "Under the second object from the left."
+        ],
+        "answer": 2
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_4295": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_4295",
+      "frame_rate": 29.886322021484375,
+      "num_frames": 418,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the third object from the left.",
+          "Under the second object from the left.",
+          "Under the first object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_4320": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_4320",
+      "frame_rate": 29.96857452392578,
+      "num_frames": 307,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 1,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 7,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the second object from the left.",
+          "Under the first object from the left.",
+          "Under the third object from the left."
+        ],
+        "answer": 0
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_4388": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_4388",
+      "frame_rate": 30.18108558654785,
+      "num_frames": 95,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 12,
+      "num_of_cups": 2
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the first object from the left.",
+          "Under the second object from the left.",
+          "Under the third object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_4438": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_4438",
+      "frame_rate": 30.185184478759766,
+      "num_frames": 123,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 14,
+      "num_of_cups": 2
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the third object from the left.",
+          "Under the second object from the left.",
+          "Under the first object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_4560": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_4560",
+      "frame_rate": 29.651613235473633,
+      "num_frames": 645,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the second object from the left.",
+          "Under the first object from the left.",
+          "Under the third object from the left."
+        ],
+        "answer": 0
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_4625": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_4625",
+      "frame_rate": 29.98427963256836,
+      "num_frames": 209,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the first object from the left.",
+          "Under the second object from the left.",
+          "Under the third object from the left."
+        ],
+        "answer": 2
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_4649": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_4649",
+      "frame_rate": 29.60772705078125,
+      "num_frames": 161,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the first object from the left.",
+          "Under the second object from the left.",
+          "Under the third object from the left."
+        ],
+        "answer": 2
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_4790": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_4790",
+      "frame_rate": 29.99201774597168,
+      "num_frames": 224,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the first object from the left.",
+          "Under the second object from the left.",
+          "Under the third object from the left."
+        ],
+        "answer": 2
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_5049": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_5049",
+      "frame_rate": 30.030712127685547,
+      "num_frames": 276,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the second object from the left.",
+          "Under the first object from the left.",
+          "Under the third object from the left."
+        ],
+        "answer": 0
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_5222": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_5222",
+      "frame_rate": 29.94887351989746,
+      "num_frames": 231,
+      "resolution": [
+        720,
+        1280
+      ],
+      "num_of_swaps": 4,
+      "num_of_cups": 4
+    },
+    "mc_question": [
+      {
+        "id": 6,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the second object from the left.",
+          "Under the first object from the left.",
+          "Under the third object from the left."
+        ],
+        "answer": 2
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_5362": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_5362",
+      "frame_rate": 30.0,
+      "num_frames": 272,
+      "resolution": [
+        720,
+        1280
+      ],
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 6,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the fourth object from the left.",
+          "Under the second object from the left.",
+          "Under the first object from the left."
+        ],
+        "answer": 2
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_5431": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_5431",
+      "frame_rate": 29.593677520751953,
+      "num_frames": 203,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the third object from the left.",
+          "Under the first object from the left.",
+          "Under the second object from the left."
+        ],
+        "answer": 2
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_5502": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_5502",
+      "frame_rate": 30.251319885253906,
+      "num_frames": 187,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the third object from the left.",
+          "Under the first object from the left.",
+          "Under the second object from the left."
+        ],
+        "answer": 2
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_5540": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_5540",
+      "frame_rate": 27.104162216186523,
+      "num_frames": 236,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 1,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 6,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the second object from the left.",
+          "Under the third object from the left.",
+          "Under the first object from the left."
+        ],
+        "answer": 0
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_5848": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_5848",
+      "frame_rate": 29.581485748291016,
+      "num_frames": 245,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the first object from the left.",
+          "Under the second object from the left.",
+          "Under the third object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_6159": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_6159",
+      "frame_rate": 30.012657165527344,
+      "num_frames": 238,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the first object from the left.",
+          "Under the second object from the left.",
+          "Under the third object from the left."
+        ],
+        "answer": 2
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_6204": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_6204",
+      "frame_rate": 30.022951126098633,
+      "num_frames": 329,
+      "resolution": [
+        720,
+        1280
+      ],
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 6,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the second object from the left.",
+          "Under the first object from the left.",
+          "Under the third object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_6269": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_6269",
+      "frame_rate": 30.01134490966797,
+      "num_frames": 145,
+      "resolution": [
+        720,
+        1280
+      ],
+      "num_of_swaps": 5,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the third object from the left.",
+          "Under the first object from the left.",
+          "Under the second object from the left."
+        ],
+        "answer": 2
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_6443": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_6443",
+      "frame_rate": 30.250883102416992,
+      "num_frames": 221,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the second object from the left.",
+          "Under the first object from the left.",
+          "Under the third object from the left."
+        ],
+        "answer": 0
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_6534": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_6534",
+      "frame_rate": 30.22313690185547,
+      "num_frames": 207,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 6,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the third object from the left.",
+          "Under the second object from the left.",
+          "Under the first object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_6686": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_6686",
+      "frame_rate": 30.014493942260742,
+      "num_frames": 268,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the third object from the left.",
+          "Under the second object from the left.",
+          "Under the first object from the left."
+        ],
+        "answer": 2
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_6704": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_6704",
+      "frame_rate": 29.970029830932617,
+      "num_frames": 542,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the fourth object from the left.",
+          "Under the first object from the left.",
+          "Under the third object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_6789": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_6789",
+      "frame_rate": 29.730205535888672,
+      "num_frames": 290,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the first object from the left.",
+          "Under the third object from the left.",
+          "Under the second object from the left."
+        ],
+        "answer": 2
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_6855": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_6855",
+      "frame_rate": 29.7730712890625,
+      "num_frames": 283,
+      "resolution": [
+        720,
+        1280
+      ],
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the third object from the left.",
+          "Under the second object from the left.",
+          "Under the first object from the left."
+        ],
+        "answer": 0
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_6902": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_6902",
+      "frame_rate": 30.029203414916992,
+      "num_frames": 240,
+      "resolution": [
+        720,
+        1280
+      ],
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the first object from the left.",
+          "Under the second object from the left.",
+          "Under the third object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_7095": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_7095",
+      "frame_rate": 30.003929138183594,
+      "num_frames": 285,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the first object from the left.",
+          "Under the third object from the left.",
+          "Under the second object from the left."
+        ],
+        "answer": 2
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_7331": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_7331",
+      "frame_rate": 29.945409774780273,
+      "num_frames": 263,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the first object from the left.",
+          "Under the third object from the left.",
+          "Under the second object from the left."
+        ],
+        "answer": 2
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_7395": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_7395",
+      "frame_rate": 29.991413116455078,
+      "num_frames": 418,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the second object from the left.",
+          "Under the third object from the left.",
+          "Under the first object from the left."
+        ],
+        "answer": 0
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_7471": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_7471",
+      "frame_rate": 30.00577163696289,
+      "num_frames": 201,
+      "resolution": [
+        720,
+        1280
+      ],
+      "num_of_swaps": 6,
+      "num_of_cups": 4
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the first object from the left.",
+          "Under the third object from the left.",
+          "Under the second object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_7553": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_7553",
+      "frame_rate": 29.602781295776367,
+      "num_frames": 388,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the second object from the left.",
+          "Under the first object from the left.",
+          "Under the third object from the left."
+        ],
+        "answer": 2
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_7632": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_7632",
+      "frame_rate": 30.011289596557617,
+      "num_frames": 763,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the third object from the left.",
+          "Under the second object from the left.",
+          "Under the first object from the left."
+        ],
+        "answer": 0
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_7669": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_7669",
+      "frame_rate": 30.008806228637695,
+      "num_frames": 201,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the second object from the left.",
+          "Under the first object from the left.",
+          "Under the third object from the left."
+        ],
+        "answer": 0
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_7812": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_7812",
+      "frame_rate": 29.970029830932617,
+      "num_frames": 216,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the third object from the left.",
+          "Under the first object from the left.",
+          "Under the second object from the left."
+        ],
+        "answer": 0
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_7966": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_7966",
+      "frame_rate": 30.159791946411133,
+      "num_frames": 294,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 16,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the first object from the left.",
+          "Under the third object from the left.",
+          "Under the second object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_8255": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_8255",
+      "frame_rate": 30.030603408813477,
+      "num_frames": 238,
+      "resolution": [
+        720,
+        1280
+      ],
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the third object from the left.",
+          "Under the second object from the left.",
+          "Under the fourth object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_8402": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_8402",
+      "frame_rate": 29.707958221435547,
+      "num_frames": 251,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the first object from the left.",
+          "Under the second object from the left.",
+          "Under the third object from the left."
+        ],
+        "answer": 0
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_8517": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_8517",
+      "frame_rate": 30.0,
+      "num_frames": 181,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 6,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the third object from the left.",
+          "Under the second object from the left.",
+          "Under the first object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_8661": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_8661",
+      "frame_rate": 29.60399627685547,
+      "num_frames": 278,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 5,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the closest object to the person.",
+          "Under the farthest object from the person.",
+          "Under the middle object."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_8830": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_8830",
+      "frame_rate": 30.0,
+      "num_frames": 226,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 6,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the second object from the left.",
+          "Under the first object from the left.",
+          "Under the third object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_8963": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_8963",
+      "frame_rate": 29.90835189819336,
+      "num_frames": 238,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the first object from the left.",
+          "Under the third object from the left.",
+          "Under the second object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_9146": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_9146",
+      "frame_rate": 30.131507873535156,
+      "num_frames": 227,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the second object from the left.",
+          "Under the third object from the left.",
+          "Under the first object from the left."
+        ],
+        "answer": 2
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_9245": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_9245",
+      "frame_rate": 30.030723571777344,
+      "num_frames": 262,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the first object from the left.",
+          "Under the second object from the left.",
+          "Under the third object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_9265": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_9265",
+      "frame_rate": 29.968530654907227,
+      "num_frames": 244,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the first object from the left.",
+          "Under the second object from the left.",
+          "Under the fourth object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_9298": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_9298",
+      "frame_rate": 30.02625274658203,
+      "num_frames": 314,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the second object from the left.",
+          "Under the third object from the left.",
+          "Under the first object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_9426": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_9426",
+      "frame_rate": 30.006155014038086,
+      "num_frames": 277,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the third object from the left.",
+          "Under the first object from the left.",
+          "Under the second object from the left."
+        ],
+        "answer": 2
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_9643": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_9643",
+      "frame_rate": 29.98482894897461,
+      "num_frames": 270,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the third object from the left.",
+          "Under the second object from the left.",
+          "Under the first object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_9735": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_9735",
+      "frame_rate": 30.0,
+      "num_frames": 258,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the first object from the left.",
+          "Under the third object from the left.",
+          "Under the second object from the left."
+        ],
+        "answer": 2
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_9753": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_9753",
+      "frame_rate": 29.968215942382812,
+      "num_frames": 209,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 6,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the first object from the left.",
+          "Under the second object from the left.",
+          "Under the third object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_9855": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_9855",
+      "frame_rate": 29.585742950439453,
+      "num_frames": 171,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the third object from the left.",
+          "Under the first object from the left.",
+          "Under the second object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_9896": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_9896",
+      "frame_rate": 30.003896713256836,
+      "num_frames": 408,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the first object from the left.",
+          "Under the fourth object from the left.",
+          "Under the second object from the left."
+        ],
+        "answer": 0
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_9922": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_9922",
+      "frame_rate": 30.00299835205078,
+      "num_frames": 152,
+      "resolution": [
+        720,
+        1280
+      ],
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the third object from the left.",
+          "Under the second object from the left.",
+          "Under the first object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_9946": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_9946",
+      "frame_rate": 29.30990219116211,
+      "num_frames": 132,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 3,
+      "num_of_cups": 2
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the second object from the left.",
+          "Under the first object from the left.",
+          "Under the fourth object from the left."
+        ],
+        "answer": 0
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_10121": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_10121",
+      "frame_rate": 30.01919174194336,
+      "num_frames": 223,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 7,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the first object from the left.",
+          "Under the third object from the left.",
+          "Under the second object from the left."
+        ],
+        "answer": 0
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_10172": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_10172",
+      "frame_rate": 30.0,
+      "num_frames": 150,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the third object from the left.",
+          "Under the first object from the left.",
+          "Under the second object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_10363": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_10363",
+      "frame_rate": 29.99777603149414,
+      "num_frames": 225,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the first object from the left.",
+          "Under the second object from the left.",
+          "Under the third object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_10698": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_10698",
+      "frame_rate": 27.406471252441406,
+      "num_frames": 206,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the third object from the left.",
+          "Under the fourth object from the left.",
+          "Under the second object from the left."
+        ],
+        "answer": 0
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_10755": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_10755",
+      "frame_rate": 27.795930862426758,
+      "num_frames": 212,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 1,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the third object from the left.",
+          "Under the second object from the left.",
+          "Under the first object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_10863": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_10863",
+      "frame_rate": 30.018388748168945,
+      "num_frames": 197,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the first object from the left.",
+          "Under the third object from the left.",
+          "Under the second object from the left."
+        ],
+        "answer": 0
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_11046": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_11046",
+      "frame_rate": 30.0,
+      "num_frames": 310,
+      "resolution": [
+        720,
+        1280
+      ],
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 6,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the second object from the left.",
+          "Under the first object from the left.",
+          "Under the third object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_11071": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_11071",
+      "frame_rate": 30.0039119720459,
+      "num_frames": 209,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 6,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the third object from the left.",
+          "Under the second object from the left.",
+          "Under the first object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_11090": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_11090",
+      "frame_rate": 27.865665435791016,
+      "num_frames": 161,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 4,
+      "num_of_cups": 2
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the first object from the left.",
+          "Under the third object from the left.",
+          "Under the second object from the left."
+        ],
+        "answer": 0
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_11143": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_11143",
+      "frame_rate": 30.030746459960938,
+      "num_frames": 296,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 6,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the third object from the left.",
+          "Under the second object from the left.",
+          "Under the first object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_11151": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_11151",
+      "frame_rate": 30.03074073791504,
+      "num_frames": 277,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 9,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the third object from the left.",
+          "Under the second object from the left.",
+          "Under the first object from the left."
+        ],
+        "answer": 0
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_11166": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_11166",
+      "frame_rate": 29.602102279663086,
+      "num_frames": 283,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 4,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 4,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the second object from the left.",
+          "Under the third object from the left.",
+          "Under the first object from the left."
+        ],
+        "answer": 0
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_11174": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_11174",
+      "frame_rate": 30.03073501586914,
+      "num_frames": 233,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 8,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the fourth object from the left.",
+          "Under the third object from the left.",
+          "Under the second object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_11250": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_11250",
+      "frame_rate": 29.970029830932617,
+      "num_frames": 228,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the second object from the left.",
+          "Under the first object from the left.",
+          "Under the third object from the left."
+        ],
+        "answer": 2
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_11264": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_11264",
+      "frame_rate": 29.651697158813477,
+      "num_frames": 352,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the first object from the left.",
+          "Under the third object from the left.",
+          "Under the second object from the left."
+        ],
+        "answer": 2
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_11301": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_11301",
+      "frame_rate": 29.96124839782715,
+      "num_frames": 287,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 0,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the third object from the left.",
+          "Under the second object from the left.",
+          "Under the first object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_11343": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_11343",
+      "frame_rate": 28.502107620239258,
+      "num_frames": 265,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 2,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 5,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the third object from the left.",
+          "Under the second object from the left.",
+          "Under the first object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_11435": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_11435",
+      "frame_rate": 30.0,
+      "num_frames": 268,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 3,
+      "num_of_cups": 2
+    },
+    "mc_question": [
+      {
+        "id": 6,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the second object from the left.",
+          "Under the third object from the left.",
+          "Under the first object from the left."
+        ],
+        "answer": 0
+      }
+    ],
+    "cut_frame": -1
+  },
+  "video_11499": {
+    "metadata": {
+      "split": "test",
+      "video_id": "video_11499",
+      "frame_rate": 29.967845916748047,
+      "num_frames": 253,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "num_of_swaps": 3,
+      "num_of_cups": 3
+    },
+    "mc_question": [
+      {
+        "id": 6,
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "options": [
+          "Under the first object from the left.",
+          "Under the second object from the left.",
+          "Under the third object from the left."
+        ],
+        "answer": 1
+      }
+    ],
+    "cut_frame": -1
+  }
+}

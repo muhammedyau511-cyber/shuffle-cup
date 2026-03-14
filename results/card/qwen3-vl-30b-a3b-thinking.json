@@ -1,0 +1,652 @@
+[
+  {
+    "video": "card_001.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "To determine the position of the Queen of Hearts at the end of the video, we analyze the sequence:\n\n1. **Initial State**: The Queen of Hearts is in the middle position (left, middle, right).\n2. **Shuffling Process**: The middle card (Queen of Hearts) is flipped face-down, and all three cards undergo a series of movements and reconfigurations.\n3. **Final State**: At the end of the video (11.8 seconds), the three cards are arranged in a row with equal spacing. The Queen of Hearts, which was initially in the middle, is now in the **middle position** after the shuffle.\n\nThus, the Queen of Hearts is in the middle at the end.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_002.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "The video begins with three cards on a green background: two face-down cards (left and middle) and one face-up Queen of Hearts card (right). As the animation progresses, the Queen of Hearts is flipped face down, making all three cards face-down. The cards then undergo a series of movements, shuffling their positions. By the end of the video (frame 11.8), the three face-down cards are aligned horizontally from left to middle to right. However, the Queen of Hearts, which was initially the rightmost card, is no longer visible as face-up but remains one of the three face-down cards. Through the sequence of movements, the Queen of Hearts ends up in the **middle** position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_003.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "To determine where the Queen of Hearts is at the end of the video, we analyze the sequence of events:\n\n1. **Initial Setup**: The Queen of Hearts (Q♥) is on the rightmost position.\n2. **Card Movement**: The video shows the cards being shuffled and rearranged through various overlapping and repositioning steps.\n3. **Final State**: By the end of the video (frame 11.8), all three cards are face-down and aligned in a horizontal row. The Queen of Hearts, which was initially on the right, has been shuffled among the three positions.\n\nHowever, the key observation is that the **Queen of Hearts is no longer on the right** after the shuffling process. Given the options (A: Left, B: Middle, C: Right), and since the cards are shuffled into a new configuration, the correct position of the Queen of Hearts at the end is **not on the right**. The most plausible answer, based on the animation's progression and typical card-shuffling logic, is that the Queen of Hearts ends up in the **middle** position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_004.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "To determine the location of the Queen of Hearts at the end of the video, we analyze the sequence of frames:\n\n1. **Initial Frame (0.0 seconds)**: The Queen of Hearts is clearly visible on the **left**.\n2. **Subsequent Frames**: The left card is replaced by a face-down card (red back). This means the Queen of Hearts is no longer visible on the left.\n3. **Final Frames (up to 11.8 seconds)**: All three cards are face-down, and the Queen of Hearts is no longer present in the scene.\n\nHowever, the question asks \"Where is the Queen of Hearts at the end of the video?\" Since the Queen of Hearts was initially on the left and was replaced by a face-down card, it is implied that the Queen of Hearts was originally located on the **left** and is no longer visible at the end. Given the options (A, B, C), the answer must refer to its original position.\n\nThus, the correct answer is:\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_005.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "To determine the position of the Queen of Hearts at the end of the video, we analyze the sequence:\n\n1. **Initial Setup**: The Queen of Hearts is on the rightmost position (face up).\n2. **Shuffling Process**: The Queen of Hearts is flipped to face down and then mixed with the other two cards through a series of overlapping and rearrangements.\n3. **Final Frame**: At the end of the video (11.8 seconds), all three cards are face down and arranged in a horizontal row: left, middle, right.\n\nSince the Queen of Hearts was the face-up card initially and is now one of the three face-down cards, the key is to recognize that the shuffle process moves it to the **middle** position. This conclusion is based on the typical structure of such card shuffles (where the initially distinct card is often placed in the middle after mixing).\n\nThus, the position of the Queen of Hearts at the end of the video is the middle.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_006.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "The video begins with the Queen of Hearts in the middle position. As the sequence progresses, the cards are shuffled, and all three cards become face down. By the end of the video (11.8 seconds), the three face-down cards are arranged in a row from left to right. Since the Queen of Hearts was initially the middle card and the shuffling process does not change its inherent identity, it remains the card that was originally in the middle. Thus, at the end of the video, the Queen of Hearts is in the middle position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_007.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "To determine where the Queen of Hearts is at the end of the video, we analyze the sequence:\n\n1. **Initial State**: The Queen of Hearts is clearly visible on the rightmost card.\n2. **Shuffling Process**: The video shows a series of movements where the cards are rearranged, overlapping, and repositioned. The Queen of Hearts is part of the deck but becomes face down during the shuffle.\n3. **Final State**: By the end of the video, all three cards are face down in a row (left, middle, right). Since the Queen of Hearts was one of the cards in the deck, it must be one of the three face-down cards. However, the problem implies a specific answer based on the shuffling dynamics.\n\nIn typical card trick scenarios, the Queen of Hearts is often positioned in the middle after shuffling. Given the options and the nature of the animation (where the cards are rearranged in a way that the Queen of Hearts ends up in the middle), the correct answer is **B**.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_008.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "The Queen of Hearts is initially on the left. Through the shuffling process, it is moved to the middle position by the end of the video. \n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_009.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "To determine the position of the Queen of Hearts at the end of the video, we analyze the sequence of card movements:\n\n1. **Initial Setup**: The Queen of Hearts is face-up on the right (position C).\n2. **Shuffling Process**: The cards undergo a series of movements where they are rearranged, overlapping, and shifted. During this process, the Queen of Hearts is hidden under other cards as the shuffling occurs.\n3. **Final Frame**: At the end of the video (11.8 seconds), all three cards are face-down in a horizontal row. The Queen of Hearts, which was initially the face-up card, is now one of the three face-down cards.\n\nBy tracking the movement and the final arrangement, the Queen of Hearts ends up in the **middle** position of the row of three cards.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_010.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "To determine the position of the Queen of Hearts at the end of the video, we analyze the sequence of card movements:\n\n1. **Initial Setup**: The Queen of Hearts is clearly visible on the **right** side of the screen.\n2. **Shuffling Process**: The video depicts a series of card movements where all three cards are shuffled. During this process, the positions of the cards change dynamically as they are moved and rearranged.\n3. **Final Frame**: In the last frame (at 11.8 seconds), all three cards are face down and arranged in a horizontal row: **left**, **middle**, and **right**.\n\nGiven that the Queen of Hearts was initially on the right and the video shows a typical \"three-card monte\" style shuffle (where the target card often ends up in the middle after repeated shuffling), it is reasonable to conclude that the Queen of Hearts is now in the **middle** position.\n\nThus, the correct answer is:\n\n$$\n\\boxed{B}\n$$"
+  },
+  {
+    "video": "card_011.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "To determine the position of the Queen of Hearts at the end of the video, we analyze the sequence of events:\n\n1. **Initial Setup**: The Queen of Hearts is in the middle position, flanked by two face-down cards.\n2. **Shuffling Process**: The cards undergo a series of movements, including overlapping, shifting, and rearranging. Despite these dynamic changes, the Queen of Hearts is part of the deck and follows the shuffle.\n3. **Final State**: At the end of the video, all three cards are face-down and aligned in a horizontal row. Given the nature of the shuffle (a standard card trick or animation), the Queen of Hearts is typically returned to the middle position after the shuffle.\n\nThus, the Queen of Hearts is located in the middle position at the end of the video.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_012.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "The video begins with the Queen of Hearts visible in the middle position. As the animation progresses, the cards are shuffled and rearranged. By the final frame (11.8 seconds), the three cards are aligned in a row from left to right, all face down. Given the nature of the card trick and the visual sequence, the Queen of Hearts, which was initially in the middle, is revealed to be in the **middle position** at the end of the video.\n\n$$\n\\boxed{B}\n$$"
+  },
+  {
+    "video": "card_013.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "To determine where the Queen of Hearts is at the end of the video, we analyze the sequence:\n\n1. **Initial State**: The Queen of Hearts is clearly in the **middle** position (as shown in the first frame).\n2. **Shuffling Process**: The video depicts a series of card movements where all cards are face down, and their positions shift dynamically. However, the key observation is that the Queen of Hearts (originally the middle card) is part of the three-card sequence throughout the animation.\n3. **Final Frame**: In the last frame (11.8 seconds), the three cards are arranged in a straight row, face down. Given the nature of the shuffling (a common card trick setup), the Queen of Hearts returns to the **middle** position after the shuffle.\n\nThus, the Queen of Hearts is in the middle at the end of the video.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_014.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "To determine the position of the Queen of Hearts at the end of the video, we analyze the sequence of card movements:\n\n1. **Initial State**: The Queen of Hearts is the rightmost card (visible face-up).\n2. **Shuffling Process**: The cards undergo a series of face-down shuffles, where the Queen of Hearts is moved among the three positions (left, middle, right).\n3. **Final State**: At the end of the video (frame 11.8 seconds), all three cards are face-down in a horizontal row. The Queen of Hearts, which was initially the rightmost card, is now in the **middle** position due to the shuffling process.\n\nThus, the Queen of Hearts is in the middle position at the end of the video.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_015.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "To determine the position of the Queen of Hearts at the end of the video, we analyze the sequence of events:\n\n1. **Initial Setup**: The Queen of Hearts is clearly shown in the **middle** of the three cards.\n2. **Card Movement**: The video depicts a series of shuffling movements where all cards are face down and rearranged. However, the key observation is that the Queen of Hearts is the target card in this classic card trick.\n3. **Final Frame**: At the end of the video (11.8 seconds), the three cards are once again aligned in a row with all cards face down. In such tricks, the Queen of Hearts typically remains in the **middle** after the shuffling process, as the trick is designed to return it to the central position.\n\nThus, the Queen of Hearts is positioned in the middle at the end of the video.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_016.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "At the start of the video, the Queen of Hearts is positioned on the right. As the cards shuffle, the Queen of Hearts is moved around. By the end of the video, all three cards are face down, but the question asks where the Queen of Hearts is located. Given the typical structure of such card tricks and the sequence of movements, the Queen of Hearts is ultimately found under the middle card.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_017.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "To determine where the Queen of Hearts is at the end of the video, we analyze the sequence:\n\n1. **Initial State**: The Queen of Hearts (Q) is on the **left**, with two face-down red cards on the middle and right.\n2. **Shuffling Process**: The cards undergo a series of movements where they are shuffled and rearranged. The Queen of Hearts is among the three cards, but its position changes during the shuffle.\n3. **Final State**: By the end of the video (11.8 seconds), all three cards are face-down and arranged in a horizontal row. The Queen of Hearts, which was initially on the left, has been moved to the **middle** position through the shuffling process.\n\nThus, the Queen of Hearts is located in the middle at the end of the video.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_018.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "To determine the position of the Queen of Hearts at the end of the video, we analyze the sequence of events:\n\n1. **Initial Setup**: The video begins with the Queen of Hearts face up on the left, and two face-down cards on the right.\n2. **Transformation**: The Queen of Hearts is flipped face down (as all cards become face down during the animation).\n3. **Shuffling**: The cards undergo a series of overlapping movements, typical of a card trick. These movements involve shifting positions while maintaining the face-down state.\n4. **Final State**: The video concludes with three face-down cards arranged in a row (left, middle, right).\n\nGiven the nature of card tricks and the visual sequence, the Queen of Hearts, which started on the left, is typically hidden or moved to the **middle** position during such shuffles. This is a common pattern in card tricks where the target card (here, the Queen of Hearts) is not left in its original position but is instead moved to the center after the shuffle.\n\nThus, the Queen of Hearts is most likely in the **middle** position at the end of the video.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_019.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "To determine the position of the Queen of Hearts at the end of the video, we analyze the sequence:\n\n1. **Initial Setup**: The Queen of Hearts is clearly visible on the rightmost card.\n2. **Shuffling Process**: The Queen of Hearts is flipped over (face down), and all three cards undergo a series of movements and overlaps. During this process, the cards are shuffled and repositioned multiple times.\n3. **Final Position**: At the end of the video (11.8 seconds), all three cards are face down and arranged in a horizontal row. Since the Queen of Hearts was originally the rightmost card and has been shuffled through the sequence, it is now one of the three face-down cards. However, based on the movement patterns in the video, the Queen of Hearts is positioned in the **middle** of the three cards.\n\nThus, the correct answer is:\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_020.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "To determine where the Queen of Hearts is at the end of the video, we analyze the sequence of events:\n\n1. **Initial Setup**: The Queen of Hearts is shown on the rightmost position (position C).\n2. **Shuffling Process**: The cards undergo a series of movements and rearrangements. During this process, the Queen of Hearts is hidden as the cards are shuffled.\n3. **Final State**: At the end of the video (frame 11.8 seconds), all three cards are face down and aligned in a row. The key observation is that the Queen of Hearts is no longer visible, but the question asks for its position among the three face-down cards.\n\nIn a typical card trick like this (three-card monte), the Queen of Hearts is often moved to the **middle** position during the shuffle. Since the video shows the cards being rearranged into a row with all face down, and the question provides options for left, middle, or right, the correct answer aligns with the logical conclusion of the shuffle.\n\nThus, the Queen of Hearts is most likely in the **middle** position at the end.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_021.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "The video depicts a sequence where the Queen of Hearts is initially in the middle position among three cards. As the video progresses, the cards are shuffled, and their positions change dynamically. However, by the end of the video (frame 11.8), the three cards are arranged back in a horizontal row, with the Queen of Hearts remaining in the **middle** position. This conclusion is consistent with the typical structure of such card-shuffling animations, where the target card (Queen of Hearts) is often positioned in the center after the shuffle.\n\n$$\n\\boxed{B}\n$$"
+  },
+  {
+    "video": "card_022.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "$\\boxed{A}$"
+  },
+  {
+    "video": "card_023.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "At the start of the video, the Queen of Hearts is positioned on the left. As the video progresses, the cards undergo a series of shuffles and repositioning. By the end of the video (at 11.8 seconds), the three cards are arranged in a row with all faces down. Through analyzing the movement and typical behavior of such card shuffles, it becomes evident that the Queen of Hearts is now located in the **middle** position.\n\n$$\n\\boxed{B}\n$$"
+  },
+  {
+    "video": "card_024.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "The video begins with the Queen of Hearts face-up on the right. Through a series of card shuffles, the positions of the cards change dynamically. At the end of the video (frame 11.8 seconds), all three cards are face-down in a horizontal row. Given the nature of classic card tricks and the movement shown in the animation, the Queen of Hearts is determined to be in the **middle** position after the shuffle.\n\n$$\n\\boxed{B}\n$$"
+  },
+  {
+    "video": "card_025.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "To determine the position of the Queen of Hearts at the end of the video, we analyze the sequence:\n\n1. **Initial State**: The Queen of Hearts is the rightmost card (face-up).\n2. **Flipping**: The Queen of Hearts is flipped face-down, so it becomes a standard face-down card.\n3. **Shuffling**: The cards are shuffled through various movements (overlapping, repositioning).\n4. **Final State**: All three cards are face-down and aligned in a row (left, middle, right).\n\nSince the Queen of Hearts is the specific card that was initially face-up (rightmost), and the video shows it being shuffled into the final row of three face-down cards, the position of the Queen of Hearts at the end corresponds to the **rightmost** position in the final arrangement (as the shuffle does not displace it from the rightmost spot in the final alignment). \n\nThus, the correct answer is:\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_026.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "To determine the position of the Queen of Hearts at the end of the video, we analyze the sequence:\n\n1. **Initial State**: The Queen of Hearts is clearly visible on the **left** side, with two red-backed cards on the middle and right.\n2. **Transition**: The Queen of Hearts is flipped to a red-backed card (as seen in subsequent frames where the left card changes from the Queen to a red back).\n3. **Final State**: By the end of the video (11.8 seconds), all three cards are red-backed and aligned in a row. The leftmost card corresponds to the position where the Queen of Hearts was initially.\n\nSince the Queen of Hearts was originally on the left and was flipped to a red back card, it remains in the **left** position at the end of the video.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_027.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "At the beginning of the video, the Queen of Hearts is positioned on the right. As the video progresses, the cards undergo a series of shuffling movements. The animation depicts a classic card trick where the Queen of Hearts is gradually moved through the positions. By the final frame (11.8 seconds), all three cards are face down and arranged in a straight line. However, the sequence of movements ensures that the Queen of Hearts ends up in the **middle** position after the shuffling process.\n\nThus, the correct answer is:\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_028.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "The video begins with the Queen of Hearts visible on the right. As the sequence progresses, the Queen is flipped over and becomes a face-down card. During the shuffling process, the cards are rearranged multiple times. By the end of the video (frame 11.8), all three cards are face-down in a horizontal row. The question asks for the position of the Queen of Hearts at the end, and based on the shuffling dynamics and the visual arrangement, the Queen is determined to be in the middle position after the shuffling.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_029.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "To determine the position of the Queen of Hearts at the end of the video, we analyze the sequence:  \n\n1. **Initial State**: The Queen of Hearts is on the left, with two face - down cards on the right.  \n2. **Transition**: The Queen of Hearts is replaced by a face - down card (the left card becomes face - down).  \n3. **Final State**: All three cards are face - down and arranged in a row. The card that was originally the Queen of Hearts (now face - down) occupies the leftmost position.  \n\n\nThus, the Queen of Hearts (in terms of its original position) is at the left.  \n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_030.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "$\\boxed{C}$"
+  },
+  {
+    "video": "card_031.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "The video begins with the Queen of Hearts visible on the left, while the other two cards are face-down. As the animation progresses, the Queen of Hearts is covered and shuffled among the three cards. By the end of the video (frame 11.8 seconds), all three cards are face-down in a row. Through the sequence of movements, the Queen of Hearts is repositioned to the **middle** of the three cards. This is a common outcome in such card tricks where the initial card is moved to the center during shuffling.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_032.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "$\\boxed{B}$"
+  },
+  {
+    "video": "card_033.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "At the beginning of the video, the Queen of Hearts is positioned on the left. As the video progresses, the cards are shuffled through a series of movements, including overlapping and repositioning. By the end of the video, all three cards are face down in a row. However, the Queen of Hearts, which was initially the leftmost card, has been shuffled back into the left position after the sequence of movements. This is confirmed by observing that the final arrangement matches the initial layout in terms of the Queen's position relative to the other cards.\n\nThus, the Queen of Hearts is located on the left at the end of the video.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_034.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "The video begins with the Queen of Hearts visible on the left side, while the other two cards are face down. As the sequence progresses, the Queen of Hearts is replaced by a face-down card (indicated by the transition from the Queen to a red-backed card in the left position). By the end of the video, all three cards are face down, but the original position of the Queen of Hearts was the **left** side.\n\nSince the question asks where the Queen of Hearts is at the end, and it is no longer visible (replaced by a face-down card), the only logical reference point is its initial location. Therefore, the answer corresponds to the **left** position.\n\n$$\n\\boxed{A}\n$$"
+  },
+  {
+    "video": "card_035.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "$\\boxed{B}$"
+  },
+  {
+    "video": "card_036.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "The video begins with three cards: two face-down (red backs) and one face-up Queen of Hearts on the right. As the video progresses, the Queen of Hearts is turned face-down, and the cards undergo a series of shuffling movements. By the end of the video (frame 11.8 seconds), all three cards are face-down and arranged in a row from left to right.\n\nTo determine the final position of the Queen of Hearts, we analyze the shuffling process. Initially, the Queen of Hearts was on the right (position 3). During the shuffle, the cards are moved around, and the Queen of Hearts (now face-down) is repositioned. The animation shows a sequence where the Queen of Hearts is moved to the middle position through the shuffling steps.\n\nThus, at the end of the video, the Queen of Hearts is located in the middle.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_037.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "To determine where the Queen of Hearts is at the end of the video, we analyze the sequence:\n\n1. **Initial Setup (0.0 seconds)**:  \n   - The Queen of Hearts is clearly visible in the middle position.\n\n2. **Card Flipping and Shuffling**:  \n   - The Queen is flipped face down (around 1.0 seconds), making all three cards face down.  \n   - The cards are then shuffled through a series of movements, where they are moved around, overlapping, and rearranged. This is typical of a card trick sequence where the Queen is hidden among the three cards.\n\n3. **Final Frame (11.8 seconds)**:  \n   - The three cards are aligned horizontally in a row (left, middle, right), all face down.  \n   - Despite the shuffling, the structure of the video implies that the Queen of Hearts is revealed to be in the middle position at the end of the trick, which is a common design in such card tricks.\n\nGiven the structure of the video and the nature of card tricks (where the Queen often returns to the middle position), the Queen of Hearts is positioned in the middle at the end.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_038.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "The video begins with the Queen of Hearts (QH) on the rightmost card. As the sequence progresses, the QH is flipped face-down and the cards are shuffled. By the end of the video, the QH is no longer visible as a face-up card, but the question asks for its position among the three face-down cards. Through the sequence of movements, the QH is ultimately positioned in the **middle** of the three face-down cards.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_039.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "To determine the position of the Queen of Hearts at the end of the video, we analyze the sequence:  \n\n1. **Initial Setup**: The Queen of Hearts is the rightmost card.  \n2. **Shuffling Process**: The cards are shuffled through a series of movements, but the Queen of Hearts remains one of the three face-down cards.  \n3. **Final Frame**: The video concludes with three face-down cards arranged in a horizontal row. Through the shuffling, the Queen of Hearts (originally the rightmost card) is positioned in the **middle** of the row.  \n\n\nThus, the answer is $\\boxed{B}$."
+  },
+  {
+    "video": "card_040.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "To determine the position of the Queen of Hearts at the end of the video, we analyze the sequence:\n\n1. **Initial State (0.0 seconds):**  \n   - Left card: Face down  \n   - Middle card: Face down  \n   - Right card: Queen of Hearts (Q♥)  \n\n2. **Shuffling Process:**  \n   The video shows the Queen of Hearts being hidden (replaced by a face-down card) and the three cards being shuffled through various movements. By the end of the video, all three cards are face down and arranged in a straight row from left to right.\n\n3. **Final State (11.8 seconds):**  \n   - The three cards are aligned in a row (left, middle, right), all face down.  \n   - Given the nature of the shuffling process (a common card trick where the Queen is typically hidden in the middle after such movements), the Queen of Hearts is now in the **middle** position.\n\nThus, the correct answer is:  \n$\\boxed{B}$"
+  },
+  {
+    "video": "card_041.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "$\\boxed{B}$"
+  },
+  {
+    "video": "card_042.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "$\\boxed{B}$"
+  },
+  {
+    "video": "card_043.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "To determine where the Queen of Hearts is at the end of the video, we analyze the sequence:\n\n1. **Initial Setup**: The Queen of Hearts is on the **right** (position C).\n2. **Card Movement**: The video shows the cards shuffling and rearranging through overlapping movements. The Queen of Hearts is initially visible but is then covered by other cards.\n3. **Final Frame**: The video ends with three face-down cards arranged in a row (left, middle, right). Since the Queen of Hearts was initially on the right and the shuffling process likely moves it to the middle position during the animation, the Queen of Hearts is no longer visible but is implied to have been repositioned to the **middle** due to the movement patterns.\n\nThus, the Queen of Hearts is at the **middle** position at the end of the video.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_044.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "To determine where the Queen of Hearts is at the end of the video, we analyze the sequence:\n\n1. **Initial State**: The Queen of Hearts is clearly visible on the **left** side, with two face-down cards on the right.\n2. **Transition**: In the next frames, the Queen of Hearts is replaced by a face-down card, meaning it is now **hidden under the left card**.\n3. **Shuffling**: The cards undergo a series of movements and shuffles. However, the key observation is that the Queen of Hearts was originally on the left and remains part of the deck throughout the video. \n4. **Final State**: At the end of the video, all three cards are face down in a horizontal row. Since the Queen of Hearts was initially on the left and is still part of the deck, it logically remains in the **left position** (as the cards are shuffled but no specific movement displaces it from the left side in a way that would place it elsewhere).\n\nThus, the Queen of Hearts is positioned on the **left** at the end of the video.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_045.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "At the beginning of the video, the Queen of Hearts is clearly visible on the rightmost card. As the animation progresses, the cards shuffle and overlap, eventually covering the Queen of Hearts. By the end of the video (frame 11.8), all three cards are face down and arranged in a horizontal row. The Queen of Hearts, having been hidden during the shuffling process, is now one of these face-down cards.\n\nGiven the sequence of movements and the final arrangement of the cards, the Queen of Hearts is no longer on the right side but has been shifted to the **middle** position through the shuffling process. This conclusion aligns with the visual flow of the animation, where the Queen of Hearts transitions from the right to the middle as the cards interleave.\n\n$$\n\\boxed{B}\n$$"
+  },
+  {
+    "video": "card_046.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "The Queen of Hearts is initially visible on the left side of the screen. However, by the end of the video, the Queen of Hearts is no longer visible as it has been replaced by a face-down card. During the sequence, the cards shuffle and reposition multiple times. By the final frame (11.8 seconds), the three face-down cards are aligned horizontally. Since the Queen of Hearts was the first card (left) and has been replaced, the correct position for the Queen of Hearts at the end is the **middle** card due to the shuffling process.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_047.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "$\\boxed{A}$"
+  },
+  {
+    "video": "card_048.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "$\\boxed{B}$"
+  },
+  {
+    "video": "card_049.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "$\\boxed{B}$"
+  },
+  {
+    "video": "card_050.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3-vl-30b-a3b-thinking",
+    "response": "The video begins with the Queen of Hearts visible in the middle position. As the sequence progresses, the cards are shuffled, with all cards remaining face down during the shuffling process. At the end of the video, the three cards are aligned in a row from left to right, and the Queen of Hearts, which was initially in the middle, is revealed to be in the middle position after the shuffle (a common outcome in such card tricks where the target card is manipulated to end up in the center).\n\n$\\boxed{B}$"
+  }
+]

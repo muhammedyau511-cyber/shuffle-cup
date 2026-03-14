@@ -1,0 +1,652 @@
+[
+  {
+    "video": "card_001.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The Queen of Hearts starts in the middle position. At roughly 00:01, it flips face down. Following the movement of this specific card:\n- It moves from the middle to the top-middle, then to the top-right, and settles into the **right** position around 00:03.\n- It remains in the right position (sometimes shifting slightly to top-right but returning) through much of the video (until roughly 00:08).\n- Around 00:08, it moves from right to top-right, then to top-middle, then to the middle (around 00:09).\n- From the middle, it moves to top-middle, then top-right.\n- Finally, around 00:11, it moves from the top-right position to the **right** position, where it stays until the end of the video.\n\nThus, the Queen of Hearts is in the right position at the end.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_002.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The video shows a shell game with three cards.\n1.  **Start:** The Queen of Hearts is the card on the **Right**.\n2.  **Flip:** The Queen of Hearts flips face down.\n3.  **Shuffle:**\n    *   The Right card (Queen) moves Up/Left towards the center.\n    *   Around 00:05, the cards form a diagonal line (Top-Left, Center, Bottom-Right). The Queen is in the **Center**.\n    *   The cards rotate/oscillate, but the Center card (Queen) remains in the Center until about 00:08.\n    *   At 00:09, the Center card moves to the Bottom-Left position.\n    *   At 00:10, the Bottom-Left card moves to the Top-Right position.\n    *   At 00:11, the Top-Right card moves to the Top-Middle position.\n    *   At 00:12, the Top-Middle card moves down to the **Middle** position.\n\nTherefore, the Queen of Hearts ends up in the middle.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_003.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The video shows a card trick simulation.\n1.  **Start:** The Queen of Hearts is visible face-up on the **right** side.\n2.  **Flip:** The Queen of Hearts flips face-down, joining the other two face-down cards.\n3.  **Shuffle:** The cards move around. While the two cards on the left and middle shuffle positions frequently, the card on the right (which was the Queen) mostly stays on the right side of the screen, moving slightly up and down but maintaining its relative right-most position compared to the others.\n4.  **End:** The cards align in a row again. Based on the tracking, the card that ends up on the **right** is the one that started there.\n\nTherefore, the Queen of Hearts is on the right.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_004.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The Queen of Hearts starts in the left position. At 00:01, it flips face down. Throughout the video, the cards shuffle positions. By tracking the movement of the card that started on the left:\n- It moves to the bottom position during the vertical alignment phases.\n- It moves to the right position during the scattered phase.\n- It moves to the top-right, then top, then top-left.\n- Finally, as the cards align horizontally again at the end, the card from the top-left position moves to the left position.\n\nThus, the Queen of Hearts ends up on the left.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_005.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The video shows a card trick involving three cards.\n1.  **Start:** The cards are laid out horizontally. The left and middle cards are face down. The right card is the **Queen of Hearts**, face up.\n2.  **Flip:** The Queen of Hearts is flipped face down. Now all three cards are face down.\n3.  **Shuffle:** The cards move around.\n    *   They form a diagonal line from bottom-left to top-right. The Queen (originally right) is at the top-right.\n    *   They rotate/shift to a diagonal line from top-left to bottom-right. The card at top-right moves to bottom-right. So the Queen is now at the bottom-right.\n    *   The cards shift again. The bottom-right card moves to the rightmost position. The Queen is now on the right.\n    *   The cards move around some more, but the card on the right generally stays on the right side or moves to the top-right/bottom-right positions relative to the group.\n    *   Towards the end (around 00:09), the cards align horizontally again. The card on the right is the one that was tracked.\n    *   Then they form a diagonal line again (bottom-left, center, top-right). The right card moves to the top-right position.\n    *   Finally, they align horizontally again (Left, Middle, Right). The card at the top-right moves to the **Right** position.\n\nSince the Queen of Hearts started on the right and the movements effectively cycled the cards back to their original positions (or kept the right-most card on the right side), the Queen of Hearts ends up in the right position.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_006.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The video shows a shell game with three cards.\n1.  **Start:** The Queen of Hearts is in the **Middle**.\n2.  **Flip:** The Queen is flipped face down. Now all cards are face down.\n3.  **Shuffle 1 (approx 1s-4s):** The cards move around but return to their original positions (Left, Middle, Right) by frame 3.6. The Queen is still in the Middle.\n4.  **Shuffle 2 (approx 4s-6s):** The cards move into a diagonal/vertical arrangement and then return to a row at 5.6. The order appears preserved (Left, Middle, Right).\n5.  **Shuffle 3 (approx 6s-12s):**\n    *   At 6.6s, the Middle card (Queen) moves to the **Bottom-Middle** position, and the Right card moves to the **Top-Right** position. (Relative horizontal order is preserved: Queen is left of Right card).\n    *   From 6.6s to 8.6s, these two cards swap horizontal positions back and forth (wiggle).\n        *   7.6s: Top card moves Left (Top-Middle), Bottom card moves Right (Bottom-Right).\n        *   8.6s: Top card moves Right (Top-Right), Bottom card moves Left (Bottom-Middle).\n    *   At 9.6s, they align into a row. The Top card (Original Right) settles on the **Right**. The Bottom card (Original Queen) settles in the **Middle**.\n    *   From 10.6s to 11.6s, they wiggle vertically (Middle moves Down, Right moves Up) and then align again.\n    *   The Bottom/Middle card (Queen) settles in the **Middle**.\n    *   The Top/Right card settles on the **Right**.\n\nTherefore, the Queen of Hearts ends up in the Middle.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_007.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The video shows a Three Card Monte style animation.\n1.  **Start:** The Queen of Hearts is the card on the **Right**.\n2.  **Flip:** At roughly 00:01, the Queen of Hearts flips face down. Now all three cards are face down, but the Queen is still in the **Right** position.\n3.  **Movement:** The cards then undergo a series of positional changes (wiggling, forming diagonals, forming vertical pairs).\n    *   Around 00:08, they form a diagonal line from Top-Left to Bottom-Right. The card originally on the Right (Queen) is at the Bottom-Right.\n    *   Around 00:09, they form a diagonal line from Bottom-Left to Top-Right. The card originally on the Right (Queen) is at the Top-Right.\n    *   Around 00:10, they form a configuration with one card on the Left and two cards vertically aligned in the Middle/Right area. The card originally on the Right (Queen) is the top one of the pair.\n    *   Finally, at 00:11 and onwards to the end (11.8s), the cards return to a horizontal row. The card that was on the Right throughout the animation (swaying but maintaining its relative order) settles back into the **Right** position.\n\nThe cards do not appear to swap places in a way that changes their left-middle-right sequence; they merely dance in formation. Thus, the Queen of Hearts remains in the rightmost position.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_008.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The video begins with the Queen of Hearts visible in the leftmost position. At approximately the 1-second mark, this card flips over to face down. Throughout the rest of the video, the three face-down cards wiggle and move slightly but do not appear to swap positions with one another; the left card remains on the left, the middle in the middle, and the right on the right. Therefore, the Queen of Hearts remains in the left position.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_009.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The video begins with three cards. The card on the right is the Queen of Hearts, while the other two are face down. At the 00:01 mark, the Queen of Hearts flips over to be face down like the others. Throughout the rest of the video, the three cards shuffle slightly, moving up and down, but they largely maintain their horizontal positions (left, middle, right) without swapping lanes significantly. The card that started on the right remains on the right side of the screen during the entire sequence. Since the cards are never revealed again, we track the original position. The Queen of Hearts started on the right and stayed in the right position.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_010.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The video shows a \"Three Card Monte\" style shuffle.\n1.  **Start:** The Queen of Hearts is the **Right** card (face up).\n2.  **Flip:** The Queen flips face down. It is still the **Right** card.\n3.  **Shuffle:**\n    *   The cards move into a diagonal formation (\\), then (/).\n    *   In the diagonal (/) formation (around 00:07), the cards are Bottom-Left, Center, Top-Right. Based on previous movements, the Queen (originally Right) has moved to the **Top-Right** position.\n    *   Next (00:08), the Bottom-Left card moves to Left. The Top-Right card (Queen) stays Top-Right. The Center card moves to Bottom-Right.\n    *   Then (00:09), the Top-Right card (Queen) moves Left to **Top-Center**. The Bottom-Right card stays put.\n    *   Finally (00:11), the cards align into a row. The Left card stays Left. The Top-Center card (Queen) moves down to the **Middle**. The Bottom-Right card moves up/left to the Right (or stays Right). Wait, if Bottom-Right moves to Right, and Top-Center moves to Middle...\n    *   Let's re-verify the final alignment.\n    *   00:09: Left, Top-Center, Bottom-Right.\n    *   00:11: Left, Middle, Right.\n    *   Top-Center aligns with Middle. Bottom-Right aligns with Right.\n    *   So the card at Top-Center becomes the Middle card.\n    *   Since the Queen was at Top-Center, the Queen is in the **Middle**.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_011.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The video begins with the Queen of Hearts in the middle position. At roughly the 1-second mark, the Queen of Hearts flips face down. Throughout the rest of the video, the three cards move around in a shuffling motion. However, observing the sequence of movements, particularly towards the end (00:09 onwards), the cards return to a horizontal row formation that mirrors the starting arrangement. In the final seconds (00:10-00:11), the cards transition from a row to a diagonal and back to a row, maintaining their relative left-middle-right order during this final settling phase. Since the card configuration at the end (00:11) aligns with the starting positions (Left, Middle, Right) and there is no clear, sustained swap of positions that would displace the middle card permanently, the Queen of Hearts remains in the middle position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_012.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The video begins with three cards: two face-down cards on the left and right, and a face-up Queen of Hearts in the middle.\nAt roughly the 1-second mark, the Queen of Hearts flips over to become face-down.\nThroughout the rest of the video, the three cards move around in various formations (diagonal lines, vertical stacks, etc.). However, observing the relative positions, the card that started in the middle consistently maintains the central position in the formations (e.g., the middle card of the diagonal, the middle card of the vertical stack). The cards do not appear to swap places in a way that changes their relative order (Left, Middle, Right).\nTherefore, the card that was the Queen of Hearts remains in the middle position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_013.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The video begins with three cards: a face-down card on the left, the **Queen of Hearts** face-up in the **middle**, and a face-down card on the right.\nAround the 1-second mark, the Queen of Hearts flips over to face down. Now all three cards are face-down and indistinguishable from the back.\nFollowing this, the three cards undergo a series of movements. They tilt and rotate as a group (forming diagonal lines and vertical stacks), but they maintain their relative order. The card in the center acts as a pivot point for the rotation. In a rigid rotation of three items in a line, the item in the center remains in the center, while the outer items swap positions relative to the screen (e.g., left becomes right after a 180-degree turn).\nSince the Queen of Hearts was in the middle position when the movement started, and the middle position is preserved throughout the group's rotation/shuffling, the Queen of Hearts remains in the middle card at the end of the video.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_014.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The video starts with three cards: two face-down on the left and middle, and the Queen of Hearts face-up on the right.\nAround 00:01, the Queen of Hearts flips face-down.\nThroughout the video, the three cards move around.\n- At 00:05, the cards are arranged with the rightmost card highest up.\n- At 00:06, they form a vertical stack in the center. Based on the previous frame, the card that was on the right (the Queen) is likely at the top of this stack.\n- At 00:07, they spread out diagonally from bottom-left to top-right. The top card of the stack moves to the top-right position. So the Queen is at the top-right.\n- At 00:08, the diagonal flips to top-left to bottom-right. The top-right card moves to the bottom-right position. So the Queen is at the bottom-right.\n- At 00:09, the cards rearrange. The bottom-right card moves to the top-right position. So the Queen is at the top-right.\n- At 00:10, the top-right card moves down to the right position. So the Queen is on the right.\n- At 00:11, the cards settle into a row. The card on the right stays on the right.\n\nThus, the Queen of Hearts ends up in the rightmost position.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_015.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The video begins with the Queen of Hearts in the middle position. At approximately the 2-second mark, the Queen of Hearts flips face down. Throughout the subsequent shuffling sequence (from 00:03 to 00:11), while the cards move into various diagonal and vertical arrangements, there is consistently a card occupying the central position around which the others seem to pivot or swap. In the final frame (00:11), the cards return to a horizontal row. Given that the Queen started in the middle, flipped in the middle, and the shuffling appears to maintain a central card (likely the original middle card in a simple pivot shuffle), the Queen of Hearts is in the middle position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_016.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The video shows a card trick, specifically a variation of the three-card monte.\n1.  **Start:** The video begins with three cards. The card on the **right** is face up, revealing the Queen of Hearts. The other two are face down.\n2.  **Flip:** Around the 1-second mark, the Queen of Hearts flips face down. Now all three cards are face down, but the Queen is still in the **right** position.\n3.  **Shuffle:** The cards then begin to move. Observing the movement closely throughout the video (e.g., at 00:02, 00:05, 00:07, etc.), the cards primarily move up and down within their approximate columns.\n    *   The left card stays on the left side.\n    *   The middle card stays in the center area (moving up and down).\n    *   The right card stays on the right side (moving up and down).\n    *   Although there is some diagonal movement (e.g., bottom-right to top-right), the cards do not appear to swap columns (left doesn't go to right, middle doesn't go to left, etc.). The card originally on the right remains on the right side of the screen throughout the shuffling sequence.\n4.  **End:** At the end of the video, the cards settle back into a row. Since the Queen of Hearts started on the right and stayed in the right-hand position during the shuffle, it is the card on the right.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_017.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The video shows a shell game with three cards.\n1.  **Start:** The Queen of Hearts is the leftmost card, face up. The other two cards are face down.\n2.  **Flip:** The Queen of Hearts flips over to face down.\n3.  **Shuffle:**\n    *   The left card (Queen) moves down.\n    *   The middle card moves up and to the left.\n    *   They effectively swap positions horizontally. The card that was in the middle moves to the left spot. The card that was on the left (Queen) moves to the middle spot.\n    *   Throughout the rest of the video, the cards jiggle, but the primary swap has occurred. The card on the right largely stays on the right. The card that is now on the left (originally middle) and the card in the middle (originally left/Queen) move up and down but maintain their left/middle relative ordering mostly.\n    *   Specifically, looking at the final alignment at 00:11, the cards are in a row. Based on the trajectory:\n        *   The original Middle card is now on the Left.\n        *   The original Left card (Queen of Hearts) is now in the Middle.\n        *   The original Right card is still on the Right.\n\nTherefore, the Queen of Hearts is in the middle position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_018.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The video shows a Queen of Hearts card initially placed on the left. At the 00:01 mark, it flips face down. Following this, the three cards undergo a series of rotations and movements. By tracking the position of the cards through the continuous rotation (clockwise), we can determine the final position.\n\nThe cards perform a spinning animation where they rotate 180 degrees in each cycle, effectively swapping the left and right cards while the middle card stays in the middle (rotating in place).\n- Start (0s): Queen is Left.\n- Cycle 1 ends (~3s): Queen is Right.\n- Cycle 2 ends (~5s): Queen is Left.\n- Cycle 3 ends (~7s): Queen is Right.\n- Cycle 4 ends (~9s): Queen is Left.\n- Cycle 5 ends (~10s): Queen is Right.\n- Cycle 6 ends (~11s): Queen is Left.\n- Cycle 7 ends (~11.8s): Queen is Right.\n\nThe video ends at 11.8 seconds with the cards in a horizontal row. Based on the pattern of movement (an odd number of 180-degree swaps), the card that started on the left (the Queen of Hearts) ends up on the right.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_019.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The video shows a card trick involving three cards.\n1.  **Start:** The Queen of Hearts is face-up on the **Right**. The other two cards are face-down on the Left and Middle.\n2.  **00:01:** The Queen of Hearts flips face-down. Now all three cards are face-down.\n3.  **00:02 - 00:06:** The cards undergo a shuffling animation.\n    *   They move from a horizontal row to a diagonal (top-left to bottom-right), then to a vertical column, then to a diagonal (bottom-left to top-right), and finally back to a horizontal row.\n    *   Tracing the positions: The card originally on the **Right** (the Queen) moves to the bottom-right, then bottom, then bottom-left, and finally to the **Left** position. The card originally on the Left moves to the Right. The Middle card stays in the Middle.\n    *   So, at 00:06, the Queen of Hearts is on the **Left**.\n4.  **00:06 - 00:12:** The cards undergo a second shuffling animation.\n    *   Looking at the frames (e.g., frame at 00:06 showing a diagonal rising from left to right), this sequence appears to be the reverse of the first sequence (Horizontal -> Diagonal / -> Vertical -> Diagonal \\ -> Horizontal).\n    *   Tracing the Queen (currently on the Left):\n        *   Horizontal to Diagonal /: Left card moves to Bottom-Left.\n        *   Diagonal / to Vertical: Bottom-Left card moves to Bottom.\n        *   Vertical to Diagonal \\: Bottom card moves to Bottom-Right.\n        *   Diagonal \\ to Horizontal: Bottom-Right card moves to **Right**.\n5.  **End:** The cards settle back into their original positions. The card that started on the Right (the Queen) has returned to the **Right**.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_020.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The video shows a shell game with three cards.\n1.  **Start:** The Queen of Hearts is the rightmost card.\n2.  **Flip:** The Queen of Hearts flips face down.\n3.  **Shuffle:** The cards undergo a series of position changes.\n    *   Based on a consistent tracking of the rightmost card (the Queen) through the geometric transformations (Horizontal -> Diagonal -> Vertical -> Split -> Horizontal), the card starting at the Right position tends to return to the Right position after each full cycle of movements.\n    *   Specifically, in the final phase of the video (from roughly 09.8 seconds onwards), the card on the right remains isolated while the other two cards (left and middle) shuffle around each other. The right card settles back into the rightmost position at the end.\n    *   Assuming the tracking holds that the Queen returned to the right position after the main shuffling sequences, it remains there.\n\nTherefore, the Queen of Hearts is on the right at the end of the video.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_021.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The video shows a shell game with three cards.\n1.  **Start:** The Queen of Hearts is in the **Middle**. The Left and Right cards are face down.\n2.  **Flip:** The Queen of Hearts flips face down. Now all three are face down.\n3.  **Shuffle:**\n    *   The Middle card (Queen) moves **Up**.\n    *   The Left card moves **Down-Left**.\n    *   Now we have a Top card (Queen) and a Bottom-Left card (Left Card).\n    *   The Top card (Queen) moves **Left** (to Top-Left).\n    *   The Bottom-Left card (Left Card) moves **Right** (to Bottom-Center).\n    *   The cards then shuffle back and forth horizontally as a pair (Top and Bottom). The Top card remains the Top card, and the Bottom card remains the Bottom card. There is no clear vertical swap where the Top card goes below the Bottom card.\n    *   Towards the end (around 00:09-00:10), the Top card (Queen) is at the Top-Left position. The Bottom card (Left Card) is at the Bottom-Center position.\n    *   Finally, the cards align horizontally.\n        *   The Top-Left card (Queen) moves down to the **Left** position.\n        *   The Bottom-Center card (Left Card) moves up to the **Middle** position.\n        *   The Right card (which stayed mostly on the right) settles in the **Right** position.\n\nTherefore, the Queen of Hearts ends up on the Left.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_022.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The Queen of Hearts starts on the left. At 00:01, it flips face down. Throughout the shuffling process, we can track its position:\n- It starts at the **Left**.\n- Moves to the top-left of the diagonal formation (00:02).\n- Moves to the top of the vertical column (00:03).\n- Stays at the top-left position through several shuffles (00:04-00:06).\n- Moves to the top of the vertical column again (00:07).\n- Moves to the top-right of the rising diagonal (00:08).\n- Stays in the top-right position (00:09).\n- Moves to the **Right** position (00:10).\n- Finally settles in the **Right** position in the final row (00:11).\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_023.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The Queen of Hearts starts in the left position. At 00:01, it flips face down. Throughout the first few seconds of shuffling (until about 00:05), the card in the left position remains the leftmost card, simply jittering in place.\n\nLet's trace the card that starts on the left (the Queen):\n1.  **00:00 - 00:05:** The Queen is the leftmost card.\n2.  **00:05 - 00:06:** The leftmost card moves to the top-left position.\n3.  **00:06 - 00:07:** The top-left card moves to the top-middle position.\n4.  **00:07 - 00:08:** The top-middle card moves to the center position (forming a diagonal line /).\n5.  **00:08 - 00:09:** The center card stays in the center (vertical stack, then diagonal \\).\n6.  **00:09:** The center card becomes the middle card in the row. So, at the end of 00:09, the Queen is in the **Middle**.\n7.  **00:10 (first part):** The middle card moves to the bottom-middle position. So Queen is **Bottom-Middle**.\n8.  **00:10 (second part):** The bottom-middle card moves to the bottom-left position. So Queen is **Bottom-Left**.\n9.  **00:11 (End):** The cards align into a row. The card at the bottom-left moves to the **Left** position. The card at the top-middle (which was the original left card that moved around) moves to the Middle.\n\nWait, let me re-re-trace carefully around 00:09-00:11.\n- End of 00:09: Row is [Card C, Queen, Card B]. (Based on previous trace: C was Left->TopL->TopM->Center->TopL->Left. Wait.\n    - Let's restart the trace from 00:08 vertical stack.\n    - Stack: Top (Card C), Center (Queen), Bottom (Card B).\n    - 00:09 Diag \\: Top-Left (Card C), Center (Queen), Bottom-Right (Card B).\n    - 00:09 Row: Left (Card C), Middle (Queen), Right (Card B). **Queen is Middle.**\n    - 00:10 Setup 1: Top-Left (Card C), Bottom-Middle (Queen), Right (Card B). **Queen is Bottom-Middle.**\n    - 00:10 Setup 2: Top-Middle (Card C), Bottom-Left (Queen), Right (Card B). **Queen is Bottom-Left.**\n    - 00:11 Final Row: The cards settle.\n        - Top-Middle (Card C) settles to **Middle**.\n        - Bottom-Left (Queen) settles to **Left**.\n        - Right (Card B) settles to **Right**.\n\nSo the Queen ends up on the **Left**.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_024.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The video begins with the Queen of Hearts visible as the rightmost card. At the 00:01 mark, it flips face down. Throughout the rest of the video, the three face-down cards move around in a shuffling motion. However, observing their horizontal positions, the card on the left stays on the left, the card in the middle stays in the middle, and the card on the right (the former Queen of Hearts) stays on the right side. They jiggle up and down and diagonally, but they do not appear to swap horizontal positions with each other. Finally, at 00:12, they align horizontally again in their original positions. Thus, the Queen of Hearts remains the rightmost card.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_025.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The video starts with the Queen of Hearts visible as the rightmost card. At roughly the 1-second mark, it flips face down. Throughout the subsequent shuffling animation, the card on the right side generally stays in the right position, moving slightly up and down but never swapping places with the other two cards which shuffle around on the left side. For example, from timestamp 00:06 to the end, there are clearly two cards shuffling on the left and one stationary card on the right. Thus, the Queen of Hearts remains in the rightmost position.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_026.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The video shows a Queen of Hearts card initially positioned on the left. It flips face down, joining two other face-down cards. The three cards then undergo a series of positional changes that resemble a rotating formation.\n\n1.  **Start:** Queen is Left (Card 1).\n2.  **Rotation 1 (Diagonal /):** Card 1 moves to Bottom-Left.\n3.  **Rotation 2 (Vertical):** Card 1 moves to Bottom.\n4.  **Rotation 3 (Diagonal \\):** Card 1 moves to Bottom-Right.\n5.  **Rotation 4 (Horizontal):** Card 1 moves to Right. (End of first cycle around 00:07).\n6.  **Rotation 5 (Diagonal /):** Card 1 moves to Top-Right.\n7.  **Rotation 6 (Vertical):** Card 1 moves to Top.\n8.  **Rotation 7 (Diagonal \\):** Card 1 moves to Top-Left.\n9.  **Rotation 8 (Horizontal):** Card 1 moves to Left. (End of second cycle around 00:11).\n\nSince the pattern completes two full 180-degree rotations (or four 45-degree steps per half-rotation, totaling 360 degrees effectively for the slot positions if we consider the swap, but actually the cards rotate 360 degrees around the center), the card that started on the Left returns to the Left position. Specifically, the assembly rotates counter-clockwise. After a full 360-degree rotation of the formation, the cards return to their original relative positions.\n\nThus, the Queen of Hearts is on the left.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_027.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The video shows a shell game with three cards.\n1.  **Start:** The Queen of Hearts is the card on the **Right**.\n2.  **00:01:** The Queen of Hearts flips face down. It is now the face-down card on the Right.\n3.  **00:02 - 00:07:** The cards shuffle, but the configuration remains generally \"two cards on the left, one card on the right\". The Queen of Hearts remains the single card on the **Right**.\n4.  **00:08:** The configuration flips. The two cards on the left move to the right, and the single card on the right (the Queen of Hearts) moves to the **Left**. Now there is one card on the left and two on the right.\n5.  **00:09:** The cards align horizontally. The single card on the left becomes the **Left** card. So the Queen of Hearts is now in the **Left** position.\n6.  **00:10:** The Left and Middle cards move to form a vertical pair on the left. The Queen of Hearts (Left card) moves to the top-left position. The Right card stays on the right.\n7.  **00:11:** The vertical pair on the left aligns back to Left and Middle. The top-left card (Queen of Hearts) moves back to the **Left** position.\n8.  **00:12:** The cards remain in the Left, Middle, Right positions. The Queen of Hearts is the **Left** card.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_028.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The Queen of Hearts starts on the right.\n1.  It flips face down (still on the right).\n2.  It moves to the top right.\n3.  It moves to the bottom right.\n4.  It moves back to the top right.\n5.  It moves to the top center.\n6.  The cards align, and the top center card becomes the middle card. So the Queen is in the middle.\n7.  The middle card moves to the top center, then to the bottom left.\n8.  It moves to the bottom center.\n9.  It moves back to the bottom left.\n10. The cards align. The bottom left card becomes the left card.\n\nSo the Queen of Hearts ends up on the left.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_029.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The video begins with the Queen of Hearts face up in the **left** position. At the 00:01 mark, it flips face down. Throughout the rest of the video, the three cards shuffle and move around. However, by tracking the movements, the card that started on the left (the Queen) generally stays in the left-most position or moves in a way that preserves its order relative to the other cards (e.g., moving to the top-left or bottom-left but returning to the left). It does not appear to swap places with the middle or right cards in a way that would change its final position to the middle or right. In the final frame, the cards are aligned horizontally, and the card corresponding to the original left position is on the left.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_030.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The Queen of Hearts starts at the **Right** position.\n1.  It flips face down at 1.1s, remaining at the **Right**.\n2.  The cards shuffle in a circular pattern (Right $\\rightarrow$ Bottom-Right $\\rightarrow$ Bottom $\\rightarrow$ Bottom-Left $\\rightarrow$ Left $\\rightarrow$ Top-Left $\\rightarrow$ Top $\\rightarrow$ Top-Right $\\rightarrow$ Right).\n3.  By 5.1s, the pattern completes a full circle, and the Queen of Hearts is back at the **Right**.\n4.  The pattern continues. By 7.1s, the card has moved to the **Left** position (Right $\\rightarrow$ Bottom-Right $\\rightarrow$ Bottom $\\rightarrow$ Bottom-Left $\\rightarrow$ Left).\n5.  From 7.1s to 9.1s, the card generally stays in the **Left** area (moving slightly to Bottom-Left and back).\n6.  At 9.3s, the cards form a diagonal line, moving the Left card to the **Top-Left**.\n7.  At 11.1s, the cards return to a horizontal row. The Top-Left card moves to the **Left** position.\n8.  The video ends with the cards in a horizontal row, so the Queen of Hearts is at the **Left**.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_031.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The video shows a card trick (Three-Card Monte).\n1.  **Start:** The Queen of Hearts is the leftmost card.\n2.  **Flip:** The Queen of Hearts is flipped face down. It remains the leftmost card initially.\n3.  **Shuffle:** The cards move around.\n    *   The left card (Queen) moves up and to the left.\n    *   The middle card moves down.\n    *   The right card stays relatively put or moves slightly.\n    *   They form a vertical column: Top (Queen), Middle (original Right), Bottom (original Middle).\n    *   They form a diagonal (\\): Top-Left (Queen), Center (original Right), Bottom-Right (original Middle).\n    *   They form a diagonal (/): Top-Right (Queen), Center (original Right), Bottom-Left (original Middle).\n    *   They form a horizontal row: Left (original Middle), Center (original Right), Right (Queen).\n    *   Further movements keep the Queen on the right side (moving to bottom-right, then back to right).\n4.  **End:** The cards settle in a row. Based on the tracking, the card that started as the Queen of Hearts (Left) ends up in the **Right** position.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_032.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The Queen of Hearts starts in the left position. At roughly the 1-second mark, it flips face-down. Throughout the rest of the video, the three cards move up and down and arrange themselves in different patterns (diagonal, etc.), but they maintain their relative horizontal ordering. The card on the left stays on the left, the middle stays in the middle, and the right stays on the right. They do not swap positions horizontally. Therefore, the Queen of Hearts remains in the left position.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_033.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The Queen of Hearts starts in the left position. At the 00:01 mark, it flips face down. Throughout the subsequent shuffling animations (00:02 - 00:11), while the cards move and change formation (sometimes forming a diagonal or vertical alignment), the card that started on the left generally maintains its position on the left side relative to the others, or the sequence preserves the original order (Left, Middle, Right) as they shift formations. In the final frame (00:11), the cards are returned to a horizontal row. Given the movement patterns where the left-most card often stays distinct or returns to the left-most position, the Queen of Hearts is in the left position.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_034.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The video shows a shell game with three cards.\n1.  **Start (00:00):** The Queen of Hearts is the leftmost card.\n2.  **Flip (00:01):** The Queen of Hearts flips face down. It is now the leftmost face-down card.\n3.  **Shuffle:** The cards move around. By tracking the position of the card that started on the left:\n    *   Around 00:03, the cards align in a row. The card that was originally on the left (Queen) appears to have moved to the **Right** position (based on the sequence of movements: Left -> Top-Left -> Top -> Top-Right -> Right).\n    *   Around 00:07, the cards align in a row again. The sequence from 00:03 to 00:07 effectively swaps the left and right cards while keeping the middle card relatively stable (or cycling them back). The card originally on the left (Queen) returns to the **Left** position.\n    *   From 00:07 to 00:11, the same sequence of movements repeats (Row -> Scatter -> Row -> Diagonal -> Vertical -> Diagonal -> Row).\n    *   In the sequence from 00:05 to 00:07 (which matches 00:09 to 00:11), the left and right cards swap positions.\n    *   At 00:07, the Queen is on the Left.\n    *   At 00:09, after the scatter, the Queen (left card) remains on the Left side as the cards reform the row.\n    *   From 00:09 to 00:11, the \"swap\" maneuver occurs. The card on the Left (Queen) moves to the **Right**.\n\nTherefore, at the end of the video, the Queen of Hearts is in the rightmost position.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_035.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The video shows a shell game with three cards.\n1.  **Start:** The Queen of Hearts is in the **Middle** position (face up).\n2.  **Flip:** The Queen of Hearts flips face down. It remains in the middle area, shifting slightly down.\n3.  **Shuffle:**\n    *   The cards move into a diagonal formation (Top-Left, Center, Bottom-Right) and back.\n    *   Tracking the card that started in the Middle (the Queen):\n        *   It moves from Center to Bottom-Left (around 0:04).\n        *   Then to Center (around 0:06).\n        *   Then to Top-Middle (around 0:08).\n        *   Then back to Center (around 0:10).\n        *   Finally, the cards align horizontally. The card in the Center position moves to the **Middle** position.\n\nTherefore, the Queen of Hearts ends up in the Middle.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_036.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The video begins with the Queen of Hearts visible as the rightmost card. At approximately the 1-second mark, this card flips over to show its red back, joining the other two face-down cards. Throughout the subsequent shuffling (from roughly 1.6 seconds to 11.8 seconds), the card on the right frequently remains stationary or acts as an anchor while the other two cards (left and middle) move around it in various patterns (vertical stacks, diagonals, etc.). Even during the moments where all three cards move, they tend to maintain their relative left-middle-right ordering or return to it. Given that the Queen of Hearts started on the right and the rightmost position appears to be the stable position for that specific card throughout the shuffle, the Queen of Hearts is located on the right at the end of the video.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_037.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The video begins with the Queen of Hearts in the middle position. At the 00:01 mark, it flips face down. Throughout the rest of the video, the three cards move together in various formations (diagonal, vertical, horizontal), but they maintain their relative positions to one another; they do not swap places in a \"shell game\" manner where they cross over each other. The card that started in the middle remains in the middle of the formation for the entire duration.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_038.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The video begins with the Queen of Hearts visible as the rightmost card. At the 00:01 mark, this card flips over to show its red back, joining the other two face-down cards. Throughout the rest of the video, the two cards on the left and in the middle shuffle and move around each other, while the card on the right remains stationary in its position on the right side of the screen. Since the Queen of Hearts was the card on the right and it never swapped positions with the other cards, it remains on the right at the end of the video.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_039.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The Queen of Hearts starts on the right side. At the beginning of the video, it is face up. Shortly after, it flips face down. Throughout the rest of the video, while the left and middle cards shift positions slightly relative to each other, the card on the right remains in the right position. Therefore, the Queen of Hearts is on the right at the end of the video.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_040.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The video begins with the Queen of Hearts visible in the **Right** position. At approximately the 1-second mark, the card flips over to face down. Throughout the rest of the video, the three cards move slightly, bobbing up and down and shifting positions. However, observing the movement patterns, the card in the **Right** position (the former Queen of Hearts) generally stays on the right side of the screen, while the Left and Middle cards interchange positions more actively on the left side. By the end of the video, the cards return to a row, and the card in the Right position corresponds to the original location of the Queen of Hearts.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_041.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The Queen of Hearts starts in the middle position.\n1.  **First Shuffle (approx 1.6s - 3.3s):** The left and middle cards swap positions. The Queen of Hearts moves to the **Left**.\n2.  **Second Shuffle (approx 3.8s - 5.3s):** The left and middle cards swap positions again. The Queen of Hearts moves back to the **Middle**.\n3.  **Third Shuffle (approx 5.8s - 7.3s):** The middle and right cards swap positions. The Queen of Hearts moves to the **Right**.\n4.  **Fourth Shuffle (approx 7.8s - 9.3s):** The left and middle cards swap positions. The Queen of Hearts stays on the **Right** (since it wasn't involved in the swap).\n5.  **Fifth Shuffle (approx 9.8s - 11.3s):** The middle and right cards swap positions. The Queen of Hearts moves from the Right to the **Middle**.\n\nAt the end of the video, the Queen of Hearts is in the middle position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_042.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The video shows a card trick, specifically a variation of the three-card monte.\n1.  **Start:** The Queen of Hearts is revealed in the **middle** position.\n2.  **Flip:** The Queen of Hearts is flipped face-down, so all three cards look identical (red backs).\n3.  **Movement:** The three cards move around. They shift into diagonal lines and change vertical positions, but if you observe their horizontal positioning carefully, they generally maintain their left-middle-right order. The card in the middle stays centrally located between the other two throughout the shuffling sequence. There are no clear swaps where the left card crosses over to the right side or vice-versa in a way that disrupts the order.\n4.  **End:** The cards return to a horizontal line. Since the middle card remained in the central position relative to the others, the Queen of Hearts is in the middle.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_043.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The video shows a card trick involving three cards.\n1.  **Start (00:00 - 00:01):** The card on the **right** is revealed to be the Queen of Hearts. It then flips face down.\n2.  **Middle (00:02 - 00:11):** The three cards undergo a shuffling motion. By observing the pattern of movement, the cards appear to rotate as a group in a counter-clockwise direction.\n    *   Around 00:04, they form a vertical line.\n    *   Around 00:06, they form a horizontal line again (upside down relative to start, effectively swapping left and right positions temporarily if it were a 180 flip, but the motion continues).\n    *   Around 00:10, they form a diagonal line.\n3.  **End (00:12):** The cards return to their original horizontal arrangement. Since the motion appears to be a full 360-degree rotation (or a cycle that returns to the starting configuration), the cards return to their original positions. The card that started on the right (the Queen of Hearts) ends up on the right.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_044.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The video begins with the Queen of Hearts face up in the leftmost position. At approximately the 1-second mark, the card flips over to face down. Throughout the rest of the video, the three cards move slightly up and down (a \"dancing\" or \"jiggling\" motion), but they do not appear to swap horizontal positions with each other in a significant way that would change their order. They largely stay in their respective left, middle, and right columns. Since the Queen of Hearts started on the left and the cards maintain their relative horizontal ordering, the Queen of Hearts remains in the left position at the end of the video.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_045.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The Queen of Hearts starts on the right. It flips face down.\nThrough the first sequence of movements (00:02-00:05), the cards move in a synchronized pattern (Row -> Diagonal -> Vertical -> Diagonal -> Row) that preserves their relative order (Left, Middle, Right). So the Queen remains in the Right position.\nIn the middle section (00:06-00:09), the cards jiggle but essentially return to their positions: Left card stays Left, Middle card stays Middle, Right card (Queen) stays Right.\nIn the final sequence (00:10-00:12), the cards undergo a transformation:\n1.  Row [Left, Middle, Right/Queen] becomes Diagonal / [Bottom-Left, Center, Top-Right]. Here, Left->Bottom-Left, Right/Queen->Top-Right.\n2.  Diagonal / becomes Vertical Column [Top, Middle, Bottom]. Here, Top-Right (Queen)->Top, Bottom-Left->Bottom. So the column is [Queen, Middle, Left].\n3.  Vertical Column becomes Diagonal \\ [Top-Left, Center, Bottom-Right]. Here, Top (Queen)->Top-Left, Bottom (Left)->Bottom-Right. So diagonal is [Queen, Middle, Left].\n4.  Diagonal \\ becomes Diagonal / [Bottom-Left, Center, Top-Right]. Here, Top-Left (Queen)->Bottom-Left, Bottom-Right (Left)->Top-Right. So diagonal is [Queen, Middle, Left].\n5.  Diagonal / becomes Row [Left, Middle, Right]. Here, Bottom-Left (Queen)->Left, Top-Right (Left)->Right.\nSo the final row is [Queen, Middle, Left_Card].\nThe Queen of Hearts is on the Left.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_046.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The Queen of Hearts is initially visible as the leftmost card. At the 00:01 mark, it flips face down. Throughout the rest of the video, the three cards move in various formations (diagonal, vertical, split groups), but they generally maintain their relative positions or return to the original horizontal alignment at the end. Since the card started on the left and there is no complex shuffling that clearly swaps the left card to another position (the movements appear to be synchronized or maintaining relative order), the Queen of Hearts remains the leftmost card.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_047.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The Queen of Hearts starts in the left position. At the beginning of the video, it flips face-down. Throughout the rest of the video, while the middle and right cards shuffle and swap positions with each other, the leftmost card (the Queen) remains in the left position, occasionally shifting slightly but ultimately returning to the left spot in the final lineup.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_048.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The video shows a card trick (Three-card Monte).\n1.  **Start:** The Queen of Hearts is in the **middle** position. The other two cards are face down.\n2.  **Flip:** The Queen of Hearts is flipped face down. Now all three cards look identical.\n3.  **Shuffle:** The cards move around.\n    *   Around 00:02, the left and middle cards move to the left side (top-left and bottom-left), then return to their original horizontal positions (left and middle). The middle card (Queen) returns to the middle.\n    *   Around 00:06, the middle and right cards move (middle goes up, right goes down), then return/settle. The middle card stays in the central area.\n    *   Around 00:08, the left and middle cards move to the left side again, then return to horizontal. The card that was in the middle returns to the middle.\n    *   From 00:10 to 00:12, the cards form a diagonal line and then snap back to a horizontal row. Throughout this, the card in the central position of the formation remains the one that settles into the middle spot.\n4.  **End:** The cards settle in a row: Left, Middle, Right. Based on the movement tracking, the card that started as the Queen of Hearts (middle) remained in the middle position throughout the shuffles (or returned to it after every minor displacement).\n\nTherefore, the Queen of Hearts is the middle card.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_049.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The Queen of Hearts starts in the middle position. At the beginning of the video (00:00-00:01), it is the only face-up card located in the center. It then flips face-down. Throughout the subsequent shuffling animations, the card that originated in the middle position (the Queen) generally maintains a central role in the formations or returns to the center slot.\n\nTracing the movements:\n-   At 00:08, the middle card moves to the top-left position.\n-   At 00:09, the cards realign into a row, and the top-left card moves back to the middle position.\n-   At 00:10, the middle card moves to the top-right position.\n-   At 00:11, the cards realign into a final row. The card in the top-right position moves into the middle slot.\n\nTherefore, the Queen of Hearts ends up in the middle position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_050.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "qwen3.5-397b-a17b",
+    "response": "The Queen of Hearts starts in the middle position. At 00:01, it flips face down.\nTracking the card:\n-   From 00:01 to 00:03, the middle card (Queen) moves up and then to the top-left position.\n-   From 00:03 to 00:05, it moves down to the left position.\n-   From 00:05 to 00:08, it stays on the left side, moving slightly up to the top-left corner.\n-   From 00:08 to 00:09, the diagonal arrangement flips vertically. The top-left card (Queen) moves to the bottom-left position.\n-   From 00:09 to 00:10, the bottom-left card moves to the left position.\n-   From 00:10 to 00:12, the card remains in the left position as the other two cards arrange themselves in the center and right.\n\nThus, the Queen of Hearts ends up in the left position.\n\n$\\boxed{A}$"
+  }
+]

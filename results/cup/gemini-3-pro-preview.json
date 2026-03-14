@@ -1,0 +1,652 @@
+[
+  {
+    "video": "cup_001.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "gemini-3-pro-preview",
+    "response": "To determine which cup contains the ball at the end of the video, we can track the position of the cup with the ball through each swap:\n\n1.  **Initial Position (00:00 - 00:01):** The video starts by lifting the **Left** cup, revealing the red ball underneath. The cup is then placed back down.\n    *   **Ball Position:** Left\n\n2.  **First Swap (00:02 - 00:03):** The cup in the Left position swaps with the cup in the Middle position.\n    *   The ball moves from Left $\\rightarrow$ **Middle**.\n\n3.  **Second Swap (00:03 - 00:05):** The cup in the Middle position swaps with the cup in the Right position.\n    *   The ball moves from Middle $\\rightarrow$ **Right**.\n\n4.  **Third Swap (00:05 - 00:07):** The cup in the Right position swaps with the cup in the Left position (a long swap across the table).\n    *   The ball moves from Right $\\rightarrow$ **Left**.\n\n5.  **Fourth Swap (00:07 - 00:09):** The cup in the Left position swaps with the cup in the Middle position.\n    *   The ball moves from Left $\\rightarrow$ **Middle**.\n\n6.  **Fifth Swap (00:09 - 00:11):** The cup in the Middle position swaps with the cup in the Right position.\n    *   The ball moves from Middle $\\rightarrow$ **Right**.\n\nAt the end of the video, the cup containing the ball is in the **Right** position.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_002.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-3-pro-preview",
+    "response": "Based on the analysis of the video frames:\n\n1.  **Initial State (00:00 - 00:01):** The ball is revealed to be under the **Left** cup.\n2.  **First Move (00:01 - 00:02):** The Left cup (containing the ball) moves to the back-middle position, swapping with the Middle cup which moves to the front-left position. The Right cup shifts slightly but remains on the right.\n    *   **Current Ball Position:** **Middle** (back-center cup).\n3.  **Second Move (00:04 - 00:05):** The cups shift from a V-formation to a diagonal line. The Middle cup (containing the ball, currently in the back) slides to the left to become the top-left cup of the diagonal. The Left cup (currently in the front) slides back and to the right to become the center cup of the diagonal.\n    *   **Current Ball Position:** **Left** (back-left cup of the diagonal).\n4.  **Third Move (00:06 - 00:07):** The cups shift from the diagonal line back to the V-formation, effectively reversing the geometry of the previous move. The top-left cup (containing the ball) slides back to the back-middle position. The center cup slides forward to the front-left position.\n    *   **Current Ball Position:** **Middle** (back-center cup).\n5.  **Final State (00:08 - 00:11):** The cups remain in the V-formation. The ball is in the cup located in the back-middle position.\n\nTherefore, the cup containing the ball at the end of the video is the **Middle** cup.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_003.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-3-pro-preview",
+    "response": "The video shows a \"shell game\" with three white cups and a red ball. Here is the step-by-step tracking of the ball:\n\n1.  **Start (00:00 - 00:01):** The ball is revealed to be under the **Right** cup. The cup is then placed down, covering the ball.\n    *   Current position of ball: **Right**.\n\n2.  **First Move (00:01 - 00:02):** The Right cup (containing the ball) swaps places with the Middle cup.\n    *   The Right cup moves to the Middle.\n    *   The Middle cup moves to the Right.\n    *   Current position of ball: **Middle**.\n\n3.  **Second Move (00:03 - 00:05):** The Middle cup (containing the ball) swaps places with the Left cup.\n    *   The Middle cup moves to the Left.\n    *   The Left cup moves to the Middle.\n    *   Current position of ball: **Left**.\n\n4.  **Third Move (00:06 - 00:08):** The cups perform a clockwise rotation (if viewed from above).\n    *   The Left cup (containing the ball) moves to the **Middle** position.\n    *   The Middle cup moves to the Right position.\n    *   The Right cup moves to the Left position.\n    *   Current position of ball: **Middle**.\n\n5.  **Fourth Move (00:09 - 00:11):** The cups perform a shift.\n    *   The Middle cup (containing the ball) moves to the **Left** position (specifically, the bottom-left in the final diagonal arrangement).\n    *   The Left cup moves to the Right position.\n    *   The Right cup moves to the Middle position.\n    *   Current position of ball: **Left**.\n\nAt the end of the video, the cup containing the ball is the one on the left.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_004.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-3-pro-preview",
+    "response": "To determine which cup contains the ball, let's track the ball's position step-by-step through the video:\n\n1.  **Initial State (00:00 - 00:01):**\n    The red ball is initially shown next to the **Right** cup. The Right cup is lifted, the ball is placed underneath it, and the cup is set back down.\n    *   **Current Position:** Right Cup.\n\n2.  **First Move (00:01 - 00:03):**\n    The cups begin to shuffle. The Right cup (containing the ball) moves forward and to the left, ending up in the **bottom-center** position of a triangle formation. The Middle cup moves to the right, and the Left cup stays on the left side.\n    *   **Current Position:** Bottom-Center Cup.\n\n3.  **Second Move (00:03 - 00:05):**\n    From the triangle formation, the cups move into a diagonal line. The Bottom-Center cup (containing the ball) moves to the left and down, becoming the **bottom-left** cup in the line.\n    *   **Current Position:** Bottom-Left Cup (Leftmost cup).\n\n4.  **Third Move (00:06 - 00:08):**\n    The cups shuffle back into a triangle formation. The Bottom-Left cup (containing the ball) slides to the right to take the **bottom-center** position again.\n    *   **Current Position:** Bottom-Center Cup.\n\n5.  **Fourth Move (00:09 - 00:11):**\n    For the final move, the cups arrange themselves into a diagonal line extending from top-left to bottom-right.\n    *   The Bottom-Center cup (containing the ball) moves upward into the **Middle** position of the line.\n    *   The top-right cup moves to the top-left position.\n    *   The top-left cup moves to the bottom-right position.\n    *   **Final Position:** Middle Cup.\n\nAt the end of the video, the cups are arranged in a diagonal line, and the ball is in the cup located in the middle of the screen.\n\nTherefore, the correct option is **Middle**.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_005.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-3-pro-preview",
+    "response": "Based on the visual evidence in the video frames, we can track the position of the ball step-by-step:\n\n1.  **Start (00:00 - 00:01):** The red ball is placed under the **Right** cup.\n    *   State: `[Empty, Empty, Ball]`\n\n2.  **Move 1 (00:02 - 00:04):** The Middle cup and the Right cup (containing the ball) swap positions.\n    *   The ball moves from Right to Middle.\n    *   State: `[Empty, Ball, Empty]`\n\n3.  **Move 2 (00:04 - 00:06):** The Left cup and the Middle cup (containing the ball) swap positions.\n    *   The ball moves from Middle to Left.\n    *   State: `[Ball, Empty, Empty]`\n\n4.  **Move 3 (00:06 - 00:08):** The Middle cup and the Right cup swap positions. The Left cup (containing the ball) does not move.\n    *   The ball remains in the Left cup.\n    *   State: `[Ball, Empty, Empty]`\n\n5.  **Move 4 (00:08 - 00:10):** The Left cup (containing the ball) and the Middle cup swap positions.\n    *   The ball moves from Left to Middle.\n    *   State: `[Empty, Ball, Empty]`\n\n6.  **Move 5 (00:10 - 00:11):** The Middle cup (containing the ball) and the Right cup swap positions.\n    *   The ball moves from Middle to Right.\n    *   State: `[Empty, Empty, Ball]`\n\nAt the end of the video, the ball is under the **Right** cup.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_006.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-3-pro-preview",
+    "response": "To determine which cup contains the ball, we track the ball's position step-by-step through the video:\n\n1.  **Initial State (00:00 - 00:01):**\n    The video begins with three cups in a line: Left (L), Middle (M), and Right (R). The ball is shown to be under the **Right** cup.\n\n2.  **Triangle Formation (00:01 - 00:02):**\n    The cups rearrange into a triangle. The Right cup (containing the ball) moves to the back-center position.\n    *   **Ball Position:** Back (Top) cup.\n\n3.  **Rotation Phase (00:02 - 00:07):**\n    The cups rotate in a counter-clockwise direction (Back $\\rightarrow$ Front-Left $\\rightarrow$ Front-Right $\\rightarrow$ Back). This phase lasts for approximately 5 seconds, corresponding to 5 distinct moves:\n    *   **Move 1 (00:03):** Back cup moves to Front-Left. (Ball is now at **Front-Left**).\n    *   **Move 2 (00:04):** Front-Left cup moves to Front-Right. (Ball is now at **Front-Right**).\n    *   **Move 3 (00:05):** Front-Right cup moves to Back. (Ball is now at **Back**).\n    *   **Move 4 (00:06):** Back cup moves to Front-Left. (Ball is now at **Front-Left**).\n    *   **Move 5 (00:07):** Front-Left cup moves to Front-Right. (Ball is now at **Front-Right**).\n\n4.  **Line Reformation (00:07 - 00:08):**\n    The cups move back into a horizontal line. The Back cup moves to the Middle, the Front-Left to the Left, and the Front-Right to the Right.\n    *   Since the ball was in the Front-Right cup, it ends up in the **Right** cup of the line.\n    *   **Ball Position:** Right cup.\n\n5.  **Final Swap (00:08 - 00:10):**\n    The Middle and Right cups swap positions. The Left cup stays stationary.\n    *   The ball starts in the Right cup.\n    *   The Right cup moves to the Middle position.\n    *   **Ball Position:** Middle cup.\n\n6.  **End of Video (00:10 - 00:12):**\n    No further movements occur.\n\nTherefore, the ball is in the middle cup.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_007.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-3-pro-preview",
+    "response": "To find the location of the ball, let's track the position of the cup containing the ball through each step of the video.\n\n1.  **Start (00:00 - 00:01):** The ball is shown to be under the **Left** cup.\n2.  **First Swap (00:02 - 00:03):** The cup on the Left (containing the ball) swaps places with the cup in the Middle.\n    *   **Ball Position:** Middle.\n3.  **Second Swap (00:04 - 00:05):** The cup in the Middle (containing the ball) swaps places with the cup on the Right.\n    *   **Ball Position:** Right.\n4.  **Third Swap (00:06 - 00:07):** The cup on the Right (containing the ball) swaps places with the cup in the Middle.\n    *   **Ball Position:** Middle.\n5.  **Fourth Swap (00:08 - 00:09):** The cup in the Middle (containing the ball) swaps places with the cup on the Left.\n    *   **Ball Position:** Left.\n6.  **Fifth Swap (00:10 - 00:11):** The cup on the Left (containing the ball) swaps places with the cup in the Middle.\n    *   **Ball Position:** Middle.\n\nAt the end of the video, the ball is under the cup in the middle position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_008.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-3-pro-preview",
+    "response": "To determine which cup contains the ball at the end of the video, let's track the position of the ball step-by-step through the movements:\n\n1.  **Start (00:00 - 00:02):** The video begins with three cups. The cup on the far **Right** is lifted to reveal a red ball. The cup is then placed back down. So, the ball starts in the **Right** cup.\n\n2.  **First Movement (00:02 - 00:03):** The cups undergo a cyclic shift.\n    *   The **Right** cup (containing the ball) moves to the **Middle** position.\n    *   The Middle cup moves to the Left.\n    *   The Left cup moves to the Right.\n    *   **Current Ball Position:** **Middle**.\n\n3.  **Second Movement (00:03 - 00:05):** The Middle and Right cups swap positions.\n    *   The **Middle** cup (containing the ball) moves to the **Right**.\n    *   The Right cup moves to the Middle.\n    *   **Current Ball Position:** **Right**.\n\n4.  **Third Movement (00:05 - 00:07):** Another cyclic shift occurs.\n    *   The **Right** cup (containing the ball) slides all the way to the **Left** position.\n    *   The Middle cup moves to the Right.\n    *   The Left cup moves to the Middle.\n    *   **Current Ball Position:** **Left**.\n\n5.  **Fourth Movement (00:07 - 00:09):** The Left and Middle cups swap.\n    *   The **Left** cup (containing the ball) moves to the **Middle**.\n    *   The Middle cup moves to the Left.\n    *   **Current Ball Position:** **Middle**.\n\n6.  **Fifth Movement (00:09 - 00:11):** The Middle and Left cups swap again.\n    *   The **Middle** cup (containing the ball) moves to the **Left**.\n    *   The Left cup moves to the Middle.\n    *   **Current Ball Position:** **Left**.\n\nAt the end of the video, the cup containing the ball is in the **Left** position.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_009.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-3-pro-preview",
+    "response": "To determine which cup contains the ball at the end of the video, let's track the position of the ball through each swap step-by-step:\n\n1.  **Start (00:00 - 00:01):** The ball is revealed to be under the **Left** cup. The cup is placed back down.\n    *   Current Ball Position: **Left**\n\n2.  **First Swap (00:02 - 00:03):** The cup on the Left (containing the ball) swaps places with the cup in the Middle.\n    *   Current Ball Position: **Middle**\n\n3.  **Second Swap (00:04 - 00:05):** The cup in the Middle (containing the ball) swaps places with the cup on the Right.\n    *   Current Ball Position: **Right**\n\n4.  **Third Swap (00:06 - 00:07):** The cup on the Left swaps places with the cup in the Middle. Since the ball is in the Right cup, it is not involved in this swap.\n    *   Current Ball Position: **Right**\n\n5.  **Fourth Swap (00:08 - 00:09):** The cup in the Middle swaps places with the cup on the Right (containing the ball).\n    *   Current Ball Position: **Middle**\n\n6.  **Fifth Swap (00:10 - 00:11):** The cup on the Left swaps places with the cup in the Middle (containing the ball).\n    *   Current Ball Position: **Left**\n\nAt the end of the video, the ball is under the cup on the left side.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_010.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-3-pro-preview",
+    "response": "To find the location of the ball at the end of the video, let's track the position of the ball through each step of the shuffling process.\n\n1.  **Start (00:00 - 00:01):** The video begins with the ball revealed under the **Left** cup. The cup is then lowered, hiding the ball.\n    *   **Current Position:** Left\n\n2.  **Move 1 (approx. 00:02):** The cup at the Left position swaps with the cup at the Middle position. Since the ball is in the Left cup, it moves with the cup.\n    *   **Swap:** Left $\\leftrightarrow$ Middle\n    *   **Current Position:** Middle\n\n3.  **Move 2 (approx. 00:03):** The cup at the Middle position (containing the ball) swaps with the cup at the Right position.\n    *   **Swap:** Middle $\\leftrightarrow$ Right\n    *   **Current Position:** Right\n\n4.  **Move 3 (approx. 00:05):** The cup at the Left position swaps with the cup at the Middle position. The ball is currently in the Right cup, which is not involved in this swap. Therefore, the ball remains where it is.\n    *   **Swap:** Left $\\leftrightarrow$ Middle\n    *   **Current Position:** Right (No change)\n\n5.  **Move 4 (approx. 00:07):** The cup at the Middle position swaps with the cup at the Right position. The ball is in the Right cup, so it moves to the Middle position.\n    *   **Swap:** Middle $\\leftrightarrow$ Right\n    *   **Current Position:** Middle\n\n6.  **Move 5 (approx. 00:09 - 00:10):** The cup at the Left position swaps with the cup at the Middle position. The ball is in the Middle cup, so it moves to the Left position.\n    *   **Swap:** Left $\\leftrightarrow$ Middle\n    *   **Current Position:** Left\n\nAfter this final move, the cups settle and no further movements occur (00:11 - 00:12). The ball is located in the cup at the Left position.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_011.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-3-pro-preview",
+    "response": "The video shows a shell game with three cups and a red ball. Here is the step-by-step tracking of the ball:\n\n1.  **Start (00:00 - 00:01):** The ball is placed under the **Middle** cup.\n2.  **Move 1 (00:02 - 00:03):** The Middle cup (with the ball) swaps with the Right cup. The ball is now in the **Right** cup.\n3.  **Move 2 (00:04 - 00:05):** The cups rotate positions. The Right cup (with the ball) moves to the Middle position. The ball is now in the **Middle** cup.\n4.  **Move 3 (00:06 - 00:07):** Another rotation occurs. The Middle cup (with the ball) moves to the Left position. The ball is now in the **Left** cup.\n5.  **Move 4 (00:08 - 00:09):** The cups rotate again. The Left cup (with the ball) moves to the Middle position. The ball is now in the **Middle** cup.\n6.  **Move 5 (00:10 - 00:11):** In the final move, the Middle cup (with the ball) moves to the Right position.\n\nAt the end of the video, the cup containing the ball is on the right.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_012.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-3-pro-preview",
+    "response": "To determine which cup contains the ball, let's track the position of the ball step-by-step through each movement in the video:\n\n1.  **Start (00:00 - 00:01):** The ball is revealed to be under the **Right** cup. The cup is placed back down.\n    *   **Ball Position:** Right\n\n2.  **First Swap (00:02 - 00:04):** The cup on the Right (containing the ball) swaps positions with the cup in the Middle.\n    *   **Ball Position:** Middle\n\n3.  **Second Swap (00:04 - 00:06):** The cup in the Middle (containing the ball) swaps positions with the cup on the Left.\n    *   **Ball Position:** Left\n\n4.  **Third Swap (00:06 - 00:08):** The cup on the Left (containing the ball) performs a long swap with the cup on the Right. The Left cup moves all the way to the right position, and the Right cup moves all the way to the left position.\n    *   **Ball Position:** Right\n\n5.  **Fourth Swap (00:08 - 00:10):** The cup on the Right (containing the ball) swaps positions with the cup in the Middle.\n    *   **Ball Position:** Middle\n\n6.  **Fifth Swap (00:10 - 00:11):** The cup in the Middle (containing the ball) swaps positions with the cup on the Left.\n    *   **Ball Position:** Left\n\nAt the end of the video, the cup containing the ball is in the **Left** position.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_013.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-3-pro-preview",
+    "response": "To determine which cup contains the ball at the end of the video, let's track the position of the cup with the ball step-by-step.\n\n1.  **Start (00:00 - 00:01):** The video begins by lifting the **Left** cup, revealing a red ball underneath. The cup is then placed back down. So, the ball starts in the Left position.\n\n2.  **First Swap (00:02 - 00:04):** The cup in the **Left** position (containing the ball) swaps places with the cup in the **Middle** position.\n    *   The ball is now in the **Middle** cup.\n\n3.  **Second Swap (00:04 - 00:06):** The cup currently in the **Middle** position (containing the ball) swaps places with the cup in the **Right** position.\n    *   The ball is now in the **Right** cup.\n\n4.  **Third Swap (00:06 - 00:08):** The cup currently in the **Right** position (containing the ball) swaps places with the cup in the **Middle** position.\n    *   The ball is now back in the **Middle** cup.\n\n5.  **Fourth Swap (00:08 - 00:11):** The cup currently in the **Middle** position (containing the ball) swaps places with the cup in the **Left** position.\n    *   The ball is now in the **Left** cup.\n\nThe movement sequence for the ball is: Left $\\rightarrow$ Middle $\\rightarrow$ Right $\\rightarrow$ Middle $\\rightarrow$ Left.\n\nTherefore, at the end of the video, the ball is in the cup on the left.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_014.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-3-pro-preview",
+    "response": "The video shows a shell game with three white cups and a red ball. Here is the step-by-step tracking of the ball:\n\n1.  **Initial Placement (00:00 - 00:02):** The red ball starts in the center. The cup positioned at the top-middle moves forward to cover the ball. So, the ball starts under the **Top/Middle** cup.\n\n2.  **First Shuffle (00:02 - 00:05):** The cups rearrange from a triangle into a diagonal line. The Top cup (containing the ball) moves down and positions itself between the other two cups. At the end of this move, the ball is in the **Middle** cup of the line.\n\n3.  **Second Shuffle (00:05 - 00:08):** The Middle cup (containing the ball) swaps positions with the cup at the top-left end of the line. After this swap, the ball is in the **Top-Left** cup. The cups then reorient slightly back into a triangular formation, where the Top-Left cup becomes the **Top** cup of the triangle. So, at 00:08, the ball is in the **Top** cup.\n\n4.  **Third Shuffle (00:08 - 00:11):** The Top cup (containing the ball) swaps positions with the cup on the Left. The Top cup moves down to the left, while the Left cup moves up to the center. After this swap is complete, the ball is inside the cup on the **Left**.\n\n5.  **Final Result:** The cups settle into a shallow arc/line. The cup containing the ball is the one on the left side of the screen.\n\nTherefore, the ball is in the Left cup.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_015.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-3-pro-preview",
+    "response": "Based on the visual evidence in the video frames, we can track the position of the ball step-by-step:\n\n1.  **Initial State (00:00 - 00:01):** The video starts with three cups. The cup on the far **Right** is lifted, revealing a red ball. The cup is then placed back down, covering the ball. So, the ball starts in the **Right** cup.\n\n2.  **First Move (00:02 - 00:03):** The cup on the Right (containing the ball) and the cup in the Middle swap positions. The Right cup moves to the middle spot, and the Middle cup moves to the right spot.\n    *   **Ball Position:** Now in the **Middle** cup.\n\n3.  **Second Move (00:06 - 00:08):** The cup in the Middle (containing the ball) swaps positions with the cup on the Left. The Middle cup moves to the left spot, and the Left cup moves to the middle spot.\n    *   **Ball Position:** Now in the **Left** cup.\n\n4.  **Third Move (00:09 - 00:10):** The cup on the Left (containing the ball) swaps positions with the cup in the Middle. The Left cup moves to the middle spot, and the Middle cup moves to the left spot.\n    *   **Ball Position:** Now in the **Middle** cup.\n\nAt the end of the video, the ball is located in the middle cup.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_016.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "gemini-3-pro-preview",
+    "response": "To determine which cup contains the ball at the end of the video, we track the position of the ball through each movement:\n\n1.  **Start (0:00 - 0:01):** The ball is shown to be under the **middle** cup.\n    *   *Current State:* Ball is in the Middle cup.\n\n2.  **First Move (0:02 - 0:04):** The middle cup (containing the ball) moves to the right, while the right cup moves to the middle. The left cup stays stationary.\n    *   The middle and right cups swap positions.\n    *   *Current State:* Ball is in the **Right** cup.\n\n3.  **Second Move (0:05 - 0:07):** The left cup moves to the middle position, and the middle cup moves to the left position. The right cup (containing the ball) does not move.\n    *   The left and middle cups swap positions.\n    *   *Current State:* Ball is still in the **Right** cup.\n\n4.  **Third Move (0:08 - 0:10):** All three cups change positions in a rotating cycle.\n    *   The right cup (containing the ball) moves to the **middle** position.\n    *   The middle cup moves to the left position.\n    *   The left cup moves to the right position.\n    *   *Current State:* Ball moves from Right to **Middle**.\n\n5.  **Final State (0:11 - 0:12):** The cups stop moving. The cup that was on the right in the previous step is now in the middle.\n\nTherefore, the ball is in the middle cup.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_017.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-3-pro-preview",
+    "response": "To determine which cup contains the ball at the end of the video, let's track the position of the ball step-by-step through the movements shown in the frames.\n\n1.  **Start (00:00 - 00:02):** The video begins with three cups. The cup on the **Right** is lifted to reveal a red ball. The cup is then placed back down. So, the ball starts in the **Right** cup.\n    *   **Current Position:** Right\n\n2.  **Move 1 (00:02 - 00:03):** The Right cup (containing the ball) moves to the middle position, swapping places with the Middle cup.\n    *   **Ball Position:** Right $\\rightarrow$ **Middle**\n\n3.  **Move 2 (00:03 - 00:04):** The Middle cup (containing the ball) moves to the left position, swapping with the Left cup.\n    *   **Ball Position:** Middle $\\rightarrow$ **Left**\n\n4.  **Move 3 (00:04 - 00:05):** The Left cup (containing the ball) moves back to the middle position, swapping with the Middle cup.\n    *   **Ball Position:** Left $\\rightarrow$ **Middle**\n\n5.  **Move 4 (00:06 - 00:07):** The Middle cup (containing the ball) moves to the right position, swapping with the Right cup.\n    *   **Ball Position:** Middle $\\rightarrow$ **Right**\n\n6.  **Move 5 (00:08):** The Right cup (containing the ball) moves back to the middle position, swapping with the Middle cup.\n    *   **Ball Position:** Right $\\rightarrow$ **Middle**\n\n7.  **Move 6 (00:09):** The Middle cup (containing the ball) moves to the left position, swapping with the Left cup.\n    *   **Ball Position:** Middle $\\rightarrow$ **Left**\n\n8.  **Move 7 (00:10):** The Left cup (containing the ball) moves back to the middle position, swapping with the Middle cup.\n    *   **Ball Position:** Left $\\rightarrow$ **Middle**\n\n9.  **Move 8 (00:11):** In the final frame, the Middle cup (containing the ball) is shown moving towards the left position, initiating a swap with the Left cup. As the video ends with this move, the final destination of the ball is the Left cup.\n    *   **Ball Position:** Middle $\\rightarrow$ **Left**\n\nTherefore, at the end of the video, the ball is in the cup on the left.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_018.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "gemini-3-pro-preview",
+    "response": "To determine which cup contains the ball at the end of the video, we can track the position of the cup with the ball step-by-step:\n\n1.  **Start (00:00):** The video begins by lifting the **Left** cup to reveal a red ball underneath. The cup is then placed back down. So, the ball starts in the **Left** cup.\n\n2.  **First Swap (approx. 00:01 - 00:02):** The Left cup (with the ball) moves to the middle position, while the Middle cup moves to the left.\n    *   **Result:** The ball is now in the **Middle** cup.\n\n3.  **Second Swap (approx. 00:03 - 00:04):** The Middle cup (with the ball) moves to the right position, while the Right cup moves to the middle.\n    *   **Result:** The ball is now in the **Right** cup.\n\n4.  **Third Swap (approx. 00:05 - 00:06):** The Right cup (with the ball) moves back to the middle position, while the Middle cup moves to the right.\n    *   **Result:** The ball is now in the **Middle** cup.\n\n5.  **Fourth Swap (approx. 00:07 - 00:08):** The Middle cup (with the ball) moves to the left position, while the Left cup moves to the middle.\n    *   **Result:** The ball is now in the **Left** cup.\n\n6.  **Fifth Swap (approx. 00:09 - 00:10):** The Left cup (with the ball) moves back to the middle position, while the Middle cup moves to the left.\n    *   **Result:** The ball is now in the **Middle** cup.\n\nThe cups stop moving after this final swap. Therefore, the ball ends up in the middle cup.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_019.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-3-pro-preview",
+    "response": "To find the location of the ball at the end of the video, let's track the movement of the cups step-by-step.\n\n1.  **Start (00:00 - 00:01):** The video begins with three cups lined up. The cup on the **Right** is lifted to reveal a red ball underneath. The cup is then placed back down. So, the ball starts in the **Right** cup.\n\n2.  **First Move (approx. 00:02 - 00:05):**\n    *   Looking at the frame at **00:02**, the **Right** cup (containing the ball) moves upwards and to the left, heading towards the middle position.\n    *   Simultaneously, the **Middle** cup moves downwards and to the right, heading towards the right position.\n    *   The **Left** cup remains stationary.\n    *   By **00:05**, the cups have settled into their new positions. The cup that started on the Right is now in the Middle.\n    *   **Current Ball Position:** **Middle** cup.\n\n3.  **Second Move (approx. 00:08 - 00:10):**\n    *   Looking at the frame at **00:08**, the **Middle** cup (now containing the ball) moves upwards and to the left, heading towards the left position.\n    *   Simultaneously, the **Left** cup moves downwards and to the right, heading towards the middle position.\n    *   The **Right** cup remains stationary.\n    *   By **00:10**, the cups have settled. The cup that was in the Middle is now on the Left.\n    *   **Current Ball Position:** **Left** cup.\n\n4.  **End (00:11):** The cups are stationary. No further moves occur.\n\n**Conclusion:**\nThe ball started at the Right, moved to the Middle, and finally moved to the Left.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_020.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-3-pro-preview",
+    "response": "To determine which cup contains the ball at the end of the video, let's track the position of the ball step-by-step.\n\n1.  **Initial State (00:00 - 00:01):**\n    The video starts with the red ball placed under the **Middle** cup.\n    *   Current Ball Position: **Middle**\n\n2.  **First Move (00:02 - 00:04):**\n    The cup in the Middle position (containing the ball) swaps with the cup in the Left position.\n    *   Middle cup $\\rightarrow$ Left position.\n    *   Left cup $\\rightarrow$ Middle position.\n    *   Since the ball was in the Middle cup, it moves to the Left.\n    *   Current Ball Position: **Left**\n\n3.  **Second Move (00:04 - 00:06):**\n    The cup in the Middle position (currently empty) swaps with the cup in the Right position (currently empty).\n    *   The cup with the ball (on the Left) does not move.\n    *   Current Ball Position: **Left**\n\n4.  **Third Move (00:06 - 00:08):**\n    The cup in the Left position (containing the ball) swaps with the cup in the Middle position.\n    *   Left cup $\\rightarrow$ Middle position.\n    *   Middle cup $\\rightarrow$ Left position.\n    *   The ball moves with the Left cup to the Middle.\n    *   Current Ball Position: **Middle**\n\n5.  **Fourth Move (00:09 - 00:11):**\n    The cup in the Middle position (containing the ball) swaps with the cup in the Right position.\n    *   Middle cup $\\rightarrow$ Right position.\n    *   Right cup $\\rightarrow$ Middle position.\n    *   The ball moves with the Middle cup to the Right.\n    *   Current Ball Position: **Right**\n\nAt the end of the video, the ball is under the cup on the right.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_021.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-3-pro-preview",
+    "response": "Analysis of the ball's movement:\n\n1.  **Initial State (00:00 - 00:01):** The ball is revealed to be under the **Right** cup. The cups are in a horizontal line: Left, Middle, Right (Ball).\n\n2.  **Move 1 (00:02 - 00:03):** The cups rearrange into a triangle formation.\n    *   The Right cup (containing the ball) moves to the back position (apex of the triangle).\n    *   The other two cups form the base.\n    *   **Current Ball Position:** Back cup.\n\n3.  **Move 2 (00:03 - 00:05):** The cups rotate positions.\n    *   The Back cup (containing the ball) slides forward and to the left.\n    *   It ends up in the front-left position.\n    *   **Current Ball Position:** Front-Left cup.\n\n4.  **Move 3 (00:05 - 00:07):** Another rotation occurs.\n    *   The Front-Left cup (containing the ball) slides horizontally to the right.\n    *   It ends up in the front-right position.\n    *   **Current Ball Position:** Front-Right cup.\n\n5.  **Move 4 (00:07 - 00:09):** The cups rotate again.\n    *   The Front-Right cup (containing the ball) slides horizontally to the left.\n    *   It ends up in the front-left position.\n    *   **Current Ball Position:** Front-Left cup.\n\n6.  **Final Move (00:09 - 00:11):** The cups move back into a horizontal line.\n    *   The Front-Left cup (containing the ball) moves inward to take the center spot in the line.\n    *   The Front-Right cup moves to the left spot.\n    *   The Back cup moves to the right spot.\n    *   **Final Ball Position:** Middle cup.\n\nTherefore, the cup containing the ball at the end of the video is the one in the middle.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_022.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "gemini-3-pro-preview",
+    "response": "Based on the visual evidence in the video frames, we can track the position of the ball step-by-step:\n\n1.  **Start (00:00 - 00:01):** The video begins with three cups. The cup on the **Right** is lifted, revealing a red ball underneath. The cup is then placed back down, covering the ball.\n    *   **Current Ball Position: Right**\n\n2.  **First Swap (00:02 - 00:03):** The cup on the Right (containing the ball) swaps positions with the Middle cup.\n    *   **Current Ball Position: Middle**\n\n3.  **Second Swap (00:04 - 00:05):** The cup in the Middle (containing the ball) swaps positions with the Left cup.\n    *   **Current Ball Position: Left**\n\n4.  **Third Swap (00:06 - 00:07):** The cup on the Left (containing the ball) swaps positions with the Middle cup.\n    *   **Current Ball Position: Middle**\n\n5.  **Fourth Swap (00:08 - 00:09):** The cup in the Middle (containing the ball) swaps positions with the Right cup.\n    *   **Current Ball Position: Right**\n\nAt the end of the video (00:10 - 00:11), the cups stop moving, and the ball remains in the rightmost cup.\n\nTherefore, the cup containing the ball is the **Right** one.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_023.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-3-pro-preview",
+    "response": "To determine which cup contains the ball, let's track the position of the cup with the ball through each step of the video.\n\n1.  **Start (00:00 - 00:01):** The red ball is initially shown under the **middle** cup. The cups are then lowered to hide the ball.\n\n2.  **First Movement (00:01 - 00:03):**\n    *   The middle cup (containing the ball) moves down towards the front of the screen.\n    *   The left cup moves up towards the back-center.\n    *   The right cup shifts slightly but stays on the right.\n    *   **Result:** The cup with the ball is now the **front-most** cup.\n\n3.  **Second Movement (00:03 - 00:06):**\n    *   The front cup (containing the ball) moves to the right.\n    *   The right cup moves to the center.\n    *   The cups settle into a diagonal line formation: one at the top-left, one in the middle, and one at the bottom-right.\n    *   Tracing the movement: The front cup (with the ball) becomes the **bottom-right** cup in this diagonal line.\n\n4.  **Third Movement (00:08 - 00:12):**\n    *   The cups break from the diagonal line to form a standard triangle layout again.\n    *   The bottom-right cup (containing the ball) moves diagonally up and all the way to the **left** side of the screen.\n    *   The middle cup moves to the right position.\n    *   The top-left cup moves to the middle position.\n    *   **Result:** The cup with the ball settles in the **left** position.\n\nTherefore, at the end of the video, the ball is in the cup on the left.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_024.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "gemini-3-pro-preview",
+    "response": "The video shows a classic shell game with three cups and a red ball. Here is the step-by-step tracking of the ball's position:\n\n1.  **Start (00:00 - 00:01):** The leftmost cup is lifted to reveal the red ball. The cup is placed back down. The ball starts in the **Left** cup.\n2.  **Move 1 (approx. 00:02):** The Left cup (containing the ball) swaps positions with the Middle cup. The ball is now in the **Middle** cup.\n3.  **Move 2 (approx. 00:03):** The Middle cup (containing the ball) swaps with the Right cup. The ball is now in the **Right** cup.\n4.  **Move 3 (approx. 00:05):** The Right cup (containing the ball) swaps with the Middle cup. The ball is now in the **Middle** cup.\n5.  **Move 4 (approx. 00:07):** The Middle cup (containing the ball) swaps with the Left cup. The ball is now in the **Left** cup.\n6.  **Move 5 (approx. 00:09 - 00:11):** The Left cup (containing the ball) swaps with the Middle cup. The ball is now in the **Middle** cup.\n\nAt the end of the video, the ball is in the middle cup.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_025.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-3-pro-preview",
+    "response": "To determine which cup contains the ball at the end of the video, let's track the position of the ball step-by-step through each movement.\n\n1.  **Initial State (00:00 - 00:01):** The video begins with three cups. The cup on the **Right** is lifted to reveal a red ball. The cup is then placed back down. So, the ball starts in the **Right** cup.\n    *   Current Position: **Right**\n\n2.  **First Swap (approx. 00:02):** The Right cup (containing the ball) swaps positions with the Middle cup.\n    *   Ball moves from Right to **Middle**.\n    *   Current Position: **Middle**\n\n3.  **Second Swap (approx. 00:04):** The Middle cup (containing the ball) swaps positions with the Left cup.\n    *   Ball moves from Middle to **Left**.\n    *   Current Position: **Left**\n\n4.  **Third Swap (approx. 00:06):** The Middle cup swaps with the Right cup. The Left cup (containing the ball) does not move.\n    *   Ball remains in the **Left**.\n    *   Current Position: **Left**\n\n5.  **Fourth Swap (approx. 00:08):** The Left cup (containing the ball) swaps with the Middle cup.\n    *   Ball moves from Left to **Middle**.\n    *   Current Position: **Middle**\n\n6.  **Fifth Swap (approx. 00:10):** The Middle cup (containing the ball) swaps with the Right cup.\n    *   Ball moves from Middle to **Right**.\n    *   Current Position: **Right**\n\nAt the end of the video, after all movements are complete, the ball is located in the cup on the right.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_026.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "gemini-3-pro-preview",
+    "response": "To determine which cup contains the ball at the end of the video, let's track the position of the ball step-by-step:\n\n1.  **Start (00:00 - 00:01):** The video begins with three cups in a line. The ball is revealed to be under the **Left** cup.\n2.  **Initial Formation (00:01 - 00:03):** The cups move from a line into a triangle formation.\n    *   The **Left cup** (containing the ball) moves to the **Back (Middle)** position.\n    *   The Middle cup moves to the Front-Left.\n    *   The Right cup moves to the Front-Right.\n    *   *Current Ball Position:* **Back** cup.\n3.  **Shuffle 1 (00:04 - 00:05):** The cups rotate positions.\n    *   The Back cup moves to the **Front-Right** position.\n    *   The Front-Right cup moves to the Front-Left position.\n    *   The Front-Left cup moves to the Back position.\n    *   *Current Ball Position:* **Front-Right** cup.\n4.  **Shuffle 2 (00:06 - 00:07):** The cups rotate in the same direction again.\n    *   The Front-Right cup moves to the **Front-Left** position.\n    *   The Front-Left cup moves to the Back position.\n    *   The Back cup moves to the Front-Right position.\n    *   *Current Ball Position:* **Front-Left** cup.\n5.  **Shuffle 3 (00:08 - 00:09):** The cups rotate in the same direction again.\n    *   The Front-Left cup moves to the **Back** position.\n    *   The Back cup moves to the Front-Right position.\n    *   The Front-Right cup moves to the Front-Left position.\n    *   *Current Ball Position:* **Back** cup.\n6.  **Shuffle 4 (00:10 - 00:11):** The cups rotate in the reverse direction.\n    *   The Back cup moves to the **Front-Left** position.\n    *   The Front-Left cup moves to the Front-Right position.\n    *   The Front-Right cup moves to the Back position.\n    *   *Current Ball Position:* **Front-Left** cup.\n\nAt the end of the video, the ball is in the cup positioned on the front-left side.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_027.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-3-pro-preview",
+    "response": "To determine which cup contains the ball at the end of the video, let's track the position of the ball step-by-step.\n\n1.  **Initial State (00:00 - 00:01):**\n    The video starts by revealing the red ball under the **Left** cup. The cup is then lowered.\n    *   Current Ball Position: **Left**\n\n2.  **First Swap (00:02 - 00:03):**\n    The Left cup (containing the ball) moves to the Middle position, and the Middle cup moves to the Left position.\n    *   Swap: Left $\\leftrightarrow$ Middle\n    *   Current Ball Position: **Middle**\n\n3.  **Second Swap (00:04 - 00:05):**\n    The Middle cup (containing the ball) moves to the Right position, and the Right cup moves to the Middle position.\n    *   Swap: Middle $\\leftrightarrow$ Right\n    *   Current Ball Position: **Right**\n\n4.  **Third Swap (00:06 - 00:07):**\n    The Right cup (containing the ball) moves to the Middle position, and the Middle cup moves to the Right position.\n    *   Swap: Right $\\leftrightarrow$ Middle\n    *   Current Ball Position: **Middle**\n\n5.  **Fourth Swap (00:08 - 00:09):**\n    The Middle cup (containing the ball) moves to the Left position, and the Left cup moves to the Middle position.\n    *   Swap: Middle $\\leftrightarrow$ Left\n    *   Current Ball Position: **Left**\n\n6.  **Fifth Swap (00:10 - 00:11):**\n    The Left cup (containing the ball) moves to the Middle position, and the Middle cup moves to the Left position.\n    *   Swap: Left $\\leftrightarrow$ Middle\n    *   Current Ball Position: **Middle**\n\nAt the end of the final swap, the cup containing the ball is in the middle position.\n\n**Final Answer:**\nThe ball is in the **Middle** cup.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_028.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-3-pro-preview",
+    "response": "The video shows a shell game with three cups and a red ball. Here is the step-by-step movement of the ball:\n\n1.  **Start (00:00 - 00:01):** The cup on the far right is lifted, revealing the red ball underneath. It is then placed back down. So, the ball starts in the **Right** cup.\n2.  **First Swap (00:02 - 00:04):** The Right cup (containing the ball) swaps positions with the Middle cup. The ball is now in the **Middle** cup.\n3.  **Second Swap (00:05 - 00:07):** The Middle cup (containing the ball) swaps positions with the Left cup. The ball is now in the **Left** cup.\n4.  **Third Swap (00:08 - 00:10):** The Left cup (containing the ball) swaps positions with the Middle cup. The ball moves back to the **Middle** cup.\n\nNo further movements occur before the video ends. Therefore, the ball is located in the middle cup.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_029.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-3-pro-preview",
+    "response": "The video tracks the position of a red ball hidden under one of three white cups. Here is the step-by-step analysis of the ball's movement:\n\n1.  **Start (00:00 - 00:01):** The leftmost cup is lifted to reveal a red ball. The cup is placed back down. The ball is currently in the **Left** cup.\n2.  **First Move (00:02 - 00:03):** The cup on the Left (containing the ball) swaps places with the cup in the Middle. The ball is now in the **Middle** cup.\n3.  **Second Move (00:03 - 00:05):** The cup in the Middle (containing the ball) swaps places with the cup on the Right. The ball is now in the **Right** cup.\n4.  **Third Move (00:06 - 00:08):** All three cups change positions in a rotational shift. The cup on the Right (containing the ball) slides all the way across to the Left position. The Left cup moves to the Middle, and the Middle cup moves to the Right. The ball is now in the **Left** cup.\n5.  **Fourth Move (00:09 - 00:11):** The cup on the Left (containing the ball) swaps places with the cup in the Middle. The ball is now in the **Middle** cup.\n6.  **End (00:12):** The cups come to a rest. Based on the tracking, the ball is inside the middle cup.\n\nTherefore, the correct option is Middle.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_030.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-3-pro-preview",
+    "response": "To determine which cup contains the ball, let's track the position of the ball through each movement in the video:\n\n1.  **Start (00:00 - 00:01):** The red ball is initially shown in front of the **Middle** cup. The cups cover the items, so the ball starts inside the **Middle** cup.\n    *   **Ball Position:** Middle\n\n2.  **First Move (00:02 - 00:04):** The cup in the middle (containing the ball) swaps positions with the cup on the left. The middle cup moves to the left spot, and the left cup moves to the middle spot.\n    *   **Ball Position:** Left\n\n3.  **Second Move (00:04 - 00:06):** The cup on the left (containing the ball) swaps positions with the cup on the right. The left cup travels all the way to the right side, while the right cup travels to the left side.\n    *   **Ball Position:** Right\n\n4.  **Third Move (00:06 - 00:08):** The cup on the right (containing the ball) swaps positions with the cup in the middle. The right cup moves to the center spot.\n    *   **Ball Position:** Middle\n\n5.  **Fourth Move (00:08 - 00:10):** The cup in the middle (containing the ball) swaps positions with the cup on the left. The middle cup moves to the left spot.\n    *   **Ball Position:** Left\n\nAt the end of the video, the cup containing the ball is in the **Left** position.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_031.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-3-pro-preview",
+    "response": "To determine which cup contains the ball at the end of the video, let's track the position of the ball through each swap step-by-step:\n\n1.  **Start (00:00 - 00:01):** The ball is revealed to be under the **Left** cup.\n    *   Current Position: **Left**\n\n2.  **Move 1 (00:02 - 00:03):** The Left cup (containing the ball) swaps with the Middle cup.\n    *   The ball moves from Left to Middle.\n    *   Current Position: **Middle**\n\n3.  **Move 2 (00:03 - 00:04):** The Middle cup (containing the ball) swaps with the Right cup.\n    *   The ball moves from Middle to Right.\n    *   Current Position: **Right**\n\n4.  **Move 3 (00:04 - 00:06):** The Right cup (containing the ball) swaps all the way with the Left cup. The Middle cup stays in place.\n    *   The ball moves from Right to Left.\n    *   Current Position: **Left**\n\n5.  **Move 4 (00:07 - 00:08):** The Left cup (containing the ball) swaps with the Middle cup.\n    *   The ball moves from Left to Middle.\n    *   Current Position: **Middle**\n\n6.  **Move 5 (00:09 - 00:10):** The Middle cup (containing the ball) swaps with the Right cup.\n    *   The ball moves from Middle to Right.\n    *   Current Position: **Right**\n\n7.  **Move 6 (00:10 - 00:12):** The Right cup (containing the ball) swaps with the Middle cup.\n    *   The ball moves from Right to Middle.\n    *   Current Position: **Middle**\n\nAt the end of the video, the cup containing the ball is in the middle position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_032.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-3-pro-preview",
+    "response": "The sequence of movements in the video is as follows:\n\n1.  **Start (00:00 - 00:02):** The red ball is initially positioned in the center and is covered by the **Middle** cup (the cup at the back).\n    *   Current Ball Position: **Middle**.\n\n2.  **Move 1 (00:02 - 00:03):** The Middle cup (containing the ball) moves to the Left position, and the Left cup moves to the Middle position. This is a swap between Middle and Left.\n    *   Ball moves from Middle $\\rightarrow$ Left.\n    *   Current Ball Position: **Left**.\n\n3.  **Move 2 (00:03 - 00:04):** The Left cup (containing the ball) remains stationary. The Middle cup and the Right cup swap positions.\n    *   Ball stays in the Left cup.\n    *   Current Ball Position: **Left**.\n\n4.  **Move 3 (00:04 - 00:05):** The Middle cup and the Left cup swap positions. The Left cup (containing the ball) moves to the Middle.\n    *   Ball moves from Left $\\rightarrow$ Middle.\n    *   Current Ball Position: **Middle**.\n\n5.  **Move 4 (00:05 - 00:06):** The Left cup and the Right cup swap positions. The Middle cup (containing the ball) stays in place.\n    *   Ball stays in the Middle cup.\n    *   Current Ball Position: **Middle**.\n\n6.  **Move 5 (00:06 - 00:07):** The Middle cup (containing the ball) and the Right cup swap positions. The Middle cup moves to the Right.\n    *   Ball moves from Middle $\\rightarrow$ Right.\n    *   Current Ball Position: **Right**.\n\n7.  **Move 6 (00:07 - 00:08):** The Middle cup and the Left cup swap positions. The Right cup (containing the ball) stays in place.\n    *   Ball stays in the Right cup.\n    *   Current Ball Position: **Right**.\n\n8.  **Move 7 (00:08 - 00:09):** The Left cup and the Right cup swap positions. The Right cup (containing the ball) moves to the Left.\n    *   Ball moves from Right $\\rightarrow$ Left.\n    *   Current Ball Position: **Left**.\n\n9.  **Move 8 (00:09 - 00:10):** The Middle cup and the Right cup swap positions. The Left cup (containing the ball) stays in place.\n    *   Ball stays in the Left cup.\n    *   Current Ball Position: **Left**.\n\nAt the end of the video, the ball is in the cup on the **Left**.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_033.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "gemini-3-pro-preview",
+    "response": "To determine which cup contains the ball, let's track the position of the ball through each step of the video:\n\n1.  **Start (00:00 - 00:01):** The ball is shown placed under the cup on the **Left**.\n2.  **First Swap (00:02 - 00:03):** The Left cup (containing the ball) swaps positions with the Middle cup.\n    *   *Ball Position:* **Middle**\n3.  **Second Swap (00:03 - 00:05):** The Middle cup (containing the ball) swaps positions with the Right cup.\n    *   *Ball Position:* **Right**\n4.  **Third Swap (00:05 - 00:07):** The Right cup (containing the ball) swaps positions with the Left cup. The Middle cup stays stationary.\n    *   *Ball Position:* **Left**\n5.  **Fourth Swap (00:07 - 00:09):** The Left cup (containing the ball) swaps positions with the Middle cup.\n    *   *Ball Position:* **Middle**\n6.  **Fifth Swap (00:09 - 00:11):** The Middle cup (containing the ball) swaps positions with the Right cup.\n    *   *Ball Position:* **Right**\n\nAt the end of the video, the ball is located in the cup on the right.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_034.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-3-pro-preview",
+    "response": "To determine which cup contains the ball at the end of the video, let's track the position of the ball through each movement:\n\n1.  **Start (00:00 - 00:01):** The red ball is shown to be under the **Left** cup. The cup lowers to cover the ball.\n\n2.  **First Movement (00:02 - 00:04):**\n    *   The cups perform a clockwise rotation of positions.\n    *   The **Left** cup (containing the ball) slides to the **Middle** position.\n    *   The Middle cup slides to the Right position.\n    *   The Right cup slides to the Left position.\n    *   **Current Ball Position: Middle Cup.**\n\n3.  **Second Movement (00:05 - 00:07):**\n    *   The cups rotate in the same pattern again.\n    *   The **Middle** cup (containing the ball) slides to the **Right** position.\n    *   **Current Ball Position: Right Cup.**\n\n4.  **Third Movement (00:08 - 00:09):**\n    *   The rotation pattern continues.\n    *   The **Right** cup (containing the ball) slides all the way over to the **Left** position.\n    *   **Current Ball Position: Left Cup.**\n\n5.  **Fourth Movement (00:10 - 00:11):**\n    *   The rotation pattern occurs one last time.\n    *   The **Left** cup (containing the ball) slides to the **Middle** position.\n    *   **Current Ball Position: Middle Cup.**\n\nAt the end of the video, the ball is in the cup located in the middle.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_035.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "gemini-3-pro-preview",
+    "response": "To find the location of the ball at the end of the video, we trace its position through each movement:\n\n1.  **Initial Position (00:00 - 00:01):** The video starts with the left cup lifted, revealing a red ball. The cup is placed back down. So, the ball starts in the **Left** cup.\n    *   Current Position: **Left**\n\n2.  **First Swap (00:02 - 00:04):** The Left cup (containing the ball) and the Middle cup swap positions.\n    *   The Left cup moves to the Middle.\n    *   The Middle cup moves to the Left.\n    *   Current Position: **Middle**\n\n3.  **Second Swap (00:04 - 00:06):** The Middle cup (containing the ball) and the Right cup swap positions.\n    *   The Middle cup moves to the Right.\n    *   The Right cup moves to the Middle.\n    *   Current Position: **Right**\n\n4.  **Third Swap (00:06 - 00:08):** The Right cup (containing the ball) and the Middle cup swap positions again.\n    *   The Right cup moves back to the Middle.\n    *   The Middle cup moves to the Right.\n    *   Current Position: **Middle**\n\n5.  **Fourth Swap (00:08 - 00:10):** The Middle cup (containing the ball) and the Left cup swap positions.\n    *   The Middle cup moves to the Left.\n    *   The Left cup moves to the Middle.\n    *   Current Position: **Left**\n\nThe movements stop after this fourth swap. Therefore, the ball ends up in the Left cup.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_036.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-3-pro-preview",
+    "response": "To determine which cup contains the ball at the end of the video, we can track the position of the ball through each movement:\n\n1.  **Start (00:00 - 00:01):** The video begins with three cups. The red ball is clearly shown sitting on the ground in the center position. The **Middle** cup descends and covers the ball.\n    *   **Current Position:** Middle\n\n2.  **First Swap (00:02 - 00:04):** The cup in the middle (containing the ball) swaps places with the cup on the left.\n    *   The Middle cup moves to the Left position.\n    *   The Left cup moves to the Middle position.\n    *   **Current Position:** Left\n\n3.  **Second Swap (00:04 - 00:06):** The cup now on the left (containing the ball) swaps places with the cup in the middle.\n    *   The Left cup moves to the Middle position.\n    *   The Middle cup moves to the Left position.\n    *   **Current Position:** Middle\n\n4.  **Third Swap (00:06 - 00:08):** The cup in the middle (containing the ball) swaps places with the cup on the right.\n    *   The Middle cup moves to the Right position.\n    *   The Right cup moves to the Middle position.\n    *   **Current Position:** Right\n\n5.  **Fourth Swap (00:08 - 00:10):** The cup now on the right (containing the ball) swaps places with the cup in the middle.\n    *   The Right cup moves to the Middle position.\n    *   The Middle cup moves to the Right position.\n    *   **Current Position:** Middle\n\n6.  **End (00:11):** The cups stop moving. Based on the tracking, the ball is back in the middle cup.\n\nTherefore, the cup containing the ball is the **Middle** one.\n\n(A) Left\n(B) Middle\n(C) Right\n\nThe correct answer is (B).\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_037.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "gemini-3-pro-preview",
+    "response": "To determine which cup contains the ball, we need to track the position of the ball through each step of the video.\n\n1.  **Start (00:00 - 00:01):** The cup on the far **Right** is lifted, revealing the red ball. The ball starts under the Right cup.\n    *   Configuration: Left (Empty), Middle (Empty), Right (Ball).\n\n2.  **First Move (00:02 - 00:03):** The Right cup (with the ball) swaps positions with the Middle cup.\n    *   The ball moves to the **Middle** cup.\n    *   Configuration: Left (Empty), Middle (Ball), Right (Empty).\n\n3.  **Second Move (00:04 - 00:05):** The Middle cup (with the ball) swaps positions with the Left cup.\n    *   The ball moves to the **Left** cup.\n    *   Configuration: Left (Ball), Middle (Empty), Right (Empty).\n\n4.  **Third Move (00:06 - 00:07):** The Left cup (with the ball) swaps positions with the Middle cup.\n    *   The ball moves back to the **Middle** cup.\n    *   Configuration: Left (Empty), Middle (Ball), Right (Empty).\n\n5.  **Fourth Move (00:08 - 00:09):** The cups rearrange from a straight line into a triangle formation.\n    *   The **Middle** cup (containing the ball) moves backward to form the top/back point of the triangle.\n    *   The Left cup moves to the front-right position.\n    *   The Right cup moves to the front-left position.\n    *   Current location of the ball: **Back/Top** cup.\n\n6.  **Fifth Move (00:10 - 00:11):** The three cups rotate positions in a cycle.\n    *   The **Back/Top** cup (containing the ball) slides down and to the left, taking the **Front-Left** position.\n    *   The Front-Left cup slides to the right.\n    *   The Front-Right cup slides to the back.\n    *   Current location of the ball: **Front-Left** cup.\n\nAt the end of the video, the cups are arranged in a triangle. The cup containing the ball is the one on the left side.\n\nTherefore, the correct option is **Left**.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_038.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "gemini-3-pro-preview",
+    "response": "The video shows a shell game with three white cups and a red ball. Here is the step-by-step tracking of the ball:\n\n1.  **Start (00:00 - 00:01):** The three cups are in a horizontal line. The cup on the far right is lifted to reveal the red ball. The cup is then placed back down, covering the ball. At this point, the ball is under the **Right** cup.\n\n2.  **First Movement (00:01 - 00:03):** The cups rearrange into a triangle formation.\n    *   The Middle cup moves back to become the top of the triangle.\n    *   The Left cup moves forward and left to become the bottom-left of the triangle.\n    *   The Right cup (containing the ball) moves slightly forward and to the right to become the **bottom-right** of the triangle.\n    *   **Current Ball Position:** Bottom-Right cup.\n\n3.  **Second Movement (00:03 - 00:07):** The cups rotate and slide into a diagonal line formation (from top-left to bottom-right).\n    *   The Top cup (empty) moves down and to the right, ending up at the bottom-right of the diagonal.\n    *   The Bottom-Left cup (empty) moves up, ending up at the top-left of the diagonal.\n    *   The Bottom-Right cup (containing the ball) moves inward and up, settling in the **middle** position of the diagonal line.\n    *   **Current Ball Position:** Middle cup.\n\n4.  **Third Movement (00:08 - 00:10):** The cups align back into a horizontal line.\n    *   The cup at the top-left drops down to become the Left cup.\n    *   The cup at the bottom-right moves up to become the Right cup.\n    *   The cup in the middle (containing the ball) adjusts slightly but remains in the **Middle** position.\n\nAt the end of the video, the ball is in the middle cup.\n\nAnswer: (B) Middle\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_039.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-3-pro-preview",
+    "response": "To determine which cup contains the ball, let's track the position of the ball step-by-step through the video:\n\n1.  **Initial State (00:00 - 00:01):** The leftmost cup is lifted, revealing the red ball. The cup is placed back down.\n    *   **Ball Position:** Left\n\n2.  **First Swap (00:02 - 00:04):** The cup on the left (containing the ball) swaps positions with the cup in the middle.\n    *   The ball moves from Left $\\rightarrow$ Middle.\n    *   **Ball Position:** Middle\n\n3.  **Second Swap (00:04 - 00:06):** The cup in the middle (containing the ball) swaps positions with the cup on the right.\n    *   The ball moves from Middle $\\rightarrow$ Right.\n    *   **Ball Position:** Right\n\n4.  **Third Swap (00:06 - 00:08):** The cup on the right (containing the ball) swaps positions with the cup in the middle again.\n    *   The ball moves from Right $\\rightarrow$ Middle.\n    *   **Ball Position:** Middle\n\n5.  **Fourth Swap (00:08 - 00:10):** The cup in the middle (containing the ball) swaps positions with the cup on the left.\n    *   The ball moves from Middle $\\rightarrow$ Left.\n    *   **Ball Position:** Left\n\nAt the end of the video, the shuffling stops with the ball in the leftmost cup.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_040.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-3-pro-preview",
+    "response": "The video shows a \"shell game\" with three cups and a red ball. Here is the step-by-step tracking of the ball's position:\n\n1.  **Start (00:00 - 00:01):** The ball is revealed to be under the **Left** cup. The cup is placed back down.\n    *   Current Position: **Left**\n\n2.  **First Swap (00:02 - 00:03):** The Left cup and the Middle cup swap positions. The cup containing the ball moves from Left to Middle.\n    *   Current Position: **Middle**\n\n3.  **Second Swap (00:04 - 00:05):** The Middle cup and the Right cup swap positions. The cup containing the ball moves from Middle to Right.\n    *   Current Position: **Right**\n\n4.  **Third Swap (00:06 - 00:07):** The Left cup and the Middle cup swap positions. The ball is in the Right cup, which does not move, so the ball stays where it is.\n    *   Current Position: **Right**\n\n5.  **Fourth Swap (00:08 - 00:09):** The Middle cup and the Right cup swap positions. The cup containing the ball moves from Right to Middle.\n    *   Current Position: **Middle**\n\n6.  **Fifth Swap (00:10 - 00:11):** The Left cup and the Middle cup swap positions. The cup containing the ball moves from Middle to Left.\n    *   Current Position: **Left**\n\nAt the end of the video, the ball is under the Left cup.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "cup_041.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-3-pro-preview",
+    "response": "To determine which cup contains the ball at the end of the video, let's track the position of the ball through each movement step by step.\n\n1.  **Start (00:00 - 00:01):**\n    The ball is revealed to be under the cup on the **Right**. The cup is then placed down.\n    *   *Ball Position: Right*\n\n2.  **Move 1 (00:01 - 00:02):**\n    The cups rearrange into a triangle formation.\n    - The Right cup (containing the ball) moves forward and to the center, becoming the front-most cup.\n    - The Middle cup moves to the back-right.\n    - The Left cup moves to the back-left.\n    *   *Ball Position: Front-Center*\n\n3.  **Move 2 (00:02 - 00:04):**\n    The three cups rotate in a counter-clockwise direction.\n    - The Front-Center cup (containing the ball) moves up and to the left, taking the Back-Left position.\n    - The Back-Left cup moves to the Back-Right position.\n    - The Back-Right cup moves to the Front-Center position.\n    *   *Ball Position: Back-Left*\n\n4.  **Move 3 (00:04 - 00:06):**\n    The cups move from the triangle formation back into a straight line.\n    - The Back-Left cup (containing the ball) slides into the **Middle** position.\n    - The Front cup slides to the Left position.\n    - The Back-Right cup slides to the Right position.\n    *   *Ball Position: Middle*\n\n5.  **Move 4 (00:06 - 00:08):**\n    The Left and Middle cups swap positions.\n    - The Middle cup (containing the ball) moves to the **Left** position.\n    - The Left cup moves to the Middle position.\n    *   *Ball Position: Left*\n\n6.  **Move 5 (00:08 - 00:10):**\n    The Left and Middle cups swap positions again.\n    - The Left cup (containing the ball) moves back to the **Middle** position.\n    - The Middle cup moves to the Left position.\n    *   *Ball Position: Middle*\n\n7.  **Move 6 (00:10 - 00:12):**\n    The Middle and Right cups swap positions.\n    - The Middle cup (containing the ball) moves to the **Right** position.\n    - The Right cup moves to the Middle position.\n    *   *Ball Position: Right*\n\nAt the end of the video, the ball is in the cup on the right.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_042.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-3-pro-preview",
+    "response": "The video shows a shell game with three cups and a red ball. Let's track the position of the ball step-by-step:\n\n1.  **Start (00:00 - 00:01):** The left cup is lifted to reveal the red ball. The cup is then placed back down.\n    *   **Ball Position:** Left Cup.\n\n2.  **First Swap (00:01 - 00:03):** The cup on the far left (containing the ball) swaps positions with the cup in the middle.\n    *   The Left cup moves to the Middle.\n    *   The Middle cup moves to the Left.\n    *   **Ball Position:** Middle Cup.\n\n3.  **Second Swap (00:03 - 00:05):** The cup currently in the middle (containing the ball) swaps with the cup on the right.\n    *   The Middle cup moves to the Right.\n    *   The Right cup moves to the Middle.\n    *   **Ball Position:** Right Cup.\n\n4.  **Third Swap (00:05 - 00:07):** The cup on the right (containing the ball) swaps with the cup in the middle.\n    *   The Right cup moves to the Middle.\n    *   The Middle cup moves to the Right.\n    *   **Ball Position:** Middle Cup.\n\n5.  **Fourth Swap (00:07 - 00:09):** The cup in the middle (containing the ball) swaps with the cup on the left.\n    *   The Middle cup moves to the Left.\n    *   The Left cup moves to the Middle.\n    *   **Ball Position:** Left Cup.\n\n6.  **Fifth Swap (00:09 - 00:11):** The cup on the left (containing the ball) swaps with the cup in the middle.\n    *   The Left cup moves to the Middle.\n    *   The Middle cup moves to the Left.\n    *   **Ball Position:** Middle Cup.\n\nAt the end of the video, the ball is under the cup in the middle position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_043.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "gemini-3-pro-preview",
+    "response": "To determine which cup contains the ball at the end of the video, let's track the position of the ball through each movement step-by-step.\n\n1.  **Initial State (00:00 - 00:01):**\n    The video begins with three cups. The red ball is revealed to be under the **Left** cup.\n    *   **Ball Position:** Left\n\n2.  **First Movement (00:02 - 00:04):**\n    The Left cup (containing the ball) swaps positions with the Middle cup. The Left cup moves to the back/center position, and the Middle cup moves to the left/front position. The Right cup stays in place.\n    *   **Ball Position:** Middle (Back)\n\n3.  **Second Movement (00:06 - 00:08):**\n    The Middle cup (containing the ball) swaps positions with the Right cup. The Middle cup moves to the right/front position, and the Right cup moves to the back/center position. The Left cup stays in place.\n    *   **Ball Position:** Right\n\n4.  **Third Movement (00:09 - 00:11):**\n    The cups perform a three-way rotation.\n    *   The Right cup (containing the ball) moves to the **Middle (Back)** position.\n    *   The Middle cup (empty) moves to the **Left** position.\n    *   The Left cup (empty) moves to the **Right** position.\n    *   **Ball Position:** Middle (Back)\n\n**Conclusion:**\nAfter the final shuffle, the cup that contains the ball is in the middle position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_044.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "gemini-3-pro-preview",
+    "response": "To determine which cup contains the ball at the end of the video, let's track the position of the ball step-by-step through each movement shown in the frames.\n\n1.  **Initial State (00:00 - 00:01):**\n    The video starts with three cups. The red ball is clearly shown under the **Right** cup. The cup then lowers to cover the ball.\n    *   **Current Ball Position:** Right\n\n2.  **Move 1 (00:02):**\n    The cup on the Right (containing the ball) swaps with the cup in the Middle.\n    *   Swap: Right $\\leftrightarrow$ Middle\n    *   **Current Ball Position:** Middle\n\n3.  **Move 2 (00:03):**\n    The cup in the Middle (containing the ball) swaps with the cup on the Left.\n    *   Swap: Middle $\\leftrightarrow$ Left\n    *   **Current Ball Position:** Left\n\n4.  **Move 3 (00:04):**\n    The cup on the Left (containing the ball) swaps back with the cup in the Middle.\n    *   Swap: Left $\\leftrightarrow$ Middle\n    *   **Current Ball Position:** Middle\n\n5.  **Move 4 (00:05):**\n    The cup in the Middle (containing the ball) swaps with the cup on the Right.\n    *   Swap: Middle $\\leftrightarrow$ Right\n    *   **Current Ball Position:** Right\n\n6.  **Move 5 (00:06):**\n    The cup on the Right (containing the ball) swaps back with the cup in the Middle.\n    *   Swap: Right $\\leftrightarrow$ Middle\n    *   **Current Ball Position:** Middle\n\n7.  **Move 6 (00:07):**\n    The cup in the Middle (containing the ball) swaps with the cup on the Left.\n    *   Swap: Middle $\\leftrightarrow$ Left\n    *   **Current Ball Position:** Left\n\n8.  **Move 7 (00:08):**\n    The cup on the Left (containing the ball) swaps back with the cup in the Middle.\n    *   Swap: Left $\\leftrightarrow$ Middle\n    *   **Current Ball Position:** Middle\n\n9.  **Move 8 (00:09):**\n    The cup in the Middle (containing the ball) swaps with the cup on the Right.\n    *   Swap: Middle $\\leftrightarrow$ Right\n    *   **Current Ball Position:** Right\n\n10. **Move 9 (00:10):**\n    The cup on the Right (containing the ball) swaps back with the cup in the Middle.\n    *   Swap: Right $\\leftrightarrow$ Middle\n    *   **Current Ball Position:** Middle\n\n11. **Final State (00:11):**\n    The cups stop moving. Based on the sequence of moves, the ball is now in the middle cup.\n\n**Sequence Summary:** Right $\\rightarrow$ Middle $\\rightarrow$ Left $\\rightarrow$ Middle $\\rightarrow$ Right $\\rightarrow$ Middle $\\rightarrow$ Left $\\rightarrow$ Middle $\\rightarrow$ Right $\\rightarrow$ **Middle**.\n\nThe ball ends up in the Middle cup.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_045.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "gemini-3-pro-preview",
+    "response": "To determine which cup contains the ball at the end of the video, let's track the ball's position step-by-step through the movements.\n\n1.  **Initial State (00:00 - 00:01):**\n    The video begins with three cups labeled by position: Left, Middle, and Right. The red ball is revealed to be under the **Middle** cup. The cups are then lowered.\n    *   **Current Ball Position: Middle**\n\n2.  **Move 1 (00:01 - 00:03):**\n    The cup in the Middle position moves to the Left position, while the cup in the Left position moves to the Middle.\n    *   Swap: Middle $\\leftrightarrow$ Left\n    *   The ball moves with the Middle cup to the Left.\n    *   **Current Ball Position: Left**\n\n3.  **Move 2 (00:03 - 00:05):**\n    The cup currently at the Left position (containing the ball) moves all the way to the Right position. Simultaneously, the cup at the Right position moves to the Left position. The Middle cup remains stationary.\n    *   Swap: Left $\\leftrightarrow$ Right\n    *   The ball moves from Left to Right.\n    *   **Current Ball Position: Right**\n\n4.  **Move 3 (00:05 - 00:07):**\n    The cup at the Right position (containing the ball) moves to the Middle position, and the cup at the Middle position moves to the Right.\n    *   Swap: Right $\\leftrightarrow$ Middle\n    *   The ball moves from Right to Middle.\n    *   **Current Ball Position: Middle**\n\n5.  **Move 4 (00:07 - 00:09):**\n    The cup at the Middle position (containing the ball) moves to the Left position, and the cup at the Left position moves to the Middle.\n    *   Swap: Middle $\\leftrightarrow$ Left\n    *   The ball moves from Middle to Left.\n    *   **Current Ball Position: Left**\n\n6.  **Move 5 (00:09 - 00:11):**\n    Finally, the cup at the Left position (containing the ball) moves to the Middle position, and the cup at the Middle position moves to the Left.\n    *   Swap: Left $\\leftrightarrow$ Middle\n    *   The ball moves from Left to Middle.\n    *   **Current Ball Position: Middle**\n\nAt the end of the video, the ball is located in the **Middle** cup.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_046.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-3-pro-preview",
+    "response": "Based on the analysis of the video frames, here is the step-by-step tracking of the ball:\n\n1.  **Initial Position (00:00 - 00:01):** The ball is shown under the cup on the **right**. The cup lowers to cover the ball.\n2.  **Formation Change (00:02):** The perspective shifts to an overhead view where the cups form a triangle. The original \"Right\" cup corresponds to the **Front-Right** cup in the triangle. The \"Middle\" cup is at the Back, and the \"Left\" cup is at the Front-Left. So, the ball starts in the **Front-Right** cup.\n3.  **First Shuffle (00:03 - 00:04):** The cups rotate clockwise.\n    *   The Front-Right cup (with the ball) moves to the **Back** (Middle) position.\n    *   Ball is now in the **Middle** cup.\n4.  **Second Shuffle (00:05 - 00:06):** The cups rotate clockwise again.\n    *   The Back cup (with the ball) moves to the **Front-Left** (Left) position.\n    *   Ball is now in the **Left** cup.\n5.  **Third Shuffle (00:07 - 00:08):** The cups rotate counter-clockwise.\n    *   The Front-Left cup (with the ball) moves to the **Back** (Middle) position.\n    *   Ball is now in the **Middle** cup.\n6.  **Fourth Shuffle (00:09 - 00:10):** The cups rotate counter-clockwise again.\n    *   The Back cup (with the ball) moves to the **Front-Right** (Right) position.\n    *   Ball is now in the **Right** cup.\n7.  **Final State (00:11 - 00:12):** The cups stop moving. The ball is located in the Front-Right cup.\n\nTherefore, the cup containing the ball at the end of the video is the one on the **Right**.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_047.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-3-pro-preview",
+    "response": "Based on a step-by-step analysis of the video frames:\n\n1.  **Start (00:00 - 00:01):** The video begins with three cups. The cup on the **Left** is lifted, revealing a red ball underneath. The cup is placed back down, covering the ball. At this point, the ball is in the Left cup.\n\n2.  **First Move (00:02 - 00:03):** The Left cup (containing the ball) swaps positions with the Middle cup.\n    *   Left cup $\\rightarrow$ Middle position.\n    *   Middle cup $\\rightarrow$ Left position.\n    *   **Current location of ball:** Middle cup.\n\n3.  **Second Move (00:05 - 00:07):** The cup currently in the Middle position (containing the ball) swaps with the cup in the Right position.\n    *   Middle cup $\\rightarrow$ Right position.\n    *   Right cup $\\rightarrow$ Middle position.\n    *   **Current location of ball:** Right cup.\n\n4.  **Third Move (00:08 - 00:09):** The cup currently in the Right position (containing the ball) swaps back with the cup in the Middle position.\n    *   Right cup $\\rightarrow$ Middle position.\n    *   Middle cup $\\rightarrow$ Right position.\n    *   **Current location of ball:** Middle cup.\n\n5.  **End (00:10 - 00:12):** The cups stop moving and remain in their final positions. The cup containing the ball is in the middle.\n\nTherefore, the cup containing the ball at the end of the video is the one in the **Middle**.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_048.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-3-pro-preview",
+    "response": "The video shows a \"shell game\" with three cups and a red ball. Here is the step-by-step tracking of the ball:\n\n1.  **Start (00:00 - 00:01):** The ball is initially placed under the **Middle** cup. The cups are arranged in a triangle formation (Left, Middle/Back, Right).\n\n2.  **First Move (00:02 - 00:05):** The cups shift into a diagonal line formation.\n    *   The Middle cup (containing the ball) moves forward to the center of the line.\n    *   The Left cup moves backward to the top-left of the line.\n    *   The Right cup moves to the bottom-right of the line.\n    *   At the end of this move, the ball is in the **middle** cup of the diagonal line.\n\n3.  **Second Move (00:06 - 00:08):** The cups move back into a triangle formation.\n    *   The middle cup of the line (containing the ball) slides to the **Right** position.\n    *   The top-left cup moves to the Left position.\n    *   The bottom-right cup moves to the Back/Middle position.\n    *   At the end of this move, the ball is in the **Right** cup.\n\n4.  **Third Move (00:09 - 00:11):** The cups perform a rotational swap.\n    *   The Right cup (containing the ball) moves to the **Middle (Back)** position.\n    *   The Middle (Back) cup moves to the Left position.\n    *   The Left cup moves to the Right position.\n    *   At the end of the video, the ball is in the cup at the back-center position.\n\nTherefore, the cup containing the ball at the end is the **Middle** cup.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_049.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-3-pro-preview",
+    "response": "Based on the visual evidence in the video frames, here is the step-by-step tracking of the ball:\n\n1.  **Start (00:00 - 00:01):** The video begins by revealing the red ball under the **Middle** cup. The cup is then placed back down.\n    *   *Current Ball Position:* **Middle**\n\n2.  **Move 1 (00:02 - 00:03):** The **Middle** cup (containing the ball) swaps positions with the **Left** cup.\n    *   The Middle cup moves to the left.\n    *   The Left cup moves to the middle.\n    *   *Current Ball Position:* **Left**\n\n3.  **Move 2 (00:06 - 00:07):** The **Middle** cup (empty) swaps positions with the **Right** cup (empty). The Left cup, which contains the ball, remains stationary during this move.\n    *   *Current Ball Position:* **Left**\n\n4.  **Move 3 (00:08 - 00:09):** The **Left** cup (containing the ball) swaps positions with the **Middle** cup (empty).\n    *   The Left cup moves to the middle.\n    *   The Middle cup moves to the left.\n    *   *Current Ball Position:* **Middle**\n\n5.  **Move 4 (00:10 - 00:11):** The **Middle** cup (containing the ball) swaps positions with the **Right** cup (empty).\n    *   The Middle cup moves to the right.\n    *   The Right cup moves to the middle.\n    *   *Current Ball Position:* **Right**\n\nAt the end of the video, the ball is located in the cup on the right side.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "cup_050.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-3-pro-preview",
+    "response": "The video shows a classic \"shell game\" with three cups and a ball. Let's track the position of the ball step-by-step:\n\n1.  **Start (00:00 - 00:01):** The red ball is revealed and then covered by the cup on the **Left**. So, the ball starts at the Left position.\n    *   Current Position: **Left**\n\n2.  **First Swap (00:02 - 00:04):** The cup in the Left position swaps with the cup in the Middle position. Since the ball was on the Left, it moves to the Middle.\n    *   Current Position: **Middle**\n\n3.  **Second Swap (00:04 - 00:06):** The cup in the Middle position swaps with the cup in the Right position. The ball moves from the Middle to the Right.\n    *   Current Position: **Right**\n\n4.  **Third Swap (00:06 - 00:08):** The cup in the Left position swaps with the cup in the Middle position. The ball is currently in the Right cup, so this swap involves two empty cups and does not affect the ball's position.\n    *   Current Position: **Right**\n\n5.  **Fourth Swap (00:08 - 00:10):** The cup in the Middle position swaps with the cup in the Right position. Since the ball is in the Right cup, it moves to the Middle.\n    *   Current Position: **Middle**\n\nAt the end of the video, the ball is under the middle cup.\n\n$\\boxed{B}$"
+  }
+]

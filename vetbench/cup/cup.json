@@ -1,0 +1,1402 @@
+[
+  {
+    "video": "cup_001.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "initial": "123",
+    "intermediate": [
+      "321",
+      "312",
+      "132",
+      "123",
+      "321"
+    ]
+  },
+  {
+    "video": "cup_002.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": "123",
+    "intermediate": [
+      "213",
+      "312",
+      "213",
+      "123",
+      "213"
+    ]
+  },
+  {
+    "video": "cup_003.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "initial": "123",
+    "intermediate": [
+      "213",
+      "123",
+      "213",
+      "123",
+      "321"
+    ]
+  },
+  {
+    "video": "cup_004.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": "123",
+    "intermediate": [
+      "132",
+      "231",
+      "213",
+      "231",
+      "132"
+    ]
+  },
+  {
+    "video": "cup_005.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": "123",
+    "intermediate": [
+      "213",
+      "312",
+      "213",
+      "123",
+      "132"
+    ]
+  },
+  {
+    "video": "cup_006.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "initial": "123",
+    "intermediate": [
+      "132",
+      "123",
+      "213",
+      "312",
+      "321"
+    ]
+  },
+  {
+    "video": "cup_007.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "initial": "123",
+    "intermediate": [
+      "132",
+      "231",
+      "132",
+      "312",
+      "132"
+    ]
+  },
+  {
+    "video": "cup_008.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "initial": "123",
+    "intermediate": [
+      "321",
+      "123",
+      "321",
+      "312",
+      "321"
+    ]
+  },
+  {
+    "video": "cup_009.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": "123",
+    "intermediate": [
+      "132",
+      "123",
+      "321",
+      "231",
+      "213"
+    ]
+  },
+  {
+    "video": "cup_010.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "initial": "123",
+    "intermediate": [
+      "321",
+      "123",
+      "213",
+      "312",
+      "132"
+    ]
+  },
+  {
+    "video": "cup_011.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": "123",
+    "intermediate": [
+      "321",
+      "231",
+      "132",
+      "231",
+      "321"
+    ]
+  },
+  {
+    "video": "cup_012.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": "123",
+    "intermediate": [
+      "321",
+      "123",
+      "213",
+      "123",
+      "132"
+    ]
+  },
+  {
+    "video": "cup_013.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": "123",
+    "intermediate": [
+      "321",
+      "231",
+      "321",
+      "312",
+      "213"
+    ]
+  },
+  {
+    "video": "cup_014.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "initial": "123",
+    "intermediate": [
+      "132",
+      "231",
+      "321",
+      "312",
+      "213"
+    ]
+  },
+  {
+    "video": "cup_015.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": "123",
+    "intermediate": [
+      "321",
+      "123",
+      "213",
+      "231",
+      "132"
+    ]
+  },
+  {
+    "video": "cup_016.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "initial": "123",
+    "intermediate": [
+      "213",
+      "231",
+      "321",
+      "123",
+      "132"
+    ]
+  },
+  {
+    "video": "cup_017.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": "123",
+    "intermediate": [
+      "321",
+      "231",
+      "132",
+      "312",
+      "132"
+    ]
+  },
+  {
+    "video": "cup_018.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "initial": "123",
+    "intermediate": [
+      "132",
+      "231",
+      "321",
+      "231",
+      "321"
+    ]
+  },
+  {
+    "video": "cup_019.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "initial": "123",
+    "intermediate": [
+      "213",
+      "312",
+      "213",
+      "231",
+      "321"
+    ]
+  },
+  {
+    "video": "cup_020.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": "123",
+    "intermediate": [
+      "321",
+      "123",
+      "132",
+      "123",
+      "321"
+    ]
+  },
+  {
+    "video": "cup_021.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": "123",
+    "intermediate": [
+      "213",
+      "123",
+      "132",
+      "123",
+      "132"
+    ]
+  },
+  {
+    "video": "cup_022.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "initial": "123",
+    "intermediate": [
+      "321",
+      "231",
+      "213",
+      "312",
+      "213"
+    ]
+  },
+  {
+    "video": "cup_023.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "initial": "123",
+    "intermediate": [
+      "213",
+      "231",
+      "132",
+      "231",
+      "213"
+    ]
+  },
+  {
+    "video": "cup_024.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "initial": "123",
+    "intermediate": [
+      "132",
+      "123",
+      "213",
+      "231",
+      "321"
+    ]
+  },
+  {
+    "video": "cup_025.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": "123",
+    "intermediate": [
+      "132",
+      "123",
+      "213",
+      "123",
+      "132"
+    ]
+  },
+  {
+    "video": "cup_026.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "initial": "123",
+    "intermediate": [
+      "132",
+      "123",
+      "132",
+      "312",
+      "321"
+    ]
+  },
+  {
+    "video": "cup_027.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "initial": "123",
+    "intermediate": [
+      "213",
+      "312",
+      "132",
+      "123",
+      "132"
+    ]
+  },
+  {
+    "video": "cup_028.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "initial": "123",
+    "intermediate": [
+      "132",
+      "123",
+      "321",
+      "123",
+      "321"
+    ]
+  },
+  {
+    "video": "cup_029.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": "123",
+    "intermediate": [
+      "213",
+      "123",
+      "321",
+      "123",
+      "213"
+    ]
+  },
+  {
+    "video": "cup_030.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "initial": "123",
+    "intermediate": [
+      "213",
+      "123",
+      "132",
+      "231",
+      "213"
+    ]
+  },
+  {
+    "video": "cup_031.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "initial": "123",
+    "intermediate": [
+      "321",
+      "312",
+      "321",
+      "312",
+      "132"
+    ]
+  },
+  {
+    "video": "cup_032.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": "123",
+    "intermediate": [
+      "321",
+      "312",
+      "132",
+      "123",
+      "321"
+    ]
+  },
+  {
+    "video": "cup_033.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "initial": "123",
+    "intermediate": [
+      "213",
+      "312",
+      "213",
+      "231",
+      "321"
+    ]
+  },
+  {
+    "video": "cup_034.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": "123",
+    "intermediate": [
+      "321",
+      "123",
+      "213",
+      "231",
+      "213"
+    ]
+  },
+  {
+    "video": "cup_035.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "initial": "123",
+    "intermediate": [
+      "321",
+      "123",
+      "132",
+      "123",
+      "321"
+    ]
+  },
+  {
+    "video": "cup_036.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "initial": "123",
+    "intermediate": [
+      "321",
+      "123",
+      "213",
+      "123",
+      "213"
+    ]
+  },
+  {
+    "video": "cup_037.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "initial": "123",
+    "intermediate": [
+      "321",
+      "123",
+      "321",
+      "231",
+      "213"
+    ]
+  },
+  {
+    "video": "cup_038.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "initial": "123",
+    "intermediate": [
+      "213",
+      "123",
+      "321",
+      "123",
+      "213"
+    ]
+  },
+  {
+    "video": "cup_039.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": "123",
+    "intermediate": [
+      "321",
+      "123",
+      "213",
+      "123",
+      "213"
+    ]
+  },
+  {
+    "video": "cup_040.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": "123",
+    "intermediate": [
+      "132",
+      "231",
+      "213",
+      "312",
+      "213"
+    ]
+  },
+  {
+    "video": "cup_041.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": "123",
+    "intermediate": [
+      "132",
+      "123",
+      "213",
+      "312",
+      "132"
+    ]
+  },
+  {
+    "video": "cup_042.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "initial": "123",
+    "intermediate": [
+      "132",
+      "312",
+      "321",
+      "312",
+      "132"
+    ]
+  },
+  {
+    "video": "cup_043.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "initial": "123",
+    "intermediate": [
+      "321",
+      "231",
+      "321",
+      "231",
+      "321"
+    ]
+  },
+  {
+    "video": "cup_044.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "initial": "123",
+    "intermediate": [
+      "213",
+      "312",
+      "321",
+      "231",
+      "213"
+    ]
+  },
+  {
+    "video": "cup_045.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 3
+    },
+    "initial": "123",
+    "intermediate": [
+      "213",
+      "231",
+      "132",
+      "123",
+      "132"
+    ]
+  },
+  {
+    "video": "cup_046.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "initial": "123",
+    "intermediate": [
+      "213",
+      "123",
+      "213",
+      "231",
+      "321"
+    ]
+  },
+  {
+    "video": "cup_047.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "initial": "123",
+    "intermediate": [
+      "213",
+      "123",
+      "132",
+      "231",
+      "132"
+    ]
+  },
+  {
+    "video": "cup_048.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 1
+    },
+    "initial": "123",
+    "intermediate": [
+      "213",
+      "312",
+      "321",
+      "231",
+      "213"
+    ]
+  },
+  {
+    "video": "cup_049.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": "123",
+    "intermediate": [
+      "213",
+      "123",
+      "132",
+      "231",
+      "321"
+    ]
+  },
+  {
+    "video": "cup_050.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "task": "cup",
+    "game_settings": {
+      "num_cups": 3,
+      "swap_count": 5,
+      "swaps_per_second": 0.5,
+      "interval_ms": 0
+    },
+    "ground_truth": {
+      "color": "Red",
+      "cup": 2
+    },
+    "initial": "123",
+    "intermediate": [
+      "132",
+      "312",
+      "132",
+      "312",
+      "213"
+    ]
+  }
+]

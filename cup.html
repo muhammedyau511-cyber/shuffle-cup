@@ -1,0 +1,1975 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cup and Ball Game - three.js</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(180deg, #fafaf9 0%, #f5f5f4 100%);
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            padding: 24px;
+        }
+
+        #game-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 24px;
+            flex: 1;
+            max-width: 960px;
+        }
+
+        #game-title {
+            font-family: 'DM Serif Display', Georgia, serif;
+            font-size: 2.2em;
+            font-weight: 400;
+            color: #1c1917;
+            letter-spacing: -0.5px;
+            text-align: center;
+            position: relative;
+            padding-bottom: 14px;
+        }
+
+        #game-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 48px;
+            height: 3px;
+            background: #1c1917;
+            border-radius: 2px;
+        }
+
+        #canvas-container {
+            width: 100%;
+            max-width: 900px;
+            height: 600px;
+            border: 1px solid #d6d3d1;
+            border-radius: 16px;
+            box-shadow:
+                0 1px 2px rgba(0, 0, 0, 0.03),
+                0 4px 8px rgba(0, 0, 0, 0.04),
+                0 16px 32px rgba(0, 0, 0, 0.06);
+            overflow: hidden;
+            background-color: #333333;
+        }
+
+        #ui-container {
+            width: 100%;
+            max-width: 900px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+            padding: 24px 32px;
+            background: #ffffff;
+            border-radius: 16px;
+            box-shadow:
+                0 1px 2px rgba(0, 0, 0, 0.03),
+                0 4px 8px rgba(0, 0, 0, 0.04);
+            border: 1px solid #e7e5e4;
+        }
+
+        #message-box {
+            padding: 10px 24px;
+            background: #fafaf9;
+            color: #1c1917;
+            border-radius: 8px;
+            font-family: 'DM Serif Display', Georgia, serif;
+            font-size: 1.15em;
+            font-weight: 400;
+            text-align: center;
+            display: none;
+            border: 1px solid #e7e5e4;
+            letter-spacing: 0.1px;
+        }
+
+        #start-button {
+            padding: 12px 40px;
+            font-size: 0.9em;
+            font-weight: 600;
+            color: #ffffff;
+            background: #1c1917;
+            border: none;
+            border-radius: 999px;
+            cursor: pointer;
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+            letter-spacing: 0.3px;
+        }
+
+        #start-button:hover:not(:disabled) {
+            background: #292524;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+        }
+
+        #start-button:active:not(:disabled) {
+            transform: translateY(0);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        #start-button:disabled {
+            background: #d6d3d1;
+            color: #a8a29e;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        #instructions {
+            color: #78716c;
+            font-size: 0.88em;
+            text-align: center;
+            line-height: 1.7;
+            max-width: 480px;
+        }
+
+        #control-panel {
+            width: 260px;
+            max-height: calc(100vh - 48px);
+            overflow-y: auto;
+            background: #ffffff;
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow:
+                0 1px 2px rgba(0, 0, 0, 0.03),
+                0 4px 8px rgba(0, 0, 0, 0.04);
+            font-size: 13px;
+            color: #44403c;
+            border: 1px solid #e7e5e4;
+        }
+
+        #control-panel h3 {
+            margin: 0 0 12px 0;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #e7e5e4;
+            color: #1c1917;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 0.6px;
+            text-transform: uppercase;
+        }
+
+        #control-panel h3:not(:first-child) {
+            margin-top: 18px;
+        }
+
+        .control-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 8px;
+        }
+
+        .control-row label {
+            flex: 1;
+            color: #57534e;
+            font-size: 13px;
+        }
+
+        .control-row input[type="range"] {
+            width: 90px;
+            cursor: pointer;
+            accent-color: #1c1917;
+        }
+
+        .control-row input[type="color"] {
+            width: 45px;
+            height: 28px;
+            border: 1px solid #d6d3d1;
+            border-radius: 6px;
+            cursor: pointer;
+            padding: 2px;
+            background: #ffffff;
+        }
+
+        .control-row .value {
+            width: 38px;
+            text-align: right;
+            font-size: 11px;
+            color: #a8a29e;
+        }
+
+        .panel-button {
+            width: 100%;
+            padding: 10px 16px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 999px;
+            font-size: 13px;
+            font-weight: 600;
+            background: #1c1917;
+            color: #fff;
+            cursor: pointer;
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .panel-button:hover:not(:disabled) {
+            background: #292524;
+            transform: translateY(-1px);
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+        }
+
+        .panel-button:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    <div id="game-wrapper">
+        <h1 id="game-title">The Cups Game</h1>
+        
+        <div id="canvas-container"></div>
+
+        <div id="ui-container">
+            <div id="message-box">Find the ball!</div>
+            <p id="instructions">Click the button to start. Watch carefully where the ball goes, then click on a cup to make your guess!</p>
+            <button id="start-button">Start Game</button>
+        </div>
+    </div>
+
+    <div id="control-panel">
+        <h3>🎮 Game Setup</h3>
+        <div class="control-row">
+            <label>Number of Cups</label>
+            <input type="range" id="num-cups" min="2" max="7" value="3">
+            <span class="value" id="num-cups-val">3</span>
+        </div>
+        <div class="control-row">
+            <label>Multi-Object Tracking</label>
+            <input type="checkbox" id="multi-object" style="width:18px;height:18px;accent-color:#1c1917;">
+        </div>
+
+        <h3>📷 Camera</h3>
+        <div class="control-row">
+            <label>FOV</label>
+            <input type="range" id="cam-fov" min="20" max="90" value="24">
+            <span class="value" id="cam-fov-val">24</span>
+        </div>
+        <div class="control-row">
+            <label>Height (Y)</label>
+            <input type="range" id="cam-y" min="5" max="60" value="30">
+            <span class="value" id="cam-y-val">30</span>
+        </div>
+        <div class="control-row">
+            <label>Distance (Z)</label>
+            <input type="range" id="cam-z" min="10" max="120" value="40">
+            <span class="value" id="cam-z-val">40</span>
+        </div>
+
+        <h3>💡 Lighting</h3>
+        <div class="control-row">
+            <label>Ambient</label>
+            <input type="range" id="light-ambient" min="0" max="2" step="0.1" value="0.6">
+            <span class="value" id="light-ambient-val">0.6</span>
+        </div>
+        <div class="control-row">
+            <label>Ambient Color</label>
+            <input type="color" id="ambient-color" value="#ffffff">
+        </div>
+        <div class="control-row">
+            <label>Intensity</label>
+            <input type="range" id="light-dir" min="0" max="5" step="0.1" value="1.5">
+            <span class="value" id="light-dir-val">1.5</span>
+        </div>
+        <div class="control-row">
+            <label>Light Color</label>
+            <input type="color" id="light-color" value="#ffffff">
+        </div>
+        <div class="control-row">
+            <label>Light X</label>
+            <input type="range" id="light-x" min="-30" max="30" step="1" value="10">
+            <span class="value" id="light-x-val">10</span>
+        </div>
+        <div class="control-row">
+            <label>Light Y</label>
+            <input type="range" id="light-y" min="5" max="50" step="1" value="20">
+            <span class="value" id="light-y-val">20</span>
+        </div>
+        <div class="control-row">
+            <label>Light Z</label>
+            <input type="range" id="light-z" min="-30" max="30" step="1" value="5">
+            <span class="value" id="light-z-val">5</span>
+        </div>
+        <div class="control-row">
+            <label>Shadows</label>
+            <input type="checkbox" id="shadows-enabled" checked style="width:18px;height:18px;accent-color:#1c1917;">
+        </div>
+        <div class="control-row">
+            <label>Shadow Softness</label>
+            <input type="range" id="shadow-softness" min="0" max="3" step="0.1" value="0">
+            <span class="value" id="shadow-softness-val">0</span>
+        </div>
+        <div class="control-row">
+            <label>Background</label>
+            <input type="color" id="bg-color" value="#333333">
+        </div>
+
+        <h3>🥤 Cup Material</h3>
+        <div class="control-row">
+            <label>Color</label>
+            <input type="color" id="cup-color" value="#ffffff">
+        </div>
+        <div class="control-row">
+            <label>Roughness</label>
+            <input type="range" id="cup-roughness" min="0" max="1" step="0.05" value="0.85">
+            <span class="value" id="cup-roughness-val">0.85</span>
+        </div>
+        <div class="control-row">
+            <label>Metalness</label>
+            <input type="range" id="cup-metalness" min="0" max="1" step="0.05" value="0">
+            <span class="value" id="cup-metalness-val">0</span>
+        </div>
+
+        <h3>⚽ Ball Material</h3>
+        <div class="control-row">
+            <label>Color</label>
+            <select id="ball-color" style="width:95px; background:#fff; color:#44403c; border:1px solid #d6d3d1; border-radius:6px; padding:4px;">
+                <option value="0" selected>Red</option>
+                <option value="1">Blue</option>
+                <option value="2">Green</option>
+                <option value="3">Yellow</option>
+                <option value="4">Purple</option>
+                <option value="5">Orange</option>
+                <option value="6">Pink</option>
+            </select>
+        </div>
+        <div class="control-row">
+            <label>Roughness</label>
+            <input type="range" id="ball-roughness" min="0" max="1" step="0.05" value="0.4">
+            <span class="value" id="ball-roughness-val">0.4</span>
+        </div>
+        <div class="control-row">
+            <label>Metalness</label>
+            <input type="range" id="ball-metalness" min="0" max="1" step="0.05" value="0">
+            <span class="value" id="ball-metalness-val">0</span>
+        </div>
+
+        <h3>🪵 Table Material</h3>
+        <div class="control-row">
+            <label>Color</label>
+            <input type="color" id="table-color" value="#b8956e">
+        </div>
+        <div class="control-row">
+            <label>Roughness</label>
+            <input type="range" id="table-roughness" min="0" max="1" step="0.05" value="0.65">
+            <span class="value" id="table-roughness-val">0.65</span>
+        </div>
+        <div class="control-row">
+            <label>Metalness</label>
+            <input type="range" id="table-metalness" min="0" max="1" step="0.05" value="0">
+            <span class="value" id="table-metalness-val">0</span>
+        </div>
+
+        <h3>🔀 Animation</h3>
+        <div class="control-row">
+            <label>Swap Count</label>
+            <input type="range" id="anim-swaps" min="0" max="30" step="1" value="5">
+            <span class="value" id="anim-swaps-val">5</span>
+        </div>
+        <div class="control-row">
+            <label>Swaps/Second</label>
+            <input type="range" id="anim-speed" min="0.25" max="5" step="0.25" value="0.5">
+            <span class="value" id="anim-speed-val">0.5</span>
+        </div>
+        <div class="control-row">
+            <label>Interval (ms)</label>
+            <input type="range" id="anim-interval" min="0" max="100" step="10" value="0">
+            <span class="value" id="anim-interval-val">0</span>
+        </div>
+        <div class="control-row">
+            <label>Arc Depth</label>
+            <input type="range" id="anim-arc" min="3" max="12" step="0.5" value="5">
+            <span class="value" id="anim-arc-val">5</span>
+        </div>
+
+        <h3>📥 Batch Export</h3>
+        <div class="control-row">
+            <label>Count</label>
+            <input type="number" id="export-count" min="1" max="500" value="10" style="width:55px; background:#fff; color:#44403c; border:1px solid #d6d3d1; border-radius:6px; padding:4px;">
+        </div>
+        <div class="control-row">
+            <label>Resolution</label>
+            <select id="export-resolution" style="width:95px; background:#fff; color:#44403c; border:1px solid #d6d3d1; border-radius:6px; padding:4px;">
+                <option value="640x480" selected>640×480</option>
+                <option value="1280x720">1280×720</option>
+                <option value="1920x1080">1920×1080</option>
+            </select>
+        </div>
+        <div class="control-row">
+            <label>FPS</label>
+            <select id="export-fps" style="width:95px; background:#fff; color:#44403c; border:1px solid #d6d3d1; border-radius:6px; padding:4px;">
+                <option value="24">24</option>
+                <option value="30" selected>30</option>
+                <option value="60">60</option>
+            </select>
+        </div>
+        <div class="control-row">
+            <label>Randomize</label>
+            <input type="checkbox" id="export-randomize" style="width:18px;height:18px;accent-color:#1c1917;">
+        </div>
+        <div class="control-row">
+            <label>Multi-Object Mode</label>
+            <input type="checkbox" id="export-multi-object" style="width:18px;height:18px;accent-color:#1c1917;">
+        </div>
+        <button id="export-button" class="panel-button">Export Batch (.zip)</button>
+        <div id="export-progress" style="margin-top:10px;font-size:12px;color:#78716c;display:none;">
+            <span id="export-status">Generating...</span>
+            <div style="background:#e7e5e4;border-radius:6px;height:6px;margin-top:5px;">
+                <div id="export-bar" style="background:linear-gradient(90deg,#1c1917,#44403c);height:100%;border-radius:6px;width:0%;transition:width 0.2s;"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://unpkg.com/three@0.165.0/build/three.module.js",
+            "tweenjs": "https://unpkg.com/@tweenjs/tween.js@23.1.2/dist/tween.esm.js",
+            "mp4-muxer": "https://cdn.jsdelivr.net/npm/mp4-muxer@5.1.0/+esm"
+        }
+    }
+    </script>
+
+    <script type="module">
+        import * as THREE from 'three';
+        import * as TWEEN from 'tweenjs';
+        import * as Mp4Muxer from 'mp4-muxer';
+
+        // --- DOM Elements ---
+        const startButton = document.getElementById('start-button');
+        const messageBox = document.getElementById('message-box');
+        const canvasContainer = document.getElementById('canvas-container');
+        const exportButton = document.getElementById('export-button');
+
+        // --- Game State ---
+        let gameState = 'STOPPED'; // STOPPED, RUNNING, SHUFFLING, AWAITING_GUESS
+        let cups = [];
+        let ball;
+        let balls = []; // Array for multi-object tracking mode
+        let ballCupIndex = 1; // The ball will start under the middle cup
+        let ballCupIndices = []; // Tracks which cup each ball is under in multi-object mode
+        let targetBallIndex = 0; // Which ball to find in multi-object mode
+        let multiObjectMode = false; // Multi-object tracking mode
+        let numCups = 3; // Number of cups (configurable)
+        let selectedBallColorIndex = 0; // Selected ball color for SOT mode (index into BALL_COLORS)
+        const CUP_SPACING = 8; // Spacing between cups
+        
+        // Distinct ball colors for multi-object tracking
+        const BALL_COLORS = [
+            { name: 'Red', hex: 0xe63946 },
+            { name: 'Blue', hex: 0x3498db },
+            { name: 'Green', hex: 0x27ae60 },
+            { name: 'Yellow', hex: 0xf1c40f },
+            { name: 'Purple', hex: 0x9b59b6 },
+            { name: 'Orange', hex: 0xe67e22 },
+            { name: 'Pink', hex: 0xe91e8c },
+        ];
+
+        // Function to calculate cup positions based on number of cups
+        function getCupPositions(n) {
+            const positions = [];
+            const totalWidth = (n - 1) * CUP_SPACING;
+            const startX = -totalWidth / 2;
+            for (let i = 0; i < n; i++) {
+                positions.push(startX + i * CUP_SPACING);
+            }
+            return positions;
+        }
+
+        // --- Animation Settings ---
+        let animSettings = {
+            swapCount: 5,
+            swapsPerSecond: 0.5,  // How many swaps per second
+            interval: 0,       // Pause between swaps in ms
+            arcDepth: 6
+        };
+        
+        // Helper to calculate swap duration from swapsPerSecond and interval
+        function getSwapDuration() {
+            const cycleTime = 1000 / animSettings.swapsPerSecond; // Total time per swap cycle
+            return Math.max(100, cycleTime - animSettings.interval); // Ensure minimum 100ms animation
+        }
+
+        // --- 3D Scene Setup ---
+        const scene = new THREE.Scene();
+        scene.background = new THREE.Color(0x333333);
+
+        // Get container dimensions
+        const containerWidth = canvasContainer.clientWidth;
+        const containerHeight = canvasContainer.clientHeight;
+
+        const camera = new THREE.PerspectiveCamera(24, containerWidth / containerHeight, 0.1, 1000);
+        camera.position.set(0, 30, 40);
+        camera.lookAt(0, 0, 0);
+
+        const renderer = new THREE.WebGLRenderer({ antialias: true });
+        renderer.setSize(containerWidth, containerHeight);
+        renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2)); // Fix moiré on high-DPI displays
+        renderer.shadowMap.enabled = true; // Enable shadows
+        canvasContainer.appendChild(renderer.domElement);
+
+        // --- Batch Export State ---
+        let isExporting = false;
+        const exportCountInput = document.getElementById('export-count');
+        const exportProgress = document.getElementById('export-progress');
+        const exportStatus = document.getElementById('export-status');
+        const exportBar = document.getElementById('export-bar');
+
+        exportButton.addEventListener('click', () => {
+            if (isExporting) return;
+            const count = Math.max(1, Math.min(500, parseInt(exportCountInput.value) || 10));
+            runBatchExport(count);
+        });
+
+        // --- Lighting ---
+        const ambientLight = new THREE.AmbientLight(0xffffff, 0.6);
+        scene.add(ambientLight);
+
+        // Directional Light
+        const directionalLight = new THREE.DirectionalLight(0xffffff, 1.5);
+        directionalLight.position.set(10, 20, 5);
+        directionalLight.castShadow = true;
+        directionalLight.shadow.camera.top = 30;
+        directionalLight.shadow.camera.bottom = -30;
+        directionalLight.shadow.camera.left = -30;
+        directionalLight.shadow.camera.right = 30;
+        directionalLight.shadow.mapSize.width = 2048;
+        directionalLight.shadow.mapSize.height = 2048;
+        directionalLight.shadow.bias = -0.0001;
+        scene.add(directionalLight);
+
+        // --- Materials ---
+        // Paper cup - white with matte paper-like finish
+        const cupMaterial = new THREE.MeshStandardMaterial({
+            color: 0xffffff, // White
+            metalness: 0.0,
+            roughness: 0.85, // Matte paper texture
+            shadowSide: THREE.DoubleSide // Cast shadows from both sides (fixes hollow shadow)
+        });
+        
+        // Rubber/plastic ball - slight sheen
+        const ballMaterial = new THREE.MeshStandardMaterial({
+            color: 0xe63946, // Classic red ball
+            metalness: 0.0,
+            roughness: 0.4
+        });
+        
+        // Wooden table - natural oak finish
+        const tableMaterial = new THREE.MeshStandardMaterial({
+            color: 0xb8956e, // Natural wood tone
+            metalness: 0.0,
+            roughness: 0.65 // Semi-smooth wood finish
+        });
+
+        // --- Game Objects ---
+
+        // Create the table
+        const tableGeometry = new THREE.PlaneGeometry(100, 100);
+        const table = new THREE.Mesh(tableGeometry, tableMaterial);
+        table.rotation.x = -Math.PI / 2; // Rotate to be flat
+        table.position.y = -2.5; // Position it below the cups/ball
+        table.receiveShadow = true;
+        scene.add(table);
+
+        // Function to create a paper cup using LatheGeometry
+        function createCup() {
+            const points = [];
+            
+            // Dimensions
+            const bottomRadius = 0.25;
+            const topRadius = 0.42;
+            const height = 1.0;
+            const rimThickness = 0.03;
+            
+            // 1. Center Bottom
+            points.push(new THREE.Vector2(0, 0));
+            
+            // 2. Bottom Flat area
+            points.push(new THREE.Vector2(bottomRadius * 0.9, 0));
+            
+            // 3. Bottom Recess (The little lip at the bottom of paper cups)
+            points.push(new THREE.Vector2(bottomRadius, 0.02)); // Move out and up slightly
+            points.push(new THREE.Vector2(bottomRadius, 0.08)); // Vertical lip start
+            
+            // 4. Main Body Taper
+            // Taper from bottom lip to top rim
+            points.push(new THREE.Vector2(topRadius, height));
+            
+            // 5. Rolled Rim
+            // Create a small semi-circle loop for the rolled rim
+            const steps = 8;
+            for (let i = 0; i <= steps; i++) {
+                const theta = (i / steps) * Math.PI + Math.PI; // 180 to 360 degrees (outer curl)
+                // Offset circle center
+                const cx = topRadius + (rimThickness / 2);
+                const cy = height;
+                const x = cx + Math.cos(theta) * (rimThickness / 2);
+                const y = cy + Math.sin(theta) * (rimThickness / 2);
+                points.push(new THREE.Vector2(x, y));
+            }
+            
+            const geometry = new THREE.LatheGeometry(points, 64); // More segments for smoother appearance
+            geometry.computeVertexNormals();
+            
+            const cup = new THREE.Mesh(geometry, cupMaterial);
+            cup.castShadow = true;
+            cup.receiveShadow = true;
+            cup.userData.isCup = true; // Add a flag for raycasting
+            
+            // Scale up the cup to match previous size (approximately)
+            const scale = 5.0; // Scale factor to match the original cup size
+            cup.scale.set(scale, scale, scale);
+            
+            // Flip the cup upside down so it can cover the ball
+            cup.rotation.x = Math.PI; // 180 degrees rotation
+            
+            cup.position.y = 0.5 * scale; // Adjust vertical position for upside-down orientation
+            
+            return cup;
+        }
+
+        // Function to calculate optimal camera distance based on cup count
+        function calculateCameraDistance(cupCount) {
+            const totalWidth = (cupCount - 1) * CUP_SPACING;
+            const margin = 1.3; // Extra margin to ensure cups aren't at screen edges
+            const fov = camera.fov * (Math.PI / 180); // Convert to radians
+            const aspect = camera.aspect;
+            
+            // Calculate distance needed to fit the width (horizontal FOV)
+            const hFov = 2 * Math.atan(Math.tan(fov / 2) * aspect);
+            const distanceForWidth = (totalWidth * margin / 2) / Math.tan(hFov / 2);
+            
+            // Base distance (for 3 cups)
+            const baseDistance = 40;
+            
+            // Return the larger of base distance or calculated distance
+            return Math.max(baseDistance, distanceForWidth);
+        }
+
+        // Function to recreate cups with new count
+        function setupCups(count) {
+            // Remove existing cups
+            cups.forEach(cup => scene.remove(cup));
+            cups = [];
+            
+            numCups = count;
+            const positions = getCupPositions(count);
+            
+            for (let i = 0; i < count; i++) {
+                const cup = createCup();
+                cup.position.x = positions[i];
+                cup.position.z = 0;
+                cups.push(cup);
+                scene.add(cup);
+            }
+            
+            // Update ball position to a random cup
+            ballCupIndex = Math.floor(Math.random() * count);
+            if (ball) {
+                ball.position.x = positions[ballCupIndex];
+            }
+            
+            // Adjust camera to fit all cups in view
+            const optimalZ = calculateCameraDistance(count);
+            camera.position.z = optimalZ;
+            camera.lookAt(0, 0, 0);
+            
+            // Update the UI slider to reflect new camera Z
+            const camZSlider = document.getElementById('cam-z');
+            if (camZSlider) {
+                camZSlider.value = Math.round(optimalZ);
+                const valDisplay = document.getElementById('cam-z-val');
+                if (valDisplay) valDisplay.textContent = Math.round(optimalZ);
+            }
+        }
+
+        // Initial cup setup
+        setupCups(numCups);
+
+        // Create the ball (single ball mode)
+        const ballGeometry = new THREE.SphereGeometry(1, 32, 32);
+        ball = new THREE.Mesh(ballGeometry, ballMaterial);
+        ball.castShadow = true;
+        const initialPositions = getCupPositions(numCups);
+        ball.position.set(initialPositions[ballCupIndex], -1.5, 0); // Start under the middle cup
+        scene.add(ball);
+        
+        // Function to create balls for multi-object tracking
+        function setupMultiBalls(count) {
+            // Remove existing multi-balls
+            balls.forEach(b => scene.remove(b));
+            balls = [];
+            ballCupIndices = [];
+            
+            const positions = getCupPositions(count);
+            
+            for (let i = 0; i < count; i++) {
+                const ballMat = new THREE.MeshStandardMaterial({
+                    color: BALL_COLORS[i % BALL_COLORS.length].hex,
+                    metalness: 0.0,
+                    roughness: 0.4
+                });
+                const newBall = new THREE.Mesh(ballGeometry, ballMat);
+                newBall.castShadow = true;
+                newBall.position.set(positions[i], -1.5, 0);
+                newBall.userData.colorIndex = i;
+                newBall.userData.colorName = BALL_COLORS[i % BALL_COLORS.length].name;
+                balls.push(newBall);
+                ballCupIndices.push(i); // Ball i starts under cup i
+                scene.add(newBall);
+            }
+        }
+        
+        // --- Raycasting (for clicking) ---
+        const raycaster = new THREE.Raycaster();
+        const mouse = new THREE.Vector2();
+
+        function onMouseClick(event) {
+            if (gameState !== 'AWAITING_GUESS') return;
+
+            // Get canvas bounds
+            const rect = renderer.domElement.getBoundingClientRect();
+            
+            // Calculate mouse position relative to the canvas
+            const x = event.clientX - rect.left;
+            const y = event.clientY - rect.top;
+            
+            // Calculate mouse position in normalized device coordinates
+            mouse.x = (x / rect.width) * 2 - 1;
+            mouse.y = -(y / rect.height) * 2 + 1;
+
+            raycaster.setFromCamera(mouse, camera);
+            const intersects = raycaster.intersectObjects(cups);
+
+            if (intersects.length > 0) {
+                const clickedCup = intersects[0].object;
+                const clickedIndex = cups.indexOf(clickedCup);
+                if (clickedIndex !== -1) {
+                    handleGuess(clickedIndex);
+                }
+            }
+        }
+        window.addEventListener('click', onMouseClick);
+
+        // --- Game Logic Functions ---
+
+        function showMessage(text) {
+            messageBox.textContent = text;
+            messageBox.style.display = 'block';
+        }
+
+        // 1. Start Game
+        startButton.addEventListener('click', () => {
+            startGame();
+        });
+
+        function startGame() {
+            gameState = 'RUNNING';
+            startButton.disabled = true;
+            startButton.textContent = 'Shuffling...';
+            
+            // Check multi-object mode
+            multiObjectMode = document.getElementById('multi-object').checked;
+
+            // Get current cup positions
+            const positions = getCupPositions(numCups);
+
+            // Reset all positions
+            cups.forEach((cup, i) => {
+                cup.position.x = positions[i];
+                cup.position.y = 2.5; // Base position for upside-down cup (resting on table)
+                cup.position.z = 0;
+            });
+            
+            if (multiObjectMode) {
+                // Setup multiple balls
+                setupMultiBalls(numCups);
+                showMessage('Watch the balls!');
+                
+                // Pick a random ball to track
+                targetBallIndex = Math.floor(Math.random() * numCups);
+                const targetColorName = BALL_COLORS[targetBallIndex % BALL_COLORS.length].name;
+                
+                // Position all balls under their cups
+                balls.forEach((b, i) => {
+                    b.position.set(positions[i], -1.5, 0);
+                    b.visible = true;
+                    ballCupIndices[i] = i;
+                });
+                ball.visible = false;
+                
+                // Lift ALL cups to show balls
+                let liftCount = 0;
+                cups.forEach((cup, i) => {
+                    new TWEEN.Tween(cup.position)
+                        .to({ y: 8 }, 600)
+                        .delay(i * 80) // Stagger the lifts
+                        .easing(TWEEN.Easing.Back.Out)
+                        .onComplete(() => {
+                            liftCount++;
+                            if (liftCount === numCups) {
+                                // All cups lifted, wait then lower
+                                setTimeout(() => {
+                                    let lowerCount = 0;
+                                    cups.forEach((c, j) => {
+                                        new TWEEN.Tween(c.position)
+                                            .to({ y: 2.5 }, 500)
+                                            .delay(j * 60)
+                                            .easing(TWEEN.Easing.Bounce.Out)
+                                            .onComplete(() => {
+                                                lowerCount++;
+                                                if (lowerCount === numCups) {
+                                                    // Hide all balls and start shuffling
+                                                    balls.forEach(b => b.visible = false);
+                                                    startShuffle();
+                                                }
+                                            })
+                                            .start();
+                                    });
+                                }, 1000);
+                            }
+                        })
+                        .start();
+                });
+            } else {
+                // Single ball mode (original behavior)
+                showMessage('Watch the ball!');
+                ballCupIndex = Math.floor(Math.random() * numCups); // Ball starts under a random cup
+                ball.position.set(positions[ballCupIndex], -1.5, 0);
+                ball.visible = true;
+                balls.forEach(b => b.visible = false);
+
+                // 1. Lift the middle cup with smooth motion
+                const liftCup = cups[ballCupIndex];
+                new TWEEN.Tween(liftCup.position)
+                    .to({ y: 8 }, 600)
+                    .easing(TWEEN.Easing.Back.Out) // Slight overshoot for natural feel
+                    .onComplete(() => {
+                        // 2. Wait, then lower the cup
+                        setTimeout(() => {
+                            new TWEEN.Tween(liftCup.position)
+                                .to({ y: 2.5 }, 500)
+                                .easing(TWEEN.Easing.Bounce.Out) // Gentle bounce when landing
+                                .onComplete(() => {
+                                    // 3. Hide ball and start shuffling
+                                    ball.visible = false;
+                                    startShuffle();
+                                })
+                                .start();
+                        }, 800);
+                    })
+                    .start();
+            }
+        }
+
+        // 2. Shuffle
+        async function startShuffle() {
+            gameState = 'SHUFFLING';
+            const shuffleCount = animSettings.swapCount;
+
+            for (let i = 0; i < shuffleCount; i++) {
+                // Pick two different random cups to swap
+                let i1 = Math.floor(Math.random() * numCups);
+                let i2 = Math.floor(Math.random() * numCups);
+                while (i1 === i2) {
+                    i2 = Math.floor(Math.random() * numCups);
+                }
+                
+                // Wait for the swap animation to complete
+                await swapCups(i1, i2);
+                
+                // Wait for interval before next swap (except for last swap)
+                if (i < shuffleCount - 1 && animSettings.interval > 0) {
+                    await new Promise(r => setTimeout(r, animSettings.interval));
+                }
+            }
+
+            gameState = 'AWAITING_GUESS';
+            startButton.disabled = true; // Still disabled, can't reset yet
+            startButton.textContent = 'Make your guess!';
+            
+            if (multiObjectMode) {
+                const targetColorName = BALL_COLORS[targetBallIndex % BALL_COLORS.length].name;
+                showMessage(`Where is the ${targetColorName} ball?`);
+            } else {
+                showMessage('Where is the ball?');
+            }
+        }
+
+        // This function swaps two cups and returns a Promise that resolves when the animation is done
+        function swapCups(indexA, indexB) {
+            return new Promise((resolve) => {
+                gameState = 'SHUFFLING';
+                const cupA = cups[indexA];
+                const cupB = cups[indexB];
+
+                const posA = cupA.position.clone();
+                const posB = cupB.position.clone();
+                const rotA = cupA.rotation.clone();
+                const rotB = cupB.rotation.clone();
+                
+                const duration = getSwapDuration();
+                const isAdjacent = Math.abs(indexA - indexB) === 1;
+                const arcHeight = isAdjacent ? animSettings.arcDepth : animSettings.arcDepth * 1.5;
+                const liftHeight = 0; // Slight lift during movement
+
+                // Cup A animation object for smooth interpolation
+                const animA = { t: 0 };
+                const animB = { t: 0 };
+                
+                // Cup A moves in a smooth arc (back path)
+                new TWEEN.Tween(animA)
+                    .to({ t: 1 }, duration)
+                    .easing(TWEEN.Easing.Sinusoidal.InOut)
+                    .onUpdate(() => {
+                        const t = animA.t;
+                        // Smooth X interpolation
+                        cupA.position.x = posA.x + (posB.x - posA.x) * t;
+                        // Arc in Z (sine curve for smooth in/out)
+                        cupA.position.z = -arcHeight * Math.sin(t * Math.PI);
+                        // Slight lift in Y (parabolic)
+                        cupA.position.y = 2.5 + liftHeight * Math.sin(t * Math.PI);
+                    })
+                    .start();
+
+                // Cup B moves in a smooth arc (front path)
+                new TWEEN.Tween(animB)
+                    .to({ t: 1 }, duration)
+                    .easing(TWEEN.Easing.Sinusoidal.InOut)
+                    .onUpdate(() => {
+                        const t = animB.t;
+                        // Smooth X interpolation
+                        cupB.position.x = posB.x + (posA.x - posB.x) * t;
+                        // Arc in Z (opposite direction)
+                        cupB.position.z = arcHeight * Math.sin(t * Math.PI);
+                        // Slight lift in Y
+                        cupB.position.y = 2.5 + liftHeight * Math.sin(t * Math.PI);
+                    })
+                    .onComplete(() => {
+                        // Reset rotations
+                        cupA.rotation.set(Math.PI, 0, 0);
+                        cupB.rotation.set(Math.PI, 0, 0);
+                        cupA.position.y = 2.5;
+                        cupB.position.y = 2.5;
+                        
+                        // Swap in the array
+                        [cups[indexA], cups[indexB]] = [cups[indexB], cups[indexA]];
+
+                        // Update ball index (single ball mode)
+                        if (ballCupIndex === indexA) {
+                            ballCupIndex = indexB;
+                        } else if (ballCupIndex === indexB) {
+                            ballCupIndex = indexA;
+                        }
+                        
+                        // Update all ball indices (multi-object mode)
+                        if (multiObjectMode) {
+                            for (let i = 0; i < ballCupIndices.length; i++) {
+                                if (ballCupIndices[i] === indexA) {
+                                    ballCupIndices[i] = indexB;
+                                } else if (ballCupIndices[i] === indexB) {
+                                    ballCupIndices[i] = indexA;
+                                }
+                            }
+                        }
+                        
+                        resolve();
+                    })
+                    .start();
+            });
+        }
+
+        // 3. Handle Guess
+        function handleGuess(clickedIndex) {
+            gameState = 'STOPPED'; // Game is over, prevent more clicks
+
+            if (multiObjectMode) {
+                // Multi-object mode: check if clicked cup has the target colored ball
+                const targetBallCupIndex = ballCupIndices[targetBallIndex];
+                const isCorrect = (clickedIndex === targetBallCupIndex);
+                const targetColorName = BALL_COLORS[targetBallIndex % BALL_COLORS.length].name;
+                
+                // Reposition all balls to be under their respective cups
+                balls.forEach((b, i) => {
+                    const cupIndex = ballCupIndices[i];
+                    b.position.x = cups[cupIndex].position.x;
+                    b.visible = true;
+                });
+                ball.visible = false;
+
+                // Animate all cups lifting up with staggered timing
+                const revealTweens = [];
+                cups.forEach((cup, i) => {
+                    const delay = i * 100; // Stagger the lifts
+                    const tween = new TWEEN.Tween(cup.position)
+                        .to({ y: 8 }, 600)
+                        .delay(delay)
+                        .easing(TWEEN.Easing.Back.Out);
+                    revealTweens.push(tween);
+                    tween.start();
+                });
+
+                // After reveal, show result
+                revealTweens[revealTweens.length - 1].onComplete(() => {
+                    if (isCorrect) {
+                        showMessage(`🎉 You found the ${targetColorName} ball!`);
+                    } else {
+                        showMessage(`❌ That's not the ${targetColorName} ball!`);
+                    }
+                    startButton.disabled = false;
+                    startButton.textContent = 'Play Again';
+                });
+            } else {
+                // Single ball mode (original behavior)
+                const correctCup = cups[ballCupIndex];
+                const isCorrect = (clickedIndex === ballCupIndex);
+
+                // Reposition the ball to be under the correct cup
+                ball.position.x = correctCup.position.x;
+                ball.visible = true;
+
+                // Animate all cups lifting up with staggered timing
+                const revealTweens = [];
+                cups.forEach((cup, i) => {
+                    const delay = i * 100; // Stagger the lifts
+                    const tween = new TWEEN.Tween(cup.position)
+                        .to({ y: 8 }, 600)
+                        .delay(delay)
+                        .easing(TWEEN.Easing.Back.Out); // Smooth overshoot
+                    revealTweens.push(tween);
+                    tween.start();
+                });
+
+                // After reveal, show result and enable reset (use last cup's tween)
+                revealTweens[revealTweens.length - 1].onComplete(() => {
+                    if (isCorrect) {
+                        showMessage('🎉 You got it!');
+                    } else {
+                        showMessage('❌ Wrong cup! Try again.');
+                    }
+                    startButton.disabled = false;
+                    startButton.textContent = 'Play Again';
+                });
+            }
+        }
+
+        // =====================================================
+        // OFFLINE BATCH EXPORT - renders frames and encodes to MP4 using VideoEncoder + mp4-muxer
+        // =====================================================
+
+        // Export settings (configurable via UI)
+        let exportSettings = {
+            fps: 30,
+            width: 1280,
+            height: 720
+        };
+
+        // Create an offscreen canvas for video encoding
+        const offscreenCanvas = document.createElement('canvas');
+
+        // Create an offscreen renderer for batch export
+        const offscreenRenderer = new THREE.WebGLRenderer({ 
+            canvas: offscreenCanvas,
+            antialias: true, 
+            preserveDrawingBuffer: true 
+        });
+        offscreenRenderer.shadowMap.enabled = true;
+
+        // Offscreen camera with same settings
+        const offscreenCamera = new THREE.PerspectiveCamera(24, 16/9, 0.1, 1000);
+        offscreenCamera.position.set(0, 30, 40);
+        offscreenCamera.lookAt(0, 0, 0);
+
+        // Function to update export settings from UI
+        function updateExportSettings() {
+            const resSelect = document.getElementById('export-resolution');
+            const fpsSelect = document.getElementById('export-fps');
+            
+            const [w, h] = resSelect.value.split('x').map(Number);
+            exportSettings.width = w;
+            exportSettings.height = h;
+            exportSettings.fps = parseInt(fpsSelect.value);
+            
+            // Update offscreen canvas and renderer
+            offscreenCanvas.width = w;
+            offscreenCanvas.height = h;
+            offscreenRenderer.setSize(w, h);
+            offscreenCamera.aspect = w / h;
+            offscreenCamera.updateProjectionMatrix();
+        }
+
+        // Helper functions for randomization
+        function randRange(min, max) {
+            return min + Math.random() * (max - min);
+        }
+        
+        function randInt(min, max) {
+            return Math.floor(randRange(min, max + 1));
+        }
+        
+        function randColor() {
+            return new THREE.Color().setHSL(Math.random(), randRange(0.4, 1.0), randRange(0.3, 0.7));
+        }
+        
+        function randNeutralColor() {
+            // Browns, grays, beiges for table
+            const hue = randRange(0.05, 0.12); // Brown-ish hues
+            return new THREE.Color().setHSL(hue, randRange(0.2, 0.6), randRange(0.3, 0.6));
+        }
+        
+        function randCupColor() {
+            // Paper cup colors: white, cream, pastels, or colored cups
+            const style = Math.random();
+            if (style < 0.5) {
+                // White/cream paper cups
+                return new THREE.Color().setHSL(randRange(0.08, 0.15), randRange(0.1, 0.3), randRange(0.85, 0.98));
+            } else {
+                // Colored cups
+                return new THREE.Color().setHSL(Math.random(), randRange(0.5, 0.9), randRange(0.4, 0.7));
+            }
+        }
+        
+        function randBackgroundColor() {
+            // Dark backgrounds work well for this scene
+            return new THREE.Color().setHSL(Math.random(), randRange(0.1, 0.5), randRange(0.1, 0.35));
+        }
+
+        // Function to calculate optimal camera distance for offscreen camera
+        function calculateOffscreenCameraDistance(cupCount, fov, aspect) {
+            const totalWidth = (cupCount - 1) * CUP_SPACING;
+            const margin = 1.3;
+            const fovRad = fov * (Math.PI / 180);
+            const hFov = 2 * Math.atan(Math.tan(fovRad / 2) * aspect);
+            const distanceForWidth = (totalWidth * margin / 2) / Math.tan(hFov / 2);
+            const baseDistance = 40;
+            return Math.max(baseDistance, distanceForWidth);
+        }
+
+        // Randomize all scene parameters
+        function randomizeSceneParameters() {
+            // Number of cups (3-7)
+            const newCupCount = randInt(3, 7);
+            setupCups(newCupCount);
+            
+            // Camera (applied to offscreen camera)
+            offscreenCamera.fov = randRange(25, 50);
+            offscreenCamera.position.y = randRange(15, 45);
+            // Calculate minimum Z distance to fit all cups, then add some randomness
+            const minZ = calculateOffscreenCameraDistance(newCupCount, offscreenCamera.fov, offscreenCamera.aspect);
+            offscreenCamera.position.z = randRange(minZ, minZ * 1.3);
+            offscreenCamera.updateProjectionMatrix();
+            offscreenCamera.lookAt(0, 0, 0);
+            
+            // Lighting
+            ambientLight.intensity = randRange(0.3, 1.2);
+            ambientLight.color.copy(randColor());
+            
+            directionalLight.intensity = randRange(0.8, 3.0);
+            directionalLight.color.copy(randColor());
+            directionalLight.position.set(
+                randRange(-25, 25),
+                randRange(10, 40),
+                randRange(-20, 20)
+            );
+            
+            scene.background = randBackgroundColor();
+            
+            // Cup material
+            cupMaterial.color.copy(randCupColor());
+            cupMaterial.roughness = randRange(0.5, 1.0);
+            cupMaterial.metalness = randRange(0, 0.2);
+            
+            // Ball material - use preset colors for JSON export compatibility
+            selectedBallColorIndex = randInt(0, BALL_COLORS.length - 1);
+            ballMaterial.color.setHex(BALL_COLORS[selectedBallColorIndex].hex);
+            ballMaterial.roughness = randRange(0.2, 0.8);
+            ballMaterial.metalness = randRange(0, 0.3);
+            
+            // Table material
+            tableMaterial.color.copy(randNeutralColor());
+            tableMaterial.roughness = randRange(0.4, 0.9);
+            tableMaterial.metalness = randRange(0, 0.15);
+            
+            // Animation settings
+            animSettings.swapCount = randInt(5, 20);
+            animSettings.swapsPerSecond = randRange(1, 4);
+            animSettings.interval = randInt(0, 100);
+            animSettings.arcDepth = randRange(4, 10);
+        }
+
+        // Save current scene state
+        function saveSceneState() {
+            return {
+                numCups: numCups,
+                camera: {
+                    fov: offscreenCamera.fov,
+                    posY: offscreenCamera.position.y,
+                    posZ: offscreenCamera.position.z,
+                },
+                ambient: {
+                    intensity: ambientLight.intensity,
+                    color: ambientLight.color.clone(),
+                },
+                directional: {
+                    intensity: directionalLight.intensity,
+                    color: directionalLight.color.clone(),
+                    pos: directionalLight.position.clone(),
+                },
+                background: scene.background.clone(),
+                cup: {
+                    color: cupMaterial.color.clone(),
+                    roughness: cupMaterial.roughness,
+                    metalness: cupMaterial.metalness,
+                },
+                ball: {
+                    color: ballMaterial.color.clone(),
+                    colorIndex: selectedBallColorIndex,
+                    roughness: ballMaterial.roughness,
+                    metalness: ballMaterial.metalness,
+                },
+                table: {
+                    color: tableMaterial.color.clone(),
+                    roughness: tableMaterial.roughness,
+                    metalness: tableMaterial.metalness,
+                },
+                anim: { ...animSettings },
+            };
+        }
+
+        // Restore scene state
+        function restoreSceneState(state) {
+            // Restore number of cups
+            setupCups(state.numCups);
+            
+            offscreenCamera.fov = state.camera.fov;
+            offscreenCamera.position.y = state.camera.posY;
+            offscreenCamera.position.z = state.camera.posZ;
+            offscreenCamera.updateProjectionMatrix();
+            offscreenCamera.lookAt(0, 0, 0);
+            
+            // Restore ambient light
+            ambientLight.intensity = state.ambient.intensity;
+            ambientLight.color.copy(state.ambient.color);
+            
+            // Restore directional light
+            directionalLight.intensity = state.directional.intensity;
+            directionalLight.color.copy(state.directional.color);
+            directionalLight.position.copy(state.directional.pos);
+            
+            scene.background.copy(state.background);
+            
+            cupMaterial.color.copy(state.cup.color);
+            cupMaterial.roughness = state.cup.roughness;
+            cupMaterial.metalness = state.cup.metalness;
+            
+            ballMaterial.color.copy(state.ball.color);
+            selectedBallColorIndex = state.ball.colorIndex;
+            ballMaterial.roughness = state.ball.roughness;
+            ballMaterial.metalness = state.ball.metalness;
+            
+            tableMaterial.color.copy(state.table.color);
+            tableMaterial.roughness = state.table.roughness;
+            tableMaterial.metalness = state.table.metalness;
+            
+            animSettings.swapCount = state.anim.swapCount;
+            animSettings.swapsPerSecond = state.anim.swapsPerSecond;
+            animSettings.interval = state.anim.interval;
+            animSettings.arcDepth = state.anim.arcDepth;
+        }
+
+        async function runBatchExport(count) {
+            isExporting = true;
+            exportButton.disabled = true;
+            exportButton.textContent = 'Exporting...';
+            exportProgress.style.display = 'block';
+            exportBar.style.width = '0%';
+            
+            // Update export settings from UI before starting
+            updateExportSettings();
+            const shouldRandomize = document.getElementById('export-randomize').checked;
+            
+            // Sync offscreen camera from main camera to match webpage framing (zoom out for more cups)
+            offscreenCamera.fov = camera.fov;
+            offscreenCamera.position.y = camera.position.y;
+            offscreenCamera.position.z = calculateOffscreenCameraDistance(numCups, offscreenCamera.fov, offscreenCamera.aspect);
+            offscreenCamera.updateProjectionMatrix();
+            offscreenCamera.lookAt(0, 0, 0);
+            
+            // Save original state to restore after export
+            const originalState = saveSceneState();
+
+            try {
+                const zip = new JSZip();
+                const exportMultiObject = document.getElementById('export-multi-object').checked;
+                
+                // JSON structure for annotations - flat array of videos
+                const annotations = [];
+
+                for (let i = 0; i < count; i++) {
+                    exportStatus.textContent = `Rendering & Encoding ${i + 1} / ${count}...`;
+                    exportBar.style.width = `${((i + 0.5) / count) * 100}%`;
+
+                    // Randomize parameters for this video if enabled
+                    if (shouldRandomize) {
+                        randomizeSceneParameters();
+                    }
+
+                    // Generate and encode video in one pass
+                    const result = await renderAndEncodeVideo(exportMultiObject);
+                    
+                    const idx = String(i + 1).padStart(3, '0');
+                    const filename = `cup_${idx}.mp4`;
+                    zip.file(filename, result.videoBlob);
+                    
+                    // Build video annotation entry with all metadata included
+                    const videoEntry = {
+                        video: filename,
+                        fps: exportSettings.fps,
+                        total_frames: result.totalFrames,
+                        resolution: {
+                            width: exportSettings.width,
+                            height: exportSettings.height
+                        },
+                        task: "cup",
+                        game_settings: {
+                            num_cups: numCups,
+                            swap_count: animSettings.swapCount,
+                            swaps_per_second: parseFloat(animSettings.swapsPerSecond.toFixed(2)),
+                            interval_ms: animSettings.interval
+                        },
+                        ground_truth: {}
+                    };
+                    
+                    if (exportMultiObject) {
+                        // MOT: Array of all ball positions with color and cup
+                        videoEntry.ground_truth = result.ballColors.map((color, idx) => ({
+                            color: color,
+                            cup: result.allBallCups[idx]
+                        }));
+                    } else {
+                        // SOT: Single object with color and cup (same structure as MOT entry, but not an array)
+                        videoEntry.ground_truth = {
+                            color: result.ballColor,
+                            cup: result.ballCup
+                        };
+                    }
+                    
+                    // Initial cup arrangement (fixed)
+                    videoEntry.initial = result.initial;
+                    // COT: chain of thought - cup arrangement after each swap (exported as intermediate)
+                    videoEntry.intermediate = result.intermediate;
+                    
+                    annotations.push(videoEntry);
+
+                    exportBar.style.width = `${((i + 1) / count) * 100}%`;
+
+                    // Yield to UI
+                    await new Promise(r => setTimeout(r, 0));
+                }
+
+                // Add JSON annotations file - plain array, beautified
+                zip.file('cup.json', JSON.stringify(annotations, null, 2));
+
+                exportStatus.textContent = 'Creating zip...';
+                const zipBlob = await zip.generateAsync({ type: 'blob' });
+
+                // Download zip
+                const url = URL.createObjectURL(zipBlob);
+                const link = document.createElement('a');
+                link.href = url;
+                link.download = `shell-game-batch-${Date.now()}.zip`;
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+                URL.revokeObjectURL(url);
+
+            } catch (err) {
+                console.error('Export failed:', err);
+                exportStatus.textContent = `Error: ${err.message}`;
+                await new Promise(r => setTimeout(r, 5000));
+            }
+
+            // Restore original scene state
+            restoreSceneState(originalState);
+            
+            exportProgress.style.display = 'none';
+            exportButton.disabled = false;
+            exportButton.textContent = 'Export Batch (.zip)';
+            isExporting = false;
+        }
+
+        // Render animation and encode directly to MP4 using VideoEncoder + mp4-muxer
+        async function renderAndEncodeVideo(isMultiObjectMode = false) {
+            const cupCount = numCups;
+            const positions = getCupPositions(cupCount);
+            const localBallStart = Math.floor(Math.random() * cupCount); // Random cup (for single ball mode)
+            let localBallCup = localBallStart;
+            const swapCount = animSettings.swapCount;
+            const swapDuration = getSwapDuration();
+            const interval = animSettings.interval;
+            const arcDepth = animSettings.arcDepth;
+            const cycleTime = swapDuration + interval; // Total time per swap cycle
+            
+            // Multi-object tracking: each ball starts under its corresponding cup
+            let localBallCups = Array.from({ length: cupCount }, (_, i) => i);
+            const localTargetBallIndex = Math.floor(Math.random() * cupCount);
+            
+            // Create export balls for multi-object mode (temporary scene objects)
+            const exportBalls = [];
+            if (isMultiObjectMode) {
+                for (let i = 0; i < cupCount; i++) {
+                    const ballMat = new THREE.MeshStandardMaterial({
+                        color: BALL_COLORS[i % BALL_COLORS.length].hex,
+                        metalness: 0.0,
+                        roughness: 0.4
+                    });
+                    const exportBall = new THREE.Mesh(ballGeometry, ballMat);
+                    exportBall.castShadow = true;
+                    exportBall.position.set(positions[i], -1.5, 0);
+                    exportBalls.push(exportBall);
+                    scene.add(exportBall);
+                }
+                ball.visible = false;
+            }
+
+            // Generate swap sequence
+            const swaps = [];
+            for (let i = 0; i < swapCount; i++) {
+                let i1 = Math.floor(Math.random() * cupCount);
+                let i2 = Math.floor(Math.random() * cupCount);
+                while (i1 === i2) {
+                    i2 = Math.floor(Math.random() * cupCount);
+                }
+                swaps.push([i1, i2]);
+                // Track single ball
+                if (localBallCup === i1) localBallCup = i2;
+                else if (localBallCup === i2) localBallCup = i1;
+            }
+            
+            // Calculate final positions for all balls in multi-object mode
+            const finalBallCups = Array.from({ length: cupCount }, (_, i) => i);
+            for (const [i1, i2] of swaps) {
+                for (let b = 0; b < cupCount; b++) {
+                    if (finalBallCups[b] === i1) finalBallCups[b] = i2;
+                    else if (finalBallCups[b] === i2) finalBallCups[b] = i1;
+                }
+            }
+            
+            // Build COT (chain of thought) - track cup arrangement after each swap
+            // Each entry is a string like "213" showing which original cup (1-indexed) is at each position
+            const cot = [];
+            const cotMap = Array.from({ length: cupCount }, (_, i) => i + 1); // 1-indexed cup labels
+            for (const [i1, i2] of swaps) {
+                [cotMap[i1], cotMap[i2]] = [cotMap[i2], cotMap[i1]];
+                cot.push(cotMap.join(''));
+            }
+
+            // Timeline phases (in ms) - multi-object mode has longer intro to show all balls
+            const liftEnd = isMultiObjectMode ? 600 + (cupCount - 1) * 80 : 600;
+            const pauseEnd = liftEnd + 800;
+            const lowerEnd = pauseEnd + 500 + (isMultiObjectMode ? (cupCount - 1) * 60 : 0);
+            const shuffleStart = lowerEnd;
+            // Total duration: intro + all swap cycles (swap + interval) + padding
+            const totalDuration = shuffleStart + swapCount * cycleTime + 500;
+            const totalFrames = Math.ceil((totalDuration / 1000) * exportSettings.fps);
+
+            // Setup mp4-muxer
+            const muxer = new Mp4Muxer.Muxer({
+                target: new Mp4Muxer.ArrayBufferTarget(),
+                video: {
+                    codec: 'avc',
+                    width: exportSettings.width,
+                    height: exportSettings.height,
+                },
+                fastStart: 'in-memory',
+            });
+
+            let encoderError = null;
+            const videoEncoder = new VideoEncoder({
+                output: (chunk, meta) => muxer.addVideoChunk(chunk, meta),
+                error: (e) => {
+                    console.error("VideoEncoder error:", e);
+                    encoderError = e;
+                },
+            });
+
+            // Configure encoder
+            // avc1.4d002a = Main Profile, Level 4.2 (supports 1080p @ 60fps)
+            // Calculate bitrate based on resolution (roughly 8 bits per pixel at 30fps)
+            const pixelCount = exportSettings.width * exportSettings.height;
+            const bitrate = Math.max(2_000_000, Math.min(20_000_000, pixelCount * 8));
+            
+            videoEncoder.configure({
+                codec: 'avc1.4d002a',
+                width: exportSettings.width,
+                height: exportSettings.height,
+                bitrate: bitrate,
+                framerate: exportSettings.fps,
+            });
+
+            // Initialize cup positions dynamically
+            const cupPos = positions.map(x => ({ x, y: 2.5, z: 0, rx: Math.PI, rz: 0 }));
+
+            const batchSize = 10;
+
+            for (let frameIdx = 0; frameIdx < totalFrames; frameIdx++) {
+                // Check for encoder errors
+                if (encoderError) throw encoderError;
+                if (videoEncoder.state === 'closed') throw new Error("VideoEncoder closed unexpectedly");
+
+                const t = (frameIdx / exportSettings.fps) * 1000;
+
+                // Reset positions
+                for (let c = 0; c < cupCount; c++) {
+                    cupPos[c].x = positions[c];
+                    cupPos[c].y = 2.5;
+                    cupPos[c].z = 0;
+                    cupPos[c].rx = Math.PI;
+                    cupPos[c].rz = 0;
+                }
+                let ballVisible = true;
+                let ballX = positions[localBallStart];
+                let tempBallCup = localBallStart;
+                
+                // Track all ball positions for multi-object mode
+                let tempBallCups = Array.from({ length: cupCount }, (_, i) => i);
+
+                if (isMultiObjectMode) {
+                    // Multi-object mode: lift ALL cups with stagger
+                    const liftDuration = 600;
+                    const staggerDelay = 80;
+                    const totalLiftTime = liftDuration + (cupCount - 1) * staggerDelay;
+                    
+                    if (t < liftEnd) {
+                        // Staggered lift of all cups
+                        for (let c = 0; c < cupCount; c++) {
+                            const cupLiftStart = c * staggerDelay;
+                            const cupLiftEnd = cupLiftStart + liftDuration;
+                            if (t >= cupLiftStart && t < cupLiftEnd) {
+                                const progress = (t - cupLiftStart) / liftDuration;
+                                const eased = 1 - Math.pow(1 - progress, 2) * (1 + 2.5 * (1 - progress));
+                                cupPos[c].y = 2.5 + (8 - 2.5) * Math.min(1, Math.max(0, eased * 1.1 - 0.05));
+                            } else if (t >= cupLiftEnd) {
+                                cupPos[c].y = 8;
+                            }
+                        }
+                        ballVisible = true;
+                    } else if (t < pauseEnd) {
+                        // All cups up
+                        for (let c = 0; c < cupCount; c++) {
+                            cupPos[c].y = 8;
+                        }
+                        ballVisible = true;
+                    } else if (t < lowerEnd) {
+                        // Staggered lower of all cups
+                        const lowerDuration = 500;
+                        const lowerStartTime = pauseEnd;
+                        for (let c = 0; c < cupCount; c++) {
+                            const cupLowerStart = lowerStartTime + c * 60;
+                            const cupLowerEnd = cupLowerStart + lowerDuration;
+                            if (t >= cupLowerStart && t < cupLowerEnd) {
+                                const progress = (t - cupLowerStart) / lowerDuration;
+                                let eased = progress < 0.5 ? progress * 2 : 1 - Math.abs(Math.sin((progress - 0.5) * 2 * Math.PI * 2) * (1 - (progress - 0.5) * 2) * 0.3);
+                                cupPos[c].y = 8 - (8 - 2.5) * eased;
+                            } else if (t < cupLowerStart) {
+                                cupPos[c].y = 8;
+                            } else {
+                                cupPos[c].y = 2.5;
+                            }
+                        }
+                        const lowerProgress = (t - pauseEnd) / (lowerEnd - pauseEnd);
+                        ballVisible = lowerProgress < 0.4;
+                    } else {
+                        ballVisible = false;
+                        const shuffleTime = t - shuffleStart;
+                        const currentSwapIndex = Math.floor(shuffleTime / cycleTime);
+                        const timeInCycle = shuffleTime % cycleTime;
+                        const inSwapPhase = timeInCycle < swapDuration;
+                        const swapProgress = inSwapPhase ? (timeInCycle / swapDuration) : 1;
+
+                        const positionMap = Array.from({ length: cupCount }, (_, i) => i);
+                        tempBallCups = Array.from({ length: cupCount }, (_, i) => i);
+                        
+                        for (let s = 0; s < Math.min(currentSwapIndex, swaps.length); s++) {
+                            const [a, b] = swaps[s];
+                            [positionMap[a], positionMap[b]] = [positionMap[b], positionMap[a]];
+                            // Update all ball positions
+                            for (let ballIdx = 0; ballIdx < cupCount; ballIdx++) {
+                                if (tempBallCups[ballIdx] === a) tempBallCups[ballIdx] = b;
+                                else if (tempBallCups[ballIdx] === b) tempBallCups[ballIdx] = a;
+                            }
+                        }
+
+                        for (let c = 0; c < cupCount; c++) {
+                            const pos = positionMap.indexOf(c);
+                            cupPos[c].x = positions[pos];
+                        }
+
+                        if (currentSwapIndex < swaps.length && inSwapPhase) {
+                            const [idxA, idxB] = swaps[currentSwapIndex];
+                            const cupAIdx = positionMap[idxA];
+                            const cupBIdx = positionMap[idxB];
+                            const posA = positions[idxA];
+                            const posB = positions[idxB];
+
+                            const eased = 0.5 - 0.5 * Math.cos(swapProgress * Math.PI);
+                            const liftHeight = 0;
+                            const swapArc = Math.abs(idxA - idxB) === 1 ? arcDepth : arcDepth * 1.5;
+
+                            cupPos[cupAIdx].x = posA + (posB - posA) * eased;
+                            cupPos[cupAIdx].z = -swapArc * Math.sin(swapProgress * Math.PI);
+                            cupPos[cupAIdx].y = 2.5 + liftHeight * Math.sin(swapProgress * Math.PI);
+
+                            cupPos[cupBIdx].x = posB + (posA - posB) * eased;
+                            cupPos[cupBIdx].z = swapArc * Math.sin(swapProgress * Math.PI);
+                            cupPos[cupBIdx].y = 2.5 + liftHeight * Math.sin(swapProgress * Math.PI);
+                        }
+                    }
+                } else {
+                    // Single ball mode (original)
+                    if (t < liftEnd) {
+                        const progress = t / liftEnd;
+                        const eased = 1 - Math.pow(1 - progress, 2) * (1 + 2.5 * (1 - progress));
+                        cupPos[localBallStart].y = 2.5 + (8 - 2.5) * Math.min(1, Math.max(0, eased * 1.1 - 0.05));
+                    } else if (t < pauseEnd) {
+                        cupPos[localBallStart].y = 8;
+                    } else if (t < lowerEnd) {
+                        const progress = (t - pauseEnd) / (lowerEnd - pauseEnd);
+                        let eased = progress < 0.5 ? progress * 2 : 1 - Math.abs(Math.sin((progress - 0.5) * 2 * Math.PI * 2) * (1 - (progress - 0.5) * 2) * 0.3);
+                        cupPos[localBallStart].y = 8 - (8 - 2.5) * eased;
+                        ballVisible = progress < 0.3;
+                    } else {
+                        ballVisible = false;
+                        const shuffleTime = t - shuffleStart;
+                        const currentSwapIndex = Math.floor(shuffleTime / cycleTime);
+                        const timeInCycle = shuffleTime % cycleTime;
+                        const inSwapPhase = timeInCycle < swapDuration;
+                        const swapProgress = inSwapPhase ? (timeInCycle / swapDuration) : 1;
+
+                        const positionMap = Array.from({ length: cupCount }, (_, i) => i);
+                        tempBallCup = localBallStart;
+                        
+                        for (let s = 0; s < Math.min(currentSwapIndex, swaps.length); s++) {
+                            const [a, b] = swaps[s];
+                            [positionMap[a], positionMap[b]] = [positionMap[b], positionMap[a]];
+                            if (tempBallCup === a) tempBallCup = b;
+                            else if (tempBallCup === b) tempBallCup = a;
+                        }
+
+                        for (let c = 0; c < cupCount; c++) {
+                            const pos = positionMap.indexOf(c);
+                            cupPos[c].x = positions[pos];
+                        }
+
+                        if (currentSwapIndex < swaps.length && inSwapPhase) {
+                            const [idxA, idxB] = swaps[currentSwapIndex];
+                            const cupAIdx = positionMap[idxA];
+                            const cupBIdx = positionMap[idxB];
+                            const posA = positions[idxA];
+                            const posB = positions[idxB];
+
+                            const eased = 0.5 - 0.5 * Math.cos(swapProgress * Math.PI);
+                            const liftHeight = 0;
+                            const swapArc = Math.abs(idxA - idxB) === 1 ? arcDepth : arcDepth * 1.5;
+
+                            cupPos[cupAIdx].x = posA + (posB - posA) * eased;
+                            cupPos[cupAIdx].z = -swapArc * Math.sin(swapProgress * Math.PI);
+                            cupPos[cupAIdx].y = 2.5 + liftHeight * Math.sin(swapProgress * Math.PI);
+
+                            cupPos[cupBIdx].x = posB + (posA - posB) * eased;
+                            cupPos[cupBIdx].z = swapArc * Math.sin(swapProgress * Math.PI);
+                            cupPos[cupBIdx].y = 2.5 + liftHeight * Math.sin(swapProgress * Math.PI);
+                        }
+
+                        ballX = positions[tempBallCup];
+                    }
+                }
+
+                // Apply to scene
+                for (let c = 0; c < cupCount; c++) {
+                    cups[c].position.set(cupPos[c].x, cupPos[c].y, cupPos[c].z);
+                    cups[c].rotation.set(cupPos[c].rx, 0, cupPos[c].rz);
+                }
+                
+                if (isMultiObjectMode) {
+                    // Update all export balls positions
+                    for (let b = 0; b < exportBalls.length; b++) {
+                        exportBalls[b].position.x = positions[tempBallCups[b]];
+                        exportBalls[b].visible = ballVisible;
+                    }
+                    ball.visible = false;
+                } else {
+                    ball.position.x = ballX;
+                    ball.visible = ballVisible;
+                }
+
+                // Render frame
+                offscreenRenderer.render(scene, offscreenCamera);
+
+                // Create VideoFrame from canvas (timestamp in microseconds)
+                const timestamp = (frameIdx / exportSettings.fps) * 1_000_000;
+                const frame = new VideoFrame(offscreenCanvas, { timestamp });
+
+                // Encode (keyframe every 2 seconds)
+                try {
+                    if (videoEncoder.state === 'configured') {
+                        videoEncoder.encode(frame, { keyFrame: frameIdx % (exportSettings.fps * 2) === 0 });
+                    } else {
+                        throw new Error("VideoEncoder not configured");
+                    }
+                } finally {
+                    frame.close();
+                }
+
+                // Yield to main thread periodically
+                if (frameIdx % batchSize === 0) {
+                    await new Promise(r => setTimeout(r, 0));
+                }
+            }
+
+            // Flush encoder and finalize muxer
+            await videoEncoder.flush();
+            muxer.finalize();
+
+            // Restore scene
+            for (let c = 0; c < cupCount; c++) {
+                cups[c].position.set(positions[c], 2.5, 0);
+                cups[c].rotation.set(Math.PI, 0, 0);
+            }
+            ball.position.set(positions[localBallStart], -1.5, 0);
+            ball.visible = true;
+            
+            // Clean up export balls
+            exportBalls.forEach(b => scene.remove(b));
+
+            // Get the encoded video as a Blob
+            const { buffer } = muxer.target;
+            const videoBlob = new Blob([buffer], { type: 'video/mp4' });
+
+            if (isMultiObjectMode) {
+                const targetColorName = BALL_COLORS[localTargetBallIndex % BALL_COLORS.length].name;
+                const ballColorNames = Array.from({ length: cupCount }, (_, i) => BALL_COLORS[i % BALL_COLORS.length].name);
+                // Initial: same structure as ground_truth (each ball starts under cup index i → 1-based cup i+1)
+                const initial = ballColorNames.map((color, idx) => ({ color, cup: idx + 1 }));
+                return { 
+                    videoBlob,
+                    totalFrames,
+                    targetBallColor: targetColorName,
+                    targetBallCup: finalBallCups[localTargetBallIndex] + 1,
+                    allBallCups: finalBallCups.map(c => c + 1),
+                    ballColors: ballColorNames,
+                    initial,
+                    intermediate: cot
+                };
+            } else {
+                // SOT uses the selected ball color; initial same structure as ground_truth
+                const ballColorName = BALL_COLORS[selectedBallColorIndex].name;
+                const initial = { color: ballColorName, cup: localBallStart + 1 };
+                return { videoBlob, totalFrames, ballCup: localBallCup + 1, ballColor: ballColorName, initial, intermediate: cot };
+            }
+        }
+
+        // --- Render Loop ---
+        function animate() {
+            requestAnimationFrame(animate);
+
+            TWEEN.update(); // MUST call this to update all tweens
+
+            renderer.render(scene, camera);
+        }
+
+        // --- Window Resize ---
+        function onWindowResize() {
+            const containerWidth = canvasContainer.clientWidth;
+            const containerHeight = canvasContainer.clientHeight;
+            
+            camera.aspect = containerWidth / containerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(containerWidth, containerHeight);
+        }
+        window.addEventListener('resize', onWindowResize);
+
+        // --- Control Panel ---
+        function setupControls() {
+            // Helper to update value display
+            const updateVal = (id, val) => {
+                const el = document.getElementById(id + '-val');
+                if (el) el.textContent = val;
+            };
+
+            // Number of cups control
+            document.getElementById('num-cups').addEventListener('input', (e) => {
+                const newCount = parseInt(e.target.value);
+                if (gameState === 'STOPPED') {
+                    setupCups(newCount);
+                }
+                updateVal('num-cups', e.target.value);
+            });
+
+            // Camera controls
+            document.getElementById('cam-fov').addEventListener('input', (e) => {
+                camera.fov = parseFloat(e.target.value);
+                camera.updateProjectionMatrix();
+                updateVal('cam-fov', e.target.value);
+            });
+
+            document.getElementById('cam-y').addEventListener('input', (e) => {
+                camera.position.y = parseFloat(e.target.value);
+                camera.lookAt(0, 0, 0);
+                updateVal('cam-y', e.target.value);
+            });
+
+            document.getElementById('cam-z').addEventListener('input', (e) => {
+                camera.position.z = parseFloat(e.target.value);
+                camera.lookAt(0, 0, 0);
+                updateVal('cam-z', e.target.value);
+            });
+
+            // Light controls
+            document.getElementById('light-ambient').addEventListener('input', (e) => {
+                ambientLight.intensity = parseFloat(e.target.value);
+                updateVal('light-ambient', e.target.value);
+            });
+
+            document.getElementById('ambient-color').addEventListener('input', (e) => {
+                ambientLight.color.set(e.target.value);
+            });
+
+            document.getElementById('light-dir').addEventListener('input', (e) => {
+                directionalLight.intensity = parseFloat(e.target.value);
+                updateVal('light-dir', e.target.value);
+            });
+
+            document.getElementById('light-color').addEventListener('input', (e) => {
+                directionalLight.color.set(e.target.value);
+            });
+
+            document.getElementById('light-x').addEventListener('input', (e) => {
+                directionalLight.position.x = parseFloat(e.target.value);
+                updateVal('light-x', e.target.value);
+            });
+
+            document.getElementById('light-y').addEventListener('input', (e) => {
+                directionalLight.position.y = parseFloat(e.target.value);
+                updateVal('light-y', e.target.value);
+            });
+
+            document.getElementById('light-z').addEventListener('input', (e) => {
+                directionalLight.position.z = parseFloat(e.target.value);
+                updateVal('light-z', e.target.value);
+            });
+
+            // Shadows toggle
+            document.getElementById('shadows-enabled').addEventListener('change', (e) => {
+                const enabled = e.target.checked;
+                directionalLight.castShadow = enabled;
+                renderer.shadowMap.enabled = enabled;
+                renderer.render(scene, camera);
+            });
+
+            // Shadow softness (using shadow radius)
+            document.getElementById('shadow-softness').addEventListener('input', (e) => {
+                const radius = parseFloat(e.target.value);
+                directionalLight.shadow.radius = radius;
+                updateVal('shadow-softness', e.target.value);
+            });
+
+            document.getElementById('bg-color').addEventListener('input', (e) => {
+                scene.background = new THREE.Color(e.target.value);
+            });
+
+            // Cup material controls
+            document.getElementById('cup-color').addEventListener('input', (e) => {
+                cupMaterial.color.set(e.target.value);
+            });
+
+            document.getElementById('cup-roughness').addEventListener('input', (e) => {
+                cupMaterial.roughness = parseFloat(e.target.value);
+                updateVal('cup-roughness', e.target.value);
+            });
+
+            document.getElementById('cup-metalness').addEventListener('input', (e) => {
+                cupMaterial.metalness = parseFloat(e.target.value);
+                updateVal('cup-metalness', e.target.value);
+            });
+
+            // Ball material controls
+            document.getElementById('ball-color').addEventListener('change', (e) => {
+                selectedBallColorIndex = parseInt(e.target.value);
+                ballMaterial.color.setHex(BALL_COLORS[selectedBallColorIndex].hex);
+            });
+
+            document.getElementById('ball-roughness').addEventListener('input', (e) => {
+                ballMaterial.roughness = parseFloat(e.target.value);
+                updateVal('ball-roughness', e.target.value);
+            });
+
+            document.getElementById('ball-metalness').addEventListener('input', (e) => {
+                ballMaterial.metalness = parseFloat(e.target.value);
+                updateVal('ball-metalness', e.target.value);
+            });
+
+            // Table material controls
+            document.getElementById('table-color').addEventListener('input', (e) => {
+                tableMaterial.color.set(e.target.value);
+            });
+
+            document.getElementById('table-roughness').addEventListener('input', (e) => {
+                tableMaterial.roughness = parseFloat(e.target.value);
+                updateVal('table-roughness', e.target.value);
+            });
+
+            document.getElementById('table-metalness').addEventListener('input', (e) => {
+                tableMaterial.metalness = parseFloat(e.target.value);
+                updateVal('table-metalness', e.target.value);
+            });
+
+            // Animation controls
+            document.getElementById('anim-swaps').addEventListener('input', (e) => {
+                animSettings.swapCount = parseInt(e.target.value);
+                updateVal('anim-swaps', e.target.value);
+            });
+
+            document.getElementById('anim-speed').addEventListener('input', (e) => {
+                animSettings.swapsPerSecond = parseFloat(e.target.value);
+                updateVal('anim-speed', e.target.value);
+            });
+
+            document.getElementById('anim-interval').addEventListener('input', (e) => {
+                animSettings.interval = parseInt(e.target.value);
+                updateVal('anim-interval', e.target.value);
+            });
+
+            document.getElementById('anim-arc').addEventListener('input', (e) => {
+                animSettings.arcDepth = parseFloat(e.target.value);
+                updateVal('anim-arc', e.target.value);
+            });
+        }
+
+        setupControls();
+
+        // Start the render loop!
+        animate();
+    </script>
+</body>
+</html>

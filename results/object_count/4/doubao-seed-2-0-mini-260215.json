@@ -1,0 +1,652 @@
+[
+  {
+    "video": "cup_001.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{A}$"
+  },
+  {
+    "video": "cup_002.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{<D>}$"
+  },
+  {
+    "video": "cup_003.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{B}$"
+  },
+  {
+    "video": "cup_004.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{B}$"
+  },
+  {
+    "video": "cup_005.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{A}$"
+  },
+  {
+    "video": "cup_006.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{<option>A>}$"
+  },
+  {
+    "video": "cup_007.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{B}$"
+  },
+  {
+    "video": "cup_008.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{D}$"
+  },
+  {
+    "video": "cup_009.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{B}$"
+  },
+  {
+    "video": "cup_010.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{B}$"
+  },
+  {
+    "video": "cup_011.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{B}$"
+  },
+  {
+    "video": "cup_012.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "D",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{A}$"
+  },
+  {
+    "video": "cup_013.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{A}$"
+  },
+  {
+    "video": "cup_014.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "D",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{\\text{A}}$"
+  },
+  {
+    "video": "cup_015.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{A}$"
+  },
+  {
+    "video": "cup_016.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{B}$"
+  },
+  {
+    "video": "cup_017.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{D}$"
+  },
+  {
+    "video": "cup_018.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{<option>A>}$"
+  },
+  {
+    "video": "cup_019.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "D",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{A}$"
+  },
+  {
+    "video": "cup_020.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{A}$"
+  },
+  {
+    "video": "cup_021.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{D}$"
+  },
+  {
+    "video": "cup_022.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{C}$"
+  },
+  {
+    "video": "cup_023.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{\\text{D}}$"
+  },
+  {
+    "video": "cup_024.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{B}$"
+  },
+  {
+    "video": "cup_025.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{D}$"
+  },
+  {
+    "video": "cup_026.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "D",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{A}$"
+  },
+  {
+    "video": "cup_027.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{<option>B>}$"
+  },
+  {
+    "video": "cup_028.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{<option>D>}$"
+  },
+  {
+    "video": "cup_029.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "D",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{<B>}$"
+  },
+  {
+    "video": "cup_030.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{D}$"
+  },
+  {
+    "video": "cup_031.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{A}$"
+  },
+  {
+    "video": "cup_032.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{A}$"
+  },
+  {
+    "video": "cup_033.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{D}$"
+  },
+  {
+    "video": "cup_034.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{B}$"
+  },
+  {
+    "video": "cup_035.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{B}$"
+  },
+  {
+    "video": "cup_036.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{B}$"
+  },
+  {
+    "video": "cup_037.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{B}$"
+  },
+  {
+    "video": "cup_038.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{B}$"
+  },
+  {
+    "video": "cup_039.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{A}$"
+  },
+  {
+    "video": "cup_040.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{A}$"
+  },
+  {
+    "video": "cup_041.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{B}$"
+  },
+  {
+    "video": "cup_042.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{A}$"
+  },
+  {
+    "video": "cup_043.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{A}$"
+  },
+  {
+    "video": "cup_044.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{A}$"
+  },
+  {
+    "video": "cup_045.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{<option>C>}$"
+  },
+  {
+    "video": "cup_046.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "D",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "To determine which cup contains the ball at the end:\n1.  Initially, the red ball is revealed under the **second cup from the left** when that cup is lifted.\n2.  After all the cup shuffling movements, the ball remains under the second cup from the left in the final aligned arrangement.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "cup_047.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{A}$"
+  },
+  {
+    "video": "cup_048.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "D",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{B}$"
+  },
+  {
+    "video": "cup_049.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{B}$"
+  },
+  {
+    "video": "cup_050.mp4",
+    "fps": 30,
+    "total_frames": 372,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Which cup contains the ball at the end of the video?\n(A) First from left\n(B) Second from left\n(C) Third from left\n(D) Fourth from left\nOutput your final answer (A, B, C, or D) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "doubao-seed-2-0-mini-260215",
+    "response": "$\\boxed{<D>}$"
+  }
+]

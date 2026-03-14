@@ -1,0 +1,8 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+# Exclude all README.md files except the root one
+**/README.md
+!/README.md
+SGCoT/MODEL_CARD.md

@@ -1,0 +1,652 @@
+[
+  {
+    "video": "card_001.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "gemini-2.5-pro",
+    "response": "This is a classic shell game, also known as three-card monte. To find the Queen of Hearts, we need to carefully track its position throughout the shuffle.\n\n1.  **Start (00:00):** The Queen of Hearts is shown in the **middle** position.\n2.  **00:01:** The Queen is flipped over. It is now face down in the middle.\n3.  **First Swap:** The middle card (the Queen) swaps with the right card. The Queen is now on the **right**.\n4.  **Second Swap:** The left card swaps with the right card (the Queen). The Queen is now on the **left**.\n5.  **Third Swap:** The left card (the Queen) swaps with the middle card. The Queen is now in the **middle**.\n6.  **Fourth Swap:** The middle card (the Queen) swaps with the right card. The Queen is now on the **right**.\n7.  **Fifth Swap:** The left card swaps with the right card (the Queen). The Queen is now on the **left**.\n8.  **Sixth Swap:** The middle and right cards are swapped. The Queen on the left is not moved. The Queen is still on the **left**.\n9.  **Seventh Swap:** The left card (the Queen) swaps with the middle card. The Queen is now in the **middle**.\n10. **Eighth Swap:** The middle card (the Queen) swaps with the right card. The Queen is now on the **right**.\n11. **Ninth Swap:** The left card swaps with the right card (the Queen). The Queen is now on the **left**.\n12. **Tenth Swap:** The middle and right cards are swapped. The Queen on the left is not moved.\n\nAt the end of the video, the Queen of Hearts is in the **left** position.\n\nTherefore, the correct option is (A).\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_002.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-2.5-pro",
+    "response": "Here is a step-by-step breakdown of the card movements to find the Queen of Hearts:\n\n1.  **00:00:** The Queen of Hearts starts on the **right**.\n2.  **00:01 - 00:02:** The cards are shuffled. The card on the right (the Queen) moves to the **middle** position.\n3.  **00:02 - 00:07:** The cards are rearranged vertically and then back to horizontal, but their order doesn't change. The Queen remains in the **middle**.\n4.  **00:07 - 00:08:** The cards are shuffled again. The card in the middle (the Queen) moves to the **right** position.\n5.  **00:09 - 00:10:** The cards are shuffled a final time. The card on the right (the Queen) moves to the **middle** position.\n6.  **00:11:** The video ends with the cards in their final positions.\n\nThe Queen of Hearts is in the **middle** position at the end of the video.\n\nTherefore, the correct option is (B).\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_003.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-2.5-pro",
+    "response": "This is a classic shell game, also known as Three-card Monte. Let's track the position of the Queen of Hearts through all the shuffles.\n\n1.  **Start (00:00):** The Queen of Hearts is on the **right**.\n2.  **First shuffle (00:01):** The left and right cards swap places. The Queen is now on the **left**.\n3.  **Second shuffle (00:02):** The middle and right cards swap. The Queen stays on the **left**.\n4.  **Third shuffle (00:03):** The left and middle cards swap. The Queen moves to the **middle**.\n5.  **Fourth shuffle (00:04):** The middle and right cards swap. The Queen moves to the **right**.\n6.  **Fifth shuffle (00:05):** The left and right cards swap. The Queen moves to the **left**.\n7.  **Sixth shuffle (00:06):** The middle and right cards swap. The Queen stays on the **left**.\n8.  **Seventh shuffle (00:07):** The left and middle cards swap. The Queen moves to the **middle**.\n9.  **Eighth shuffle (00:08):** The middle and right cards swap. The Queen moves to the **right**.\n10. **Ninth shuffle (00:09):** The left and right cards swap. The Queen moves to the **left**.\n11. **Tenth shuffle (00:10):** The middle and right cards swap. The Queen stays on the **left**.\n12. **Eleventh shuffle (00:11):** The left and middle cards swap. The Queen moves to the **middle**.\n\nAt the end of the video, the Queen of Hearts is in the middle position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_004.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-2.5-pro",
+    "response": "This is a classic shell game, also known as Three-card Monte. Let's track the position of the Queen of Hearts.\n\n1.  **00:00:** The video begins with the Queen of Hearts shown on the **left**.\n2.  **00:01:** The Queen of Hearts is flipped face down.\n3.  **00:03 - 00:04:** The card on the left (the Queen) and the card in the middle swap places. The Queen is now in the **middle**.\n4.  **00:05 - 00:06:** The card on the left and the card on the right swap places. The Queen remains in the **middle**.\n5.  **00:09 - 00:10:** The card on the left and the card on the right swap places again. The Queen remains untouched in the **middle**.\n\nAt the end of the video, the Queen of Hearts is in the middle position.\n\nTherefore, the correct option is (B).\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_005.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-2.5-pro",
+    "response": "Here is a step-by-step breakdown of the card's movement to track the Queen of Hearts:\n\n1.  **00:00:** The video starts with the Queen of Hearts on the **right**.\n2.  **00:01 - 00:03:** The cards are shuffled. The card that started on the right (the Queen) ends up in the **middle** position.\n3.  **00:03 - 00:05:** The middle card (the Queen) is swapped with the left card. The Queen is now on the **left**.\n4.  **00:05 - 00:07:** The left card (the Queen) is swapped with the right card. The Queen is now on the **right**. The cards are then stacked and returned to a line, with the Queen moving back to the **left**.\n5.  **00:07 - 00:09:** The left card (the Queen) is swapped with the middle card. The Queen is now in the **middle**.\n6.  **00:09 - 00:11:** The middle card (the Queen) is swapped with the right card. The Queen is now on the **right**. The cards are stacked again and returned to a line, with the Queen ending up on the **left**.\n\nAt the end of the video, the Queen of Hearts is in the **left** position.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_006.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-2.5-pro",
+    "response": "The video shows a classic three-card monte or shell game. To find the Queen of Hearts, we need to track its position through each shuffle.\n\n1.  **00:00 - 00:01**: The Queen of Hearts starts in the **middle** position and is then flipped face down.\n2.  **00:01 - 00:03**: The first shuffle occurs. The middle card (the Queen) moves to the **left** position. The right card moves to the middle, and the left card moves to the right.\n3.  **00:03 - 00:05**: The cards are stacked and then dealt out again. The left card (the Queen) is placed on the bottom of the stack and then dealt to the **right** position.\n4.  **00:05 - 00:07**: The right card (the Queen) moves to the **middle** position. The middle card moves to the left, and the left card moves to the right.\n5.  **00:07 - 00:09**: The middle card (the Queen) moves to the **right** position. The left card moves to the middle, and the right card moves to the left.\n6.  **00:09 - 00:11**: In the final shuffle, the right card (the Queen) moves to the **left** position. The left card moves to the middle, and the middle card moves to the right.\n\nAt the end of the video, the Queen of Hearts is in the **left** position.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_007.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "gemini-2.5-pro",
+    "response": "This is a classic Three-card Monte game. To find the Queen of Hearts, we need to carefully track its position throughout the shuffle.\n\n1.  **Start (00:00):** The Queen of Hearts is shown on the **right**.\n2.  **First shuffle (00:01):** The right card (the Queen) is moved to the left position.\n3.  **Second shuffle (00:02):** The left card (the Queen) is swapped with the middle card. The Queen is now in the **middle**.\n4.  **Third shuffle (00:03):** The middle card (the Queen) is swapped with the right card. The Queen is now on the **right**.\n5.  **Fourth shuffle (00:04):** The right card (the Queen) is swapped with the left card. The Queen is now on the **left**.\n6.  **Fifth shuffle (00:05):** The left card (the Queen) is moved to the middle position.\n7.  **Sixth shuffle (00:06):** The middle card (the Queen) is swapped with the right card. The Queen is now on the **right**.\n8.  **Stacking (00:07):** The cards are stacked. The right card (the Queen) is placed in the middle of the stack.\n9.  **Dealing (00:08):** The cards are dealt out again. The middle card of the stack (the Queen) is placed on the **left**.\n10. **Seventh shuffle (00:09):** The left card (the Queen) is moved to the middle position.\n11. **Final shuffle (00:10):** The middle card (the Queen) is swapped with the left card.\n\nAt the end of the video, the Queen of Hearts is in the **left** position.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_008.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-2.5-pro",
+    "response": "Here is a step-by-step breakdown of the card movements to track the Queen of Hearts:\n\n1.  **00:00:** The Queen of Hearts starts on the **Left**.\n2.  **00:01:** The Queen is flipped face down.\n3.  **00:01 - 00:03:** The left card (the Queen) and the middle card swap positions. The Queen is now in the **Middle**.\n4.  **00:03 - 00:05:** The middle card (the Queen) and the right card swap positions. The Queen is now on the **Right**.\n5.  **00:05 - 00:07:** The cards perform a full rotation. The right card (the Queen) moves to the left position, the left card moves to the middle, and the middle card moves to the right. The Queen is now on the **Left**.\n6.  **00:07 - 00:09:** The left card (the Queen) and the middle card swap positions again. The Queen is now in the **Middle**.\n7.  **00:09 - 00:11 (End):** The middle card (the Queen) and the right card swap positions. The video ends with the Queen of Hearts on the **Right**.\n\nTherefore, the final position of the Queen of Hearts is on the right.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_009.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-2.5-pro",
+    "response": "To find the final position of the Queen of Hearts, let's track its movement throughout the video.\n\n1.  **00:00:** The Queen of Hearts starts on the **right**.\n2.  **00:01:** The Queen is flipped over. The right card (the Queen) is swapped with the left card. The Queen is now on the **left**.\n3.  **00:02:** The left card (the Queen) is swapped with the middle card. The Queen is now in the **middle**.\n4.  **00:03:** The middle card (the Queen) is swapped with the right card. The Queen is now on the **right**.\n5.  **00:04:** The right card (the Queen) is swapped with the left card. The Queen is now on the **left**.\n6.  **00:05:** The left card (the Queen) is swapped with the middle card. The Queen is now in the **middle**.\n7.  **00:06:** The middle card (the Queen) is swapped with the right card. The Queen is now on the **right**.\n8.  **00:07:** The right card (the Queen) is swapped with the left card. The Queen is now on the **left**.\n9.  **00:08:** The left card (the Queen) is swapped with the middle card. The Queen is now in the **middle**.\n10. **00:09:** The middle card (the Queen) is swapped with the right card. The Queen is now on the **right**.\n11. **00:10:** The right card (the Queen) is swapped with the left card. The Queen is now on the **left**.\n12. **00:11:** The left card (the Queen) is swapped with the middle card. The Queen is now in the **middle**.\n\nThe video ends with the Queen of Hearts in the middle position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_010.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-2.5-pro",
+    "response": "This is a classic shell game. Let's follow the Queen of Hearts step-by-step.\n\n1.  **00:00:** The Queen of Hearts starts on the **right** and is flipped over.\n2.  **00:01:** The right card (the Queen) swaps with the middle card. The Queen is now in the **middle**.\n3.  **00:02:** The middle card (the Queen) swaps with the left card. The Queen is now on the **left**.\n4.  **00:03:** The left card (the Queen) swaps with the right card. The Queen is now on the **right**.\n5.  **00:04:** The right card (the Queen) swaps with the middle card. The Queen is now in the **middle**.\n6.  **00:05:** The middle card (the Queen) swaps with the left card. The Queen is now on the **left**.\n7.  **00:06:** The cards are stacked vertically. The left card (the Queen) goes to the bottom. They are then laid out again, with the bottom card returning to the **left** position.\n8.  **00:07:** The left card (the Queen) swaps with the right card. The Queen is now on the **right**.\n9.  **00:08:** The right card (the Queen) swaps with the middle card. The Queen is now in the **middle**.\n10. **00:09:** The middle card (the Queen) swaps with the left card. The Queen is now on the **left**.\n11. **00:10:** The left card (the Queen) swaps with the middle card. The Queen is now in the **middle**.\n12. **00:11:** The middle card (the Queen) swaps with the right card. The Queen is now on the **right**.\n\nThe video ends after this final swap. The Queen of Hearts is in the right position.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_011.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "gemini-2.5-pro",
+    "response": "This is a classic shell game. To find the Queen of Hearts, we need to track its position throughout the video.\n\n1.  **00:00:** The video starts with the Queen of Hearts in the **middle** position.\n2.  **00:01:** The Queen is flipped over. All three cards are now face down. The Queen is still in the middle.\n3.  **00:01 - 00:02:** The middle card (the Queen) and the right card swap places. The Queen is now on the **right**.\n4.  **00:03 - 00:04:** The left card and the middle card swap places. The Queen remains on the **right**.\n5.  **00:05 - 00:06:** The left card and the middle card swap places again. The Queen remains untouched on the **right**.\n6.  **00:07 - 00:08:** The cards are stacked vertically and then returned to their horizontal positions. The right card (the Queen) is placed at the bottom of the stack and then returned to the **right** position.\n7.  **00:09 - 00:10:** The stacking and unstacking process is repeated. The Queen, being the rightmost card, goes to the bottom of the stack and is then returned to the **right** position.\n\nAt the end of the video, the Queen of Hearts is in the right-most position.\n\nTherefore, the correct option is (C).\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_012.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-2.5-pro",
+    "response": "Here is a step-by-step breakdown of the card's movements to track the Queen of Hearts:\n\n1.  **00:00**: The Queen of Hearts starts in the **middle** position.\n2.  **00:01**: The cards are flipped over. The Queen is still in the **middle**.\n3.  **00:01 - 00:02**: The middle card (the Queen) moves to the **right**.\n4.  **00:03 - 00:04**: The right card (the Queen) moves to the **middle**.\n5.  **00:04 - 00:05**: The middle card (the Queen) moves to the **left**.\n6.  **00:05 - 00:06**: The left card (the Queen) moves to the **right**.\n7.  **00:07**: The right card (the Queen) swaps with the middle card. The Queen is now in the **middle**.\n8.  **00:09**: The middle card (the Queen) moves to the **right**.\n9.  **00:10 - 00:11**: In the final shuffle, the right card (the Queen) is moved to the **middle** position.\n\nAt the end of the video, the Queen of Hearts is in the middle.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_013.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-2.5-pro",
+    "response": "This is a classic shell game, also known as Three-card Monte. Let's track the Queen of Hearts.\n\n1.  **00:00:** The Queen of Hearts starts in the **middle** position.\n2.  **00:01:** The Queen is turned face down. All subsequent movements are with face-down cards.\n3.  **00:01 - 00:05:** The cards are shuffled. The middle card (the Queen) moves to the top-left position (00:03-00:04), and then back to the **middle** position (00:04-00:05).\n4.  **00:05 - 00:09:** The cards are shuffled again. The middle card (the Queen) moves to the top-left position (00:07-00:08), and then back to the **middle** position (00:08-00:09).\n5.  **00:09 - 00:11:** The cards are gathered and then laid back out in their final positions. The Queen, which was in the middle, remains in the **middle** position.\n\nTherefore, at the end of the video, the Queen of Hearts is in the middle.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_014.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-2.5-pro",
+    "response": "This is a classic shell game animation. Let's track the Queen of Hearts.\n\n1.  **00:00:** The Queen of Hearts starts on the **right**.\n2.  **00:01:** The Queen is flipped over. All cards are now face down.\n3.  **00:02:** The middle card and the right card (the Queen) swap positions. The Queen is now in the **middle**.\n4.  **00:04:** The left card and the middle card (the Queen) swap positions. The Queen is now on the **left**.\n5.  **00:05 - 00:09:** The cards are stacked and unstacked a few times, but their left-to-right order does not change. The Queen remains on the **left**.\n6.  **00:10:** The middle card and the right card swap positions. The Queen, which is on the left, is not involved in this swap.\n7.  **End:** At the end of the video, the Queen of Hearts remains in the **left** position.\n\nTherefore, the correct answer is (A).\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_015.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "gemini-2.5-pro",
+    "response": "This is a classic shell game, also known as Three-card Monte. Let's track the position of the Queen of Hearts throughout the shuffling.\n\n1.  **00:00:** The Queen of Hearts starts in the **middle** position.\n2.  **00:01:** The middle card (the Queen) is flipped over. It is then swapped with the **left** card. The Queen is now on the **left**.\n3.  **00:02:** The middle and right cards are swapped. The Queen remains on the **left**.\n4.  **00:02:** The left card (the Queen) is swapped with the right card. The Queen is now on the **right**.\n5.  **00:03:** The left and middle cards are swapped. The Queen remains on the **right**.\n6.  **00:04:** The middle and right cards (the Queen) are swapped. The Queen is now in the **middle**.\n7.  **00:05:** The left and middle cards (the Queen) are swapped. The Queen is now on the **left**.\n8.  **00:06:** The middle and right cards are swapped. The Queen remains on the **left**.\n9.  **00:07:** The middle and right cards are swapped again. The Queen remains on the **left**.\n10. **00:07:** The left card (the Queen) is swapped with the right card. The Queen is now on the **right**.\n11. **00:08:** The left and middle cards are swapped. The Queen remains on the **right**.\n12. **00:09:** The middle and right cards (the Queen) are swapped. The Queen is now in the **middle**.\n13. **00:10:** The left and middle cards (the Queen) are swapped. The Queen is now on the **left**.\n14. **00:11:** The middle and right cards are swapped. The Queen remains on the **left**.\n\nAt the end of the video, the Queen of Hearts is in the left position.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_016.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "gemini-2.5-pro",
+    "response": "Here is a step-by-step breakdown of the card movements to find the Queen of Hearts:\n\n1.  **00:00:** The Queen of Hearts starts on the **right**. It is then flipped over.\n2.  **00:01:** The left and middle cards swap positions. The Queen remains on the **right**.\n3.  **00:02:** The cards rotate. The right card (the Queen) moves to the **middle**.\n4.  **00:03:** The left card and the middle card (the Queen) swap. The Queen is now on the **left**.\n5.  **00:04:** The cards rotate. The left card (the Queen) moves down and out of the line, while the other two shift. When they realign, the Queen is on the **right**.\n6.  **00:05:** The left and middle cards swap. The Queen stays on the **right**.\n7.  **00:06:** The cards rotate. The right card (the Queen) moves to the **middle**.\n8.  **00:07:** The left card and the middle card (the Queen) swap. The Queen is now on the **left**.\n9.  **00:08:** The cards rotate. The left card (the Queen) moves down, and when they realign, the Queen is on the **right**.\n10. **00:09:** The left and middle cards swap. The Queen remains on the **right**.\n11. **00:10:** The cards rotate one last time. The right card (the Queen) moves to the **middle**.\n\nAt the end of the video, the Queen of Hearts is in the middle position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_017.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-2.5-pro",
+    "response": "This is a classic shell game. To find the Queen of Hearts, you need to follow its position through all the swaps.\n\n1.  **00:00:** The Queen of Hearts starts on the **left**.\n2.  **00:01 - 00:02:** The left card (the Queen) swaps with the middle card. The Queen is now in the **middle**.\n3.  **00:02 - 00:03:** The middle card (the Queen) swaps with the right card. The Queen is now on the **right**.\n4.  **00:03 - 00:04:** The right card (the Queen) swaps with the left card. The Queen is now on the **left**.\n5.  **00:04 - 00:05:** The left card (the Queen) swaps with the middle card. The Queen is now in the **middle**.\n6.  **00:05 - 00:06:** The middle card (the Queen) swaps with the right card. The Queen is now on the **right**.\n7.  **00:06 - 00:07:** The right card (the Queen) swaps with the left card. The Queen is now on the **left**.\n8.  **00:07 - 00:08:** The left card (the Queen) swaps with the middle card. The Queen is now in the **middle**.\n9.  **00:08 - 00:09:** The middle card (the Queen) swaps with the right card. The Queen is now on the **right**.\n10. **00:09 - 00:10:** The right card (the Queen) swaps with the left card. The Queen is now on the **left**.\n11. **00:10 - 00:11:** The left card (the Queen) swaps with the middle card. The Queen is now in the **middle**.\n\nAt the end of the video, the Queen of Hearts is in the middle position.\n\nTherefore, the correct option is (B).\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_018.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-2.5-pro",
+    "response": "This is a classic shell game, also known as Three-card Monte. Let's track the Queen of Hearts.\n\n1.  **00:00:** The Queen of Hearts starts on the **left**. It is then flipped over.\n2.  **00:01 - 00:03:** The cards are stacked and then placed back. The left card (the Queen) is placed on the bottom of the stack and then dealt back to the **left** position.\n3.  **00:03 - 00:05:** The same shuffle repeats. The left card (the Queen) goes to the bottom of the stack and is dealt back to the **left** position.\n4.  **00:05 - 00:07:** The left and right cards are swapped vertically and then returned to their original positions. The Queen remains on the **left**.\n5.  **00:07 - 00:11:** The first shuffle pattern repeats two more times. Each time, the left card (the Queen) is moved to the bottom of the stack and then dealt back to the **left** position.\n\nThroughout the entire video, the Queen of Hearts starts on the left and returns to the left position after every shuffle.\n\nTherefore, at the end of the video, the Queen of Hearts is on the **left**.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_019.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "gemini-2.5-pro",
+    "response": "This is a classic \"find the lady\" or three-card monte game. Let's track the Queen of Hearts from the beginning.\n\n1.  **00:00**: The Queen of Hearts starts on the **right**.\n2.  **00:01**: The Queen is flipped over. Its position is still on the **right**.\n3.  **00:01 - 00:05**: The cards are shuffled in a way that they always return to their original positions. The Queen remains on the **right**.\n4.  **00:05 - 00:06**: The right card (the Queen) moves to the **middle**. The middle card moves to the left, and the left card moves to the right.\n5.  **00:06 - 00:07**: The cards are shuffled again, and the Queen, which was in the middle, moves back to the **right**.\n6.  **00:07 - 00:08**: The right card (the Queen) again moves to the **middle**.\n7.  **00:08 - 00:09**: The Queen, which was in the middle, moves back to the **right**.\n8.  **00:09 - 00:10**: In the final shuffle, the card on the right (the Queen) and the card in the middle swap places. The Queen is now in the **middle**.\n9.  **00:11**: The video ends with the cards stationary. The Queen of Hearts is in the middle position.\n\nTherefore, the Queen of Hearts is in the middle at the end of the video.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_020.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-2.5-pro",
+    "response": "Here is a step-by-step breakdown of the Queen of Hearts' position throughout the video:\n\n1.  **00:00:** The Queen of Hearts starts on the **right**.\n2.  **00:01 - 00:03:** The cards are shuffled for the first time. The Queen moves to the **middle** position.\n3.  **00:03 - 00:05:** In the second shuffle, the Queen moves from the middle to the **right** position.\n4.  **00:05 - 00:07:** The third shuffle is performed, and the Queen remains on the **right**.\n5.  **00:07 - 00:09:** During the fourth shuffle, the Queen moves from the right to the **left** position.\n6.  **00:09 - 00:11:** In the final shuffle, the Queen moves from the left position to the **middle**.\n\nAt the end of the video, the Queen of Hearts is in the middle.\n\nTherefore, the correct option is (B).\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_021.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "gemini-2.5-pro",
+    "response": "Here is a step-by-step breakdown of the card's movements:\n\n1.  **00:00:** The Queen of Hearts starts in the **middle** position.\n2.  **00:01:** The middle card (the Queen) swaps with the left card. The Queen is now on the **left**.\n3.  **00:02:** The middle and right cards swap. The Queen remains on the **left**.\n4.  **00:03:** The left card (the Queen) swaps with the middle card. The Queen is now in the **middle**.\n5.  **00:04:** The middle card (the Queen) swaps with the right card. The Queen is now on the **right**.\n6.  **00:05:** The left and middle cards swap. The Queen remains on the **right**.\n7.  **00:06:** The right card (the Queen) swaps with the middle card. The Queen is now in the **middle**.\n8.  **00:07:** The middle card (the Queen) swaps with the left card. The Queen is now on the **left**.\n9.  **00:08:** The middle and right cards swap. The Queen remains on the **left**.\n10. **00:09:** The left card (the Queen) swaps with the right card. The Queen is now on the **right**.\n11. **00:10:** The left and middle cards swap. The Queen remains on the **right**.\n12. **00:11:** The right card (the Queen) swaps with the middle card. The Queen is now in the **middle**.\n\nAt the end of the video, the Queen of Hearts is in the middle position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_022.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-2.5-pro",
+    "response": "Here is a step-by-step breakdown of the card's movement to track the Queen of Hearts:\n\n1.  **00:00:** The Queen of Hearts starts on the **left**.\n2.  **00:01:** The Queen is flipped over, but it remains in the **left** position.\n3.  **00:01 - 00:03:**\n    *   The left card (the Queen) swaps with the middle card. The Queen is now in the **middle**.\n    *   The new middle card (the Queen) swaps with the right card. The Queen is now on the **right**.\n4.  **00:03 - 00:05:**\n    *   The left and middle cards swap. The Queen on the right is not moved. The Queen is still on the **right**.\n5.  **00:05 - 00:07:**\n    *   The right card (the Queen) swaps with the middle card. The Queen is now in the **middle**.\n    *   The new middle card (the Queen) swaps with the left card. The Queen is now on the **left**.\n6.  **00:07 - 00:09:**\n    *   The left card (the Queen) swaps with the right card. The Queen is now on the **right**.\n7.  **00:09 - 00:11:**\n    *   The right card (the Queen) swaps with the middle card. The Queen is now in the **middle**.\n\nAt the end of the video, the Queen of Hearts is in the middle position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_023.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-2.5-pro",
+    "response": "Here is a step-by-step breakdown of the card's movement:\n\n1.  **00:00**: The Queen of Hearts starts on the **left**.\n2.  **00:01**: The first shuffle swaps the middle and right cards. The Queen stays on the **left**.\n3.  **00:03**: The second shuffle swaps the left and right cards. The Queen moves to the **right**.\n4.  **00:05**: The third shuffle swaps the middle and right cards. The Queen moves from the right to the **middle**.\n5.  **00:07**: The fourth shuffle is a rotation: the middle card moves left, the right card moves to the middle, and the left card moves to the right. The Queen moves from the middle to the **left**.\n6.  **00:09**: The final shuffle swaps the left and middle cards. The Queen moves from the left to the **middle**.\n\nThe Queen of Hearts ends up in the middle position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_024.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-2.5-pro",
+    "response": "Here is a step-by-step breakdown of the card movements to track the Queen of Hearts:\n\n1.  **00:00:** The video starts with two cards face down on the left and in the middle, and the Queen of Hearts is face up on the right.\n2.  **00:01:** The Queen of Hearts is flipped over. Its position is on the **right**.\n3.  **00:01 - 00:03:** The cards are shuffled in a triangle and then placed back in a line. The Queen ends up back on the **right**.\n4.  **00:03 - 00:05:** The middle card and the right card (the Queen) swap positions. The Queen is now in the **middle**.\n5.  **00:05 - 00:07:** The left card and the right card swap positions. The Queen remains in the **middle**.\n6.  **00:07 - 00:09:** The left card and the middle card (the Queen) swap positions. The Queen is now on the **left**.\n7.  **00:09 - 00:11:** The cards are stacked vertically and then spread back out into a line.\n    *   The card on the left (the Queen) goes to the bottom of the stack.\n    *   The middle card goes to the middle of the stack.\n    *   The right card goes to the top of the stack.\n    *   When they are spread back out, the top card goes to the left, the middle card goes to the middle, and the bottom card (the Queen) goes to the **right**.\n\nTherefore, at the end of the video, the Queen of Hearts is on the right.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_025.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-2.5-pro",
+    "response": "This is a classic shell game animation. Let's track the Queen of Hearts.\n\n1.  **00:00:** The Queen of Hearts starts on the **right**.\n2.  **00:01:** The Queen is flipped over.\n3.  **00:01 - 00:03:** The cards are shuffled for the first time. The rightmost card (the Queen) moves to the **left** position. The leftmost card moves to the middle position, and the middle card moves to the right position.\n4.  **00:03 - 00:05:** The cards are shuffled again. The leftmost card (the Queen) moves to the top, then returns to the **left** position. The other two cards also return to their positions.\n5.  **00:05 - end:** The subsequent shuffles all involve the left and middle cards swapping places in a small loop on the left, while the right card stays put. Then they return to a straight line with the Queen always ending up back on the **left**.\n\nTherefore, at the end of the video, the Queen of Hearts is in the leftmost position.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_026.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-2.5-pro",
+    "response": "This is a classic shell game, also known as Three-card Monte. Let's track the Queen of Hearts through all the shuffles.\n\n1.  **00:00**: The Queen of Hearts starts on the **left**.\n2.  **00:01 - 00:03**: The first shuffle happens. The cards rotate positions.\n    *   The left card (the Queen) moves to the **middle**.\n    *   The middle card moves to the right.\n    *   The right card moves to the left.\n    The Queen is now in the **middle**.\n3.  **00:03 - 00:09**: The next three shuffles are simple stacking and unstacking moves that do not change the order of the cards. The Queen remains in the **middle** position through all of them.\n4.  **00:09 - 00:11**: The final shuffle occurs.\n    *   The card in the middle position (the Queen) moves to the **right**.\n    *   The card on the left moves to the middle.\n    *   The card on the right moves to the left.\n\nAfter the final shuffle, the Queen of Hearts is in the **right** position.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_027.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "gemini-2.5-pro",
+    "response": "This is a classic shell game, also known as a three-card monte. Let's track the Queen of Hearts through all the shuffles.\n\n1.  **00:00:** The Queen of Hearts starts on the **right**.\n2.  **00:01:** The card is turned over. Then, the left and right cards are swapped. The Queen is now on the **left**.\n3.  **00:02 - 00:03:** The cards are moved around but return to the same order. The Queen remains on the **left**.\n4.  **00:03 - 00:05:** The cards are stacked vertically and then laid out horizontally again, maintaining their order. The Queen, which was on the left, goes to the bottom of the stack and then back to the **left**.\n5.  **00:05 - 00:06:** The left card (the Queen) and the middle card swap places. The Queen is now in the **middle**.\n6.  **00:07 - 00:08:** The middle card (the Queen) and the right card swap places. The Queen is now on the **right**.\n7.  **00:09 - 00:10:** The right card (the Queen) and the left card swap places. The Queen is now on the **left**.\n8.  **00:11:** The video ends with the cards in their final positions. The Queen of Hearts is on the **left**.\n\nTherefore, the correct answer is (A).\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_028.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-2.5-pro",
+    "response": "This is a classic shell game animation. Let's track the position of the Queen of Hearts.\n\n1.  **00:00:** The Queen of Hearts starts on the **right**.\n2.  **00:01:** The Queen is flipped over. All cards are face down.\n3.  **00:01 - 00:02:** The card on the right (the Queen) moves to the **middle** position.\n4.  **00:02 - 00:03:** The card in the middle (the Queen) moves to the **left** position.\n5.  **00:03 - 00:04:** The card on the left (the Queen) moves to the **middle** position.\n6.  **00:04 - 00:05:** The card in the middle (the Queen) moves to the **right** position.\n7.  **00:05 - 00:06:** The card on the right (the Queen) moves to the **middle** position.\n8.  **00:06 - 00:07:** The card in the middle (the Queen) moves to the **left** position.\n9.  **00:07 - 00:08:** The card on the left (the Queen) moves to the bottom-left position.\n10. **00:08 - 00:09:** The card from the bottom-left (the Queen) moves to the **middle** position.\n11. **00:09 - 00:10:** The card in the middle (the Queen) moves to the **right** position.\n12. **00:10 - 00:11:** The card on the right (the Queen) moves to the **middle** position.\n\nAt the end of the video, the Queen of Hearts is in the middle position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_029.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-2.5-pro",
+    "response": "To solve this, we need to carefully track the position of the Queen of Hearts from the beginning to the end of the video.\n\n1.  **00:00:** The video starts with the Queen of Hearts on the **left**. It is then flipped face down.\n2.  **00:02:** The left card (the Queen) and the right card swap positions. The Queen is now on the **right**.\n3.  **00:04:** The left card and the right card (the Queen) swap positions again. The Queen is now back on the **left**.\n4.  **00:05:** The cards are stacked vertically. The left card (the Queen) is placed on top of the stack.\n5.  **00:06:** The cards are returned to a row. The top card of the stack (the Queen) is placed on the **left**.\n6.  **00:08:** The left card (the Queen) and the right card swap positions. The Queen is now on the **right**.\n7.  **00:10:** The left card and the right card (the Queen) swap for the final time. The Queen moves to the **left**.\n\nAt the end of the video, the Queen of Hearts is in the leftmost position.\n\nTherefore, the correct option is (A).\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_030.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-2.5-pro",
+    "response": "This is a classic shell game animation. Let's track the Queen of Hearts.\n\n1.  **00:00:** The Queen of Hearts starts on the **right**.\n2.  **00:01:** The Queen is flipped over. It is still on the **right**.\n3.  **00:01 - 00:07:** The cards are shuffled in a way that they always return to their original positions. The Queen remains on the **right**.\n4.  **00:07 - 00:09:** The right card (the Queen) and the middle card swap places. The Queen is now in the **middle**.\n5.  **00:09 - 00:11:** The middle card (the Queen) and the left card swap places. The Queen is now on the **left**.\n\nAt the end of the video, the Queen of Hearts is in the left position.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_031.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-2.5-pro",
+    "response": "The final answer is $\\boxed{A}$."
+  },
+  {
+    "video": "card_032.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "gemini-2.5-pro",
+    "response": "Here is a step-by-step breakdown of the card movements to track the Queen of Hearts:\n\n1.  **00:00:** The video starts with the Queen of Hearts on the **left**.\n2.  **00:01:** The cards are shuffled for the first time. The left card (the Queen) moves to the **right** position.\n3.  **00:03:** The middle and right cards swap. The Queen, which was on the right, moves to the **middle** position.\n4.  **00:05:** The middle and right cards swap again. The Queen, which was in the middle, moves back to the **right** position.\n5.  **00:07:** The left and middle cards swap. The Queen remains on the **right**.\n6.  **00:09:** The cards are stacked in the center. The card from the right (the Queen) goes to the bottom of the stack.\n7.  **00:10:** The cards are dealt back out from the stack. The bottom card (the Queen) is placed in the **right** position.\n\nAt the end of the video, the Queen of Hearts is in the rightmost position.\n\nTherefore, the correct option is (C).\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_033.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-2.5-pro",
+    "response": "Here is a step-by-step breakdown of the card's movement:\n\n1.  **00:00:** The Queen of Hearts starts on the **left**.\n2.  **00:01:** The Queen (left card) is flipped down.\n3.  **00:01 - 00:02:** The left card (Queen) moves to the bottom position.\n4.  **00:02 - 00:03:** The bottom card (Queen) moves to the middle position.\n5.  **00:03 - 00:04:** The middle card (Queen) moves to the right position.\n6.  **00:04 - 00:05:** The cards are realigned, and the Queen remains on the **right**.\n7.  **00:05 - 00:06:** The cards are stacked vertically. The right card (Queen) moves to the bottom of the stack.\n8.  **00:06 - 00:07:** The cards are spread out again. The bottom card (Queen) moves to the **right**.\n9.  **00:07 - 00:08:** The cards are shuffled into a triangle. The right card (Queen) stays on the **right**.\n10. **00:08 - 00:09:** The cards are moved back into a line. The Queen remains on the **right**.\n11. **00:09 - 00:10:** The cards are stacked vertically again. The right card (Queen) moves to the bottom of the stack.\n12. **00:10 - 00:11:** The cards are spread out for the final time. The bottom card (Queen) moves to the **right**.\n\nAt the end of the video, the Queen of Hearts is on the right.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_034.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "gemini-2.5-pro",
+    "response": "The video shows a classic three-card monte game. To find the Queen of Hearts, we must carefully track its position throughout the shuffles.\n\n1.  **00:00:** The game starts with the Queen of Hearts on the **left**.\n2.  **00:01:** The Queen is flipped face down. Its position is still on the left.\n3.  **00:01 - 00:11:** The cards are shuffled in various patterns. However, if you watch the leftmost card closely, you will see that despite the complex movements, it always returns to the leftmost position after each shuffle sequence. There are no actual swaps between the cards' final positions.\n\nTherefore, the Queen of Hearts remains in its original position on the left throughout the video.\n\nThe correct answer is (A).\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_035.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-2.5-pro",
+    "response": "1.  **00:00**: The Queen of Hearts starts in the **middle** position.\n2.  **00:01 - 00:03**: The cards are shuffled, and the Queen returns to the **middle** position.\n3.  **00:03 - 00:05**: The cards are shuffled again, and the Queen returns to the **middle** position.\n4.  **00:05 - 00:07**: The cards are stacked vertically and then spread out again. The Queen remains in the **middle** position.\n5.  **00:07 - 00:09**: The left and middle cards switch places. The Queen is now on the **left**.\n6.  **00:09 - 00:11**: The cards are stacked vertically with the Queen (left card) on top. They are then spread out again. The top card goes to the **left** position.\n\nTherefore, the Queen of Hearts is on the left at the end of the video.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_036.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "gemini-2.5-pro",
+    "response": "Here is a step-by-step breakdown of the card movements to track the Queen of Hearts:\n\n1.  **Start (00:00):** The Queen of Hearts is on the **right**.\n2.  **Shuffle 1 (00:01):** The right card (the Queen) moves to the **left**.\n3.  **Shuffle 2 (00:03):** The left card (the Queen) moves to the **middle**.\n4.  **Shuffle 3 (00:05):** The middle card (the Queen) moves to the **right**.\n5.  **Shuffle 4 (00:07):** The right card (the Queen) moves to the **left**.\n6.  **Shuffle 5 (00:09):** The left card (the Queen) moves to the **middle**.\n\nAt the end of the video, the Queen of Hearts is in the middle position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_037.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "gemini-2.5-pro",
+    "response": "This is a classic shell game, also known as Three-card Monte. Let's track the Queen of Hearts through each shuffle.\n\n1.  **00:00:** The Queen of Hearts starts in the **middle** position.\n2.  **00:01:** The card is flipped over. It is then swapped with the card on the right. The Queen is now on the **right**.\n3.  **00:02:** The cards are rotated. The right card (the Queen) moves to the left position. The left card moves to the middle. The middle card moves to the right. The Queen is now on the **left**.\n4.  **00:03:** The left card (the Queen) and the right card are swapped. The Queen is now on the **right**.\n5.  **00:04:** The cards are stacked. The left card goes on top, the middle card in the middle, and the right card (the Queen) goes on the bottom. They are then dealt back out in the same order: left, middle, right. The Queen, being on the bottom of the stack, is placed on the **right**.\n6.  **00:05 - 00:07:** The cards are shuffled, but the right card (the Queen) is essentially left in place while the other two swap. The Queen remains on the **right**.\n7.  **00:07:** The right card (the Queen) is swapped with the left card. The Queen is now on the **left**.\n8.  **00:08 (first half):** The left card (the Queen) is swapped with the middle card. The Queen is now in the **middle**.\n9.  **00:08 (second half):** The middle card (the Queen) is swapped with the right card. The Queen is now on the **right**.\n10. **00:09:** The right card (the Queen) is swapped with the left card. The Queen is now on the **left**.\n11. **00:10:** The cards are stacked again. The left card (the Queen) is placed on top. They are then dealt out, with the top card going to the left position.\n\nTherefore, at the end of the video, the Queen of Hearts is on the **left**.\n\nThe correct option is (A).\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_038.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "gemini-2.5-pro",
+    "response": "Here is a step-by-step breakdown of the card's movement:\n\n1.  **00:00:** The Queen of Hearts starts on the **right**.\n2.  **00:01:** The Queen is flipped over. Its position is still on the **right**.\n3.  **00:01 - 00:03:** The left and middle cards are shuffled, but the right card (the Queen) is not moved. It remains on the **right**.\n4.  **00:03 - 00:05:** The cards are stacked vertically. The right card (the Queen) is placed on top. Then they are spread out horizontally, with the top card (the Queen) being placed on the **left**.\n5.  **00:05 - 00:07:** The cards are stacked again. This time, the left card (the Queen) is placed on the bottom. When spread out again, the bottom card (the Queen) is placed on the **right**.\n6.  **00:07 - 00:09:** The cards are stacked. The right card (the Queen) is placed on the bottom. When spread out, the bottom card (the Queen) is placed on the **right**.\n7.  **00:09 - 00:11:** The cards are stacked one last time. The right card (the Queen) is again placed on the bottom. When they are spread out for the final time, the bottom card (the Queen) is placed on the **right**.\n\nTherefore, at the end of the video, the Queen of Hearts is on the right.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_039.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-2.5-pro",
+    "response": "Here is a step-by-step breakdown of the card movements to track the Queen of Hearts:\n\n1.  **00:00:** The Queen of Hearts starts on the **right**.\n2.  **00:01:** The cards are shuffled. The right card (the Queen) moves to the **middle**.\n3.  **00:03:** The cards are shuffled again. The middle card (the Queen) moves to the **left**.\n4.  **00:05:** In the next shuffle, the left card (the Queen) moves to the **middle**.\n5.  **00:07:** The middle card (the Queen) is moved to the **left**.\n6.  **00:09:** In the final shuffle, the left card (the Queen) is moved to the **right**.\n\nAt the end of the video, the Queen of Hearts is in the right position.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_040.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-2.5-pro",
+    "response": "This is a classic \"shell game\" or \"three-card monte\" puzzle. Let's track the Queen of Hearts.\n\n1.  **Start (00:00):** The Queen of Hearts is on the **right**.\n2.  **00:01:** The Queen is flipped over. All cards are face down.\n3.  **Throughout the video:** The left and middle cards repeatedly swap places. The card on the **right** (the Queen) never moves.\n\nTherefore, at the end of the video, the Queen of Hearts is still in the right position.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_041.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-2.5-pro",
+    "response": "Here is a step-by-step breakdown of the card's movement:\n\n1.  **00:00 - 00:01**: The Queen of Hearts starts in the **middle** position and is flipped face down.\n2.  **00:01 - 00:03**: In the first shuffle, the middle card (the Queen) moves to the left position, and the left card moves down. Then, as the cards realign, the card on the left (the Queen) moves back to the **middle** position.\n3.  **00:03 - 00:05**: The middle card (the Queen) moves to the right position. As the cards realign, it remains on the **right**.\n4.  **00:05 - 00:07**: The right card (the Queen) moves to the bottom position. As the cards realign, the bottom card (the Queen) moves back to the **right** position.\n5.  **00:07 - 00:09**: The two outer cards move vertically, but the right card (the Queen) stays in place. When they realign, the Queen is still on the **right**.\n6.  **00:09 - 00:11**: The right card (the Queen) moves to the bottom position. As the cards realign for the final time, the bottom card (the Queen) moves to the **right** position.\n\nAt the end of the video, the Queen of Hearts is in the rightmost position.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_042.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-2.5-pro",
+    "response": "This is a classic \"Three-card Monte\" or \"shell game\". To solve it, we must carefully track the position of the Queen of Hearts through each shuffle.\n\n1.  **00:00:** The video starts with the Queen of Hearts in the **middle** position.\n2.  **00:01:** The Queen is flipped over. Its position is still the **middle**.\n3.  **00:02:** The middle card (the Queen) and the right card swap places. The Queen is now on the **right**.\n4.  **00:03:** The right card (the Queen) and the left card swap places. The Queen is now on the **left**.\n5.  **00:04:** The left card (the Queen) and the middle card swap places. The Queen is now in the **middle**.\n6.  **00:05:** The middle card (the Queen) and the right card swap places. The Queen is now on the **right**.\n7.  **00:06:** The right card (the Queen) and the left card swap places. The Queen is now on the **left**.\n8.  **00:07:** The left card (the Queen) and the middle card swap places. The Queen is now in the **middle**.\n9.  **00:08:** The middle card (the Queen) and the right card swap places. The Queen is now on the **right**.\n10. **00:09:** The right card (the Queen) and the left card swap places. The Queen is now on the **left**.\n11. **00:10:** The left card (the Queen) and the middle card swap places. The Queen is now in the **middle**.\n12. **00:11:** In the final move, the middle card (the Queen) and the left card swap places. The Queen ends up on the **left**.\n\nTherefore, at the end of the video, the Queen of Hearts is in the left position.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_043.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-2.5-pro",
+    "response": "This is a classic shell game. To find the Queen of Hearts, we need to track its position throughout the video.\n\n1.  **Start (00:00):** The Queen of Hearts is shown on the **right** before being turned over.\n2.  **Move 1 (00:01):** The middle and right cards are swapped. The Queen is now in the **middle**.\n3.  **Move 2 (00:02):** The left and middle cards are swapped. The Queen is now on the **left**.\n4.  **Move 3 (00:03):** The middle and right cards are swapped. The Queen remains on the **left**.\n5.  **Move 4 (00:04):** The left and middle cards are swapped. The Queen is now in the **middle**.\n6.  **Move 5 (00:05):** The middle and right cards are swapped. The Queen is now on the **right**.\n7.  **Move 6 (00:06):** The left and middle cards are swapped. The Queen remains on the **right**.\n8.  **Move 7 (00:07):** The middle and right cards are swapped. The Queen is now in the **middle**.\n9.  **Move 8 (00:08):** The left and right cards are swapped. The Queen remains in the **middle**.\n10. **Move 9 (00:09):** The left and middle cards are swapped. The Queen is now on the **left**.\n11. **Move 10 (00:10):** The middle and right cards are swapped. The Queen remains on the **left**.\n12. **Move 11 (00:11):** The middle and right cards are swapped again. The Queen remains on the **left**.\n\nAt the end of the video, the Queen of Hearts is in the leftmost position.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_044.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "C",
+    "model": "gemini-2.5-pro",
+    "response": "Here is a step-by-step breakdown of the card movements to track the Queen of Hearts:\n\n1.  **Start (00:00):** The Queen of Hearts begins on the **left**.\n2.  **First Shuffle (00:01-00:03):** The left card (the Queen) moves to the right position. The middle card moves left, and the right card moves to the middle. The Queen is now on the **right**.\n3.  **Second Shuffle (00:03-00:05):** The right card (the Queen) moves to the left position. The middle card moves right, and the left card moves to the middle. The Queen is now on the **left**.\n4.  **Third Shuffle (00:05-00:07):** This shuffle is identical to the first. The left card (the Queen) moves to the right position. The Queen is now on the **right**.\n5.  **Fourth Shuffle (00:07-00:09):** This shuffle is identical to the second. The right card (the Queen) moves to the left position. The Queen is now on the **left**.\n6.  **Fifth Shuffle (00:09-00:11):** This shuffle is identical to the first and third. The left card (the Queen) moves to the right position.\n\nAt the end of the video, the Queen of Hearts is on the right.\n\n$\\boxed{C}$"
+  },
+  {
+    "video": "card_045.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-2.5-pro",
+    "response": "This is a classic shell game, also known as Three-card Monte. Let's track the Queen of Hearts throughout the video.\n\n1.  **00:00:** The Queen of Hearts starts on the **right**.\n2.  **00:01:** The Queen is flipped over. It's still on the **right**.\n3.  **00:02 - 00:03:** The cards are stacked and then dealt out again. The right card (the Queen) is placed first on the **left**.\n4.  **00:03 - 00:05:** The cards are stacked again. The left card (the Queen) is placed on top of the stack and then dealt back to the **left** position.\n5.  **00:05 - 00:07:** The left card (the Queen) and the middle card are swapped. The Queen is now in the **middle**.\n6.  **00:07 - 00:09:** The outer two cards (left and right) are swapped. The Queen remains in the **middle**.\n7.  **00:09 - 00:11:** The cards are stacked again. The middle card (the Queen) goes to the bottom of the stack. When they are dealt out, the bottom card is placed on the **left**.\n\nTherefore, at the end of the video, the Queen of Hearts is in the left position.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_046.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-2.5-pro",
+    "response": "This is a classic \"shell game\" or \"three-card monte\" puzzle. To solve it, we need to carefully track the position of the Queen of Hearts from the beginning.\n\n1.  **00:00:** The video starts with the Queen of Hearts shown in the **left** position.\n2.  **00:01:** The Queen is flipped over. All cards are now face down. We must now follow the card that started on the left.\n3.  Throughout all the shuffling motions, the card that starts on the left is moved to a different position (top, bottom-left, bottom of a stack) but is always returned to the **left** position when the cards are laid out in a row again.\n\nLet's trace it through the last shuffle:\n*   At **00:09**, the Queen is on the **left**.\n*   The cards are then stacked vertically. The left card (the Queen) moves to the **bottom** of the stack.\n*   At **00:10**, the cards are returned to a horizontal row. The bottom card (the Queen) is placed back in the **left** position.\n\nTherefore, at the end of the video, the Queen of Hearts is in the **left** position.\n\nThe correct option is (A).\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_047.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-2.5-pro",
+    "response": "This is a classic \"find the lady\" or shell game. Here's a step-by-step breakdown of the card's movement:\n\n1.  **00:00:** The Queen of Hearts starts on the **left**. Let's call the cards Left (L), Middle (M), and Right (R). The Queen is L.\n2.  **00:01:** The Queen (L) is turned over. The positions are still L, M, R.\n3.  **00:01 - 00:02:** The middle card (M) and the right card (R) swap places. The Queen (L) stays on the left. The order is now L, R, M.\n4.  **00:03 - 00:04:** The new middle card (R) and the new right card (M) swap back. The Queen (L) stays on the left. The order is back to L, M, R.\n5.  **00:05 - 00:06:** The middle card (M) and the right card (R) swap again. The Queen (L) stays on the left. The order is L, R, M.\n6.  **00:07 - 00:08:** The left card (L, the Queen) and the middle card (R) swap places. The order is now R, L, M. The Queen is now in the **middle**.\n7.  **00:09 - 00:10:** The new left card (R) and the middle card (L, the Queen) swap places. The order is now L, R, M. The Queen is back on the **left**.\n\nThe video ends with the Queen of Hearts in the left position.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_048.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-2.5-pro",
+    "response": "Here is a step-by-step breakdown of the card movements to track the Queen of Hearts:\n\n1.  **00:00**: The Queen of Hearts starts in the **middle** position and is then flipped over.\n2.  **00:01 - 00:02**: The left card and the middle card (the Queen) swap places. The Queen is now on the **left**.\n3.  **00:03 - 00:04**: The middle and right cards swap places. The Queen remains on the **left**.\n4.  **00:05 - 00:06**: The left card (the Queen) and the right card swap places. The Queen is now on the **right**.\n5.  **00:07 - 00:08**: The left and middle cards swap places. The Queen remains on the **right**.\n6.  **00:09 - 00:10**: The middle card and the right card (the Queen) swap places. The Queen is now in the **middle**.\n\nAt the end of the video, the Queen of Hearts is in the middle position.\n\n$\\boxed{B}$"
+  },
+  {
+    "video": "card_049.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "A",
+    "model": "gemini-2.5-pro",
+    "response": "This is a classic shell game. Let's track the Queen of Hearts.\n\n1.  **00:00:** The Queen of Hearts starts in the **middle** position.\n2.  **00:01:** The Queen is turned face down. It is still in the **middle**.\n3.  **00:01 - 00:07:** The cards are gathered and spread out multiple times without changing their order. The Queen remains in the **middle**.\n4.  **00:07 - 00:09:** The middle card (the Queen) and the left card swap places. The Queen is now on the **left**.\n5.  **00:09 - 00:11:** The middle card and the right card swap places. The Queen, which is on the left, does not move.\n\nTherefore, at the end of the video, the Queen of Hearts is in the **left** position.\n\n$\\boxed{A}$"
+  },
+  {
+    "video": "card_050.mp4",
+    "fps": 30,
+    "total_frames": 362,
+    "resolution": {
+      "width": 640,
+      "height": 480
+    },
+    "question": "Where is the Queen of Hearts at the end of the video?\n(A) Left\n(B) Middle\n(C) Right\nOutput your final answer (A, B, or C) in the format: $\\boxed{<option>}$.",
+    "answer": "B",
+    "model": "gemini-2.5-pro",
+    "response": "This is a classic shell game. Let's track the Queen of Hearts (Q♥) through all the shuffles.\n\n1.  **00:00:** The Queen of Hearts starts in the **middle** position.\n2.  **00:01:** The middle card (Q♥) is flipped over. All cards are face down.\n3.  **00:01 - 00:03:** The middle card (Q♥) and the left card are swapped. The Q♥ is now on the **left**.\n4.  **00:03 - 00:05:** The left card (Q♥) and the middle card are swapped. The Q♥ is now in the **middle**.\n5.  **00:05 - 00:07:** The middle card (Q♥) and the right card are swapped. The Q♥ is now on the **right**.\n6.  **00:07 - 00:09:** The cards are stacked. The right card (Q♥) is placed on top of the stack. When they are un-stacked, the top card (Q♥) is returned to the **right** position.\n7.  **00:09 - 00:11:** The right card (Q♥) and the left card are swapped.\n\nAt the end of the video, the Queen of Hearts is in the **left** position.\n\nTherefore, the correct option is (A).\n\n$\\boxed{A}$"
+  }
+]
