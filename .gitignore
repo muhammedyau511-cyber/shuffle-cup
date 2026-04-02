@@ -6,3 +6,7 @@ __pycache__/
 **/README.md
 !/README.md
 SGCoT/MODEL_CARD.md
+
+*.zip
+/demo
+/page

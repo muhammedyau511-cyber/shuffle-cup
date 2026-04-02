@@ -9,6 +9,7 @@
 [![SGCoT Data](https://img.shields.io/badge/HF-SGCoT_Data-yellow)](https://huggingface.co/datasets/tiedong/Molmo2-SGCoT)
 [![HF Model](https://img.shields.io/badge/HF-Model-yellow)](https://huggingface.co/tiedong/Molmo2-SGCoT)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1YXd5QtJXPK1PTSc_wg4xN5vnhNfdUJMG?usp=sharing)
+[![Demo](https://img.shields.io/badge/HF-Demo-orange)](https://huggingface.co/spaces/tiedong/Molmo2-SGCoT-Demo)
 
 </div>
 
